@@ -1,0 +1,2268 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[15:13:08] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 146                        generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+[15:13:09] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     0                              module.py:1323
+           INFO     Classes:      13                              module.py:1324
+           INFO     Using seed 1710688385702251848              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 36 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+[15:13:10] INFO     Initial Population, Coverage: 0.833333  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.861111  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.888889  searchobserver.py:83
+New coverage achieved...
+[15:13:11] INFO     Iteration:       5, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.916667  searchobserver.py:83
+[15:13:12] INFO     Iteration:       9, Coverage: 0.916667  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      10, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.916667  searchobserver.py:83
+[15:13:13] INFO     Iteration:      13, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.916667  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      15, Coverage: 0.916667  searchobserver.py:83
+[15:13:14] INFO     Iteration:      16, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.916667  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0909 (N) -0.9093, 
+-----------------------------------
+[15:13:15] INFO     Iteration:      20, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.916667  searchobserver.py:83
+[15:13:16] INFO     Iteration:      22, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0091, (N) -0.9819
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0385 (N) 0.3846, 
+-----------------------------------
+[15:13:17] INFO     Iteration:      25, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.916667  searchobserver.py:83
+[15:13:18] INFO     Iteration:      29, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0475, (N) -0.9049
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0878 (N) 0.8781, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.916667  searchobserver.py:83
+[15:13:19] INFO     Iteration:      34, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1353, (N) -0.7293
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0314 (N) -0.3142, 
+-----------------------------------
+           INFO     Iteration:      35, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.916667  searchobserver.py:83
+[15:13:20] INFO     Iteration:      37, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1039, (N) -0.7921
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0973 (N) 0.9731, 
+-----------------------------------
+           INFO     Iteration:      40, Coverage: 0.916667  searchobserver.py:83
+[15:13:21] INFO     Iteration:      41, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.916667  searchobserver.py:83
+[15:13:22] INFO     Iteration:      44, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2012, (N) -0.5975
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0855 (N) -0.8547, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.916667  searchobserver.py:83
+[15:13:23] INFO     Iteration:      48, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1158, (N) -0.7685
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0345 (N) -0.3445, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.916667  searchobserver.py:83
+[15:13:24] INFO     Iteration:      51, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.916667  searchobserver.py:83
+[15:13:25] INFO     Iteration:      54, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0813, (N) -0.8374
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0694 (N) -0.6944, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.916667  searchobserver.py:83
+[15:13:26] INFO     Iteration:      57, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0119, (N) -0.9762
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.087 (N) -0.8703, 
+-----------------------------------
+[15:13:27] INFO     Iteration:      60, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.916667  searchobserver.py:83
+[15:13:28] INFO     Iteration:      63, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0496 (N) -0.4955, 
+-----------------------------------
+[15:13:29] INFO     Iteration:      65, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      67, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.916667  searchobserver.py:83
+[15:13:30] INFO     Iteration:      69, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0977 (N) -0.9768, 
+-----------------------------------
+           INFO     Iteration:      70, Coverage: 0.916667  searchobserver.py:83
+[15:13:31] INFO     Iteration:      71, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      72, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.916667  searchobserver.py:83
+[15:13:32] INFO     Iteration:      74, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0917 (N) 0.9171, 
+-----------------------------------
+           INFO     Iteration:      75, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.916667  searchobserver.py:83
+[15:13:33] INFO     Iteration:      77, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      79, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0917, (N) -0.8166
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0348 (N) -0.3482, 
+-----------------------------------
+[15:13:34] INFO     Iteration:      80, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      81, Coverage: 0.916667  searchobserver.py:83
+[15:13:35] INFO     Iteration:      82, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      84, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0569, (N) -0.8862
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0745 (N) -0.7448, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.916667  searchobserver.py:83
+[15:13:36] INFO     Iteration:      86, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.916667  searchobserver.py:83
+[15:13:37] INFO     Iteration:      88, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0161 (N) 0.1607, 
+-----------------------------------
+           INFO     Iteration:      90, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.916667  searchobserver.py:83
+[15:13:38] INFO     Iteration:      92, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0161, (N) -0.9679
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0505 (N) -0.5047, 
+-----------------------------------
+[15:13:39] INFO     Iteration:      95, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 0.916667  searchobserver.py:83
+[15:13:40] INFO     Iteration:      98, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      99, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.053 (N) -0.5303, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.916667  searchobserver.py:83
+[15:13:41] INFO     Iteration:     101, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.916667  searchobserver.py:83
+[15:13:42] INFO     Iteration:     103, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     104, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0333 (N) 0.3325, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.916667  searchobserver.py:83
+[15:13:43] INFO     Iteration:     106, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     107, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.916667  searchobserver.py:83
+[15:13:44] INFO     Iteration:     109, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0333, (N) -0.9335
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0594 (N) -0.5941, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     111, Coverage: 0.916667  searchobserver.py:83
+[15:13:45] INFO     Iteration:     112, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     113, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0913 (N) 0.9133, 
+-----------------------------------
+[15:13:46] INFO     Iteration:     115, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     116, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.916667  searchobserver.py:83
+[15:13:47] INFO     Iteration:     118, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0913, (N) -0.8173
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0683 (N) 0.6831, 
+-----------------------------------
+[15:13:48] INFO     Iteration:     120, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     121, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.916667  searchobserver.py:83
+[15:13:49] INFO     Iteration:     124, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1596, (N) -0.6807
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0157 (N) 0.1567, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     126, Coverage: 0.916667  searchobserver.py:83
+[15:13:50] INFO     Iteration:     127, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.916667  searchobserver.py:83
+[15:13:51] INFO     Iteration:     129, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1753, (N) -0.6494
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.007 (N) -0.0702, 
+-----------------------------------
+           INFO     Iteration:     130, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.916667  searchobserver.py:83
+[15:13:52] INFO     Iteration:     132, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     133, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1683, (N) -0.6634
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0822 (N) 0.8222, 
+-----------------------------------
+[15:13:53] INFO     Iteration:     135, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.916667  searchobserver.py:83
+[15:13:54] INFO     Iteration:     138, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     139, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2505, (N) -0.499
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0386 (N) -0.3856, 
+-----------------------------------
+           INFO     Iteration:     140, Coverage: 0.916667  searchobserver.py:83
+[15:13:55] INFO     Iteration:     141, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     142, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.916667  searchobserver.py:83
+[15:13:56] INFO     Iteration:     144, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2119, (N) -0.5761
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.077 (N) -0.7696, 
+-----------------------------------
+           INFO     Iteration:     145, Coverage: 0.916667  searchobserver.py:83
+[15:13:57] INFO     Iteration:     146, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     147, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     149, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.135, (N) -0.73
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0734 (N) 0.7341, 
+-----------------------------------
+[15:13:58] INFO     Iteration:     150, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     151, Coverage: 0.916667  searchobserver.py:83
+[15:13:59] INFO     Iteration:     152, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     153, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     154, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2084, (N) -0.5832
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0018 (N) -0.0176, 
+-----------------------------------
+[15:14:00] INFO     Iteration:     155, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     156, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.916667  searchobserver.py:83
+[15:14:01] INFO     Iteration:     158, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2066, (N) -0.5867
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0237 (N) -0.2368, 
+-----------------------------------
+           INFO     Iteration:     160, Coverage: 0.916667  searchobserver.py:83
+[15:14:02] INFO     Iteration:     161, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.916667  searchobserver.py:83
+[15:14:03] INFO     Iteration:     164, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.183, (N) -0.6341
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0234 (N) -0.2336, 
+-----------------------------------
+           INFO     Iteration:     165, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.916667  searchobserver.py:83
+[15:14:04] INFO     Iteration:     167, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     168, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1596, (N) -0.6808
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0948 (N) 0.9484, 
+-----------------------------------
+[15:14:05] INFO     Iteration:     170, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.916667  searchobserver.py:83
+[15:14:06] INFO     Iteration:     172, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     173, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     174, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2544, (N) -0.4911
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0706 (N) 0.7056, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.916667  searchobserver.py:83
+[15:14:07] INFO     Iteration:     176, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     177, Coverage: 0.916667  searchobserver.py:83
+[15:14:08] INFO     Iteration:     178, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     179, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.325, (N) -0.35
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0487 (N) -0.4866, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.916667  searchobserver.py:83
+[15:14:09] INFO     Iteration:     181, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.916667  searchobserver.py:83
+[15:14:10] INFO     Iteration:     184, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2763, (N) -0.4473
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.099 (N) -0.9902, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.916667  searchobserver.py:83
+[15:14:11] INFO     Iteration:     187, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1773, (N) -0.6454
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0244 (N) 0.2438, 
+-----------------------------------
+[15:14:12] INFO     Iteration:     190, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     191, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.916667  searchobserver.py:83
+[15:14:13] INFO     Iteration:     193, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     194, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2017, (N) -0.5966
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0486 (N) -0.4863, 
+-----------------------------------
+           INFO     Iteration:     195, Coverage: 0.916667  searchobserver.py:83
+[15:14:14] INFO     Iteration:     196, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     197, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.916667  searchobserver.py:83
+[15:14:15] INFO     Iteration:     199, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1531, (N) -0.6939
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0988 (N) 0.9879, 
+-----------------------------------
+           INFO     Iteration:     200, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.916667  searchobserver.py:83
+[15:14:16] INFO     Iteration:     202, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.916667  searchobserver.py:83
+[15:14:17] INFO     Iteration:     204, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2518, (N) -0.4963
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0013 (N) -0.0128, 
+-----------------------------------
+           INFO     Iteration:     205, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     207, Coverage: 0.916667  searchobserver.py:83
+[15:14:18] INFO     Iteration:     208, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     209, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2506, (N) -0.4989
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0606 (N) 0.6063, 
+-----------------------------------
+[15:14:19] INFO     Iteration:     210, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     211, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.916667  searchobserver.py:83
+[15:14:20] INFO     Iteration:     213, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     214, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.3112, (N) -0.3776
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0873 (N) 0.8729, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.916667  searchobserver.py:83
+[15:14:21] INFO     Iteration:     216, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     218, Coverage: 0.916667  searchobserver.py:83
+[15:14:22] INFO     Iteration:     219, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.3985, (N) -0.203
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0503 (N) 0.5028, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     221, Coverage: 0.916667  searchobserver.py:83
+[15:14:23] INFO     Iteration:     222, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     224, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4488, (N) -0.1025
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0465 (N) 0.4647, 
+-----------------------------------
+[15:14:24] INFO     Iteration:     225, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     227, Coverage: 0.916667  searchobserver.py:83
+[15:14:25] INFO     Iteration:     228, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     229, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4952, (N) -0.0095
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0504 (N) 0.5035, 
+-----------------------------------
+[15:14:26] INFO     Iteration:     230, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     232, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.916667  searchobserver.py:83
+[15:14:27] INFO     Iteration:     234, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5456, (N) 0.0912
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0899 (N) 0.899, 
+-----------------------------------
+           INFO     Iteration:     235, Coverage: 0.916667  searchobserver.py:83
+[15:14:28] INFO     Iteration:     236, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     238, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     239, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6355, (N) 0.271
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.011 (N) 0.1105, 
+-----------------------------------
+[15:14:29] INFO     Iteration:     240, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     241, Coverage: 0.916667  searchobserver.py:83
+[15:14:30] INFO     Iteration:     242, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     243, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     244, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6465, (N) 0.2931
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0879 (N) 0.8789, 
+-----------------------------------
+[15:14:31] INFO     Iteration:     245, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     246, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     247, Coverage: 0.916667  searchobserver.py:83
+[15:14:32] INFO     Iteration:     248, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     249, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7344, (N) 0.4688
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0992 (N) 0.9923, 
+-----------------------------------
+           INFO     Iteration:     250, Coverage: 0.916667  searchobserver.py:83
+[15:14:33] INFO     Iteration:     251, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     252, Coverage: 0.916667  searchobserver.py:83
+[15:14:34] INFO     Iteration:     253, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     254, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8337, (N) 0.6673
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0832 (N) -0.8318, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     256, Coverage: 0.916667  searchobserver.py:83
+[15:14:35] INFO     Iteration:     257, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.916667  searchobserver.py:83
+[15:14:36] INFO     Iteration:     259, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7505, (N) 0.5009
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0323 (N) 0.3228, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     261, Coverage: 0.916667  searchobserver.py:83
+[15:14:37] INFO     Iteration:     262, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     264, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7828, (N) 0.5655
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0263 (N) -0.2628, 
+-----------------------------------
+[15:14:38] INFO     Iteration:     265, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     266, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.916667  searchobserver.py:83
+[15:14:39] INFO     Iteration:     268, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7565, (N) 0.5129
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0317 (N) -0.3174, 
+-----------------------------------
+           INFO     Iteration:     270, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.916667  searchobserver.py:83
+[15:14:40] INFO     Iteration:     272, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     273, Coverage: 0.916667  searchobserver.py:83
+[15:14:41] INFO     Iteration:     274, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7247, (N) 0.4495
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0771 (N) -0.7705, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     276, Coverage: 0.916667  searchobserver.py:83
+[15:14:42] INFO     Iteration:     277, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     279, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6477, (N) 0.2954
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0781 (N) 0.7809, 
+-----------------------------------
+[15:14:43] INFO     Iteration:     280, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     281, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     282, Coverage: 0.916667  searchobserver.py:83
+[15:14:44] INFO     Iteration:     283, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     284, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7258, (N) 0.4515
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0686 (N) 0.6862, 
+-----------------------------------
+[15:14:45] INFO     Iteration:     285, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     286, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.916667  searchobserver.py:83
+[15:14:46] INFO     Iteration:     288, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     289, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7944, (N) 0.5888
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0593 (N) 0.593, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.916667  searchobserver.py:83
+[15:14:47] INFO     Iteration:     291, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     292, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.916667  searchobserver.py:83
+[15:14:48] INFO     Iteration:     294, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8537, (N) 0.7074
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0089 (N) 0.0895, 
+-----------------------------------
+           INFO     Iteration:     295, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.916667  searchobserver.py:83
+[15:14:49] INFO     Iteration:     297, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     298, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     299, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8626, (N) 0.7253
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0868 (N) 0.8684, 
+-----------------------------------
+[15:14:50] INFO     Iteration:     300, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     301, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.916667  searchobserver.py:83
+[15:14:51] INFO     Iteration:     303, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9495, (N) 0.899
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0155 (N) 0.1546, 
+-----------------------------------
+           INFO     Iteration:     305, Coverage: 0.916667  searchobserver.py:83
+[15:14:52] INFO     Iteration:     306, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     308, Coverage: 0.916667  searchobserver.py:83
+[15:14:53] INFO     Iteration:     309, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.965, (N) 0.9299
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.01 (N) 0.0995, 
+-----------------------------------
+           INFO     Iteration:     310, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     311, Coverage: 0.916667  searchobserver.py:83
+[15:14:54] INFO     Iteration:     312, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     314, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9749, (N) 0.9498
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0092 (N) 0.0919, 
+-----------------------------------
+[15:14:55] INFO     Iteration:     315, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     316, Coverage: 0.916667  searchobserver.py:83
+[15:14:56] INFO     Iteration:     317, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     319, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9841, (N) 0.9682
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0204 (N) -0.2036, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.916667  searchobserver.py:83
+[15:14:57] INFO     Iteration:     321, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     322, Coverage: 0.916667  searchobserver.py:83
+[15:14:58] INFO     Iteration:     323, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9637, (N) 0.9275
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0482 (N) 0.4818, 
+-----------------------------------
+           INFO     Iteration:     325, Coverage: 0.916667  searchobserver.py:83
+[15:14:59] INFO     Iteration:     326, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     327, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.916667  searchobserver.py:83
+[15:15:00] INFO     Iteration:     329, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0373 (N) 0.3731, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.916667  searchobserver.py:83
+[15:15:01] INFO     Iteration:     332, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     333, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0372 (N) -0.3724, 
+-----------------------------------
+[15:15:02] INFO     Iteration:     335, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     337, Coverage: 0.916667  searchobserver.py:83
+[15:15:03] INFO     Iteration:     338, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9628, (N) 0.9255
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0879 (N) 0.8787, 
+-----------------------------------
+           INFO     Iteration:     340, Coverage: 0.916667  searchobserver.py:83
+[15:15:04] INFO     Iteration:     341, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     343, Coverage: 0.916667  searchobserver.py:83
+[15:15:05] INFO     Iteration:     344, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0724 (N) -0.7238, 
+-----------------------------------
+           INFO     Iteration:     345, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.916667  searchobserver.py:83
+[15:15:06] INFO     Iteration:     347, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     348, Coverage: 0.916667  searchobserver.py:83
+[15:15:07] INFO     Iteration:     349, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9276, (N) 0.8552
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0804 (N) -0.8044, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     351, Coverage: 0.916667  searchobserver.py:83
+[15:15:08] INFO     Iteration:     352, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     354, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8472, (N) 0.6944
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0056 (N) -0.0559, 
+-----------------------------------
+[15:15:09] INFO     Iteration:     355, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     357, Coverage: 0.916667  searchobserver.py:83
+[15:15:10] INFO     Iteration:     358, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8416, (N) 0.6832
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0502 (N) 0.5019, 
+-----------------------------------
+           INFO     Iteration:     360, Coverage: 0.916667  searchobserver.py:83
+[15:15:11] INFO     Iteration:     361, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     362, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.916667  searchobserver.py:83
+[15:15:12] INFO     Iteration:     364, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8918, (N) 0.7836
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0653 (N) -0.6527, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     366, Coverage: 0.916667  searchobserver.py:83
+[15:15:13] INFO     Iteration:     367, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     368, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8265, (N) 0.653
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0768 (N) 0.7677, 
+-----------------------------------
+[15:15:14] INFO     Iteration:     370, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     371, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.916667  searchobserver.py:83
+[15:15:15] INFO     Iteration:     373, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     374, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9033, (N) 0.8066
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0196 (N) -0.1956, 
+-----------------------------------
+[15:15:16] INFO     Iteration:     375, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     376, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     377, Coverage: 0.916667  searchobserver.py:83
+[15:15:17] INFO     Iteration:     378, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     379, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8837, (N) 0.7674
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0891 (N) -0.8911, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.916667  searchobserver.py:83
+[15:15:18] INFO     Iteration:     381, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     382, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.916667  searchobserver.py:83
+[15:15:19] INFO     Iteration:     384, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7946, (N) 0.5892
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0491 (N) -0.4912, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     386, Coverage: 0.916667  searchobserver.py:83
+[15:15:20] INFO     Iteration:     387, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     389, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7455, (N) 0.491
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.036 (N) 0.36, 
+-----------------------------------
+[15:15:21] INFO     Iteration:     390, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     392, Coverage: 0.916667  searchobserver.py:83
+[15:15:22] INFO     Iteration:     393, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7815, (N) 0.563
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.019 (N) 0.1896, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.916667  searchobserver.py:83
+[15:15:23] INFO     Iteration:     396, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     398, Coverage: 0.916667  searchobserver.py:83
+[15:15:24] INFO     Iteration:     399, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8005, (N) 0.6009
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0468 (N) 0.4684, 
+-----------------------------------
+           INFO     Iteration:     400, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.916667  searchobserver.py:83
+[15:15:25] INFO     Iteration:     402, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     403, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8473, (N) 0.6946
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0936 (N) -0.9361, 
+-----------------------------------
+[15:15:26] INFO     Iteration:     405, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     406, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.916667  searchobserver.py:83
+[15:15:27] INFO     Iteration:     408, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     409, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7537, (N) 0.5074
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0313 (N) 0.313, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.916667  searchobserver.py:83
+[15:15:28] INFO     Iteration:     411, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     412, Coverage: 0.916667  searchobserver.py:83
+[15:15:29] INFO     Iteration:     413, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     414, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.785, (N) 0.57
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0541 (N) -0.5408, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.916667  searchobserver.py:83
+[15:15:30] INFO     Iteration:     416, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     417, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.916667  searchobserver.py:83
+[15:15:31] INFO     Iteration:     419, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7309, (N) 0.4618
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0565 (N) -0.5647, 
+-----------------------------------
+           INFO     Iteration:     420, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     421, Coverage: 0.916667  searchobserver.py:83
+[15:15:32] INFO     Iteration:     422, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     423, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6744, (N) 0.3489
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0381 (N) 0.3811, 
+-----------------------------------
+[15:15:33] INFO     Iteration:     425, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     426, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     427, Coverage: 0.916667  searchobserver.py:83
+[15:15:34] INFO     Iteration:     428, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     429, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7126, (N) 0.4251
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0965 (N) 0.9654, 
+-----------------------------------
+[15:15:35] INFO     Iteration:     430, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     432, Coverage: 0.916667  searchobserver.py:83
+[15:15:36] INFO     Iteration:     433, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     434, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8091, (N) 0.6182
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0907 (N) -0.9073, 
+-----------------------------------
+           INFO     Iteration:     435, Coverage: 0.916667  searchobserver.py:83
+[15:15:37] INFO     Iteration:     436, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     438, Coverage: 0.916667  searchobserver.py:83
+[15:15:38] INFO     Iteration:     439, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7184, (N) 0.4367
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0436 (N) 0.4357, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     441, Coverage: 0.916667  searchobserver.py:83
+[15:15:39] INFO     Iteration:     442, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     444, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7619, (N) 0.5239
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0626 (N) 0.6261, 
+-----------------------------------
+[15:15:40] INFO     Iteration:     445, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     446, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.916667  searchobserver.py:83
+[15:15:41] INFO     Iteration:     448, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     449, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8245, (N) 0.6491
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0905 (N) 0.9051, 
+-----------------------------------
+[15:15:42] INFO     Iteration:     450, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     451, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     453, Coverage: 0.916667  searchobserver.py:83
+[15:15:43] INFO     Iteration:     454, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.915, (N) 0.8301
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.023 (N) 0.2301, 
+-----------------------------------
+           INFO     Iteration:     455, Coverage: 0.916667  searchobserver.py:83
+[15:15:44] INFO     Iteration:     456, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     457, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     458, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.938, (N) 0.8761
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0037 (N) 0.0365, 
+-----------------------------------
+[15:15:45] INFO     Iteration:     460, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     461, Coverage: 0.916667  searchobserver.py:83
+[15:15:46] INFO     Iteration:     462, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     464, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9417, (N) 0.8834
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0309 (N) -0.3086, 
+-----------------------------------
+[15:15:47] INFO     Iteration:     465, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     466, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     467, Coverage: 0.916667  searchobserver.py:83
+[15:15:48] INFO     Iteration:     468, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     469, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9108, (N) 0.8217
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0758 (N) 0.7581, 
+-----------------------------------
+           INFO     Iteration:     470, Coverage: 0.916667  searchobserver.py:83
+[15:15:49] INFO     Iteration:     471, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     472, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.916667  searchobserver.py:83
+[15:15:50] INFO     Iteration:     474, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9866, (N) 0.9733
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0603 (N) 0.6035, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.916667  searchobserver.py:83
+[15:15:51] INFO     Iteration:     477, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     479, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0623 (N) 0.6226, 
+-----------------------------------
+[15:15:52] INFO     Iteration:     480, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     481, Coverage: 0.916667  searchobserver.py:83
+[15:15:53] INFO     Iteration:     482, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     483, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     484, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.086 (N) -0.86, 
+-----------------------------------
+[15:15:54] INFO     Iteration:     485, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     487, Coverage: 0.916667  searchobserver.py:83
+[15:15:55] INFO     Iteration:     488, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     489, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.914, (N) 0.828
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0509 (N) -0.5088, 
+-----------------------------------
+           INFO     Iteration:     490, Coverage: 0.916667  searchobserver.py:83
+[15:15:56] INFO     Iteration:     491, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.916667  searchobserver.py:83
+[15:15:57] INFO     Iteration:     494, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8631, (N) 0.7262
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0095 (N) 0.0946, 
+-----------------------------------
+           INFO     Iteration:     495, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     496, Coverage: 0.916667  searchobserver.py:83
+[15:15:58] INFO     Iteration:     497, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     498, Coverage: 0.916667  searchobserver.py:83
+[15:15:59] INFO     Iteration:     499, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8726, (N) 0.7452
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0495 (N) -0.4954, 
+-----------------------------------
+           INFO     Iteration:     500, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     501, Coverage: 0.916667  searchobserver.py:83
+[15:16:00] INFO     Iteration:     502, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     503, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     504, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.823, (N) 0.6461
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.019 (N) -0.1898, 
+-----------------------------------
+[15:16:01] INFO     Iteration:     505, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     506, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.916667  searchobserver.py:83
+[15:16:02] INFO     Iteration:     508, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8041, (N) 0.6081
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.093 (N) -0.9301, 
+-----------------------------------
+           INFO     Iteration:     510, Coverage: 0.916667  searchobserver.py:83
+[15:16:03] INFO     Iteration:     511, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     512, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.916667  searchobserver.py:83
+[15:16:04] INFO     Iteration:     514, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.711, (N) 0.4221
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0027 (N) -0.0268, 
+-----------------------------------
+           INFO     Iteration:     515, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.916667  searchobserver.py:83
+[15:16:05] INFO     Iteration:     517, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.916667  searchobserver.py:83
+[15:16:06] INFO     Iteration:     519, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7084, (N) 0.4167
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0208 (N) 0.2078, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.916667  searchobserver.py:83
+[15:16:07] INFO     Iteration:     522, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     524, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7291, (N) 0.4583
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0801 (N) 0.8008, 
+-----------------------------------
+[15:16:08] INFO     Iteration:     525, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     526, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.916667  searchobserver.py:83
+[15:16:09] INFO     Iteration:     528, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8092, (N) 0.6185
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0965 (N) 0.9653, 
+-----------------------------------
+           INFO     Iteration:     530, Coverage: 0.916667  searchobserver.py:83
+[15:16:10] INFO     Iteration:     531, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     532, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     533, Coverage: 0.916667  searchobserver.py:83
+[15:16:11] INFO     Iteration:     534, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9058, (N) 0.8115
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0226 (N) 0.2257, 
+-----------------------------------
+           INFO     Iteration:     535, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     536, Coverage: 0.916667  searchobserver.py:83
+[15:16:12] INFO     Iteration:     537, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     538, Coverage: 0.916667  searchobserver.py:83
+[15:16:13] INFO     Iteration:     539, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9283, (N) 0.8566
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0869 (N) 0.8693, 
+-----------------------------------
+           INFO     Iteration:     540, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.916667  searchobserver.py:83
+[15:16:14] INFO     Iteration:     542, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.916667  searchobserver.py:83
+[15:16:15] INFO     Iteration:     544, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0718 (N) -0.7184, 
+-----------------------------------
+           INFO     Iteration:     545, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     547, Coverage: 0.916667  searchobserver.py:83
+[15:16:16] INFO     Iteration:     548, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     549, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9282, (N) 0.8563
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0263 (N) 0.2628, 
+-----------------------------------
+[15:16:17] INFO     Iteration:     550, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     551, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     552, Coverage: 0.916667  searchobserver.py:83
+[15:16:18] INFO     Iteration:     553, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9544, (N) 0.9089
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0819 (N) -0.819, 
+-----------------------------------
+           INFO     Iteration:     555, Coverage: 0.916667  searchobserver.py:83
+[15:16:19] INFO     Iteration:     556, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     557, Coverage: 0.916667  searchobserver.py:83
+[15:16:20] INFO     Iteration:     558, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.8725, (N) 0.7451
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0348 (N) 0.3477, 
+-----------------------------------
+           INFO     Iteration:     560, Coverage: 0.916667  searchobserver.py:83
+[15:16:21] INFO     Iteration:     561, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     562, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     563, Coverage: 0.916667  searchobserver.py:83
+[15:16:22] INFO     Iteration:     564, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9073, (N) 0.8146
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0005 (N) -0.0048, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     566, Coverage: 0.916667  searchobserver.py:83
+[15:16:23] INFO     Iteration:     567, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     569, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9068, (N) 0.8137
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.058 (N) 0.5798, 
+-----------------------------------
+[15:16:24] INFO     Iteration:     570, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     571, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.916667  searchobserver.py:83
+[15:16:25] INFO     Iteration:     573, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     574, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.9648, (N) 0.9296
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0898 (N) -0.898, 
+-----------------------------------
+[15:16:26] INFO     Iteration:     575, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     577, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.916667  searchobserver.py:83
+[15:16:27] INFO     Iteration:     579, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.875, (N) 0.75
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0906 (N) -0.9062, 
+-----------------------------------
+           INFO     Iteration:     580, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.916667  searchobserver.py:83
+[15:16:28] INFO     Iteration:     582, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.916667  searchobserver.py:83
+[15:16:29] INFO     Iteration:     584, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7844, (N) 0.5688
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0836 (N) -0.8361, 
+-----------------------------------
+           INFO     Iteration:     585, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.916667  searchobserver.py:83
+[15:16:30] INFO     Iteration:     587, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     588, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     589, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7008, (N) 0.4015
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0853 (N) -0.8527, 
+-----------------------------------
+[15:16:31] INFO     Iteration:     590, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     591, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.916667  searchobserver.py:83
+[15:16:32] INFO     Iteration:     593, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     594, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6155, (N) 0.231
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0368 (N) -0.3676, 
+-----------------------------------
+[15:16:33] INFO     Iteration:     595, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     597, Coverage: 0.916667  searchobserver.py:83
+[15:16:34] INFO     Iteration:     598, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     599, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5787, (N) 0.1575
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0709 (N) 0.7087, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.916667  searchobserver.py:83
+[15:16:35] INFO     Iteration:     601, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     602, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     603, Coverage: 0.916667  searchobserver.py:83
+[15:16:36] INFO     Iteration:     604, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6496, (N) 0.2992
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0449 (N) -0.4486, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     606, Coverage: 0.916667  searchobserver.py:83
+[15:16:37] INFO     Iteration:     607, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     608, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6047, (N) 0.2095
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0794 (N) -0.7942, 
+-----------------------------------
+[15:16:38] INFO     Iteration:     610, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     611, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.916667  searchobserver.py:83
+[15:16:39] INFO     Iteration:     613, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     614, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5253, (N) 0.0507
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0463 (N) -0.4626, 
+-----------------------------------
+[15:16:40] INFO     Iteration:     615, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     616, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     617, Coverage: 0.916667  searchobserver.py:83
+[15:16:41] INFO     Iteration:     618, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4791, (N) -0.0419
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0834 (N) 0.8344, 
+-----------------------------------
+[15:16:42] INFO     Iteration:     620, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     621, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     622, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     623, Coverage: 0.916667  searchobserver.py:83
+[15:16:43] INFO     Iteration:     624, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5625, (N) 0.125
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0229 (N) 0.2288, 
+-----------------------------------
+           INFO     Iteration:     625, Coverage: 0.916667  searchobserver.py:83
+[15:16:44] INFO     Iteration:     626, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     627, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     628, Coverage: 0.916667  searchobserver.py:83
+[15:16:45] INFO     Iteration:     629, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5854, (N) 0.1708
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0118 (N) -0.1183, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     631, Coverage: 0.916667  searchobserver.py:83
+[15:16:46] INFO     Iteration:     632, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     633, Coverage: 0.916667  searchobserver.py:83
+[15:16:47] INFO     Iteration:     634, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5736, (N) 0.1471
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0014 (N) -0.0142, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     636, Coverage: 0.916667  searchobserver.py:83
+[15:16:48] INFO     Iteration:     637, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     638, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     639, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5721, (N) 0.1443
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0277 (N) 0.2774, 
+-----------------------------------
+[15:16:49] INFO     Iteration:     640, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     641, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.916667  searchobserver.py:83
+[15:16:50] INFO     Iteration:     643, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     644, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5999, (N) 0.1998
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0804 (N) -0.8036, 
+-----------------------------------
+           INFO     Iteration:     645, Coverage: 0.916667  searchobserver.py:83
+[15:16:51] INFO     Iteration:     646, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     647, Coverage: 0.916667  searchobserver.py:83
+[15:16:52] INFO     Iteration:     648, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     649, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5195, (N) 0.039
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0456 (N) 0.4557, 
+-----------------------------------
+           INFO     Iteration:     650, Coverage: 0.916667  searchobserver.py:83
+[15:16:53] INFO     Iteration:     651, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     652, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.916667  searchobserver.py:83
+[15:16:54] INFO     Iteration:     654, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5651, (N) 0.1302
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0905 (N) -0.9048, 
+-----------------------------------
+           INFO     Iteration:     655, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.916667  searchobserver.py:83
+[15:16:55] INFO     Iteration:     657, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     658, Coverage: 0.916667  searchobserver.py:83
+[15:16:56] INFO     Iteration:     659, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4746, (N) -0.0508
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0705 (N) -0.7048, 
+-----------------------------------
+           INFO     Iteration:     660, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     661, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.916667  searchobserver.py:83
+[15:16:57] INFO     Iteration:     663, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     664, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4041, (N) -0.1917
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0225 (N) -0.2249, 
+-----------------------------------
+[15:16:58] INFO     Iteration:     665, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     666, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.916667  searchobserver.py:83
+[15:16:59] INFO     Iteration:     668, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     669, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.3816, (N) -0.2367
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.095 (N) -0.95, 
+-----------------------------------
+           INFO     Iteration:     670, Coverage: 0.916667  searchobserver.py:83
+[15:17:00] INFO     Iteration:     671, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     672, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.916667  searchobserver.py:83
+[15:17:01] INFO     Iteration:     674, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2866, (N) -0.4267
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0124 (N) -0.1245, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     676, Coverage: 0.916667  searchobserver.py:83
+[15:17:02] INFO     Iteration:     677, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     678, Coverage: 0.916667  searchobserver.py:83
+[15:17:03] INFO     Iteration:     679, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2742, (N) -0.4516
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.018 (N) -0.1799, 
+-----------------------------------
+           INFO     Iteration:     680, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.916667  searchobserver.py:83
+[15:17:04] INFO     Iteration:     682, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     684, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2562, (N) -0.4876
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0159 (N) -0.1593, 
+-----------------------------------
+[15:17:05] INFO     Iteration:     685, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     686, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     687, Coverage: 0.916667  searchobserver.py:83
+[15:17:06] INFO     Iteration:     688, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     689, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2403, (N) -0.5194
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0143 (N) 0.1434, 
+-----------------------------------
+[15:17:07] INFO     Iteration:     690, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     691, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     692, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     693, Coverage: 0.916667  searchobserver.py:83
+[15:17:08] INFO     Iteration:     694, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2546, (N) -0.4907
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0964 (N) -0.9636, 
+-----------------------------------
+           INFO     Iteration:     695, Coverage: 0.916667  searchobserver.py:83
+[15:17:09] INFO     Iteration:     696, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     697, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     698, Coverage: 0.916667  searchobserver.py:83
+[15:17:10] INFO     Iteration:     699, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1583, (N) -0.6835
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0777 (N) -0.7772, 
+-----------------------------------
+           INFO     Iteration:     700, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     701, Coverage: 0.916667  searchobserver.py:83
+[15:17:11] INFO     Iteration:     702, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     703, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     704, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0805, (N) -0.8389
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0554 (N) 0.5537, 
+-----------------------------------
+[15:17:12] INFO     Iteration:     705, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     706, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     707, Coverage: 0.916667  searchobserver.py:83
+[15:17:13] INFO     Iteration:     708, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     709, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1359, (N) -0.7282
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0912 (N) -0.9123, 
+-----------------------------------
+[15:17:14] INFO     Iteration:     710, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     711, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     712, Coverage: 0.916667  searchobserver.py:83
+[15:17:15] INFO     Iteration:     713, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     714, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0447, (N) -0.9106
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0069 (N) 0.0687, 
+-----------------------------------
+[15:17:16] INFO     Iteration:     715, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     716, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     717, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     718, Coverage: 0.916667  searchobserver.py:83
+[15:17:17] INFO     Iteration:     719, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0516, (N) -0.8969
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0784 (N) 0.7841, 
+-----------------------------------
+           INFO     Iteration:     720, Coverage: 0.916667  searchobserver.py:83
+[15:17:18] INFO     Iteration:     721, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     722, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     723, Coverage: 0.916667  searchobserver.py:83
+[15:17:19] INFO     Iteration:     724, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.13, (N) -0.7401
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0855 (N) -0.8554, 
+-----------------------------------
+           INFO     Iteration:     725, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     726, Coverage: 0.916667  searchobserver.py:83
+[15:17:20] INFO     Iteration:     727, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     728, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     729, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.0444, (N) -0.9111
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0892 (N) 0.8918, 
+-----------------------------------
+[15:17:21] INFO     Iteration:     730, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     731, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     732, Coverage: 0.916667  searchobserver.py:83
+[15:17:22] INFO     Iteration:     733, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     734, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1336, (N) -0.7328
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0428 (N) 0.4279, 
+-----------------------------------
+[15:17:23] INFO     Iteration:     735, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     736, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     737, Coverage: 0.916667  searchobserver.py:83
+[15:17:24] INFO     Iteration:     738, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     739, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.1764, (N) -0.6472
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0654 (N) 0.6541, 
+-----------------------------------
+           INFO     Iteration:     740, Coverage: 0.916667  searchobserver.py:83
+[15:17:25] INFO     Iteration:     741, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     742, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     743, Coverage: 0.916667  searchobserver.py:83
+[15:17:26] INFO     Iteration:     744, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2418, (N) -0.5164
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0473 (N) 0.473, 
+-----------------------------------
+           INFO     Iteration:     745, Coverage: 0.916667  searchobserver.py:83
+[15:17:27] INFO     Iteration:     746, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     747, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     748, Coverage: 0.916667  searchobserver.py:83
+[15:17:28] INFO     Iteration:     749, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2891, (N) -0.4218
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0466 (N) -0.466, 
+-----------------------------------
+           INFO     Iteration:     750, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     751, Coverage: 0.916667  searchobserver.py:83
+[15:17:29] INFO     Iteration:     752, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     753, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     754, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.2425, (N) -0.515
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0659 (N) 0.6592, 
+-----------------------------------
+[15:17:30] INFO     Iteration:     755, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     756, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     757, Coverage: 0.916667  searchobserver.py:83
+[15:17:31] INFO     Iteration:     758, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     759, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.3084, (N) -0.3832
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0423 (N) 0.4227, 
+-----------------------------------
+           INFO     Iteration:     760, Coverage: 0.916667  searchobserver.py:83
+[15:17:32] INFO     Iteration:     761, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     762, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     763, Coverage: 0.916667  searchobserver.py:83
+[15:17:33] INFO     Iteration:     764, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.3507, (N) -0.2986
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0917 (N) 0.9172, 
+-----------------------------------
+           INFO     Iteration:     765, Coverage: 0.916667  searchobserver.py:83
+[15:17:34] INFO     Iteration:     766, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     767, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     768, Coverage: 0.916667  searchobserver.py:83
+[15:17:35] INFO     Iteration:     769, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4424, (N) -0.1152
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0476 (N) 0.4756, 
+-----------------------------------
+           INFO     Iteration:     770, Coverage: 0.916667  searchobserver.py:83
+[15:17:36] INFO     Iteration:     771, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     772, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     773, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     774, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.49, (N) -0.02
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0223 (N) 0.2227, 
+-----------------------------------
+[15:17:37] INFO     Iteration:     775, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     776, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     777, Coverage: 0.916667  searchobserver.py:83
+[15:17:38] INFO     Iteration:     778, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     779, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5122, (N) 0.0245
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0594 (N) 0.5936, 
+-----------------------------------
+[15:17:39] INFO     Iteration:     780, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     781, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     782, Coverage: 0.916667  searchobserver.py:83
+[15:17:40] INFO     Iteration:     783, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     784, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5716, (N) 0.1432
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0324 (N) 0.3239, 
+-----------------------------------
+           INFO     Iteration:     785, Coverage: 0.916667  searchobserver.py:83
+[15:17:41] INFO     Iteration:     786, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     787, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     788, Coverage: 0.916667  searchobserver.py:83
+[15:17:42] INFO     Iteration:     789, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.604, (N) 0.208
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0562 (N) -0.5622, 
+-----------------------------------
+           INFO     Iteration:     790, Coverage: 0.916667  searchobserver.py:83
+[15:17:43] INFO     Iteration:     791, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     792, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     793, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     794, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5478, (N) 0.0956
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0803 (N) -0.8031, 
+-----------------------------------
+[15:17:44] INFO     Iteration:     795, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     796, Coverage: 0.916667  searchobserver.py:83
+[15:17:45] INFO     Iteration:     797, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     798, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     799, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.4675, (N) -0.0651
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0776 (N) 0.7762, 
+-----------------------------------
+[15:17:46] INFO     Iteration:     800, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     801, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     802, Coverage: 0.916667  searchobserver.py:83
+[15:17:47] INFO     Iteration:     803, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     804, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5451, (N) 0.0902
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0417 (N) 0.4165, 
+-----------------------------------
+           INFO     Iteration:     805, Coverage: 0.916667  searchobserver.py:83
+[15:17:48] INFO     Iteration:     806, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     807, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     808, Coverage: 0.916667  searchobserver.py:83
+[15:17:49] INFO     Iteration:     809, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5867, (N) 0.1735
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0714 (N) -0.7144, 
+-----------------------------------
+           INFO     Iteration:     810, Coverage: 0.916667  searchobserver.py:83
+[15:17:50] INFO     Iteration:     811, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     812, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     813, Coverage: 0.916667  searchobserver.py:83
+[15:17:51] INFO     Iteration:     814, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5153, (N) 0.0306
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0624 (N) 0.6238, 
+-----------------------------------
+           INFO     Iteration:     815, Coverage: 0.916667  searchobserver.py:83
+[15:17:52] INFO     Iteration:     816, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     817, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     818, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     819, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5777, (N) 0.1553
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0768 (N) -0.7681, 
+-----------------------------------
+[15:17:53] INFO     Iteration:     820, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     821, Coverage: 0.916667  searchobserver.py:83
+[15:17:54] INFO     Iteration:     822, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     823, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     824, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5009, (N) 0.0017
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0687 (N) 0.6866, 
+-----------------------------------
+[15:17:55] INFO     Iteration:     825, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     826, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     827, Coverage: 0.916667  searchobserver.py:83
+[15:17:56] INFO     Iteration:     828, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     829, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.5695, (N) 0.1391
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0795 (N) 0.7949, 
+-----------------------------------
+           INFO     Iteration:     830, Coverage: 0.916667  searchobserver.py:83
+[15:17:57] INFO     Iteration:     831, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     832, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     833, Coverage: 0.916667  searchobserver.py:83
+[15:17:58] INFO     Iteration:     834, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.649, (N) 0.298
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0451 (N) 0.4512, 
+-----------------------------------
+           INFO     Iteration:     835, Coverage: 0.916667  searchobserver.py:83
+[15:17:59] INFO     Iteration:     836, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     837, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     838, Coverage: 0.916667  searchobserver.py:83
+[15:18:00] INFO     Iteration:     839, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6941, (N) 0.3883
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0517 (N) -0.5174, 
+-----------------------------------
+           INFO     Iteration:     840, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     841, Coverage: 0.916667  searchobserver.py:83
+[15:18:01] INFO     Iteration:     842, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     843, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     844, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6424, (N) 0.2848
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0303 (N) -0.3026, 
+-----------------------------------
+[15:18:02] INFO     Iteration:     845, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     846, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     847, Coverage: 0.916667  searchobserver.py:83
+[15:18:03] INFO     Iteration:     848, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     849, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6121, (N) 0.2243
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.0515 (N) 0.5151, 
+-----------------------------------
+           INFO     Iteration:     850, Coverage: 0.916667  searchobserver.py:83
+[15:18:04] INFO     Iteration:     851, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     852, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     853, Coverage: 0.916667  searchobserver.py:83
+[15:18:05] INFO     Iteration:     854, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6637, (N) 0.3273
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) 0.091 (N) 0.9103, 
+-----------------------------------
+           INFO     Iteration:     855, Coverage: 0.916667  searchobserver.py:83
+[15:18:06] INFO     Iteration:     856, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     857, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     858, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     859, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.7547, (N) 0.5094
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0776 (N) -0.7761, 
+-----------------------------------
+[15:18:07] INFO     Iteration:     860, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     861, Coverage: 0.916667  searchobserver.py:83
+[15:18:08] INFO     Iteration:     862, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     863, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     864, Coverage: 0.916667  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.9167, (N) 0.8333
+| ChangeParameterProbability: (DN) 0.6771, (N) 0.3542
+------------- ACTIONS -------------
+| ChangeParameterProbability: (DN) -0.0888 (N) -0.8882, 
+-----------------------------------
+[15:18:09] INFO     Iteration:     865, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     866, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:     867, Coverage: 0.916667  searchobserver.py:83
+[15:18:10] INFO     Iteration:     868, Coverage: 0.916667  searchobserver.py:83
+Stop training signal received...
+[15:18:14] INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 304/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 24 test cases to                    generator.py:720
+                    /output/test_pymonet_maybe.py                               
+[15:18:15] INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110
