@@ -1,0 +1,2070 @@
+Collecting sanic-routing>=23.12.0
+  Downloading sanic_routing-23.12.0-py3-none-any.whl (25 kB)
+Collecting httptools>=0.0.10
+  Downloading httptools-0.6.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 5.0 MB/s eta 0:00:00
+Collecting uvloop
+  Downloading uvloop-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 21.3 MB/s eta 0:00:00
+Collecting ujson
+  Downloading ujson-5.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.2/53.2 kB 2.0 MB/s eta 0:00:00
+Collecting aiofiles>=0.6.0
+  Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting websockets>=10.0
+  Downloading websockets-12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 4.0 MB/s eta 0:00:00
+Collecting multidict<7.0,>=5.0
+  Downloading multidict-6.0.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.3/124.3 kB 1.8 MB/s eta 0:00:00
+Collecting html5tagger>=1.2.1
+  Downloading html5tagger-1.3.0-py3-none-any.whl (10 kB)
+Collecting tracerite>=1.0.0
+  Downloading tracerite-1.1.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: typing-extensions>=4.4.0 in /usr/local/lib/python3.10/site-packages (from -r /package/package.txt (line 10)) (4.8.0)
+Installing collected packages: sanic-routing, websockets, uvloop, ujson, multidict, httptools, html5tagger, aiofiles, tracerite
+Successfully installed aiofiles-23.2.1 html5tagger-1.3.0 httptools-0.6.1 multidict-6.0.5 sanic-routing-23.12.0 tracerite-1.1.1 ujson-5.9.0 uvloop-0.19.0 websockets-12.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[17:14:17] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 2093                       generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+           INFO     Instrumented string function         instrumentation.py:1965
+[17:14:20] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     6                              module.py:1323
+           INFO     Classes:      22                              module.py:1324
+           INFO     Using seed 1714151654014444902              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 80 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.575000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.587500  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.600000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.600000  searchobserver.py:83
+[17:14:21] INFO     Iteration:       4, Coverage: 0.650000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.650000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.662500  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.700000  searchobserver.py:83
+[17:14:22] INFO     Iteration:       8, Coverage: 0.700000  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.700000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      10, Coverage: 0.712500  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.712500  searchobserver.py:83
+[17:14:23] INFO     Iteration:      12, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.737500  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      15, Coverage: 0.737500  searchobserver.py:83
+[17:14:24] INFO     Iteration:      16, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.737500  searchobserver.py:83
+[17:14:25] INFO     Iteration:      19, Coverage: 0.737500  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      20, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.737500  searchobserver.py:83
+[17:14:26] INFO     Iteration:      23, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.737500  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.6178 (N) -0.603, 
+| RandomPerturbation: (DN) -0.087 (N) -0.8702, 
+-----------------------------------
+[17:14:27] INFO     Iteration:      25, Coverage: 0.737500  searchobserver.py:83
+[17:14:28] INFO     Iteration:      26, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.750000  searchobserver.py:83
+[17:14:29] INFO     Iteration:      28, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012499999999999956 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| RandomPerturbation: (DN) 0.113, (N) -0.774
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.6954 (N) 0.4492, 
+| RandomPerturbation: (DN) 0.0601 (N) 0.6011, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.750000  searchobserver.py:83
+[17:14:30] INFO     Iteration:      31, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.750000  searchobserver.py:83
+[17:14:31] INFO     Iteration:      33, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| RandomPerturbation: (DN) 0.1731, (N) -0.6538
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6721 (N) -0.2787, 
+| RandomPerturbation: (DN) 0.0731 (N) 0.731, 
+-----------------------------------
+[17:14:32] INFO     Iteration:      35, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.750000  searchobserver.py:83
+[17:14:33] INFO     Iteration:      37, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.2462, (N) -0.5076
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3695 (N) -0.7282, 
+| RandomPerturbation: (DN) 0.0515 (N) 0.5152, 
+-----------------------------------
+[17:14:34] INFO     Iteration:      40, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.750000  searchobserver.py:83
+[17:14:35] INFO     Iteration:      42, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.750000  searchobserver.py:83
+[17:14:36] INFO     Iteration:      44, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.2977, (N) -0.4046
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.4494 (N) -0.4082, 
+| RandomPerturbation: (DN) -0.0988 (N) -0.9879, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.750000  searchobserver.py:83
+[17:14:37] INFO     Iteration:      46, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.750000  searchobserver.py:83
+[17:14:38] INFO     Iteration:      48, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.1989, (N) -0.6021
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.5238 (N) -0.9206, 
+| RandomPerturbation: (DN) 0.0468 (N) 0.4679, 
+-----------------------------------
+[17:14:39] INFO     Iteration:      50, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.750000  searchobserver.py:83
+[17:14:40] INFO     Iteration:      52, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.750000  searchobserver.py:83
+[17:14:41] INFO     Iteration:      54, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| RandomPerturbation: (DN) 0.2457, (N) -0.5086
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4941 (N) 0.5823, 
+| RandomPerturbation: (DN) 0.0846 (N) 0.8456, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.750000  searchobserver.py:83
+[17:14:42] INFO     Iteration:      57, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.750000  searchobserver.py:83
+[17:14:43] INFO     Iteration:      59, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| RandomPerturbation: (DN) 0.3303, (N) -0.3395
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9714 (N) -0.1619, 
+| RandomPerturbation: (DN) -0.098 (N) -0.9803, 
+-----------------------------------
+           INFO     Iteration:      60, Coverage: 0.750000  searchobserver.py:83
+[17:14:44] INFO     Iteration:      61, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.750000  searchobserver.py:83
+[17:14:45] INFO     Iteration:      63, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| RandomPerturbation: (DN) 0.2322, (N) -0.5355
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.174 (N) -0.8623, 
+| RandomPerturbation: (DN) 0.0894 (N) 0.8936, 
+-----------------------------------
+[17:14:46] INFO     Iteration:      65, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.750000  searchobserver.py:83
+[17:14:47] INFO     Iteration:      67, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      69, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| RandomPerturbation: (DN) 0.3216, (N) -0.3568
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2392 (N) -0.7065, 
+| RandomPerturbation: (DN) 0.0767 (N) 0.7665, 
+-----------------------------------
+[17:14:48] INFO     Iteration:      70, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.800000  searchobserver.py:83
+[17:14:49] INFO     Iteration:      72, Coverage: 0.800000  searchobserver.py:83
+[17:14:50] INFO     Iteration:      73, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.050000000000000044 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| RandomPerturbation: (DN) 0.3983, (N) -0.2035
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.1812 (N) -0.6969, 
+| RandomPerturbation: (DN) -0.0509 (N) -0.5087, 
+-----------------------------------
+[17:14:51] INFO     Iteration:      75, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.800000  searchobserver.py:83
+[17:14:52] INFO     Iteration:      77, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.800000  searchobserver.py:83
+[17:14:53] INFO     Iteration:      79, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| RandomPerturbation: (DN) 0.3474, (N) -0.3052
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.2459 (N) 0.3743, 
+| RandomPerturbation: (DN) 0.0354 (N) 0.3535, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.800000  searchobserver.py:83
+[17:14:54] INFO     Iteration:      81, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      82, Coverage: 0.800000  searchobserver.py:83
+[17:14:55] INFO     Iteration:      83, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      84, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| RandomPerturbation: (DN) 0.3827, (N) -0.2345
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1841 (N) 0.6974, 
+| RandomPerturbation: (DN) -0.0901 (N) -0.9008, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.800000  searchobserver.py:83
+[17:14:56] INFO     Iteration:      86, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.800000  searchobserver.py:83
+[17:14:57] INFO     Iteration:      88, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| RandomPerturbation: (DN) 0.2927, (N) -0.4147
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5336 (N) 0.2556, 
+| RandomPerturbation: (DN) 0.0852 (N) 0.8524, 
+-----------------------------------
+[17:14:58] INFO     Iteration:      90, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.800000  searchobserver.py:83
+[17:14:59] INFO     Iteration:      92, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| RandomPerturbation: (DN) 0.3779, (N) -0.2442
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1658 (N) 0.1943, 
+| RandomPerturbation: (DN) -0.0637 (N) -0.6366, 
+-----------------------------------
+[17:15:00] INFO     Iteration:      95, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.800000  searchobserver.py:83
+[17:15:01] INFO     Iteration:      97, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      98, Coverage: 0.800000  searchobserver.py:83
+[17:15:02] INFO     Iteration:      99, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| RandomPerturbation: (DN) 0.3142, (N) -0.3715
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.7834 (N) 0.2972, 
+| RandomPerturbation: (DN) -0.0184 (N) -0.1837, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.800000  searchobserver.py:83
+[17:15:03] INFO     Iteration:     101, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.800000  searchobserver.py:83
+[17:15:04] INFO     Iteration:     103, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     104, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.2959, (N) -0.4082
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9637 (N) -0.1606, 
+| RandomPerturbation: (DN) -0.0304 (N) -0.3042, 
+-----------------------------------
+[17:15:05] INFO     Iteration:     105, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     106, Coverage: 0.800000  searchobserver.py:83
+[17:15:06] INFO     Iteration:     107, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.800000  searchobserver.py:83
+[17:15:07] INFO     Iteration:     109, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| RandomPerturbation: (DN) 0.2655, (N) -0.4691
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.5757 (N) -0.5959, 
+| RandomPerturbation: (DN) -0.0546 (N) -0.5459, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.800000  searchobserver.py:83
+[17:15:08] INFO     Iteration:     111, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     112, Coverage: 0.800000  searchobserver.py:83
+[17:15:09] INFO     Iteration:     113, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| RandomPerturbation: (DN) 0.2109, (N) -0.5783
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.2843 (N) 0.5474, 
+| RandomPerturbation: (DN) 0.0828 (N) 0.8277, 
+-----------------------------------
+[17:15:10] INFO     Iteration:     115, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     116, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.800000  searchobserver.py:83
+[17:15:11] INFO     Iteration:     118, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| RandomPerturbation: (DN) 0.2936, (N) -0.4128
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9323 (N) 0.9887, 
+| RandomPerturbation: (DN) 0.001 (N) 0.0097, 
+-----------------------------------
+[17:15:12] INFO     Iteration:     120, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     121, Coverage: 0.800000  searchobserver.py:83
+[17:15:13] INFO     Iteration:     122, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.800000  searchobserver.py:83
+[17:15:14] INFO     Iteration:     124, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.2946, (N) -0.4108
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.8699 (N) -0.645, 
+| RandomPerturbation: (DN) 0.0113 (N) 0.1125, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.800000  searchobserver.py:83
+[17:15:15] INFO     Iteration:     126, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.800000  searchobserver.py:83
+[17:15:16] INFO     Iteration:     128, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     129, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.3058, (N) -0.3883
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.5082 (N) 0.918, 
+| RandomPerturbation: (DN) 0.0035 (N) 0.0353, 
+-----------------------------------
+[17:15:17] INFO     Iteration:     130, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.800000  searchobserver.py:83
+[17:15:18] INFO     Iteration:     132, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     133, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.3094, (N) -0.3812
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.2152 (N) 0.5359, 
+| RandomPerturbation: (DN) 0.0029 (N) 0.0291, 
+-----------------------------------
+[17:15:19] INFO     Iteration:     135, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.800000  searchobserver.py:83
+[17:15:20] INFO     Iteration:     138, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     139, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| RandomPerturbation: (DN) 0.3123, (N) -0.3754
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.6397 (N) 0.7733, 
+| RandomPerturbation: (DN) 0.0349 (N) 0.3488, 
+-----------------------------------
+[17:15:21] INFO     Iteration:     140, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.800000  searchobserver.py:83
+[17:15:22] INFO     Iteration:     142, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     144, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.3472, (N) -0.3057
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.8155 (N) 0.8026, 
+| RandomPerturbation: (DN) -0.0967 (N) -0.9667, 
+-----------------------------------
+[17:15:23] INFO     Iteration:     145, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.800000  searchobserver.py:83
+[17:15:24] INFO     Iteration:     147, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.800000  searchobserver.py:83
+[17:15:25] INFO     Iteration:     149, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 50, (N) 0.0
+| RandomPerturbation: (DN) 0.2505, (N) -0.499
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.086 (N) 0.681, 
+| RandomPerturbation: (DN) 0.0745 (N) 0.7448, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.800000  searchobserver.py:83
+[17:15:26] INFO     Iteration:     151, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     152, Coverage: 0.800000  searchobserver.py:83
+[17:15:27] INFO     Iteration:     153, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     154, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 54, (N) 0.1333
+| RandomPerturbation: (DN) 0.325, (N) -0.35
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.8162 (N) 0.8027, 
+| RandomPerturbation: (DN) -0.0304 (N) -0.3039, 
+-----------------------------------
+[17:15:28] INFO     Iteration:     155, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     156, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.800000  searchobserver.py:83
+[17:15:29] INFO     Iteration:     158, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 59, (N) 0.3
+| RandomPerturbation: (DN) 0.2946, (N) -0.4108
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4314 (N) -0.9052, 
+| RandomPerturbation: (DN) -0.0432 (N) -0.432, 
+-----------------------------------
+[17:15:30] INFO     Iteration:     160, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     161, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.800000  searchobserver.py:83
+[17:15:31] INFO     Iteration:     163, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     164, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 54, (N) 0.1333
+| RandomPerturbation: (DN) 0.2514, (N) -0.4972
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2107 (N) -0.7018, 
+| RandomPerturbation: (DN) 0.0541 (N) 0.5414, 
+-----------------------------------
+[17:15:32] INFO     Iteration:     165, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.800000  searchobserver.py:83
+[17:15:33] INFO     Iteration:     167, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     168, Coverage: 0.800000  searchobserver.py:83
+[17:15:34] INFO     Iteration:     169, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 50, (N) 0.0
+| RandomPerturbation: (DN) 0.3055, (N) -0.3889
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.5173 (N) 0.0862, 
+| RandomPerturbation: (DN) -0.0539 (N) -0.5395, 
+-----------------------------------
+           INFO     Iteration:     170, Coverage: 0.800000  searchobserver.py:83
+[17:15:35] INFO     Iteration:     171, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.800000  searchobserver.py:83
+[17:15:36] INFO     Iteration:     173, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     174, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| RandomPerturbation: (DN) 0.2516, (N) -0.4968
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7611 (N) -0.1268, 
+| RandomPerturbation: (DN) 0.0432 (N) 0.4317, 
+-----------------------------------
+[17:15:37] INFO     Iteration:     175, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     176, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     177, Coverage: 0.800000  searchobserver.py:83
+[17:15:38] INFO     Iteration:     178, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     179, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 50, (N) 0.0
+| RandomPerturbation: (DN) 0.2948, (N) -0.4105
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.0321 (N) -0.672, 
+| RandomPerturbation: (DN) 0.0284 (N) 0.2838, 
+-----------------------------------
+[17:15:39] INFO     Iteration:     180, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     181, Coverage: 0.800000  searchobserver.py:83
+[17:15:40] INFO     Iteration:     182, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.800000  searchobserver.py:83
+[17:15:41] INFO     Iteration:     184, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| RandomPerturbation: (DN) 0.3231, (N) -0.3537
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9526 (N) -0.1588, 
+| RandomPerturbation: (DN) 0.0793 (N) 0.7931, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.800000  searchobserver.py:83
+[17:15:42] INFO     Iteration:     187, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.800000  searchobserver.py:83
+[17:15:43] INFO     Iteration:     189, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.4025, (N) -0.1951
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.0148 (N) -0.0025, 
+| RandomPerturbation: (DN) -0.0202 (N) -0.2019, 
+-----------------------------------
+           INFO     Iteration:     190, Coverage: 0.800000  searchobserver.py:83
+[17:15:44] INFO     Iteration:     191, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     193, Coverage: 0.800000  searchobserver.py:83
+[17:15:45] INFO     Iteration:     194, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.3823, (N) -0.2355
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.776 (N) -0.296, 
+| RandomPerturbation: (DN) -0.0357 (N) -0.3568, 
+-----------------------------------
+[17:15:46] INFO     Iteration:     195, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     197, Coverage: 0.800000  searchobserver.py:83
+[17:15:47] INFO     Iteration:     198, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| RandomPerturbation: (DN) 0.3466, (N) -0.3068
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6089 (N) -0.9348, 
+| RandomPerturbation: (DN) -0.0963 (N) -0.9632, 
+-----------------------------------
+[17:15:48] INFO     Iteration:     200, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.800000  searchobserver.py:83
+[17:15:49] INFO     Iteration:     202, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.800000  searchobserver.py:83
+[17:15:50] INFO     Iteration:     204, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.2503, (N) -0.4995
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.118 (N) 0.5197, 
+| RandomPerturbation: (DN) 0.0407 (N) 0.4071, 
+-----------------------------------
+           INFO     Iteration:     205, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.800000  searchobserver.py:83
+[17:15:51] INFO     Iteration:     207, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     208, Coverage: 0.800000  searchobserver.py:83
+[17:15:52] INFO     Iteration:     209, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| RandomPerturbation: (DN) 0.291, (N) -0.4181
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.4794 (N) -0.7466, 
+| RandomPerturbation: (DN) 0.0258 (N) 0.2577, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.800000  searchobserver.py:83
+[17:15:53] INFO     Iteration:     211, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.800000  searchobserver.py:83
+[17:15:54] INFO     Iteration:     214, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| RandomPerturbation: (DN) 0.3167, (N) -0.3665
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.46 (N) 0.5767, 
+| RandomPerturbation: (DN) 0.0483 (N) 0.4835, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.800000  searchobserver.py:83
+[17:15:55] INFO     Iteration:     216, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.800000  searchobserver.py:83
+[17:15:56] INFO     Iteration:     218, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     219, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| RandomPerturbation: (DN) 0.3651, (N) -0.2699
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.2505 (N) -0.2084, 
+| RandomPerturbation: (DN) 0.01 (N) 0.1002, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.800000  searchobserver.py:83
+[17:15:57] INFO     Iteration:     221, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     222, Coverage: 0.800000  searchobserver.py:83
+[17:15:58] INFO     Iteration:     223, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     224, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.3751, (N) -0.2498
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9194 (N) 0.4866, 
+| RandomPerturbation: (DN) -0.0537 (N) -0.5372, 
+-----------------------------------
+[17:15:59] INFO     Iteration:     225, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     227, Coverage: 0.800000  searchobserver.py:83
+[17:16:00] INFO     Iteration:     228, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     229, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| RandomPerturbation: (DN) 0.3214, (N) -0.3573
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.7685 (N) 0.4614, 
+| RandomPerturbation: (DN) -0.0734 (N) -0.7343, 
+-----------------------------------
+[17:16:01] INFO     Iteration:     230, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.800000  searchobserver.py:83
+[17:16:02] INFO     Iteration:     232, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     234, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 44, (N) -0.2
+| RandomPerturbation: (DN) 0.2479, (N) -0.5041
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5631 (N) -0.2605, 
+| RandomPerturbation: (DN) 0.0719 (N) 0.7193, 
+-----------------------------------
+[17:16:03] INFO     Iteration:     235, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     236, Coverage: 0.800000  searchobserver.py:83
+[17:16:04] INFO     Iteration:     237, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     238, Coverage: 0.800000  searchobserver.py:83
+[17:16:05] INFO     Iteration:     239, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.3199, (N) -0.3603
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.2293 (N) -0.3716, 
+| RandomPerturbation: (DN) 0.0022 (N) 0.0224, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.800000  searchobserver.py:83
+[17:16:06] INFO     Iteration:     241, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.800000  searchobserver.py:83
+[17:16:07] INFO     Iteration:     243, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     244, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| RandomPerturbation: (DN) 0.3221, (N) -0.3558
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.7774 (N) -0.9629, 
+| RandomPerturbation: (DN) -0.0201 (N) -0.2015, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.800000  searchobserver.py:83
+[17:16:08] INFO     Iteration:     246, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     247, Coverage: 0.800000  searchobserver.py:83
+[17:16:09] INFO     Iteration:     248, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     249, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| RandomPerturbation: (DN) 0.302, (N) -0.3961
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3309 (N) 0.0552, 
+| RandomPerturbation: (DN) 0.0401 (N) 0.401, 
+-----------------------------------
+           INFO     Iteration:     250, Coverage: 0.800000  searchobserver.py:83
+[17:16:10] INFO     Iteration:     251, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     252, Coverage: 0.800000  searchobserver.py:83
+[17:16:11] INFO     Iteration:     253, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     254, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| RandomPerturbation: (DN) 0.3421, (N) -0.3159
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.474 (N) 0.079, 
+| RandomPerturbation: (DN) -0.0793 (N) -0.7931, 
+-----------------------------------
+[17:16:12] INFO     Iteration:     255, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     256, Coverage: 0.800000  searchobserver.py:83
+[17:16:13] INFO     Iteration:     257, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.800000  searchobserver.py:83
+[17:16:14] INFO     Iteration:     259, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| RandomPerturbation: (DN) 0.2628, (N) -0.4745
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.2542 (N) -0.5424, 
+| RandomPerturbation: (DN) 0.0527 (N) 0.5272, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.800000  searchobserver.py:83
+[17:16:15] INFO     Iteration:     261, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     262, Coverage: 0.800000  searchobserver.py:83
+[17:16:16] INFO     Iteration:     263, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     264, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.3155, (N) -0.3691
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.9358 (N) -0.8226, 
+| RandomPerturbation: (DN) 0.032 (N) 0.3197, 
+-----------------------------------
+           INFO     Iteration:     265, Coverage: 0.800000  searchobserver.py:83
+[17:16:17] INFO     Iteration:     266, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.800000  searchobserver.py:83
+[17:16:18] INFO     Iteration:     268, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| RandomPerturbation: (DN) 0.3474, (N) -0.3051
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.8813 (N) -0.9802, 
+| RandomPerturbation: (DN) 0.0416 (N) 0.4161, 
+-----------------------------------
+[17:16:19] INFO     Iteration:     270, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.800000  searchobserver.py:83
+[17:16:20] INFO     Iteration:     272, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     273, Coverage: 0.800000  searchobserver.py:83
+[17:16:21] INFO     Iteration:     274, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| RandomPerturbation: (DN) 0.3891, (N) -0.2219
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.5354 (N) 0.4226, 
+| RandomPerturbation: (DN) -0.0669 (N) -0.6686, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     276, Coverage: 0.800000  searchobserver.py:83
+[17:16:22] INFO     Iteration:     277, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.800000  searchobserver.py:83
+[17:16:23] INFO     Iteration:     279, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| RandomPerturbation: (DN) 0.3222, (N) -0.3556
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3574 (N) 0.2262, 
+| RandomPerturbation: (DN) -0.0094 (N) -0.094, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     281, Coverage: 0.800000  searchobserver.py:83
+[17:16:24] INFO     Iteration:     282, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     283, Coverage: 0.800000  searchobserver.py:83
+[17:16:25] INFO     Iteration:     284, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| RandomPerturbation: (DN) 0.3128, (N) -0.3744
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.2058 (N) 0.8676, 
+| RandomPerturbation: (DN) 0.02 (N) 0.1997, 
+-----------------------------------
+           INFO     Iteration:     285, Coverage: 0.800000  searchobserver.py:83
+[17:16:26] INFO     Iteration:     286, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     288, Coverage: 0.800000  searchobserver.py:83
+[17:16:27] INFO     Iteration:     289, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| RandomPerturbation: (DN) 0.3328, (N) -0.3345
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.7663 (N) 0.1277, 
+| RandomPerturbation: (DN) 0.0313 (N) 0.3126, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.800000  searchobserver.py:83
+[17:16:28] INFO     Iteration:     291, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     292, Coverage: 0.800000  searchobserver.py:83
+[17:16:29] INFO     Iteration:     293, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     294, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| RandomPerturbation: (DN) 0.364, (N) -0.272
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9675 (N) 0.9946, 
+| RandomPerturbation: (DN) -0.0864 (N) -0.8639, 
+-----------------------------------
+[17:16:30] INFO     Iteration:     295, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     297, Coverage: 0.800000  searchobserver.py:83
+[17:16:31] INFO     Iteration:     298, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     299, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| RandomPerturbation: (DN) 0.2776, (N) -0.4447
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2943 (N) 0.2157, 
+| RandomPerturbation: (DN) 0.0395 (N) 0.3947, 
+-----------------------------------
+[17:16:32] INFO     Iteration:     300, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     301, Coverage: 0.800000  searchobserver.py:83
+[17:16:33] INFO     Iteration:     302, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     303, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.3171, (N) -0.3658
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.2943 (N) -0.0491, 
+| RandomPerturbation: (DN) -0.0132 (N) -0.1321, 
+-----------------------------------
+[17:16:34] INFO     Iteration:     305, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     306, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.800000  searchobserver.py:83
+[17:16:35] INFO     Iteration:     308, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.3039, (N) -0.3922
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.5201 (N) 0.42, 
+| RandomPerturbation: (DN) -0.0767 (N) -0.7665, 
+-----------------------------------
+[17:16:36] INFO     Iteration:     310, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     311, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     312, Coverage: 0.800000  searchobserver.py:83
+[17:16:37] INFO     Iteration:     313, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     314, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| RandomPerturbation: (DN) 0.2272, (N) -0.5455
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.3303 (N) -0.8884, 
+| RandomPerturbation: (DN) 0.0303 (N) 0.3029, 
+-----------------------------------
+[17:16:38] INFO     Iteration:     315, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     316, Coverage: 0.800000  searchobserver.py:83
+[17:16:39] INFO     Iteration:     317, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.800000  searchobserver.py:83
+[17:16:40] INFO     Iteration:     319, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.2575, (N) -0.4849
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9159 (N) -0.6526, 
+| RandomPerturbation: (DN) 0.0281 (N) 0.2806, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.800000  searchobserver.py:83
+[17:16:41] INFO     Iteration:     321, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     322, Coverage: 0.800000  searchobserver.py:83
+[17:16:42] INFO     Iteration:     323, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.2856, (N) -0.4288
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1633 (N) 0.6939, 
+| RandomPerturbation: (DN) -0.073 (N) -0.7299, 
+-----------------------------------
+           INFO     Iteration:     325, Coverage: 0.800000  searchobserver.py:83
+[17:16:43] INFO     Iteration:     326, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     327, Coverage: 0.800000  searchobserver.py:83
+[17:16:44] INFO     Iteration:     328, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     329, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.2126, (N) -0.5748
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.2101 (N) 0.3683, 
+| RandomPerturbation: (DN) -0.0869 (N) -0.869, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.800000  searchobserver.py:83
+[17:16:45] INFO     Iteration:     331, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     332, Coverage: 0.800000  searchobserver.py:83
+[17:16:46] INFO     Iteration:     333, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.1257, (N) -0.7486
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7332 (N) 0.7889, 
+| RandomPerturbation: (DN) 0.0595 (N) 0.5949, 
+-----------------------------------
+[17:16:47] INFO     Iteration:     335, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     337, Coverage: 0.800000  searchobserver.py:83
+[17:16:48] INFO     Iteration:     338, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.1852, (N) -0.6296
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9648 (N) -0.1608, 
+| RandomPerturbation: (DN) 0.0711 (N) 0.7114, 
+-----------------------------------
+[17:16:49] INFO     Iteration:     340, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     341, Coverage: 0.800000  searchobserver.py:83
+[17:16:50] INFO     Iteration:     342, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     343, Coverage: 0.800000  searchobserver.py:83
+[17:16:51] INFO     Iteration:     344, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| RandomPerturbation: (DN) 0.2563, (N) -0.4874
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.0888 (N) 0.0148, 
+| RandomPerturbation: (DN) -0.0778 (N) -0.7777, 
+-----------------------------------
+           INFO     Iteration:     345, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.800000  searchobserver.py:83
+[17:16:52] INFO     Iteration:     347, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     348, Coverage: 0.800000  searchobserver.py:83
+[17:16:53] INFO     Iteration:     349, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| RandomPerturbation: (DN) 0.1785, (N) -0.6429
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.2153 (N) -0.5359, 
+| RandomPerturbation: (DN) -0.0526 (N) -0.5263, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     351, Coverage: 0.800000  searchobserver.py:83
+[17:16:54] INFO     Iteration:     352, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     354, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.1259, (N) -0.7482
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.5019 (N) -0.7503, 
+| RandomPerturbation: (DN) -0.0316 (N) -0.3158, 
+-----------------------------------
+[17:16:55] INFO     Iteration:     355, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.800000  searchobserver.py:83
+[17:16:56] INFO     Iteration:     357, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.800000  searchobserver.py:83
+[17:16:57] INFO     Iteration:     359, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.0943, (N) -0.8113
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7227 (N) -0.1204, 
+| RandomPerturbation: (DN) 0.0008 (N) 0.0078, 
+-----------------------------------
+           INFO     Iteration:     360, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     361, Coverage: 0.800000  searchobserver.py:83
+[17:16:58] INFO     Iteration:     362, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.800000  searchobserver.py:83
+[17:16:59] INFO     Iteration:     364, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 32, (N) -0.6
+| RandomPerturbation: (DN) 0.0951, (N) -0.8098
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3399 (N) 0.0567, 
+| RandomPerturbation: (DN) -0.0067 (N) -0.0674, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.800000  searchobserver.py:83
+[17:17:00] INFO     Iteration:     366, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     367, Coverage: 0.800000  searchobserver.py:83
+[17:17:01] INFO     Iteration:     368, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 32, (N) -0.6
+| RandomPerturbation: (DN) 0.0884, (N) -0.8232
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5895 (N) -0.0983, 
+| RandomPerturbation: (DN) 0.04 (N) 0.3999, 
+-----------------------------------
+[17:17:02] INFO     Iteration:     370, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     371, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.800000  searchobserver.py:83
+[17:17:03] INFO     Iteration:     373, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     374, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| RandomPerturbation: (DN) 0.1284, (N) -0.7433
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9454 (N) -0.6576, 
+| RandomPerturbation: (DN) 0.0799 (N) 0.7986, 
+-----------------------------------
+[17:17:04] INFO     Iteration:     375, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     376, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     377, Coverage: 0.800000  searchobserver.py:83
+[17:17:05] INFO     Iteration:     378, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     379, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| RandomPerturbation: (DN) 0.2082, (N) -0.5835
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.5248 (N) 0.9208, 
+| RandomPerturbation: (DN) 0.0893 (N) 0.893, 
+-----------------------------------
+[17:17:06] INFO     Iteration:     380, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     381, Coverage: 0.800000  searchobserver.py:83
+[17:17:07] INFO     Iteration:     382, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.800000  searchobserver.py:83
+[17:17:08] INFO     Iteration:     384, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.2975, (N) -0.4049
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.7052 (N) 0.2842, 
+| RandomPerturbation: (DN) -0.0295 (N) -0.2948, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.800000  searchobserver.py:83
+[17:17:09] INFO     Iteration:     386, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.800000  searchobserver.py:83
+[17:17:10] INFO     Iteration:     389, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.268, (N) -0.4639
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9683 (N) -0.3281, 
+| RandomPerturbation: (DN) 0.0459 (N) 0.4594, 
+-----------------------------------
+           INFO     Iteration:     390, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.800000  searchobserver.py:83
+[17:17:11] INFO     Iteration:     392, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     393, Coverage: 0.800000  searchobserver.py:83
+[17:17:12] INFO     Iteration:     394, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.314, (N) -0.372
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.6148 (N) 0.6025, 
+| RandomPerturbation: (DN) 0.0066 (N) 0.0661, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.800000  searchobserver.py:83
+[17:17:13] INFO     Iteration:     396, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     398, Coverage: 0.800000  searchobserver.py:83
+[17:17:14] INFO     Iteration:     399, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.3206, (N) -0.3588
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.7186 (N) 0.2864, 
+| RandomPerturbation: (DN) 0.0732 (N) 0.7316, 
+-----------------------------------
+           INFO     Iteration:     400, Coverage: 0.800000  searchobserver.py:83
+[17:17:15] INFO     Iteration:     401, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     402, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     403, Coverage: 0.800000  searchobserver.py:83
+[17:17:16] INFO     Iteration:     404, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| RandomPerturbation: (DN) 0.3938, (N) -0.2125
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.991 (N) 0.9985, 
+| RandomPerturbation: (DN) 0.0071 (N) 0.0711, 
+-----------------------------------
+           INFO     Iteration:     405, Coverage: 0.800000  searchobserver.py:83
+[17:17:17] INFO     Iteration:     406, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     408, Coverage: 0.800000  searchobserver.py:83
+[17:17:18] INFO     Iteration:     409, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.4009, (N) -0.1983
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.1456 (N) 0.3576, 
+| RandomPerturbation: (DN) -0.0336 (N) -0.3358, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     411, Coverage: 0.800000  searchobserver.py:83
+[17:17:19] INFO     Iteration:     412, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.800000  searchobserver.py:83
+[17:17:20] INFO     Iteration:     414, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 47, (N) -0.1
+| RandomPerturbation: (DN) 0.3673, (N) -0.2654
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.2829 (N) -0.2138, 
+| RandomPerturbation: (DN) 0.0485 (N) 0.4846, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.800000  searchobserver.py:83
+[17:17:21] INFO     Iteration:     417, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.800000  searchobserver.py:83
+[17:17:22] INFO     Iteration:     419, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| RandomPerturbation: (DN) 0.4157, (N) -0.1685
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.672 (N) -0.2787, 
+| RandomPerturbation: (DN) -0.0174 (N) -0.1741, 
+-----------------------------------
+[17:17:23] INFO     Iteration:     420, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     421, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.800000  searchobserver.py:83
+[17:17:24] INFO     Iteration:     423, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 44, (N) -0.2
+| RandomPerturbation: (DN) 0.3983, (N) -0.2033
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.6796 (N) -0.6133, 
+| RandomPerturbation: (DN) -0.024 (N) -0.24, 
+-----------------------------------
+[17:17:25] INFO     Iteration:     425, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     426, Coverage: 0.800000  searchobserver.py:83
+[17:17:26] INFO     Iteration:     427, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     429, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| RandomPerturbation: (DN) 0.3743, (N) -0.2513
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.587 (N) 0.0978, 
+| RandomPerturbation: (DN) 0.0407 (N) 0.4068, 
+-----------------------------------
+[17:17:27] INFO     Iteration:     430, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.800000  searchobserver.py:83
+[17:17:28] INFO     Iteration:     432, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     434, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| RandomPerturbation: (DN) 0.415, (N) -0.17
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7676 (N) -0.6279, 
+| RandomPerturbation: (DN) -0.0654 (N) -0.6541, 
+-----------------------------------
+[17:17:29] INFO     Iteration:     435, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     436, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.800000  searchobserver.py:83
+[17:17:30] INFO     Iteration:     438, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     439, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.3496, (N) -0.3008
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.8609 (N) 0.8102, 
+| RandomPerturbation: (DN) 0.032 (N) 0.3205, 
+-----------------------------------
+[17:17:31] INFO     Iteration:     440, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     441, Coverage: 0.800000  searchobserver.py:83
+[17:17:32] INFO     Iteration:     442, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.800000  searchobserver.py:83
+[17:17:33] INFO     Iteration:     444, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.3816, (N) -0.2367
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5237 (N) 0.5873, 
+| RandomPerturbation: (DN) 0.0926 (N) 0.926, 
+-----------------------------------
+           INFO     Iteration:     445, Coverage: 0.800000  searchobserver.py:83
+[17:17:34] INFO     Iteration:     446, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     448, Coverage: 0.800000  searchobserver.py:83
+[17:17:35] INFO     Iteration:     449, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| RandomPerturbation: (DN) 0.4742, (N) -0.0515
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.5635 (N) -0.7606, 
+| RandomPerturbation: (DN) 0.0057 (N) 0.0566, 
+-----------------------------------
+           INFO     Iteration:     450, Coverage: 0.800000  searchobserver.py:83
+[17:17:36] INFO     Iteration:     451, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     453, Coverage: 0.800000  searchobserver.py:83
+[17:17:37] INFO     Iteration:     454, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| RandomPerturbation: (DN) 0.4799, (N) -0.0402
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3742 (N) 0.229, 
+| RandomPerturbation: (DN) -0.064 (N) -0.6395, 
+-----------------------------------
+           INFO     Iteration:     455, Coverage: 0.800000  searchobserver.py:83
+[17:17:38] INFO     Iteration:     456, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     457, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     458, Coverage: 0.800000  searchobserver.py:83
+[17:17:39] INFO     Iteration:     459, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.4159, (N) -0.1681
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5624 (N) 0.2604, 
+| RandomPerturbation: (DN) 0.0302 (N) 0.3021, 
+-----------------------------------
+           INFO     Iteration:     460, Coverage: 0.800000  searchobserver.py:83
+[17:17:40] INFO     Iteration:     461, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     462, Coverage: 0.800000  searchobserver.py:83
+[17:17:41] INFO     Iteration:     463, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     464, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 44, (N) -0.2
+| RandomPerturbation: (DN) 0.4462, (N) -0.1077
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8707 (N) -0.1451, 
+| RandomPerturbation: (DN) -0.0025 (N) -0.0246, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.800000  searchobserver.py:83
+[17:17:42] INFO     Iteration:     466, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     467, Coverage: 0.800000  searchobserver.py:83
+[17:17:43] INFO     Iteration:     468, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     469, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| RandomPerturbation: (DN) 0.4437, (N) -0.1126
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6431 (N) -0.1072, 
+| RandomPerturbation: (DN) -0.0176 (N) -0.1756, 
+-----------------------------------
+[17:17:44] INFO     Iteration:     470, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     471, Coverage: 0.800000  searchobserver.py:83
+[17:17:45] INFO     Iteration:     472, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.800000  searchobserver.py:83
+[17:17:46] INFO     Iteration:     474, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.4261, (N) -0.1477
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.4001 (N) 0.9, 
+| RandomPerturbation: (DN) -0.073 (N) -0.7298, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.800000  searchobserver.py:83
+[17:17:47] INFO     Iteration:     477, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.800000  searchobserver.py:83
+[17:17:48] INFO     Iteration:     479, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 47, (N) -0.1
+| RandomPerturbation: (DN) 0.3532, (N) -0.2937
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1056 (N) 0.1843, 
+| RandomPerturbation: (DN) 0.0644 (N) 0.6441, 
+-----------------------------------
+           INFO     Iteration:     480, Coverage: 0.800000  searchobserver.py:83
+[17:17:49] INFO     Iteration:     481, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     483, Coverage: 0.800000  searchobserver.py:83
+[17:17:50] INFO     Iteration:     484, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 48, (N) -0.0667
+| RandomPerturbation: (DN) 0.4176, (N) -0.1649
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.5231 (N) -0.9205, 
+| RandomPerturbation: (DN) -0.094 (N) -0.9396, 
+-----------------------------------
+           INFO     Iteration:     485, Coverage: 0.800000  searchobserver.py:83
+[17:17:51] INFO     Iteration:     486, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     487, Coverage: 0.800000  searchobserver.py:83
+[17:17:52] INFO     Iteration:     488, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     489, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.3236, (N) -0.3528
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1007 (N) 0.1834, 
+| RandomPerturbation: (DN) -0.0056 (N) -0.056, 
+-----------------------------------
+[17:17:53] INFO     Iteration:     490, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     491, Coverage: 0.800000  searchobserver.py:83
+[17:17:54] INFO     Iteration:     492, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     494, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| RandomPerturbation: (DN) 0.318, (N) -0.364
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.99 (N) 0.3317, 
+| RandomPerturbation: (DN) 0.0926 (N) 0.9264, 
+-----------------------------------
+[17:17:55] INFO     Iteration:     495, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     496, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.800000  searchobserver.py:83
+[17:17:56] INFO     Iteration:     498, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     499, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.4106, (N) -0.1787
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7712 (N) 0.7952, 
+| RandomPerturbation: (DN) 0.0533 (N) 0.5326, 
+-----------------------------------
+[17:17:57] INFO     Iteration:     500, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     501, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     502, Coverage: 0.800000  searchobserver.py:83
+[17:17:58] INFO     Iteration:     503, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     504, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 50, (N) 0.0
+| RandomPerturbation: (DN) 0.4639, (N) -0.0722
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.928 (N) 0.1547, 
+| RandomPerturbation: (DN) -0.0376 (N) -0.3755, 
+-----------------------------------
+[17:17:59] INFO     Iteration:     505, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     506, Coverage: 0.800000  searchobserver.py:83
+[17:18:00] INFO     Iteration:     507, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     508, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| RandomPerturbation: (DN) 0.4263, (N) -0.1473
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1582 (N) 0.693, 
+| RandomPerturbation: (DN) -0.0278 (N) -0.2784, 
+-----------------------------------
+[17:18:01] INFO     Iteration:     510, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.800000  searchobserver.py:83
+[17:18:02] INFO     Iteration:     512, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.800000  searchobserver.py:83
+[17:18:03] INFO     Iteration:     514, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 55, (N) 0.1667
+| RandomPerturbation: (DN) 0.3985, (N) -0.203
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.4647 (N) -0.2441, 
+| RandomPerturbation: (DN) -0.0238 (N) -0.2381, 
+-----------------------------------
+           INFO     Iteration:     515, Coverage: 0.800000  searchobserver.py:83
+[17:18:04] INFO     Iteration:     516, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     517, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.800000  searchobserver.py:83
+[17:18:05] INFO     Iteration:     519, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 54, (N) 0.1333
+| RandomPerturbation: (DN) 0.3747, (N) -0.2506
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4234 (N) -0.5706, 
+| RandomPerturbation: (DN) -0.0577 (N) -0.5769, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.800000  searchobserver.py:83
+[17:18:06] INFO     Iteration:     522, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.800000  searchobserver.py:83
+[17:18:07] INFO     Iteration:     524, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| RandomPerturbation: (DN) 0.317, (N) -0.366
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.7281 (N) 0.288, 
+| RandomPerturbation: (DN) 0.0375 (N) 0.375, 
+-----------------------------------
+           INFO     Iteration:     525, Coverage: 0.800000  searchobserver.py:83
+[17:18:08] INFO     Iteration:     526, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     528, Coverage: 0.800000  searchobserver.py:83
+[17:18:09] INFO     Iteration:     529, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 53, (N) 0.1
+| RandomPerturbation: (DN) 0.3545, (N) -0.291
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5089 (N) -0.2515, 
+| RandomPerturbation: (DN) 0.0753 (N) 0.7527, 
+-----------------------------------
+           INFO     Iteration:     530, Coverage: 0.800000  searchobserver.py:83
+[17:18:10] INFO     Iteration:     531, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     532, Coverage: 0.800000  searchobserver.py:83
+[17:18:11] INFO     Iteration:     533, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     534, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| RandomPerturbation: (DN) 0.4298, (N) -0.1404
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.8314 (N) -0.4719, 
+| RandomPerturbation: (DN) -0.0982 (N) -0.9825, 
+-----------------------------------
+[17:18:12] INFO     Iteration:     535, Coverage: 0.800000  searchobserver.py:83
+[17:18:13] INFO     Iteration:     536, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     537, Coverage: 0.800000  searchobserver.py:83
+[17:18:14] INFO     Iteration:     538, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 48, (N) -0.0667
+| RandomPerturbation: (DN) 0.3315, (N) -0.3369
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.6539 (N) -0.4423, 
+| RandomPerturbation: (DN) -0.0759 (N) -0.7594, 
+-----------------------------------
+           INFO     Iteration:     540, Coverage: 0.800000  searchobserver.py:83
+[17:18:15] INFO     Iteration:     541, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     542, Coverage: 0.800000  searchobserver.py:83
+[17:18:16] INFO     Iteration:     543, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     544, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.2556, (N) -0.4888
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6625 (N) -0.1104, 
+| RandomPerturbation: (DN) 0.0965 (N) 0.9649, 
+-----------------------------------
+[17:18:17] INFO     Iteration:     545, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.800000  searchobserver.py:83
+[17:18:18] INFO     Iteration:     547, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.800000  searchobserver.py:83
+[17:18:19] INFO     Iteration:     549, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 44, (N) -0.2
+| RandomPerturbation: (DN) 0.3521, (N) -0.2958
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.8451 (N) 0.3075, 
+| RandomPerturbation: (DN) -0.026 (N) -0.2601, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.800000  searchobserver.py:83
+[17:18:20] INFO     Iteration:     551, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     552, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     553, Coverage: 0.800000  searchobserver.py:83
+[17:18:21] INFO     Iteration:     554, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| RandomPerturbation: (DN) 0.3261, (N) -0.3479
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9937 (N) 0.499, 
+| RandomPerturbation: (DN) -0.0551 (N) -0.5509, 
+-----------------------------------
+           INFO     Iteration:     555, Coverage: 0.800000  searchobserver.py:83
+[17:18:22] INFO     Iteration:     556, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     557, Coverage: 0.800000  searchobserver.py:83
+[17:18:23] INFO     Iteration:     558, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 49, (N) -0.0333
+| RandomPerturbation: (DN) 0.271, (N) -0.458
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9712 (N) -0.1619, 
+| RandomPerturbation: (DN) -0.0956 (N) -0.956, 
+-----------------------------------
+[17:18:24] INFO     Iteration:     560, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     561, Coverage: 0.800000  searchobserver.py:83
+[17:18:25] INFO     Iteration:     562, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     563, Coverage: 0.800000  searchobserver.py:83
+[17:18:26] INFO     Iteration:     564, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 48, (N) -0.0667
+| RandomPerturbation: (DN) 0.1754, (N) -0.6492
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9547 (N) -0.4924, 
+| RandomPerturbation: (DN) 0.0071 (N) 0.0712, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     566, Coverage: 0.800000  searchobserver.py:83
+[17:18:27] INFO     Iteration:     567, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.800000  searchobserver.py:83
+[17:18:28] INFO     Iteration:     569, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| RandomPerturbation: (DN) 0.1825, (N) -0.635
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.074 (N) 0.3457, 
+| RandomPerturbation: (DN) 0.0405 (N) 0.4053, 
+-----------------------------------
+           INFO     Iteration:     570, Coverage: 0.800000  searchobserver.py:83
+[17:18:29] INFO     Iteration:     571, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     573, Coverage: 0.800000  searchobserver.py:83
+[17:18:30] INFO     Iteration:     574, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 47, (N) -0.1
+| RandomPerturbation: (DN) 0.223, (N) -0.5539
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9044 (N) -0.6507, 
+| RandomPerturbation: (DN) -0.0025 (N) -0.0248, 
+-----------------------------------
+           INFO     Iteration:     575, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.800000  searchobserver.py:83
+[17:18:31] INFO     Iteration:     577, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.800000  searchobserver.py:83
+[17:18:32] INFO     Iteration:     579, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| RandomPerturbation: (DN) 0.2206, (N) -0.5589
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5998 (N) -0.1, 
+| RandomPerturbation: (DN) -0.0515 (N) -0.5152, 
+-----------------------------------
+[17:18:33] INFO     Iteration:     580, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.800000  searchobserver.py:83
+[17:18:34] INFO     Iteration:     582, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.800000  searchobserver.py:83
+[17:18:35] INFO     Iteration:     584, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.169, (N) -0.6619
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.2141 (N) -0.869, 
+| RandomPerturbation: (DN) 0.0226 (N) 0.226, 
+-----------------------------------
+           INFO     Iteration:     585, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.800000  searchobserver.py:83
+[17:18:36] INFO     Iteration:     587, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     588, Coverage: 0.800000  searchobserver.py:83
+[17:18:37] INFO     Iteration:     589, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.1916, (N) -0.6167
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.2354 (N) -0.5392, 
+| RandomPerturbation: (DN) 0.0594 (N) 0.594, 
+-----------------------------------
+           INFO     Iteration:     590, Coverage: 0.800000  searchobserver.py:83
+[17:18:38] INFO     Iteration:     591, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     593, Coverage: 0.800000  searchobserver.py:83
+[17:18:39] INFO     Iteration:     594, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| RandomPerturbation: (DN) 0.251, (N) -0.4979
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.2568 (N) -0.2095, 
+| RandomPerturbation: (DN) 0.0074 (N) 0.0736, 
+-----------------------------------
+           INFO     Iteration:     595, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.800000  searchobserver.py:83
+[17:18:40] INFO     Iteration:     597, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     598, Coverage: 0.800000  searchobserver.py:83
+[17:18:41] INFO     Iteration:     599, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.2584, (N) -0.4832
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3752 (N) 0.2292, 
+| RandomPerturbation: (DN) -0.0921 (N) -0.9208, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.800000  searchobserver.py:83
+[17:18:42] INFO     Iteration:     601, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     602, Coverage: 0.800000  searchobserver.py:83
+[17:18:43] INFO     Iteration:     603, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     604, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| RandomPerturbation: (DN) 0.1663, (N) -0.6674
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5875 (N) 0.5979, 
+| RandomPerturbation: (DN) 0.016 (N) 0.1602, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.800000  searchobserver.py:83
+[17:18:44] INFO     Iteration:     606, Coverage: 0.800000  searchobserver.py:83
+[17:18:45] INFO     Iteration:     607, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     608, Coverage: 0.800000  searchobserver.py:83
+[17:18:46] INFO     Iteration:     609, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.1823, (N) -0.6353
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.7607 (N) 0.6268, 
+| RandomPerturbation: (DN) -0.0192 (N) -0.1923, 
+-----------------------------------
+           INFO     Iteration:     610, Coverage: 0.800000  searchobserver.py:83
+[17:18:47] INFO     Iteration:     611, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.800000  searchobserver.py:83
+[17:18:48] INFO     Iteration:     613, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     614, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| RandomPerturbation: (DN) 0.1631, (N) -0.6738
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.375 (N) -0.5625, 
+| RandomPerturbation: (DN) -0.0112 (N) -0.112, 
+-----------------------------------
+           INFO     Iteration:     615, Coverage: 0.800000  searchobserver.py:83
+[17:18:49] INFO     Iteration:     616, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     617, Coverage: 0.800000  searchobserver.py:83
+[17:18:50] INFO     Iteration:     618, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| RandomPerturbation: (DN) 0.1519, (N) -0.6962
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8334 (N) -0.1389, 
+| RandomPerturbation: (DN) -0.0031 (N) -0.031, 
+-----------------------------------
+           INFO     Iteration:     620, Coverage: 0.800000  searchobserver.py:83
+[17:18:51] INFO     Iteration:     621, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     622, Coverage: 0.800000  searchobserver.py:83
+[17:18:52] INFO     Iteration:     623, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     624, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.1488, (N) -0.7024
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5617 (N) -0.0936, 
+| RandomPerturbation: (DN) -0.0836 (N) -0.8356, 
+-----------------------------------
+[17:18:53] INFO     Iteration:     625, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     626, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     627, Coverage: 0.800000  searchobserver.py:83
+[17:18:54] INFO     Iteration:     628, Coverage: 0.800000  searchobserver.py:83
+[17:18:55] INFO     Iteration:     629, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.0652, (N) -0.8695
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.0083 (N) -0.668, 
+| RandomPerturbation: (DN) 0.073 (N) 0.7298, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.800000  searchobserver.py:83
+[17:18:56] INFO     Iteration:     631, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     632, Coverage: 0.800000  searchobserver.py:83
+[17:18:57] INFO     Iteration:     633, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     634, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.1382, (N) -0.7236
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1659 (N) 0.6943, 
+| RandomPerturbation: (DN) -0.0549 (N) -0.5487, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.800000  searchobserver.py:83
+[17:18:58] INFO     Iteration:     636, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     637, Coverage: 0.800000  searchobserver.py:83
+[17:18:59] INFO     Iteration:     638, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     639, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.0833, (N) -0.8333
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.3555 (N) -0.3926, 
+| RandomPerturbation: (DN) 0.0451 (N) 0.4515, 
+-----------------------------------
+[17:19:00] INFO     Iteration:     640, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     641, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.800000  searchobserver.py:83
+[17:19:01] INFO     Iteration:     643, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     644, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.1285, (N) -0.743
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1427 (N) 0.5238, 
+| RandomPerturbation: (DN) -0.0901 (N) -0.9008, 
+-----------------------------------
+[17:19:02] INFO     Iteration:     645, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     646, Coverage: 0.800000  searchobserver.py:83
+[17:19:03] INFO     Iteration:     647, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.800000  searchobserver.py:83
+[17:19:04] INFO     Iteration:     649, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.0384, (N) -0.9232
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4322 (N) -0.9054, 
+| RandomPerturbation: (DN) -0.0844 (N) -0.8443, 
+-----------------------------------
+           INFO     Iteration:     650, Coverage: 0.800000  searchobserver.py:83
+[17:19:05] INFO     Iteration:     651, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     652, Coverage: 0.800000  searchobserver.py:83
+[17:19:06] INFO     Iteration:     653, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     654, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| RandomPerturbation: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.3659 (N) 0.8943, 
+| RandomPerturbation: (DN) 0.0463 (N) 0.4626, 
+-----------------------------------
+[17:19:07] INFO     Iteration:     655, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.800000  searchobserver.py:83
+[17:19:08] INFO     Iteration:     657, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     658, Coverage: 0.800000  searchobserver.py:83
+[17:19:09] INFO     Iteration:     659, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 38, (N) -0.4
+| RandomPerturbation: (DN) 0.0463, (N) -0.9075
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.392 (N) -0.232, 
+| RandomPerturbation: (DN) 0.0955 (N) 0.9548, 
+-----------------------------------
+           INFO     Iteration:     660, Coverage: 0.800000  searchobserver.py:83
+[17:19:10] INFO     Iteration:     661, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.800000  searchobserver.py:83
+[17:19:11] INFO     Iteration:     663, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     664, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| RandomPerturbation: (DN) 0.1417, (N) -0.7165
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.2547 (N) -0.3758, 
+| RandomPerturbation: (DN) -0.0026 (N) -0.0259, 
+-----------------------------------
+[17:19:12] INFO     Iteration:     665, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     666, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.800000  searchobserver.py:83
+[17:19:13] INFO     Iteration:     668, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     669, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| RandomPerturbation: (DN) 0.1391, (N) -0.7217
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4798 (N) -0.58, 
+| RandomPerturbation: (DN) -0.068 (N) -0.6799, 
+-----------------------------------
+[17:19:14] INFO     Iteration:     670, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     671, Coverage: 0.800000  searchobserver.py:83
+[17:19:15] INFO     Iteration:     672, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.800000  searchobserver.py:83
+[17:19:16] INFO     Iteration:     674, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 32, (N) -0.6
+| RandomPerturbation: (DN) 0.0712, (N) -0.8577
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.879 (N) -0.4798, 
+| RandomPerturbation: (DN) 0.0597 (N) 0.5967, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.800000  searchobserver.py:83
+[17:19:17] INFO     Iteration:     676, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.800000  searchobserver.py:83
+[17:19:18] INFO     Iteration:     678, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| RandomPerturbation: (DN) 0.1308, (N) -0.7384
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.2919 (N) -0.882, 
+| RandomPerturbation: (DN) 0.0393 (N) 0.3934, 
+-----------------------------------
+[17:19:19] INFO     Iteration:     680, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.800000  searchobserver.py:83
+[17:19:20] INFO     Iteration:     682, Coverage: 0.800000  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Instrumented string function         instrumentation.py:1965
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 11 test cases to                    generator.py:720
+                    /output/test_sanic_config.py                                
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110

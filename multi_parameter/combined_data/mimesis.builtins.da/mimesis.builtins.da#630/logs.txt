@@ -1,0 +1,2073 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[12:09:50] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 31092                      generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+[12:09:51] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     0                              module.py:1323
+           INFO     Classes:      17                              module.py:1324
+           INFO     Using seed 1713701387168190976              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 25 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.800000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.800000  searchobserver.py:83
+[12:09:52] INFO     Iteration:       3, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.800000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.800000  searchobserver.py:83
+[12:09:53] INFO     Iteration:       8, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.800000  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      10, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.800000  searchobserver.py:83
+[12:09:54] INFO     Iteration:      12, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.800000  searchobserver.py:83
+[12:09:55] INFO     Iteration:      14, Coverage: 0.800000  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0813 (N) -0.8128, 
+| TournamentSize: (DN) 0.7922 (N) 0.7922, 
+-----------------------------------
+[12:09:56] INFO     Iteration:      15, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.800000  searchobserver.py:83
+[12:09:57] INFO     Iteration:      18, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2521, (N) -0.4959
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0467 (N) -0.4669, 
+| TournamentSize: (DN) 0.314 (N) 0.314, 
+-----------------------------------
+           INFO     Iteration:      20, Coverage: 0.800000  searchobserver.py:83
+[12:09:58] INFO     Iteration:      21, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.800000  searchobserver.py:83
+[12:09:59] INFO     Iteration:      23, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2054, (N) -0.5893
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0523 (N) -0.5231, 
+| TournamentSize: (DN) 0.428 (N) 0.428, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.800000  searchobserver.py:83
+[12:10:00] INFO     Iteration:      26, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.800000  searchobserver.py:83
+[12:10:01] INFO     Iteration:      28, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1531, (N) -0.6939
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0009 (N) 0.0089, 
+| TournamentSize: (DN) 0.1577 (N) 0.1577, 
+-----------------------------------
+[12:10:02] INFO     Iteration:      30, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.800000  searchobserver.py:83
+[12:10:03] INFO     Iteration:      33, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1539, (N) -0.6921
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0793 (N) -0.7929, 
+| TournamentSize: (DN) 0.4718 (N) 0.4718, 
+-----------------------------------
+           INFO     Iteration:      35, Coverage: 0.800000  searchobserver.py:83
+[12:10:04] INFO     Iteration:      36, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.800000  searchobserver.py:83
+[12:10:05] INFO     Iteration:      38, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0746, (N) -0.8507
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0862 (N) 0.862, 
+| TournamentSize: (DN) 0.0984 (N) 0.0984, 
+-----------------------------------
+           INFO     Iteration:      40, Coverage: 0.800000  searchobserver.py:83
+[12:10:06] INFO     Iteration:      41, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.800000  searchobserver.py:83
+[12:10:07] INFO     Iteration:      44, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1608, (N) -0.6783
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0848 (N) 0.8477, 
+| TournamentSize: (DN) 0.6951 (N) 0.6951, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.800000  searchobserver.py:83
+[12:10:08] INFO     Iteration:      46, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      48, Coverage: 0.800000  searchobserver.py:83
+[12:10:09] INFO     Iteration:      49, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2456, (N) -0.5088
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0024 (N) -0.0242, 
+| TournamentSize: (DN) 0.476 (N) 0.476, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.800000  searchobserver.py:83
+[12:10:10] INFO     Iteration:      52, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.800000  searchobserver.py:83
+[12:10:11] INFO     Iteration:      54, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2432, (N) -0.5136
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0975 (N) 0.9754, 
+| TournamentSize: (DN) -0.8294 (N) -0.8294, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.800000  searchobserver.py:83
+[12:10:12] INFO     Iteration:      57, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.800000  searchobserver.py:83
+[12:10:13] INFO     Iteration:      59, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3407, (N) -0.3185
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0757 (N) -0.7566, 
+| TournamentSize: (DN) 0.2159 (N) 0.2159, 
+-----------------------------------
+           INFO     Iteration:      60, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.800000  searchobserver.py:83
+[12:10:14] INFO     Iteration:      62, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.800000  searchobserver.py:83
+[12:10:15] INFO     Iteration:      64, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2651, (N) -0.4698
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0705 (N) 0.7047, 
+| TournamentSize: (DN) -0.1826 (N) -0.1826, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.800000  searchobserver.py:83
+[12:10:16] INFO     Iteration:      67, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.800000  searchobserver.py:83
+[12:10:17] INFO     Iteration:      69, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3356, (N) -0.3289
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.056 (N) -0.5596, 
+| TournamentSize: (DN) 0.7338 (N) 0.7338, 
+-----------------------------------
+           INFO     Iteration:      70, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.800000  searchobserver.py:83
+[12:10:18] INFO     Iteration:      72, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2796, (N) -0.4408
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0071 (N) 0.071, 
+| TournamentSize: (DN) 0.6936 (N) 0.6936, 
+-----------------------------------
+[12:10:19] INFO     Iteration:      75, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.800000  searchobserver.py:83
+[12:10:20] INFO     Iteration:      77, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.800000  searchobserver.py:83
+[12:10:21] INFO     Iteration:      79, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2867, (N) -0.4266
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0762 (N) 0.7619, 
+| TournamentSize: (DN) -0.7504 (N) -0.7504, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      81, Coverage: 0.800000  searchobserver.py:83
+[12:10:22] INFO     Iteration:      82, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.800000  searchobserver.py:83
+[12:10:23] INFO     Iteration:      84, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3629, (N) -0.2742
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0899 (N) -0.8993, 
+| TournamentSize: (DN) -0.3482 (N) -0.3482, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      86, Coverage: 0.800000  searchobserver.py:83
+[12:10:24] INFO     Iteration:      87, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2729, (N) -0.4541
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0004 (N) -0.0043, 
+| TournamentSize: (DN) 0.9481 (N) 0.9481, 
+-----------------------------------
+[12:10:25] INFO     Iteration:      90, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.800000  searchobserver.py:83
+[12:10:26] INFO     Iteration:      92, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2725, (N) -0.455
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0056 (N) 0.0558, 
+| TournamentSize: (DN) 0.3663 (N) 0.3663, 
+-----------------------------------
+[12:10:27] INFO     Iteration:      95, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.800000  searchobserver.py:83
+[12:10:28] INFO     Iteration:      97, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      98, Coverage: 0.800000  searchobserver.py:83
+[12:10:29] INFO     Iteration:      99, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2781, (N) -0.4438
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0793 (N) -0.7928, 
+| TournamentSize: (DN) 0.7728 (N) 0.7728, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     101, Coverage: 0.800000  searchobserver.py:83
+[12:10:30] INFO     Iteration:     102, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     103, Coverage: 0.800000  searchobserver.py:83
+[12:10:31] INFO     Iteration:     104, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1988, (N) -0.6024
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0595 (N) -0.5952, 
+| TournamentSize: (DN) 0.5181 (N) 0.5181, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     106, Coverage: 0.800000  searchobserver.py:83
+[12:10:32] INFO     Iteration:     107, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     109, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1393, (N) -0.7214
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0818 (N) -0.8178, 
+| TournamentSize: (DN) 0.4494 (N) 0.4494, 
+-----------------------------------
+[12:10:33] INFO     Iteration:     110, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     111, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     112, Coverage: 0.800000  searchobserver.py:83
+[12:10:34] INFO     Iteration:     113, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0575, (N) -0.885
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.063 (N) -0.6302, 
+| TournamentSize: (DN) -0.585 (N) -0.585, 
+-----------------------------------
+           INFO     Iteration:     115, Coverage: 0.800000  searchobserver.py:83
+[12:10:35] INFO     Iteration:     116, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     118, Coverage: 0.800000  searchobserver.py:83
+[12:10:36] INFO     Iteration:     119, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0001 (N) 0.0011, 
+| TournamentSize: (DN) 0.4398 (N) 0.4398, 
+-----------------------------------
+           INFO     Iteration:     120, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     121, Coverage: 0.800000  searchobserver.py:83
+[12:10:37] INFO     Iteration:     122, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     124, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0001, (N) -0.9998
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0606 (N) -0.6062, 
+| TournamentSize: (DN) 0.5447 (N) 0.5447, 
+-----------------------------------
+[12:10:38] INFO     Iteration:     125, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     126, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.800000  searchobserver.py:83
+[12:10:39] INFO     Iteration:     128, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     129, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0637 (N) 0.637, 
+| TournamentSize: (DN) 0.3268 (N) 0.3268, 
+-----------------------------------
+[12:10:40] INFO     Iteration:     130, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     132, Coverage: 0.800000  searchobserver.py:83
+[12:10:41] INFO     Iteration:     133, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0637, (N) -0.8726
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0912 (N) -0.9124, 
+| TournamentSize: (DN) 0.9587 (N) 0.9587, 
+-----------------------------------
+[12:10:42] INFO     Iteration:     135, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.800000  searchobserver.py:83
+[12:10:43] INFO     Iteration:     137, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     138, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     139, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0155 (N) -0.1551, 
+| TournamentSize: (DN) -0.0298 (N) -0.0298, 
+-----------------------------------
+[12:10:44] INFO     Iteration:     140, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.800000  searchobserver.py:83
+[12:10:45] INFO     Iteration:     142, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.800000  searchobserver.py:83
+[12:10:46] INFO     Iteration:     144, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0889 (N) 0.8887, 
+| TournamentSize: (DN) -0.652 (N) -0.652, 
+-----------------------------------
+           INFO     Iteration:     145, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.800000  searchobserver.py:83
+[12:10:47] INFO     Iteration:     147, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.800000  searchobserver.py:83
+[12:10:48] INFO     Iteration:     149, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0889, (N) -0.8223
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0332 (N) 0.3318, 
+| TournamentSize: (DN) 0.9115 (N) 0.9115, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.800000  searchobserver.py:83
+[12:10:49] INFO     Iteration:     151, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     152, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     153, Coverage: 0.800000  searchobserver.py:83
+[12:10:50] INFO     Iteration:     154, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.122, (N) -0.7559
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0921 (N) -0.9208, 
+| TournamentSize: (DN) -0.4799 (N) -0.4799, 
+-----------------------------------
+           INFO     Iteration:     155, Coverage: 0.800000  searchobserver.py:83
+[12:10:51] INFO     Iteration:     156, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.800000  searchobserver.py:83
+[12:10:52] INFO     Iteration:     158, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.03, (N) -0.9401
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0526 (N) -0.5263, 
+| TournamentSize: (DN) -0.5922 (N) -0.5922, 
+-----------------------------------
+           INFO     Iteration:     160, Coverage: 0.800000  searchobserver.py:83
+[12:10:53] INFO     Iteration:     161, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.800000  searchobserver.py:83
+[12:10:54] INFO     Iteration:     163, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     164, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0377 (N) 0.3774, 
+| TournamentSize: (DN) -0.3311 (N) -0.3311, 
+-----------------------------------
+           INFO     Iteration:     165, Coverage: 0.800000  searchobserver.py:83
+[12:10:55] INFO     Iteration:     166, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     167, Coverage: 0.800000  searchobserver.py:83
+[12:10:56] INFO     Iteration:     168, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0377, (N) -0.9245
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0557 (N) -0.5575, 
+| TournamentSize: (DN) -0.5327 (N) -0.5327, 
+-----------------------------------
+[12:10:57] INFO     Iteration:     170, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.800000  searchobserver.py:83
+[12:10:58] INFO     Iteration:     173, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     174, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0241 (N) 0.2414, 
+| TournamentSize: (DN) -0.6426 (N) -0.6426, 
+-----------------------------------
+[12:10:59] INFO     Iteration:     175, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     176, Coverage: 0.800000  searchobserver.py:83
+[12:11:00] INFO     Iteration:     177, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     178, Coverage: 0.800000  searchobserver.py:83
+[12:11:01] INFO     Iteration:     179, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0241, (N) -0.9517
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0099 (N) -0.0988, 
+| TournamentSize: (DN) -0.6142 (N) -0.6142, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.800000  searchobserver.py:83
+[12:11:02] INFO     Iteration:     181, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.800000  searchobserver.py:83
+[12:11:03] INFO     Iteration:     183, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     184, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0143, (N) -0.9715
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0948 (N) -0.9479, 
+| TournamentSize: (DN) -0.6959 (N) -0.6959, 
+-----------------------------------
+[12:11:04] INFO     Iteration:     185, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.800000  searchobserver.py:83
+[12:11:05] INFO     Iteration:     187, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0419 (N) -0.4189, 
+| TournamentSize: (DN) -0.5797 (N) -0.5797, 
+-----------------------------------
+[12:11:06] INFO     Iteration:     190, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     191, Coverage: 0.800000  searchobserver.py:83
+[12:11:07] INFO     Iteration:     192, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     193, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     194, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0372 (N) 0.3721, 
+| TournamentSize: (DN) -0.813 (N) -0.813, 
+-----------------------------------
+[12:11:08] INFO     Iteration:     195, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.800000  searchobserver.py:83
+[12:11:09] INFO     Iteration:     197, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.800000  searchobserver.py:83
+[12:11:10] INFO     Iteration:     199, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0372, (N) -0.9256
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0343 (N) 0.3429, 
+| TournamentSize: (DN) 0.424 (N) 0.424, 
+-----------------------------------
+           INFO     Iteration:     200, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.800000  searchobserver.py:83
+[12:11:11] INFO     Iteration:     202, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.800000  searchobserver.py:83
+[12:11:12] INFO     Iteration:     204, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0715, (N) -0.857
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0389 (N) 0.3888, 
+| TournamentSize: (DN) 0.9477 (N) 0.9477, 
+-----------------------------------
+           INFO     Iteration:     205, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.800000  searchobserver.py:83
+[12:11:13] INFO     Iteration:     207, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     208, Coverage: 0.800000  searchobserver.py:83
+[12:11:14] INFO     Iteration:     209, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1104, (N) -0.7792
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0947 (N) -0.9472, 
+| TournamentSize: (DN) 0.6308 (N) 0.6308, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.800000  searchobserver.py:83
+[12:11:15] INFO     Iteration:     211, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.800000  searchobserver.py:83
+[12:11:16] INFO     Iteration:     214, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0157, (N) -0.9687
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0198 (N) -0.1983, 
+| TournamentSize: (DN) -0.9465 (N) -0.9465, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.800000  searchobserver.py:83
+[12:11:17] INFO     Iteration:     216, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.800000  searchobserver.py:83
+[12:11:18] INFO     Iteration:     218, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     219, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0178 (N) -0.1778, 
+| TournamentSize: (DN) 0.2169 (N) 0.2169, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.800000  searchobserver.py:83
+[12:11:19] INFO     Iteration:     221, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     222, Coverage: 0.800000  searchobserver.py:83
+[12:11:20] INFO     Iteration:     223, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     224, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0506 (N) -0.5059, 
+| TournamentSize: (DN) 0.4227 (N) 0.4227, 
+-----------------------------------
+[12:11:21] INFO     Iteration:     225, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.800000  searchobserver.py:83
+[12:11:22] INFO     Iteration:     227, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     228, Coverage: 0.800000  searchobserver.py:83
+[12:11:23] INFO     Iteration:     229, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0185 (N) -0.1855, 
+| TournamentSize: (DN) 0.1842 (N) 0.1842, 
+-----------------------------------
+           INFO     Iteration:     230, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.800000  searchobserver.py:83
+[12:11:24] INFO     Iteration:     232, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.800000  searchobserver.py:83
+[12:11:25] INFO     Iteration:     234, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0409 (N) 0.4085, 
+| TournamentSize: (DN) 0.6718 (N) 0.6718, 
+-----------------------------------
+           INFO     Iteration:     235, Coverage: 0.800000  searchobserver.py:83
+[12:11:26] INFO     Iteration:     236, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     238, Coverage: 0.800000  searchobserver.py:83
+[12:11:27] INFO     Iteration:     239, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.0409, (N) -0.9183
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0778 (N) 0.7777, 
+| TournamentSize: (DN) -0.1318 (N) -0.1318, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     241, Coverage: 0.800000  searchobserver.py:83
+[12:11:28] INFO     Iteration:     242, Coverage: 0.800000  searchobserver.py:83
+[12:11:29] INFO     Iteration:     243, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     244, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1186, (N) -0.7627
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.026 (N) 0.2595, 
+| TournamentSize: (DN) 0.1668 (N) 0.1668, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.800000  searchobserver.py:83
+[12:11:30] INFO     Iteration:     246, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     247, Coverage: 0.800000  searchobserver.py:83
+[12:11:31] INFO     Iteration:     248, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     249, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.1446, (N) -0.7108
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0544 (N) 0.5439, 
+| TournamentSize: (DN) 0.688 (N) 0.688, 
+-----------------------------------
+[12:11:32] INFO     Iteration:     250, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     251, Coverage: 0.800000  searchobserver.py:83
+[12:11:33] INFO     Iteration:     252, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     253, Coverage: 0.800000  searchobserver.py:83
+[12:11:34] INFO     Iteration:     254, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.199, (N) -0.6021
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0841 (N) 0.8413, 
+| TournamentSize: (DN) 0.6468 (N) 0.6468, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.800000  searchobserver.py:83
+[12:11:35] INFO     Iteration:     256, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     257, Coverage: 0.800000  searchobserver.py:83
+[12:11:36] INFO     Iteration:     258, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     259, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2831, (N) -0.4338
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0154 (N) -0.1543, 
+| TournamentSize: (DN) 0.422 (N) 0.422, 
+-----------------------------------
+[12:11:37] INFO     Iteration:     260, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     261, Coverage: 0.800000  searchobserver.py:83
+[12:11:38] INFO     Iteration:     262, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.800000  searchobserver.py:83
+[12:11:39] INFO     Iteration:     264, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2677, (N) -0.4647
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0088 (N) -0.088, 
+| TournamentSize: (DN) 0.8039 (N) 0.8039, 
+-----------------------------------
+           INFO     Iteration:     265, Coverage: 0.800000  searchobserver.py:83
+[12:11:40] INFO     Iteration:     266, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.800000  searchobserver.py:83
+[12:11:41] INFO     Iteration:     268, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.2589, (N) -0.4823
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0904 (N) 0.9037, 
+| TournamentSize: (DN) 0.8082 (N) 0.8082, 
+-----------------------------------
+           INFO     Iteration:     270, Coverage: 0.800000  searchobserver.py:83
+[12:11:42] INFO     Iteration:     271, Coverage: 0.800000  searchobserver.py:83
+[12:11:43] INFO     Iteration:     272, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     273, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3492, (N) -0.3015
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0009 (N) 0.0093, 
+| TournamentSize: (DN) -0.137 (N) -0.137, 
+-----------------------------------
+[12:11:44] INFO     Iteration:     275, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     276, Coverage: 0.800000  searchobserver.py:83
+[12:11:45] INFO     Iteration:     277, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.800000  searchobserver.py:83
+[12:11:46] INFO     Iteration:     279, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3502, (N) -0.2997
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0255 (N) 0.255, 
+| TournamentSize: (DN) -0.8388 (N) -0.8388, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.800000  searchobserver.py:83
+[12:11:47] INFO     Iteration:     281, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     282, Coverage: 0.800000  searchobserver.py:83
+[12:11:48] INFO     Iteration:     283, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     284, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.3757, (N) -0.2487
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0493 (N) 0.4934, 
+| TournamentSize: (DN) 0.3782 (N) 0.3782, 
+-----------------------------------
+[12:11:49] INFO     Iteration:     285, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     286, Coverage: 0.800000  searchobserver.py:83
+[12:11:50] INFO     Iteration:     287, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     288, Coverage: 0.800000  searchobserver.py:83
+[12:11:51] INFO     Iteration:     289, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.425, (N) -0.15
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0729 (N) 0.7294, 
+| TournamentSize: (DN) 0.3531 (N) 0.3531, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.800000  searchobserver.py:83
+[12:11:52] INFO     Iteration:     291, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     292, Coverage: 0.800000  searchobserver.py:83
+[12:11:53] INFO     Iteration:     293, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     294, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.498, (N) -0.0041
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0525 (N) 0.5252, 
+| TournamentSize: (DN) 0.8046 (N) 0.8046, 
+-----------------------------------
+[12:11:54] INFO     Iteration:     295, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.800000  searchobserver.py:83
+[12:11:55] INFO     Iteration:     297, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     298, Coverage: 0.800000  searchobserver.py:83
+[12:11:56] INFO     Iteration:     299, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.5505, (N) 0.101
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0006 (N) 0.0062, 
+| TournamentSize: (DN) -0.8052 (N) -0.8052, 
+-----------------------------------
+[12:11:57] INFO     Iteration:     300, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     301, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.800000  searchobserver.py:83
+[12:11:58] INFO     Iteration:     303, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.5511, (N) 0.1022
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0746 (N) 0.7462, 
+| TournamentSize: (DN) -0.7242 (N) -0.7242, 
+-----------------------------------
+[12:11:59] INFO     Iteration:     305, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     306, Coverage: 0.800000  searchobserver.py:83
+[12:12:00] INFO     Iteration:     307, Coverage: 0.800000  searchobserver.py:83
+[12:12:01] INFO     Iteration:     308, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6257, (N) 0.2514
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0702 (N) 0.7016, 
+| TournamentSize: (DN) 0.6237 (N) 0.6237, 
+-----------------------------------
+[12:12:02] INFO     Iteration:     310, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     311, Coverage: 0.800000  searchobserver.py:83
+[12:12:03] INFO     Iteration:     312, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.800000  searchobserver.py:83
+[12:12:04] INFO     Iteration:     314, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6959, (N) 0.3918
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0081 (N) -0.0812, 
+| TournamentSize: (DN) -0.5256 (N) -0.5256, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.800000  searchobserver.py:83
+[12:12:05] INFO     Iteration:     316, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     317, Coverage: 0.800000  searchobserver.py:83
+[12:12:06] INFO     Iteration:     318, Coverage: 0.800000  searchobserver.py:83
+[12:12:07] INFO     Iteration:     319, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6878, (N) 0.3755
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0398 (N) 0.3979, 
+| TournamentSize: (DN) 0.6179 (N) 0.6179, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     321, Coverage: 0.800000  searchobserver.py:83
+[12:12:08] INFO     Iteration:     322, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.800000  searchobserver.py:83
+[12:12:09] INFO     Iteration:     324, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7275, (N) 0.4551
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0707 (N) 0.7072, 
+| TournamentSize: (DN) 0.1459 (N) 0.1459, 
+-----------------------------------
+[12:12:10] INFO     Iteration:     325, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     326, Coverage: 0.800000  searchobserver.py:83
+[12:12:11] INFO     Iteration:     327, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     329, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7983, (N) 0.5965
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0829 (N) 0.8295, 
+| TournamentSize: (DN) 0.2715 (N) 0.2715, 
+-----------------------------------
+[12:12:12] INFO     Iteration:     330, Coverage: 0.800000  searchobserver.py:83
+[12:12:13] INFO     Iteration:     331, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     332, Coverage: 0.800000  searchobserver.py:83
+[12:12:14] INFO     Iteration:     333, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8812, (N) 0.7624
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0665 (N) -0.6655, 
+| TournamentSize: (DN) 0.5088 (N) 0.5088, 
+-----------------------------------
+[12:12:15] INFO     Iteration:     335, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.800000  searchobserver.py:83
+[12:12:16] INFO     Iteration:     337, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     338, Coverage: 0.800000  searchobserver.py:83
+[12:12:17] INFO     Iteration:     339, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8147, (N) 0.6293
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0886 (N) -0.886, 
+| TournamentSize: (DN) 0.2202 (N) 0.2202, 
+-----------------------------------
+           INFO     Iteration:     340, Coverage: 0.800000  searchobserver.py:83
+[12:12:18] INFO     Iteration:     341, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.800000  searchobserver.py:83
+[12:12:19] INFO     Iteration:     343, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     344, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7261, (N) 0.4521
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0749 (N) 0.7485, 
+| TournamentSize: (DN) 0.5834 (N) 0.5834, 
+-----------------------------------
+[12:12:20] INFO     Iteration:     345, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.800000  searchobserver.py:83
+[12:12:21] INFO     Iteration:     347, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     348, Coverage: 0.800000  searchobserver.py:83
+[12:12:22] INFO     Iteration:     349, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8009, (N) 0.6018
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0162 (N) 0.162, 
+| TournamentSize: (DN) -0.7988 (N) -0.7988, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.800000  searchobserver.py:83
+[12:12:23] INFO     Iteration:     351, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     352, Coverage: 0.800000  searchobserver.py:83
+[12:12:24] INFO     Iteration:     353, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     354, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8171, (N) 0.6342
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0985 (N) 0.9852, 
+| TournamentSize: (DN) 0.0327 (N) 0.0327, 
+-----------------------------------
+[12:12:25] INFO     Iteration:     355, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.800000  searchobserver.py:83
+[12:12:26] INFO     Iteration:     357, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9156, (N) 0.8313
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0595 (N) 0.5949, 
+| TournamentSize: (DN) -0.9531 (N) -0.9531, 
+-----------------------------------
+[12:12:27] INFO     Iteration:     360, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     361, Coverage: 0.800000  searchobserver.py:83
+[12:12:28] INFO     Iteration:     362, Coverage: 0.800000  searchobserver.py:83
+[12:12:29] INFO     Iteration:     363, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     364, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9751, (N) 0.9503
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0826 (N) 0.8256, 
+| TournamentSize: (DN) 0.032 (N) 0.032, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.800000  searchobserver.py:83
+[12:12:30] INFO     Iteration:     366, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     367, Coverage: 0.800000  searchobserver.py:83
+[12:12:31] INFO     Iteration:     368, Coverage: 0.800000  searchobserver.py:83
+[12:12:32] INFO     Iteration:     369, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.097 (N) 0.9697, 
+| TournamentSize: (DN) 0.322 (N) 0.322, 
+-----------------------------------
+           INFO     Iteration:     370, Coverage: 0.800000  searchobserver.py:83
+[12:12:33] INFO     Iteration:     371, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.800000  searchobserver.py:83
+[12:12:34] INFO     Iteration:     373, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     374, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0592 (N) -0.5922, 
+| TournamentSize: (DN) -0.407 (N) -0.407, 
+-----------------------------------
+[12:12:35] INFO     Iteration:     375, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     376, Coverage: 0.800000  searchobserver.py:83
+[12:12:36] INFO     Iteration:     377, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     378, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     379, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9408, (N) 0.8816
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0346 (N) -0.3455, 
+| TournamentSize: (DN) 0.1178 (N) 0.1178, 
+-----------------------------------
+[12:12:37] INFO     Iteration:     380, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     381, Coverage: 0.800000  searchobserver.py:83
+[12:12:38] INFO     Iteration:     382, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.800000  searchobserver.py:83
+[12:12:39] INFO     Iteration:     384, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9062, (N) 0.8125
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0008 (N) 0.008, 
+| TournamentSize: (DN) 0.1596 (N) 0.1596, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.800000  searchobserver.py:83
+[12:12:40] INFO     Iteration:     386, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.800000  searchobserver.py:83
+[12:12:41] INFO     Iteration:     389, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.907, (N) 0.814
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0222 (N) 0.2215, 
+| TournamentSize: (DN) -0.5558 (N) -0.5558, 
+-----------------------------------
+           INFO     Iteration:     390, Coverage: 0.800000  searchobserver.py:83
+[12:12:42] INFO     Iteration:     391, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     392, Coverage: 0.800000  searchobserver.py:83
+[12:12:43] INFO     Iteration:     393, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9292, (N) 0.8584
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0804 (N) -0.8036, 
+| TournamentSize: (DN) -0.4671 (N) -0.4671, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.800000  searchobserver.py:83
+[12:12:44] INFO     Iteration:     396, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.800000  searchobserver.py:83
+[12:12:45] INFO     Iteration:     398, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     399, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8488, (N) 0.6976
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0901 (N) -0.9006, 
+| TournamentSize: (DN) -0.8448 (N) -0.8448, 
+-----------------------------------
+[12:12:46] INFO     Iteration:     400, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     402, Coverage: 0.800000  searchobserver.py:83
+[12:12:47] INFO     Iteration:     403, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7588, (N) 0.5175
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0336 (N) -0.3357, 
+| TournamentSize: (DN) 0.9814 (N) 0.9814, 
+-----------------------------------
+[12:12:48] INFO     Iteration:     405, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     406, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.800000  searchobserver.py:83
+[12:12:49] INFO     Iteration:     408, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     409, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7252, (N) 0.4504
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0223 (N) 0.2225, 
+| TournamentSize: (DN) -0.9684 (N) -0.9684, 
+-----------------------------------
+[12:12:50] INFO     Iteration:     410, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     411, Coverage: 0.800000  searchobserver.py:83
+[12:12:51] INFO     Iteration:     412, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     414, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7474, (N) 0.4949
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0848 (N) -0.8476, 
+| TournamentSize: (DN) 0.1745 (N) 0.1745, 
+-----------------------------------
+[12:12:52] INFO     Iteration:     415, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     417, Coverage: 0.800000  searchobserver.py:83
+[12:12:53] INFO     Iteration:     418, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     419, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6627, (N) 0.3253
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0543 (N) 0.5431, 
+| TournamentSize: (DN) -0.4021 (N) -0.4021, 
+-----------------------------------
+[12:12:54] INFO     Iteration:     420, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     421, Coverage: 0.800000  searchobserver.py:83
+[12:12:55] INFO     Iteration:     422, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     423, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.717, (N) 0.434
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0373 (N) 0.3729, 
+| TournamentSize: (DN) 0.5322 (N) 0.5322, 
+-----------------------------------
+[12:12:56] INFO     Iteration:     425, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     426, Coverage: 0.800000  searchobserver.py:83
+[12:12:57] INFO     Iteration:     427, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     429, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7543, (N) 0.5085
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.058 (N) 0.5801, 
+| TournamentSize: (DN) -0.4709 (N) -0.4709, 
+-----------------------------------
+[12:12:58] INFO     Iteration:     430, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     432, Coverage: 0.800000  searchobserver.py:83
+[12:12:59] INFO     Iteration:     433, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     434, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8123, (N) 0.6246
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.099 (N) -0.9897, 
+| TournamentSize: (DN) 0.4387 (N) 0.4387, 
+-----------------------------------
+[12:13:00] INFO     Iteration:     435, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     436, Coverage: 0.800000  searchobserver.py:83
+[12:13:01] INFO     Iteration:     437, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     438, Coverage: 0.800000  searchobserver.py:83
+[12:13:02] INFO     Iteration:     439, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7133, (N) 0.4266
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0084 (N) -0.0842, 
+| TournamentSize: (DN) -0.1422 (N) -0.1422, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.800000  searchobserver.py:83
+[12:13:03] INFO     Iteration:     441, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     442, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.800000  searchobserver.py:83
+[12:13:04] INFO     Iteration:     444, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7049, (N) 0.4098
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0855 (N) 0.8546, 
+| TournamentSize: (DN) 0.2578 (N) 0.2578, 
+-----------------------------------
+           INFO     Iteration:     445, Coverage: 0.800000  searchobserver.py:83
+[12:13:05] INFO     Iteration:     446, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     448, Coverage: 0.800000  searchobserver.py:83
+[12:13:06] INFO     Iteration:     449, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7903, (N) 0.5807
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0884 (N) 0.8839, 
+| TournamentSize: (DN) -0.9222 (N) -0.9222, 
+-----------------------------------
+           INFO     Iteration:     450, Coverage: 0.800000  searchobserver.py:83
+[12:13:07] INFO     Iteration:     451, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.800000  searchobserver.py:83
+[12:13:08] INFO     Iteration:     453, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8787, (N) 0.7575
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0572 (N) 0.5721, 
+| TournamentSize: (DN) -0.6608 (N) -0.6608, 
+-----------------------------------
+[12:13:09] INFO     Iteration:     455, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.800000  searchobserver.py:83
+[12:13:10] INFO     Iteration:     457, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     458, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9359, (N) 0.8719
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0247 (N) -0.2475, 
+| TournamentSize: (DN) -0.3293 (N) -0.3293, 
+-----------------------------------
+[12:13:11] INFO     Iteration:     460, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     461, Coverage: 0.800000  searchobserver.py:83
+[12:13:12] INFO     Iteration:     462, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     464, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9112, (N) 0.8224
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0529 (N) -0.5293, 
+| TournamentSize: (DN) -0.1561 (N) -0.1561, 
+-----------------------------------
+[12:13:13] INFO     Iteration:     465, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     466, Coverage: 0.800000  searchobserver.py:83
+[12:13:14] INFO     Iteration:     467, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     468, Coverage: 0.800000  searchobserver.py:83
+[12:13:15] INFO     Iteration:     469, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8583, (N) 0.7165
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0318 (N) -0.3179, 
+| TournamentSize: (DN) -0.9495 (N) -0.9495, 
+-----------------------------------
+           INFO     Iteration:     470, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     471, Coverage: 0.800000  searchobserver.py:83
+[12:13:16] INFO     Iteration:     472, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.800000  searchobserver.py:83
+[12:13:17] INFO     Iteration:     474, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8265, (N) 0.653
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0119 (N) 0.1187, 
+| TournamentSize: (DN) 0.8301 (N) 0.8301, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.800000  searchobserver.py:83
+[12:13:18] INFO     Iteration:     477, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.800000  searchobserver.py:83
+[12:13:19] INFO     Iteration:     479, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8383, (N) 0.6767
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0694 (N) -0.6944, 
+| TournamentSize: (DN) -0.8601 (N) -0.8601, 
+-----------------------------------
+           INFO     Iteration:     480, Coverage: 0.800000  searchobserver.py:83
+[12:13:20] INFO     Iteration:     481, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     483, Coverage: 0.800000  searchobserver.py:83
+[12:13:21] INFO     Iteration:     484, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7689, (N) 0.5378
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0445 (N) 0.4447, 
+| TournamentSize: (DN) 0.2468 (N) 0.2468, 
+-----------------------------------
+           INFO     Iteration:     485, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.800000  searchobserver.py:83
+[12:13:22] INFO     Iteration:     487, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     488, Coverage: 0.800000  searchobserver.py:83
+[12:13:23] INFO     Iteration:     489, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8134, (N) 0.6268
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0985 (N) -0.9851, 
+| TournamentSize: (DN) 0.8502 (N) 0.8502, 
+-----------------------------------
+           INFO     Iteration:     490, Coverage: 0.800000  searchobserver.py:83
+[12:13:24] INFO     Iteration:     491, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.800000  searchobserver.py:83
+[12:13:25] INFO     Iteration:     494, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7149, (N) 0.4297
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0238 (N) 0.2381, 
+| TournamentSize: (DN) -0.1736 (N) -0.1736, 
+-----------------------------------
+           INFO     Iteration:     495, Coverage: 0.800000  searchobserver.py:83
+[12:13:26] INFO     Iteration:     496, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     498, Coverage: 0.800000  searchobserver.py:83
+[12:13:27] INFO     Iteration:     499, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7387, (N) 0.4774
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0822 (N) -0.8222, 
+| TournamentSize: (DN) 0.5575 (N) 0.5575, 
+-----------------------------------
+           INFO     Iteration:     500, Coverage: 0.800000  searchobserver.py:83
+[12:13:28] INFO     Iteration:     501, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     502, Coverage: 0.800000  searchobserver.py:83
+[12:13:29] INFO     Iteration:     503, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     504, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6565, (N) 0.3129
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0207 (N) -0.2066, 
+| TournamentSize: (DN) 0.7859 (N) 0.7859, 
+-----------------------------------
+           INFO     Iteration:     505, Coverage: 0.800000  searchobserver.py:83
+[12:13:30] INFO     Iteration:     506, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.800000  searchobserver.py:83
+[12:13:31] INFO     Iteration:     508, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6358, (N) 0.2716
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0698 (N) 0.6979, 
+| TournamentSize: (DN) 0.5233 (N) 0.5233, 
+-----------------------------------
+[12:13:32] INFO     Iteration:     510, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.800000  searchobserver.py:83
+[12:13:33] INFO     Iteration:     512, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     514, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7056, (N) 0.4112
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0388 (N) -0.3885, 
+| TournamentSize: (DN) -0.8537 (N) -0.8537, 
+-----------------------------------
+[12:13:34] INFO     Iteration:     515, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.800000  searchobserver.py:83
+[12:13:35] INFO     Iteration:     517, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.800000  searchobserver.py:83
+[12:13:36] INFO     Iteration:     519, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6667, (N) 0.3335
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0617 (N) 0.617, 
+| TournamentSize: (DN) -0.9624 (N) -0.9624, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.800000  searchobserver.py:83
+[12:13:37] INFO     Iteration:     522, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.800000  searchobserver.py:83
+[12:13:38] INFO     Iteration:     524, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7284, (N) 0.4569
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0895 (N) 0.8953, 
+| TournamentSize: (DN) -0.3188 (N) -0.3188, 
+-----------------------------------
+           INFO     Iteration:     525, Coverage: 0.800000  searchobserver.py:83
+[12:13:39] INFO     Iteration:     526, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.800000  searchobserver.py:83
+[12:13:40] INFO     Iteration:     528, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.818, (N) 0.6359
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0489 (N) 0.489, 
+| TournamentSize: (DN) 0.9314 (N) 0.9314, 
+-----------------------------------
+           INFO     Iteration:     530, Coverage: 0.800000  searchobserver.py:83
+[12:13:41] INFO     Iteration:     531, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     532, Coverage: 0.800000  searchobserver.py:83
+[12:13:42] INFO     Iteration:     533, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     534, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8669, (N) 0.7337
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0443 (N) -0.4434, 
+| TournamentSize: (DN) -0.3465 (N) -0.3465, 
+-----------------------------------
+[12:13:43] INFO     Iteration:     535, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     536, Coverage: 0.800000  searchobserver.py:83
+[12:13:44] INFO     Iteration:     537, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     538, Coverage: 0.800000  searchobserver.py:83
+[12:13:45] INFO     Iteration:     539, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8225, (N) 0.6451
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0076 (N) -0.0765, 
+| TournamentSize: (DN) -0.9417 (N) -0.9417, 
+-----------------------------------
+           INFO     Iteration:     540, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.800000  searchobserver.py:83
+[12:13:46] INFO     Iteration:     542, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.800000  searchobserver.py:83
+[12:13:47] INFO     Iteration:     544, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8149, (N) 0.6298
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0077 (N) -0.077, 
+| TournamentSize: (DN) -0.0063 (N) -0.0063, 
+-----------------------------------
+           INFO     Iteration:     545, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.800000  searchobserver.py:83
+[12:13:48] INFO     Iteration:     547, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.800000  searchobserver.py:83
+[12:13:49] INFO     Iteration:     549, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8072, (N) 0.6144
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0569 (N) -0.5688, 
+| TournamentSize: (DN) 0.6583 (N) 0.6583, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.800000  searchobserver.py:83
+[12:13:50] INFO     Iteration:     551, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     552, Coverage: 0.800000  searchobserver.py:83
+[12:13:51] INFO     Iteration:     553, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7503, (N) 0.5006
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0812 (N) -0.8121, 
+| TournamentSize: (DN) 0.2729 (N) 0.2729, 
+-----------------------------------
+[12:13:52] INFO     Iteration:     555, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     556, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     557, Coverage: 0.800000  searchobserver.py:83
+[12:13:53] INFO     Iteration:     558, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6691, (N) 0.3382
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0335 (N) 0.3349, 
+| TournamentSize: (DN) 0.4605 (N) 0.4605, 
+-----------------------------------
+[12:13:54] INFO     Iteration:     560, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     561, Coverage: 0.800000  searchobserver.py:83
+[12:13:55] INFO     Iteration:     562, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     563, Coverage: 0.800000  searchobserver.py:83
+[12:13:56] INFO     Iteration:     564, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7026, (N) 0.4052
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.054 (N) 0.5399, 
+| TournamentSize: (DN) -0.7992 (N) -0.7992, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.800000  searchobserver.py:83
+[12:13:57] INFO     Iteration:     566, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     567, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.800000  searchobserver.py:83
+[12:13:58] INFO     Iteration:     569, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7566, (N) 0.5131
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0647 (N) 0.6474, 
+| TournamentSize: (DN) -0.9371 (N) -0.9371, 
+-----------------------------------
+           INFO     Iteration:     570, Coverage: 0.800000  searchobserver.py:83
+[12:13:59] INFO     Iteration:     571, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     573, Coverage: 0.800000  searchobserver.py:83
+[12:14:00] INFO     Iteration:     574, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8213, (N) 0.6426
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0493 (N) 0.493, 
+| TournamentSize: (DN) -0.1108 (N) -0.1108, 
+-----------------------------------
+           INFO     Iteration:     575, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.800000  searchobserver.py:83
+[12:14:01] INFO     Iteration:     577, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.800000  searchobserver.py:83
+[12:14:02] INFO     Iteration:     579, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8706, (N) 0.7412
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0753 (N) 0.7534, 
+| TournamentSize: (DN) -0.5703 (N) -0.5703, 
+-----------------------------------
+           INFO     Iteration:     580, Coverage: 0.800000  searchobserver.py:83
+[12:14:03] INFO     Iteration:     581, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     582, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.800000  searchobserver.py:83
+[12:14:04] INFO     Iteration:     584, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9459, (N) 0.8919
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0197 (N) 0.1965, 
+| TournamentSize: (DN) 0.3692 (N) 0.3692, 
+-----------------------------------
+           INFO     Iteration:     585, Coverage: 0.800000  searchobserver.py:83
+[12:14:05] INFO     Iteration:     586, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     587, Coverage: 0.800000  searchobserver.py:83
+[12:14:06] INFO     Iteration:     588, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     589, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9656, (N) 0.9312
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0651 (N) -0.6512, 
+| TournamentSize: (DN) -0.2118 (N) -0.2118, 
+-----------------------------------
+[12:14:07] INFO     Iteration:     590, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     591, Coverage: 0.800000  searchobserver.py:83
+[12:14:08] INFO     Iteration:     592, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     593, Coverage: 0.800000  searchobserver.py:83
+[12:14:09] INFO     Iteration:     594, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9005, (N) 0.801
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0487 (N) -0.4872, 
+| TournamentSize: (DN) -0.7117 (N) -0.7117, 
+-----------------------------------
+           INFO     Iteration:     595, Coverage: 0.800000  searchobserver.py:83
+[12:14:10] INFO     Iteration:     596, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     597, Coverage: 0.800000  searchobserver.py:83
+[12:14:11] INFO     Iteration:     598, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     599, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8518, (N) 0.7035
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0816 (N) 0.8158, 
+| TournamentSize: (DN) 0.6315 (N) 0.6315, 
+-----------------------------------
+[12:14:12] INFO     Iteration:     600, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     601, Coverage: 0.800000  searchobserver.py:83
+[12:14:13] INFO     Iteration:     602, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     603, Coverage: 0.800000  searchobserver.py:83
+[12:14:14] INFO     Iteration:     604, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9333, (N) 0.8667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0364 (N) 0.3645, 
+| TournamentSize: (DN) 0.7374 (N) 0.7374, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.800000  searchobserver.py:83
+[12:14:15] INFO     Iteration:     606, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     607, Coverage: 0.800000  searchobserver.py:83
+[12:14:16] INFO     Iteration:     608, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9698, (N) 0.9396
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0839 (N) -0.8386, 
+| TournamentSize: (DN) -0.3667 (N) -0.3667, 
+-----------------------------------
+[12:14:17] INFO     Iteration:     610, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     611, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.800000  searchobserver.py:83
+[12:14:18] INFO     Iteration:     613, Coverage: 0.800000  searchobserver.py:83
+[12:14:19] INFO     Iteration:     614, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8859, (N) 0.7719
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0057 (N) 0.0575, 
+| TournamentSize: (DN) -0.844 (N) -0.844, 
+-----------------------------------
+           INFO     Iteration:     615, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     616, Coverage: 0.800000  searchobserver.py:83
+[12:14:20] INFO     Iteration:     617, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     618, Coverage: 0.800000  searchobserver.py:83
+[12:14:21] INFO     Iteration:     619, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.8917, (N) 0.7833
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0259 (N) 0.2591, 
+| TournamentSize: (DN) 0.9774 (N) 0.9774, 
+-----------------------------------
+           INFO     Iteration:     620, Coverage: 0.800000  searchobserver.py:83
+[12:14:22] INFO     Iteration:     621, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     622, Coverage: 0.800000  searchobserver.py:83
+[12:14:23] INFO     Iteration:     623, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     624, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9176, (N) 0.8352
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0754 (N) 0.7535, 
+| TournamentSize: (DN) -0.8974 (N) -0.8974, 
+-----------------------------------
+[12:14:24] INFO     Iteration:     625, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     626, Coverage: 0.800000  searchobserver.py:83
+[12:14:25] INFO     Iteration:     627, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     628, Coverage: 0.800000  searchobserver.py:83
+[12:14:26] INFO     Iteration:     629, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9929, (N) 0.9859
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0332 (N) -0.3319, 
+| TournamentSize: (DN) -0.1512 (N) -0.1512, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     631, Coverage: 0.800000  searchobserver.py:83
+[12:14:27] INFO     Iteration:     632, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     633, Coverage: 0.800000  searchobserver.py:83
+[12:14:28] INFO     Iteration:     634, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9597, (N) 0.9195
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0929 (N) 0.9291, 
+| TournamentSize: (DN) 0.4924 (N) 0.4924, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.800000  searchobserver.py:83
+[12:14:29] INFO     Iteration:     636, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     637, Coverage: 0.800000  searchobserver.py:83
+[12:14:30] INFO     Iteration:     638, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     639, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0891 (N) -0.8908, 
+| TournamentSize: (DN) 0.1782 (N) 0.1782, 
+-----------------------------------
+[12:14:31] INFO     Iteration:     640, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     641, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.800000  searchobserver.py:83
+[12:14:32] INFO     Iteration:     643, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     644, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9109, (N) 0.8218
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.076 (N) 0.7603, 
+| TournamentSize: (DN) -0.9893 (N) -0.9893, 
+-----------------------------------
+[12:14:33] INFO     Iteration:     645, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     646, Coverage: 0.800000  searchobserver.py:83
+[12:14:34] INFO     Iteration:     647, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     649, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.987, (N) 0.9739
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0022 (N) 0.0219, 
+| TournamentSize: (DN) 0.7545 (N) 0.7545, 
+-----------------------------------
+[12:14:35] INFO     Iteration:     650, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.800000  searchobserver.py:83
+[12:14:36] INFO     Iteration:     652, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.800000  searchobserver.py:83
+[12:14:37] INFO     Iteration:     654, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.9891, (N) 0.9783
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0812 (N) -0.8117, 
+| TournamentSize: (DN) -0.7769 (N) -0.7769, 
+-----------------------------------
+           INFO     Iteration:     655, Coverage: 0.800000  searchobserver.py:83
+[12:14:38] INFO     Iteration:     656, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     657, Coverage: 0.800000  searchobserver.py:83
+[12:14:39] INFO     Iteration:     658, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.908, (N) 0.8159
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.064 (N) -0.6398, 
+| TournamentSize: (DN) -0.8542 (N) -0.8542, 
+-----------------------------------
+[12:14:40] INFO     Iteration:     660, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     661, Coverage: 0.800000  searchobserver.py:83
+[12:14:41] INFO     Iteration:     662, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     663, Coverage: 0.800000  searchobserver.py:83
+[12:14:42] INFO     Iteration:     664, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.844, (N) 0.688
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0535 (N) -0.5346, 
+| TournamentSize: (DN) -0.0243 (N) -0.0243, 
+-----------------------------------
+           INFO     Iteration:     665, Coverage: 0.800000  searchobserver.py:83
+[12:14:43] INFO     Iteration:     666, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     668, Coverage: 0.800000  searchobserver.py:83
+[12:14:44] INFO     Iteration:     669, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7905, (N) 0.5811
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0868 (N) -0.8683, 
+| TournamentSize: (DN) -0.2873 (N) -0.2873, 
+-----------------------------------
+           INFO     Iteration:     670, Coverage: 0.800000  searchobserver.py:83
+[12:14:45] INFO     Iteration:     671, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     672, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.800000  searchobserver.py:83
+[12:14:46] INFO     Iteration:     674, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7037, (N) 0.4074
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) 0.0066 (N) 0.0657, 
+| TournamentSize: (DN) 0.8382 (N) 0.8382, 
+-----------------------------------
+[12:14:47] INFO     Iteration:     675, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     676, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.800000  searchobserver.py:83
+[12:14:48] INFO     Iteration:     678, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.7103, (N) 0.4205
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0454 (N) -0.4537, 
+| TournamentSize: (DN) -0.5863 (N) -0.5863, 
+-----------------------------------
+[12:14:49] INFO     Iteration:     680, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.800000  searchobserver.py:83
+[12:14:50] INFO     Iteration:     682, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     684, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| TestDeleteProbability: (DN) 0.6649, (N) 0.3298
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| TestDeleteProbability: (DN) -0.0223 (N) -0.2228, 
+| TournamentSize: (DN) 0.3675 (N) 0.3675, 
+-----------------------------------
+[12:14:51] INFO     Iteration:     685, Coverage: 0.800000  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 6 test cases to                     generator.py:720
+                    /output/test_mimesis_builtins_da.py                         
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110
