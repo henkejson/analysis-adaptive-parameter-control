@@ -1,0 +1,2105 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[15:06:41] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 31092                      generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+[15:06:42] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     0                              module.py:1323
+           INFO     Classes:      17                              module.py:1324
+           INFO     Using seed 1714403198748845248              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 25 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.800000  searchobserver.py:77
+[15:06:43] INFO     Iteration:       1, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.800000  searchobserver.py:83
+New coverage achieved...
+[15:06:44] INFO     Iteration:       5, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.800000  searchobserver.py:83
+[15:06:45] INFO     Iteration:       9, Coverage: 0.800000  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      10, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.800000  searchobserver.py:83
+[15:06:46] INFO     Iteration:      12, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.800000  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0013 (N) -0.0133, 
+| TestInsertionProbability: (DN) -0.0117 (N) -0.1172, 
+-----------------------------------
+[15:06:47] INFO     Iteration:      15, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.800000  searchobserver.py:83
+[15:06:48] INFO     Iteration:      17, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4987, (N) -0.0027
+| TestInsertionProbability: (DN) 0.0883, (N) -0.8234
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0003 (N) 0.003, 
+| TestInsertionProbability: (DN) -0.0502 (N) -0.5019, 
+-----------------------------------
+[15:06:49] INFO     Iteration:      20, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.800000  searchobserver.py:83
+[15:06:50] INFO     Iteration:      23, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.499, (N) -0.0021
+| TestInsertionProbability: (DN) 0.0381, (N) -0.9238
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0659 (N) -0.6586, 
+| TestInsertionProbability: (DN) -0.0495 (N) -0.4946, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.800000  searchobserver.py:83
+[15:06:51] INFO     Iteration:      26, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.800000  searchobserver.py:83
+[15:06:52] INFO     Iteration:      29, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4331, (N) -0.1338
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0899 (N) 0.8992, 
+| TestInsertionProbability: (DN) 0.0052 (N) 0.0518, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.800000  searchobserver.py:83
+[15:06:53] INFO     Iteration:      32, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.523, (N) 0.0461
+| TestInsertionProbability: (DN) 0.0052, (N) -0.9896
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0142 (N) -0.1423, 
+| TestInsertionProbability: (DN) 0.08 (N) 0.8, 
+-----------------------------------
+[15:06:54] INFO     Iteration:      35, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.800000  searchobserver.py:83
+[15:06:55] INFO     Iteration:      38, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5088, (N) 0.0176
+| TestInsertionProbability: (DN) 0.0852, (N) -0.8296
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0474 (N) -0.4741, 
+| TestInsertionProbability: (DN) -0.0367 (N) -0.3674, 
+-----------------------------------
+           INFO     Iteration:      40, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.800000  searchobserver.py:83
+[15:06:56] INFO     Iteration:      42, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4614, (N) -0.0772
+| TestInsertionProbability: (DN) 0.0484, (N) -0.9031
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0678 (N) 0.6777, 
+| TestInsertionProbability: (DN) -0.0133 (N) -0.1332, 
+-----------------------------------
+[15:06:57] INFO     Iteration:      45, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.800000  searchobserver.py:83
+[15:06:58] INFO     Iteration:      48, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5292, (N) 0.0583
+| TestInsertionProbability: (DN) 0.0351, (N) -0.9298
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0331 (N) 0.3312, 
+| TestInsertionProbability: (DN) 0.0269 (N) 0.2689, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.800000  searchobserver.py:83
+[15:06:59] INFO     Iteration:      52, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      54, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5623, (N) 0.1246
+| TestInsertionProbability: (DN) 0.062, (N) -0.876
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0807 (N) -0.807, 
+| TestInsertionProbability: (DN) 0.0833 (N) 0.8333, 
+-----------------------------------
+[15:07:00] INFO     Iteration:      55, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      57, Coverage: 0.800000  searchobserver.py:83
+[15:07:01] INFO     Iteration:      58, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4816, (N) -0.0368
+| TestInsertionProbability: (DN) 0.1453, (N) -0.7093
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0525 (N) -0.5254, 
+| TestInsertionProbability: (DN) -0.0238 (N) -0.2383, 
+-----------------------------------
+           INFO     Iteration:      60, Coverage: 0.800000  searchobserver.py:83
+[15:07:02] INFO     Iteration:      61, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.800000  searchobserver.py:83
+[15:07:03] INFO     Iteration:      63, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4291, (N) -0.1419
+| TestInsertionProbability: (DN) 0.1215, (N) -0.757
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0829 (N) -0.8293, 
+| TestInsertionProbability: (DN) 0.0558 (N) 0.558, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.800000  searchobserver.py:83
+[15:07:04] INFO     Iteration:      67, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      69, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3461, (N) -0.3078
+| TestInsertionProbability: (DN) 0.1773, (N) -0.6454
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0681 (N) 0.6813, 
+| TestInsertionProbability: (DN) 0.0403 (N) 0.4025, 
+-----------------------------------
+[15:07:05] INFO     Iteration:      70, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.800000  searchobserver.py:83
+[15:07:06] INFO     Iteration:      72, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4142, (N) -0.1715
+| TestInsertionProbability: (DN) 0.2176, (N) -0.5649
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0999 (N) 0.999, 
+| TestInsertionProbability: (DN) 0.0049 (N) 0.0488, 
+-----------------------------------
+           INFO     Iteration:      75, Coverage: 0.800000  searchobserver.py:83
+[15:07:07] INFO     Iteration:      76, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      77, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.800000  searchobserver.py:83
+[15:07:08] INFO     Iteration:      79, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5142, (N) 0.0283
+| TestInsertionProbability: (DN) 0.2224, (N) -0.5551
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0668 (N) 0.6676, 
+| TestInsertionProbability: (DN) 0.0612 (N) 0.6119, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.800000  searchobserver.py:83
+[15:07:09] INFO     Iteration:      81, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      82, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.800000  searchobserver.py:83
+[15:07:10] INFO     Iteration:      84, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5809, (N) 0.1618
+| TestInsertionProbability: (DN) 0.2836, (N) -0.4327
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.002 (N) 0.0203, 
+| TestInsertionProbability: (DN) -0.0056 (N) -0.0558, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.800000  searchobserver.py:83
+[15:07:11] INFO     Iteration:      86, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.800000  searchobserver.py:83
+[15:07:12] INFO     Iteration:      89, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5829, (N) 0.1659
+| TestInsertionProbability: (DN) 0.2781, (N) -0.4439
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.058 (N) -0.5801, 
+| TestInsertionProbability: (DN) -0.0718 (N) -0.718, 
+-----------------------------------
+           INFO     Iteration:      90, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.800000  searchobserver.py:83
+[15:07:13] INFO     Iteration:      92, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5249, (N) 0.0499
+| TestInsertionProbability: (DN) 0.2063, (N) -0.5875
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0669 (N) -0.669, 
+| TestInsertionProbability: (DN) -0.0268 (N) -0.2683, 
+-----------------------------------
+[15:07:14] INFO     Iteration:      95, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 0.800000  searchobserver.py:83
+[15:07:15] INFO     Iteration:      98, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:      99, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.458, (N) -0.0839
+| TestInsertionProbability: (DN) 0.1794, (N) -0.6411
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0625 (N) 0.6247, 
+| TestInsertionProbability: (DN) -0.0565 (N) -0.5646, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.800000  searchobserver.py:83
+[15:07:16] INFO     Iteration:     101, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     103, Coverage: 0.800000  searchobserver.py:83
+[15:07:17] INFO     Iteration:     104, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5205, (N) 0.041
+| TestInsertionProbability: (DN) 0.123, (N) -0.7541
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0972 (N) -0.9722, 
+| TestInsertionProbability: (DN) 0.0673 (N) 0.6727, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     106, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     107, Coverage: 0.800000  searchobserver.py:83
+[15:07:18] INFO     Iteration:     108, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     109, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4233, (N) -0.1534
+| TestInsertionProbability: (DN) 0.1902, (N) -0.6195
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0885 (N) 0.8845, 
+| TestInsertionProbability: (DN) 0.0022 (N) 0.0219, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.800000  searchobserver.py:83
+[15:07:19] INFO     Iteration:     111, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     112, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     113, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5117, (N) 0.0235
+| TestInsertionProbability: (DN) 0.1924, (N) -0.6151
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0165 (N) 0.1648, 
+| TestInsertionProbability: (DN) -0.0622 (N) -0.6225, 
+-----------------------------------
+[15:07:20] INFO     Iteration:     115, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     116, Coverage: 0.800000  searchobserver.py:83
+[15:07:21] INFO     Iteration:     117, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     118, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5282, (N) 0.0564
+| TestInsertionProbability: (DN) 0.1302, (N) -0.7396
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0102 (N) 0.102, 
+| TestInsertionProbability: (DN) 0.0234 (N) 0.2336, 
+-----------------------------------
+[15:07:22] INFO     Iteration:     120, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     121, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.800000  searchobserver.py:83
+[15:07:23] INFO     Iteration:     123, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     124, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5384, (N) 0.0768
+| TestInsertionProbability: (DN) 0.1536, (N) -0.6929
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0859 (N) -0.8586, 
+| TestInsertionProbability: (DN) -0.0641 (N) -0.641, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.800000  searchobserver.py:83
+[15:07:24] INFO     Iteration:     126, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.800000  searchobserver.py:83
+[15:07:25] INFO     Iteration:     129, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4525, (N) -0.0949
+| TestInsertionProbability: (DN) 0.0895, (N) -0.8211
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0284 (N) -0.2842, 
+| TestInsertionProbability: (DN) -0.0837 (N) -0.837, 
+-----------------------------------
+           INFO     Iteration:     130, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     132, Coverage: 0.800000  searchobserver.py:83
+[15:07:26] INFO     Iteration:     133, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4241, (N) -0.1517
+| TestInsertionProbability: (DN) 0.0058, (N) -0.9885
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0417 (N) -0.417, 
+| TestInsertionProbability: (DN) 0.0823 (N) 0.8227, 
+-----------------------------------
+[15:07:27] INFO     Iteration:     135, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     138, Coverage: 0.800000  searchobserver.py:83
+[15:07:28] INFO     Iteration:     139, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3824, (N) -0.2351
+| TestInsertionProbability: (DN) 0.088, (N) -0.824
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0608 (N) 0.6081, 
+| TestInsertionProbability: (DN) 0.0301 (N) 0.3006, 
+-----------------------------------
+           INFO     Iteration:     140, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.800000  searchobserver.py:83
+[15:07:29] INFO     Iteration:     142, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     144, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4433, (N) -0.1135
+| TestInsertionProbability: (DN) 0.1181, (N) -0.7638
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0066 (N) 0.0664, 
+| TestInsertionProbability: (DN) 0.0693 (N) 0.6933, 
+-----------------------------------
+[15:07:30] INFO     Iteration:     145, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     147, Coverage: 0.800000  searchobserver.py:83
+[15:07:31] INFO     Iteration:     148, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     149, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4499, (N) -0.1002
+| TestInsertionProbability: (DN) 0.1874, (N) -0.6252
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0219 (N) 0.2191, 
+| TestInsertionProbability: (DN) -0.0942 (N) -0.9421, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.800000  searchobserver.py:83
+[15:07:32] INFO     Iteration:     151, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     152, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     153, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     154, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4718, (N) -0.0564
+| TestInsertionProbability: (DN) 0.0932, (N) -0.8136
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.05 (N) 0.5002, 
+| TestInsertionProbability: (DN) 0.0726 (N) 0.7262, 
+-----------------------------------
+[15:07:33] INFO     Iteration:     155, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     156, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.800000  searchobserver.py:83
+[15:07:34] INFO     Iteration:     158, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5218, (N) 0.0436
+| TestInsertionProbability: (DN) 0.1658, (N) -0.6684
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0652 (N) -0.652, 
+| TestInsertionProbability: (DN) -0.095 (N) -0.9498, 
+-----------------------------------
+[15:07:35] INFO     Iteration:     160, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     161, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.800000  searchobserver.py:83
+[15:07:36] INFO     Iteration:     164, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4566, (N) -0.0868
+| TestInsertionProbability: (DN) 0.0708, (N) -0.8583
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0586 (N) -0.5857, 
+| TestInsertionProbability: (DN) 0.0058 (N) 0.0575, 
+-----------------------------------
+           INFO     Iteration:     165, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.800000  searchobserver.py:83
+[15:07:37] INFO     Iteration:     167, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     168, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.398, (N) -0.2039
+| TestInsertionProbability: (DN) 0.0766, (N) -0.8468
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0973 (N) 0.9731, 
+| TestInsertionProbability: (DN) -0.0398 (N) -0.3977, 
+-----------------------------------
+[15:07:38] INFO     Iteration:     170, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     173, Coverage: 0.800000  searchobserver.py:83
+[15:07:39] INFO     Iteration:     174, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4954, (N) -0.0093
+| TestInsertionProbability: (DN) 0.0368, (N) -0.9263
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0009 (N) 0.0086, 
+| TestInsertionProbability: (DN) -0.0352 (N) -0.3523, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     176, Coverage: 0.800000  searchobserver.py:83
+[15:07:40] INFO     Iteration:     177, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     178, Coverage: 0.800000  searchobserver.py:83
+[15:07:41] INFO     Iteration:     179, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4962, (N) -0.0076
+| TestInsertionProbability: (DN) 0.0016, (N) -0.9968
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0738 (N) -0.7378, 
+| TestInsertionProbability: (DN) -0.0289 (N) -0.2892, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     181, Coverage: 0.800000  searchobserver.py:83
+[15:07:42] INFO     Iteration:     182, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     184, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4224, (N) -0.1551
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.093 (N) -0.9304, 
+| TestInsertionProbability: (DN) -0.0995 (N) -0.9945, 
+-----------------------------------
+[15:07:43] INFO     Iteration:     185, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     187, Coverage: 0.800000  searchobserver.py:83
+[15:07:44] INFO     Iteration:     188, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3294, (N) -0.3412
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0543 (N) -0.5433, 
+| TestInsertionProbability: (DN) -0.0403 (N) -0.4034, 
+-----------------------------------
+           INFO     Iteration:     190, Coverage: 0.800000  searchobserver.py:83
+[15:07:45] INFO     Iteration:     191, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.800000  searchobserver.py:83
+[15:07:46] INFO     Iteration:     193, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     194, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2751, (N) -0.4499
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0129 (N) -0.1286, 
+| TestInsertionProbability: (DN) -0.0037 (N) -0.037, 
+-----------------------------------
+           INFO     Iteration:     195, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.800000  searchobserver.py:83
+[15:07:47] INFO     Iteration:     197, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2622, (N) -0.4756
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0845 (N) 0.8447, 
+| TestInsertionProbability: (DN) 0.0572 (N) 0.5721, 
+-----------------------------------
+           INFO     Iteration:     200, Coverage: 0.800000  searchobserver.py:83
+[15:07:48] INFO     Iteration:     201, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     202, Coverage: 0.800000  searchobserver.py:83
+[15:07:49] INFO     Iteration:     203, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     204, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3467, (N) -0.3067
+| TestInsertionProbability: (DN) 0.0572, (N) -0.8856
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0051 (N) -0.0514, 
+| TestInsertionProbability: (DN) 0.0636 (N) 0.6359, 
+-----------------------------------
+           INFO     Iteration:     205, Coverage: 0.800000  searchobserver.py:83
+[15:07:50] INFO     Iteration:     206, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     207, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     208, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     209, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3415, (N) -0.3169
+| TestInsertionProbability: (DN) 0.1208, (N) -0.7584
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0193 (N) -0.1928, 
+| TestInsertionProbability: (DN) 0.0211 (N) 0.2108, 
+-----------------------------------
+[15:07:51] INFO     Iteration:     210, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     211, Coverage: 0.800000  searchobserver.py:83
+[15:07:52] INFO     Iteration:     212, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     214, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3223, (N) -0.3555
+| TestInsertionProbability: (DN) 0.1419, (N) -0.7162
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0283 (N) 0.2829, 
+| TestInsertionProbability: (DN) -0.0754 (N) -0.7537, 
+-----------------------------------
+[15:07:53] INFO     Iteration:     215, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     216, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.800000  searchobserver.py:83
+[15:07:54] INFO     Iteration:     218, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     219, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3505, (N) -0.2989
+| TestInsertionProbability: (DN) 0.0665, (N) -0.867
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0756 (N) -0.7558, 
+| TestInsertionProbability: (DN) -0.0925 (N) -0.9254, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.800000  searchobserver.py:83
+[15:07:55] INFO     Iteration:     221, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     222, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.800000  searchobserver.py:83
+[15:07:56] INFO     Iteration:     224, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.275, (N) -0.4501
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0648 (N) 0.6484, 
+| TestInsertionProbability: (DN) 0.0744 (N) 0.7438, 
+-----------------------------------
+           INFO     Iteration:     225, Coverage: 0.800000  searchobserver.py:83
+[15:07:57] INFO     Iteration:     226, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     227, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     228, Coverage: 0.800000  searchobserver.py:83
+[15:07:58] INFO     Iteration:     229, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3398, (N) -0.3204
+| TestInsertionProbability: (DN) 0.0744, (N) -0.8512
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0382 (N) -0.3819, 
+| TestInsertionProbability: (DN) 0.0496 (N) 0.4956, 
+-----------------------------------
+           INFO     Iteration:     230, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     232, Coverage: 0.800000  searchobserver.py:83
+[15:07:59] INFO     Iteration:     233, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     234, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3016, (N) -0.3968
+| TestInsertionProbability: (DN) 0.1239, (N) -0.7521
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0227 (N) -0.2271, 
+| TestInsertionProbability: (DN) 0.04 (N) 0.3999, 
+-----------------------------------
+[15:08:00] INFO     Iteration:     235, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     236, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.800000  searchobserver.py:83
+[15:08:01] INFO     Iteration:     238, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     239, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2789, (N) -0.4422
+| TestInsertionProbability: (DN) 0.1639, (N) -0.6721
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0249 (N) -0.2494, 
+| TestInsertionProbability: (DN) -0.0079 (N) -0.0787, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.800000  searchobserver.py:83
+[15:08:02] INFO     Iteration:     241, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.800000  searchobserver.py:83
+[15:08:03] INFO     Iteration:     243, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     244, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.254, (N) -0.4921
+| TestInsertionProbability: (DN) 0.1561, (N) -0.6879
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0535 (N) 0.5351, 
+| TestInsertionProbability: (DN) 0.0716 (N) 0.7157, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.800000  searchobserver.py:83
+[15:08:04] INFO     Iteration:     246, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     247, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     248, Coverage: 0.800000  searchobserver.py:83
+[15:08:05] INFO     Iteration:     249, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3075, (N) -0.385
+| TestInsertionProbability: (DN) 0.2276, (N) -0.5447
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0329 (N) -0.3287, 
+| TestInsertionProbability: (DN) -0.093 (N) -0.9298, 
+-----------------------------------
+           INFO     Iteration:     250, Coverage: 0.800000  searchobserver.py:83
+[15:08:06] INFO     Iteration:     251, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     252, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     253, Coverage: 0.800000  searchobserver.py:83
+[15:08:07] INFO     Iteration:     254, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2746, (N) -0.4508
+| TestInsertionProbability: (DN) 0.1347, (N) -0.7307
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0299 (N) -0.2994, 
+| TestInsertionProbability: (DN) -0.0808 (N) -0.8077, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.800000  searchobserver.py:83
+[15:08:08] INFO     Iteration:     256, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     257, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.800000  searchobserver.py:83
+[15:08:09] INFO     Iteration:     259, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2447, (N) -0.5107
+| TestInsertionProbability: (DN) 0.0539, (N) -0.8922
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0231 (N) 0.231, 
+| TestInsertionProbability: (DN) -0.0514 (N) -0.5136, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     261, Coverage: 0.800000  searchobserver.py:83
+[15:08:10] INFO     Iteration:     262, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     264, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2678, (N) -0.4645
+| TestInsertionProbability: (DN) 0.0025, (N) -0.9949
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0393 (N) 0.3932, 
+| TestInsertionProbability: (DN) 0.0115 (N) 0.115, 
+-----------------------------------
+[15:08:11] INFO     Iteration:     265, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     266, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.800000  searchobserver.py:83
+[15:08:12] INFO     Iteration:     268, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3071, (N) -0.3858
+| TestInsertionProbability: (DN) 0.014, (N) -0.9719
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0107 (N) -0.1072, 
+| TestInsertionProbability: (DN) -0.0921 (N) -0.9212, 
+-----------------------------------
+[15:08:13] INFO     Iteration:     270, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     272, Coverage: 0.800000  searchobserver.py:83
+[15:08:14] INFO     Iteration:     273, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.2964, (N) -0.4073
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0831 (N) 0.8306, 
+| TestInsertionProbability: (DN) 0.0218 (N) 0.2179, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     276, Coverage: 0.800000  searchobserver.py:83
+[15:08:15] INFO     Iteration:     277, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.800000  searchobserver.py:83
+[15:08:16] INFO     Iteration:     279, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3794, (N) -0.2412
+| TestInsertionProbability: (DN) 0.0218, (N) -0.9564
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0669 (N) 0.6688, 
+| TestInsertionProbability: (DN) 0.0433 (N) 0.4334, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     281, Coverage: 0.800000  searchobserver.py:83
+[15:08:17] INFO     Iteration:     282, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     283, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     284, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4463, (N) -0.1074
+| TestInsertionProbability: (DN) 0.0651, (N) -0.8697
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0907 (N) -0.9073, 
+| TestInsertionProbability: (DN) 0.0911 (N) 0.9105, 
+-----------------------------------
+           INFO     Iteration:     285, Coverage: 0.800000  searchobserver.py:83
+[15:08:18] INFO     Iteration:     286, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.800000  searchobserver.py:83
+[15:08:19] INFO     Iteration:     288, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     289, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.3556, (N) -0.2889
+| TestInsertionProbability: (DN) 0.1562, (N) -0.6876
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0643 (N) 0.6434, 
+| TestInsertionProbability: (DN) -0.0327 (N) -0.3269, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.800000  searchobserver.py:83
+[15:08:20] INFO     Iteration:     291, Coverage: 0.800000  searchobserver.py:83
+[15:08:21] INFO     Iteration:     292, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     294, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.4199, (N) -0.1602
+| TestInsertionProbability: (DN) 0.1235, (N) -0.753
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0979 (N) 0.9787, 
+| TestInsertionProbability: (DN) 0.0147 (N) 0.1469, 
+-----------------------------------
+           INFO     Iteration:     295, Coverage: 0.800000  searchobserver.py:83
+[15:08:22] INFO     Iteration:     296, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     297, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     298, Coverage: 0.800000  searchobserver.py:83
+[15:08:23] INFO     Iteration:     299, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5178, (N) 0.0356
+| TestInsertionProbability: (DN) 0.1382, (N) -0.7236
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0948 (N) 0.9481, 
+| TestInsertionProbability: (DN) 0.0517 (N) 0.5174, 
+-----------------------------------
+           INFO     Iteration:     300, Coverage: 0.800000  searchobserver.py:83
+[15:08:24] INFO     Iteration:     301, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     303, Coverage: 0.800000  searchobserver.py:83
+[15:08:25] INFO     Iteration:     304, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6126, (N) 0.2252
+| TestInsertionProbability: (DN) 0.1899, (N) -0.6202
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0547 (N) 0.5468, 
+| TestInsertionProbability: (DN) -0.0527 (N) -0.5272, 
+-----------------------------------
+           INFO     Iteration:     305, Coverage: 0.800000  searchobserver.py:83
+[15:08:26] INFO     Iteration:     306, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     308, Coverage: 0.800000  searchobserver.py:83
+[15:08:27] INFO     Iteration:     309, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6673, (N) 0.3345
+| TestInsertionProbability: (DN) 0.1372, (N) -0.7256
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0892 (N) 0.8925, 
+| TestInsertionProbability: (DN) 0.0945 (N) 0.9447, 
+-----------------------------------
+           INFO     Iteration:     310, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     311, Coverage: 0.800000  searchobserver.py:83
+[15:08:28] INFO     Iteration:     312, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.800000  searchobserver.py:83
+[15:08:29] INFO     Iteration:     314, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7565, (N) 0.513
+| TestInsertionProbability: (DN) 0.2317, (N) -0.5367
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0335 (N) -0.335, 
+| TestInsertionProbability: (DN) 0.0075 (N) 0.0753, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     316, Coverage: 0.800000  searchobserver.py:83
+[15:08:30] INFO     Iteration:     317, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     319, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.723, (N) 0.446
+| TestInsertionProbability: (DN) 0.2392, (N) -0.5216
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0068 (N) 0.0677, 
+| TestInsertionProbability: (DN) -0.054 (N) -0.54, 
+-----------------------------------
+[15:08:31] INFO     Iteration:     320, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     321, Coverage: 0.800000  searchobserver.py:83
+[15:08:32] INFO     Iteration:     322, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7298, (N) 0.4596
+| TestInsertionProbability: (DN) 0.1852, (N) -0.6296
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.07 (N) 0.6997, 
+| TestInsertionProbability: (DN) -0.0293 (N) -0.2925, 
+-----------------------------------
+[15:08:33] INFO     Iteration:     325, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     326, Coverage: 0.800000  searchobserver.py:83
+[15:08:34] INFO     Iteration:     327, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     329, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7998, (N) 0.5995
+| TestInsertionProbability: (DN) 0.1559, (N) -0.6881
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0525 (N) 0.5249, 
+| TestInsertionProbability: (DN) -0.0556 (N) -0.5562, 
+-----------------------------------
+[15:08:35] INFO     Iteration:     330, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     332, Coverage: 0.800000  searchobserver.py:83
+[15:08:36] INFO     Iteration:     333, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8522, (N) 0.7045
+| TestInsertionProbability: (DN) 0.1003, (N) -0.7993
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0787 (N) 0.7871, 
+| TestInsertionProbability: (DN) 0.0699 (N) 0.6994, 
+-----------------------------------
+[15:08:37] INFO     Iteration:     335, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     337, Coverage: 0.800000  searchobserver.py:83
+[15:08:38] INFO     Iteration:     338, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.931, (N) 0.8619
+| TestInsertionProbability: (DN) 0.1703, (N) -0.6595
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0132 (N) 0.132, 
+| TestInsertionProbability: (DN) 0.0425 (N) 0.4249, 
+-----------------------------------
+           INFO     Iteration:     340, Coverage: 0.800000  searchobserver.py:83
+[15:08:39] INFO     Iteration:     341, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     343, Coverage: 0.800000  searchobserver.py:83
+[15:08:40] INFO     Iteration:     344, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9442, (N) 0.8883
+| TestInsertionProbability: (DN) 0.2128, (N) -0.5745
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0442 (N) 0.4417, 
+| TestInsertionProbability: (DN) 0.0021 (N) 0.0208, 
+-----------------------------------
+           INFO     Iteration:     345, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.800000  searchobserver.py:83
+[15:08:41] INFO     Iteration:     347, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     348, Coverage: 0.800000  searchobserver.py:83
+[15:08:42] INFO     Iteration:     349, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9883, (N) 0.9766
+| TestInsertionProbability: (DN) 0.2148, (N) -0.5703
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.039 (N) 0.39, 
+| TestInsertionProbability: (DN) -0.071 (N) -0.7104, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     351, Coverage: 0.800000  searchobserver.py:83
+[15:08:43] INFO     Iteration:     352, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.800000  searchobserver.py:83
+[15:08:44] INFO     Iteration:     354, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.1438, (N) -0.7124
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0707 (N) 0.7073, 
+| TestInsertionProbability: (DN) 0.0263 (N) 0.263, 
+-----------------------------------
+           INFO     Iteration:     355, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.800000  searchobserver.py:83
+[15:08:45] INFO     Iteration:     357, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.1701, (N) -0.6598
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0836 (N) 0.8364, 
+| TestInsertionProbability: (DN) -0.0057 (N) -0.0575, 
+-----------------------------------
+[15:08:46] INFO     Iteration:     360, Coverage: 0.800000  searchobserver.py:83
+[15:08:47] INFO     Iteration:     361, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     362, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.800000  searchobserver.py:83
+[15:08:48] INFO     Iteration:     364, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.1643, (N) -0.6713
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0068 (N) 0.0679, 
+| TestInsertionProbability: (DN) 0.0992 (N) 0.9925, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     366, Coverage: 0.800000  searchobserver.py:83
+[15:08:49] INFO     Iteration:     367, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     368, Coverage: 0.800000  searchobserver.py:83
+[15:08:50] INFO     Iteration:     369, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.2636, (N) -0.4728
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0323 (N) -0.3233, 
+| TestInsertionProbability: (DN) 0.0108 (N) 0.1079, 
+-----------------------------------
+           INFO     Iteration:     370, Coverage: 0.800000  searchobserver.py:83
+[15:08:51] INFO     Iteration:     371, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     373, Coverage: 0.800000  searchobserver.py:83
+[15:08:52] INFO     Iteration:     374, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9677, (N) 0.9353
+| TestInsertionProbability: (DN) 0.2744, (N) -0.4512
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0528 (N) -0.5282, 
+| TestInsertionProbability: (DN) -0.0237 (N) -0.237, 
+-----------------------------------
+           INFO     Iteration:     375, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     376, Coverage: 0.800000  searchobserver.py:83
+[15:08:53] INFO     Iteration:     377, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     378, Coverage: 0.800000  searchobserver.py:83
+[15:08:54] INFO     Iteration:     379, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9149, (N) 0.8297
+| TestInsertionProbability: (DN) 0.2507, (N) -0.4986
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0361 (N) 0.361, 
+| TestInsertionProbability: (DN) -0.0124 (N) -0.1243, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     381, Coverage: 0.800000  searchobserver.py:83
+[15:08:55] INFO     Iteration:     382, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     384, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.951, (N) 0.9019
+| TestInsertionProbability: (DN) 0.2383, (N) -0.5235
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0887 (N) -0.8868, 
+| TestInsertionProbability: (DN) -0.052 (N) -0.5203, 
+-----------------------------------
+[15:08:56] INFO     Iteration:     385, Coverage: 0.800000  searchobserver.py:83
+[15:08:57] INFO     Iteration:     386, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.800000  searchobserver.py:83
+[15:08:58] INFO     Iteration:     389, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8623, (N) 0.7245
+| TestInsertionProbability: (DN) 0.1862, (N) -0.6275
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.053 (N) -0.5299, 
+| TestInsertionProbability: (DN) -0.0378 (N) -0.3776, 
+-----------------------------------
+           INFO     Iteration:     390, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.800000  searchobserver.py:83
+[15:08:59] INFO     Iteration:     392, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     393, Coverage: 0.800000  searchobserver.py:83
+[15:09:00] INFO     Iteration:     394, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8093, (N) 0.6186
+| TestInsertionProbability: (DN) 0.1485, (N) -0.7031
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0483 (N) -0.4827, 
+| TestInsertionProbability: (DN) 0.0247 (N) 0.2469, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     396, Coverage: 0.800000  searchobserver.py:83
+[15:09:01] INFO     Iteration:     397, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     398, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     399, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.761, (N) 0.522
+| TestInsertionProbability: (DN) 0.1732, (N) -0.6537
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0438 (N) 0.438, 
+| TestInsertionProbability: (DN) -0.0517 (N) -0.5168, 
+-----------------------------------
+[15:09:02] INFO     Iteration:     400, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.800000  searchobserver.py:83
+[15:09:03] INFO     Iteration:     402, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     403, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8048, (N) 0.6096
+| TestInsertionProbability: (DN) 0.1215, (N) -0.757
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0107 (N) -0.1066, 
+| TestInsertionProbability: (DN) 0.0922 (N) 0.9224, 
+-----------------------------------
+[15:09:04] INFO     Iteration:     405, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     406, Coverage: 0.800000  searchobserver.py:83
+[15:09:05] INFO     Iteration:     407, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     408, Coverage: 0.800000  searchobserver.py:83
+[15:09:06] INFO     Iteration:     409, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7941, (N) 0.5883
+| TestInsertionProbability: (DN) 0.2137, (N) -0.5726
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0029 (N) -0.0292, 
+| TestInsertionProbability: (DN) -0.0084 (N) -0.0837, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     411, Coverage: 0.800000  searchobserver.py:83
+[15:09:07] INFO     Iteration:     412, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.800000  searchobserver.py:83
+[15:09:08] INFO     Iteration:     414, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7912, (N) 0.5825
+| TestInsertionProbability: (DN) 0.2053, (N) -0.5893
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0141 (N) -0.1415, 
+| TestInsertionProbability: (DN) -0.0888 (N) -0.8885, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.800000  searchobserver.py:83
+[15:09:09] INFO     Iteration:     417, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.800000  searchobserver.py:83
+[15:09:10] INFO     Iteration:     419, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7771, (N) 0.5542
+| TestInsertionProbability: (DN) 0.1165, (N) -0.767
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0443 (N) -0.4431, 
+| TestInsertionProbability: (DN) 0.0049 (N) 0.049, 
+-----------------------------------
+           INFO     Iteration:     420, Coverage: 0.800000  searchobserver.py:83
+[15:09:11] INFO     Iteration:     421, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     423, Coverage: 0.800000  searchobserver.py:83
+[15:09:12] INFO     Iteration:     424, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7328, (N) 0.4655
+| TestInsertionProbability: (DN) 0.1214, (N) -0.7572
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0953 (N) 0.9534, 
+| TestInsertionProbability: (DN) -0.0859 (N) -0.8593, 
+-----------------------------------
+           INFO     Iteration:     425, Coverage: 0.800000  searchobserver.py:83
+[15:09:13] INFO     Iteration:     426, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     427, Coverage: 0.800000  searchobserver.py:83
+[15:09:14] INFO     Iteration:     428, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     429, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8281, (N) 0.6562
+| TestInsertionProbability: (DN) 0.0355, (N) -0.9291
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0538 (N) 0.5384, 
+| TestInsertionProbability: (DN) -0.0994 (N) -0.9939, 
+-----------------------------------
+[15:09:15] INFO     Iteration:     430, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.800000  searchobserver.py:83
+[15:09:16] INFO     Iteration:     432, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     434, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.882, (N) 0.7639
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0592 (N) -0.5917, 
+| TestInsertionProbability: (DN) 0.0041 (N) 0.0407, 
+-----------------------------------
+[15:09:17] INFO     Iteration:     435, Coverage: 0.800000  searchobserver.py:83
+[15:09:18] INFO     Iteration:     436, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.800000  searchobserver.py:83
+[15:09:19] INFO     Iteration:     438, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     439, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8228, (N) 0.6456
+| TestInsertionProbability: (DN) 0.0041, (N) -0.9919
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0509 (N) -0.5094, 
+| TestInsertionProbability: (DN) -0.0468 (N) -0.4677, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.800000  searchobserver.py:83
+[15:09:20] INFO     Iteration:     441, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     442, Coverage: 0.800000  searchobserver.py:83
+[15:09:21] INFO     Iteration:     443, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     444, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7718, (N) 0.5437
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0722 (N) -0.7225, 
+| TestInsertionProbability: (DN) -0.0359 (N) -0.3591, 
+-----------------------------------
+[15:09:22] INFO     Iteration:     445, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     446, Coverage: 0.800000  searchobserver.py:83
+[15:09:23] INFO     Iteration:     447, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     448, Coverage: 0.800000  searchobserver.py:83
+[15:09:24] INFO     Iteration:     449, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6996, (N) 0.3992
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0886 (N) -0.8862, 
+| TestInsertionProbability: (DN) -0.0428 (N) -0.4284, 
+-----------------------------------
+           INFO     Iteration:     450, Coverage: 0.800000  searchobserver.py:83
+[15:09:25] INFO     Iteration:     451, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.800000  searchobserver.py:83
+[15:09:26] INFO     Iteration:     453, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.611, (N) 0.222
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0171 (N) -0.1715, 
+| TestInsertionProbability: (DN) 0.0418 (N) 0.4177, 
+-----------------------------------
+[15:09:27] INFO     Iteration:     455, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     457, Coverage: 0.800000  searchobserver.py:83
+[15:09:28] INFO     Iteration:     458, Coverage: 0.800000  searchobserver.py:83
+[15:09:29] INFO     Iteration:     459, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.5938, (N) 0.1877
+| TestInsertionProbability: (DN) 0.0418, (N) -0.9165
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0318 (N) 0.3184, 
+| TestInsertionProbability: (DN) 0.0209 (N) 0.2087, 
+-----------------------------------
+           INFO     Iteration:     460, Coverage: 0.800000  searchobserver.py:83
+[15:09:30] INFO     Iteration:     461, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     462, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.800000  searchobserver.py:83
+[15:09:31] INFO     Iteration:     464, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6257, (N) 0.2513
+| TestInsertionProbability: (DN) 0.0626, (N) -0.8747
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.083 (N) 0.8303, 
+| TestInsertionProbability: (DN) 0.0124 (N) 0.1245, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.800000  searchobserver.py:83
+[15:09:32] INFO     Iteration:     466, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     467, Coverage: 0.800000  searchobserver.py:83
+[15:09:33] INFO     Iteration:     468, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     469, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7087, (N) 0.4174
+| TestInsertionProbability: (DN) 0.0751, (N) -0.8498
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0588 (N) 0.5878, 
+| TestInsertionProbability: (DN) 0.0551 (N) 0.5507, 
+-----------------------------------
+[15:09:34] INFO     Iteration:     470, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     471, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     472, Coverage: 0.800000  searchobserver.py:83
+[15:09:35] INFO     Iteration:     473, Coverage: 0.800000  searchobserver.py:83
+[15:09:36] INFO     Iteration:     474, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7675, (N) 0.535
+| TestInsertionProbability: (DN) 0.1302, (N) -0.7397
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0741 (N) 0.7411, 
+| TestInsertionProbability: (DN) -0.0905 (N) -0.9048, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.800000  searchobserver.py:83
+[15:09:37] INFO     Iteration:     477, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.800000  searchobserver.py:83
+[15:09:38] INFO     Iteration:     479, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8416, (N) 0.6832
+| TestInsertionProbability: (DN) 0.0397, (N) -0.9207
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0879 (N) -0.8794, 
+| TestInsertionProbability: (DN) 0.0786 (N) 0.7864, 
+-----------------------------------
+           INFO     Iteration:     480, Coverage: 0.800000  searchobserver.py:83
+[15:09:39] INFO     Iteration:     481, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.800000  searchobserver.py:83
+[15:09:40] INFO     Iteration:     483, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     484, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7537, (N) 0.5073
+| TestInsertionProbability: (DN) 0.1183, (N) -0.7634
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0107 (N) -0.1067, 
+| TestInsertionProbability: (DN) -0.0526 (N) -0.526, 
+-----------------------------------
+[15:09:41] INFO     Iteration:     485, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.800000  searchobserver.py:83
+[15:09:42] INFO     Iteration:     487, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     488, Coverage: 0.800000  searchobserver.py:83
+[15:09:43] INFO     Iteration:     489, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.743, (N) 0.486
+| TestInsertionProbability: (DN) 0.0657, (N) -0.8686
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.028 (N) -0.2799, 
+| TestInsertionProbability: (DN) 0.0367 (N) 0.367, 
+-----------------------------------
+           INFO     Iteration:     490, Coverage: 0.800000  searchobserver.py:83
+[15:09:44] INFO     Iteration:     491, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.800000  searchobserver.py:83
+[15:09:45] INFO     Iteration:     494, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.715, (N) 0.43
+| TestInsertionProbability: (DN) 0.1024, (N) -0.7952
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0472 (N) -0.4723, 
+| TestInsertionProbability: (DN) 0.0149 (N) 0.1495, 
+-----------------------------------
+[15:09:46] INFO     Iteration:     495, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     496, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.800000  searchobserver.py:83
+[15:09:47] INFO     Iteration:     498, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     499, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6678, (N) 0.3355
+| TestInsertionProbability: (DN) 0.1174, (N) -0.7653
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0414 (N) -0.414, 
+| TestInsertionProbability: (DN) 0.0106 (N) 0.1055, 
+-----------------------------------
+[15:09:48] INFO     Iteration:     500, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     501, Coverage: 0.800000  searchobserver.py:83
+[15:09:49] INFO     Iteration:     502, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     503, Coverage: 0.800000  searchobserver.py:83
+[15:09:50] INFO     Iteration:     504, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6264, (N) 0.2527
+| TestInsertionProbability: (DN) 0.1279, (N) -0.7442
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0333 (N) 0.3335, 
+| TestInsertionProbability: (DN) 0.0491 (N) 0.4914, 
+-----------------------------------
+           INFO     Iteration:     505, Coverage: 0.800000  searchobserver.py:83
+[15:09:51] INFO     Iteration:     506, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.800000  searchobserver.py:83
+[15:09:52] INFO     Iteration:     508, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6597, (N) 0.3194
+| TestInsertionProbability: (DN) 0.177, (N) -0.6459
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0767 (N) 0.767, 
+| TestInsertionProbability: (DN) 0.022 (N) 0.2195, 
+-----------------------------------
+[15:09:53] INFO     Iteration:     510, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.800000  searchobserver.py:83
+[15:09:54] INFO     Iteration:     512, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.800000  searchobserver.py:83
+[15:09:55] INFO     Iteration:     514, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7364, (N) 0.4728
+| TestInsertionProbability: (DN) 0.199, (N) -0.602
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.098 (N) 0.98, 
+| TestInsertionProbability: (DN) 0.038 (N) 0.3805, 
+-----------------------------------
+[15:09:56] INFO     Iteration:     515, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.800000  searchobserver.py:83
+[15:09:57] INFO     Iteration:     517, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.800000  searchobserver.py:83
+[15:09:58] INFO     Iteration:     519, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8344, (N) 0.6688
+| TestInsertionProbability: (DN) 0.237, (N) -0.5259
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0646 (N) 0.6458, 
+| TestInsertionProbability: (DN) 0.0085 (N) 0.085, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.800000  searchobserver.py:83
+[15:09:59] INFO     Iteration:     521, Coverage: 0.800000  searchobserver.py:83
+[15:10:00] INFO     Iteration:     522, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     524, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.899, (N) 0.798
+| TestInsertionProbability: (DN) 0.2455, (N) -0.5089
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.054 (N) 0.5395, 
+| TestInsertionProbability: (DN) -0.042 (N) -0.4203, 
+-----------------------------------
+[15:10:01] INFO     Iteration:     525, Coverage: 0.800000  searchobserver.py:83
+[15:10:02] INFO     Iteration:     526, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.800000  searchobserver.py:83
+[15:10:03] INFO     Iteration:     528, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9529, (N) 0.9059
+| TestInsertionProbability: (DN) 0.2035, (N) -0.593
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0125 (N) 0.1246, 
+| TestInsertionProbability: (DN) 0.0561 (N) 0.5611, 
+-----------------------------------
+[15:10:04] INFO     Iteration:     530, Coverage: 0.800000  searchobserver.py:83
+[15:10:05] INFO     Iteration:     531, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     532, Coverage: 0.800000  searchobserver.py:83
+[15:10:06] INFO     Iteration:     533, Coverage: 0.800000  searchobserver.py:83
+[15:10:07] INFO     Iteration:     534, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9654, (N) 0.9308
+| TestInsertionProbability: (DN) 0.2596, (N) -0.4808
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0765 (N) 0.7646, 
+| TestInsertionProbability: (DN) -0.0824 (N) -0.8242, 
+-----------------------------------
+           INFO     Iteration:     535, Coverage: 0.800000  searchobserver.py:83
+[15:10:08] INFO     Iteration:     536, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     537, Coverage: 0.800000  searchobserver.py:83
+[15:10:09] INFO     Iteration:     538, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.1772, (N) -0.6456
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0072 (N) -0.0715, 
+| TestInsertionProbability: (DN) 0.0322 (N) 0.3222, 
+-----------------------------------
+[15:10:10] INFO     Iteration:     540, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.800000  searchobserver.py:83
+[15:10:11] INFO     Iteration:     542, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.800000  searchobserver.py:83
+[15:10:12] INFO     Iteration:     544, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9928, (N) 0.9857
+| TestInsertionProbability: (DN) 0.2094, (N) -0.5812
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0175 (N) -0.1751, 
+| TestInsertionProbability: (DN) -0.0009 (N) -0.0088, 
+-----------------------------------
+[15:10:13] INFO     Iteration:     545, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.800000  searchobserver.py:83
+[15:10:14] INFO     Iteration:     547, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.800000  searchobserver.py:83
+[15:10:15] INFO     Iteration:     549, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9753, (N) 0.9507
+| TestInsertionProbability: (DN) 0.2085, (N) -0.5829
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0947 (N) 0.9469, 
+| TestInsertionProbability: (DN) 0.0112 (N) 0.1122, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.800000  searchobserver.py:83
+[15:10:16] INFO     Iteration:     551, Coverage: 0.800000  searchobserver.py:83
+[15:10:17] INFO     Iteration:     552, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     553, Coverage: 0.800000  searchobserver.py:83
+[15:10:18] INFO     Iteration:     554, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.2198, (N) -0.5605
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0435 (N) -0.4347, 
+| TestInsertionProbability: (DN) 0.0097 (N) 0.0973, 
+-----------------------------------
+           INFO     Iteration:     555, Coverage: 0.800000  searchobserver.py:83
+[15:10:19] INFO     Iteration:     556, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     557, Coverage: 0.800000  searchobserver.py:83
+[15:10:20] INFO     Iteration:     558, Coverage: 0.800000  searchobserver.py:83
+[15:10:21] INFO     Iteration:     559, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9565, (N) 0.9131
+| TestInsertionProbability: (DN) 0.2295, (N) -0.541
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.036 (N) -0.3597, 
+| TestInsertionProbability: (DN) -0.0345 (N) -0.3447, 
+-----------------------------------
+           INFO     Iteration:     560, Coverage: 0.800000  searchobserver.py:83
+[15:10:22] INFO     Iteration:     561, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     562, Coverage: 0.800000  searchobserver.py:83
+[15:10:23] INFO     Iteration:     563, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     564, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9206, (N) 0.8411
+| TestInsertionProbability: (DN) 0.195, (N) -0.61
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0401 (N) 0.4005, 
+| TestInsertionProbability: (DN) -0.0222 (N) -0.2222, 
+-----------------------------------
+[15:10:24] INFO     Iteration:     565, Coverage: 0.800000  searchobserver.py:83
+[15:10:25] INFO     Iteration:     566, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     567, Coverage: 0.800000  searchobserver.py:83
+[15:10:26] INFO     Iteration:     568, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     569, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9606, (N) 0.9212
+| TestInsertionProbability: (DN) 0.1728, (N) -0.6544
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0747 (N) 0.7468, 
+| TestInsertionProbability: (DN) -0.0849 (N) -0.8491, 
+-----------------------------------
+[15:10:27] INFO     Iteration:     570, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     571, Coverage: 0.800000  searchobserver.py:83
+[15:10:28] INFO     Iteration:     572, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     573, Coverage: 0.800000  searchobserver.py:83
+[15:10:29] INFO     Iteration:     574, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.0879, (N) -0.8242
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0924 (N) 0.9243, 
+| TestInsertionProbability: (DN) -0.0113 (N) -0.1129, 
+-----------------------------------
+[15:10:30] INFO     Iteration:     575, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.800000  searchobserver.py:83
+[15:10:31] INFO     Iteration:     577, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.800000  searchobserver.py:83
+[15:10:32] INFO     Iteration:     579, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.0766, (N) -0.8468
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0147 (N) -0.147, 
+| TestInsertionProbability: (DN) -0.0033 (N) -0.0333, 
+-----------------------------------
+           INFO     Iteration:     580, Coverage: 0.800000  searchobserver.py:83
+[15:10:33] INFO     Iteration:     581, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     582, Coverage: 0.800000  searchobserver.py:83
+[15:10:34] INFO     Iteration:     583, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     584, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9853, (N) 0.9706
+| TestInsertionProbability: (DN) 0.0733, (N) -0.8535
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0272 (N) 0.2717, 
+| TestInsertionProbability: (DN) 0.0128 (N) 0.1277, 
+-----------------------------------
+[15:10:35] INFO     Iteration:     585, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.800000  searchobserver.py:83
+[15:10:36] INFO     Iteration:     587, Coverage: 0.800000  searchobserver.py:83
+[15:10:37] INFO     Iteration:     588, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     589, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.086, (N) -0.8279
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.048 (N) -0.4798, 
+| TestInsertionProbability: (DN) -0.0351 (N) -0.351, 
+-----------------------------------
+[15:10:38] INFO     Iteration:     590, Coverage: 0.800000  searchobserver.py:83
+[15:10:39] INFO     Iteration:     591, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.800000  searchobserver.py:83
+[15:10:40] INFO     Iteration:     593, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     594, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.952, (N) 0.904
+| TestInsertionProbability: (DN) 0.0509, (N) -0.8981
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0167 (N) -0.1674, 
+| TestInsertionProbability: (DN) -0.0904 (N) -0.9037, 
+-----------------------------------
+[15:10:41] INFO     Iteration:     595, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.800000  searchobserver.py:83
+[15:10:42] INFO     Iteration:     597, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     598, Coverage: 0.800000  searchobserver.py:83
+[15:10:43] INFO     Iteration:     599, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9353, (N) 0.8706
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0563 (N) -0.5631, 
+| TestInsertionProbability: (DN) -0.0341 (N) -0.3408, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.800000  searchobserver.py:83
+[15:10:44] INFO     Iteration:     601, Coverage: 0.800000  searchobserver.py:83
+[15:10:45] INFO     Iteration:     602, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     603, Coverage: 0.800000  searchobserver.py:83
+[15:10:46] INFO     Iteration:     604, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.879, (N) 0.7579
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0339 (N) -0.3391, 
+| TestInsertionProbability: (DN) 0.086 (N) 0.8604, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.800000  searchobserver.py:83
+[15:10:47] INFO     Iteration:     606, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     607, Coverage: 0.800000  searchobserver.py:83
+[15:10:48] INFO     Iteration:     608, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8451, (N) 0.6901
+| TestInsertionProbability: (DN) 0.086, (N) -0.8279
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0328 (N) 0.3276, 
+| TestInsertionProbability: (DN) 0.0488 (N) 0.4879, 
+-----------------------------------
+[15:10:49] INFO     Iteration:     610, Coverage: 0.800000  searchobserver.py:83
+[15:10:50] INFO     Iteration:     611, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.800000  searchobserver.py:83
+[15:10:51] INFO     Iteration:     613, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     614, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8778, (N) 0.7557
+| TestInsertionProbability: (DN) 0.1348, (N) -0.7303
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0929 (N) 0.9288, 
+| TestInsertionProbability: (DN) 0.0946 (N) 0.9461, 
+-----------------------------------
+[15:10:52] INFO     Iteration:     615, Coverage: 0.800000  searchobserver.py:83
+[15:10:53] INFO     Iteration:     616, Coverage: 0.800000  searchobserver.py:83
+[15:10:54] INFO     Iteration:     617, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     618, Coverage: 0.800000  searchobserver.py:83
+[15:10:55] INFO     Iteration:     619, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9707, (N) 0.9414
+| TestInsertionProbability: (DN) 0.2294, (N) -0.5411
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0979 (N) 0.9793, 
+| TestInsertionProbability: (DN) 0.0768 (N) 0.7677, 
+-----------------------------------
+           INFO     Iteration:     620, Coverage: 0.800000  searchobserver.py:83
+[15:10:56] INFO     Iteration:     621, Coverage: 0.800000  searchobserver.py:83
+[15:10:57] INFO     Iteration:     622, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     623, Coverage: 0.800000  searchobserver.py:83
+[15:10:58] INFO     Iteration:     624, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.3062, (N) -0.3876
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0167 (N) 0.1674, 
+| TestInsertionProbability: (DN) 0.03 (N) 0.3, 
+-----------------------------------
+           INFO     Iteration:     625, Coverage: 0.800000  searchobserver.py:83
+[15:10:59] INFO     Iteration:     626, Coverage: 0.800000  searchobserver.py:83
+[15:11:00] INFO     Iteration:     627, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     628, Coverage: 0.800000  searchobserver.py:83
+[15:11:01] INFO     Iteration:     629, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.3362, (N) -0.3276
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0969 (N) 0.9687, 
+| TestInsertionProbability: (DN) -0.0745 (N) -0.7449, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.800000  searchobserver.py:83
+[15:11:02] INFO     Iteration:     631, Coverage: 0.800000  searchobserver.py:83
+[15:11:03] INFO     Iteration:     632, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     633, Coverage: 0.800000  searchobserver.py:83
+[15:11:04] INFO     Iteration:     634, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.2617, (N) -0.4765
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0983 (N) 0.9829, 
+| TestInsertionProbability: (DN) -0.0887 (N) -0.8866, 
+-----------------------------------
+[15:11:05] INFO     Iteration:     635, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     636, Coverage: 0.800000  searchobserver.py:83
+[15:11:06] INFO     Iteration:     637, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     638, Coverage: 0.800000  searchobserver.py:83
+[15:11:07] INFO     Iteration:     639, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 1.0, (N) 1.0
+| TestInsertionProbability: (DN) 0.1731, (N) -0.6539
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0253 (N) -0.2528, 
+| TestInsertionProbability: (DN) -0.0909 (N) -0.9088, 
+-----------------------------------
+[15:11:08] INFO     Iteration:     640, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     641, Coverage: 0.800000  searchobserver.py:83
+[15:11:09] INFO     Iteration:     642, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     643, Coverage: 0.800000  searchobserver.py:83
+[15:11:10] INFO     Iteration:     644, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9747, (N) 0.9494
+| TestInsertionProbability: (DN) 0.0822, (N) -0.8356
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0907 (N) -0.9065, 
+| TestInsertionProbability: (DN) -0.0274 (N) -0.2739, 
+-----------------------------------
+[15:11:11] INFO     Iteration:     645, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     646, Coverage: 0.800000  searchobserver.py:83
+[15:11:12] INFO     Iteration:     647, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.800000  searchobserver.py:83
+[15:11:13] INFO     Iteration:     649, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8841, (N) 0.7681
+| TestInsertionProbability: (DN) 0.0548, (N) -0.8904
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0185 (N) 0.1848, 
+| TestInsertionProbability: (DN) -0.054 (N) -0.5399, 
+-----------------------------------
+[15:11:14] INFO     Iteration:     650, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.800000  searchobserver.py:83
+[15:11:15] INFO     Iteration:     652, Coverage: 0.800000  searchobserver.py:83
+[15:11:16] INFO     Iteration:     653, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     654, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9025, (N) 0.8051
+| TestInsertionProbability: (DN) 0.0008, (N) -0.9984
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0576 (N) -0.5764, 
+| TestInsertionProbability: (DN) -0.0891 (N) -0.8912, 
+-----------------------------------
+[15:11:17] INFO     Iteration:     655, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.800000  searchobserver.py:83
+[15:11:18] INFO     Iteration:     657, Coverage: 0.800000  searchobserver.py:83
+[15:11:19] INFO     Iteration:     658, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8449, (N) 0.6898
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0077 (N) 0.0767, 
+| TestInsertionProbability: (DN) 0.0788 (N) 0.7878, 
+-----------------------------------
+[15:11:20] INFO     Iteration:     660, Coverage: 0.800000  searchobserver.py:83
+[15:11:21] INFO     Iteration:     661, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.800000  searchobserver.py:83
+[15:11:22] INFO     Iteration:     663, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     664, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8526, (N) 0.7051
+| TestInsertionProbability: (DN) 0.0788, (N) -0.8424
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0118 (N) 0.1177, 
+| TestInsertionProbability: (DN) -0.084 (N) -0.8403, 
+-----------------------------------
+[15:11:23] INFO     Iteration:     665, Coverage: 0.800000  searchobserver.py:83
+[15:11:24] INFO     Iteration:     666, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.800000  searchobserver.py:83
+[15:11:25] INFO     Iteration:     668, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     669, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8643, (N) 0.7287
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0535 (N) 0.5353, 
+| TestInsertionProbability: (DN) -0.0597 (N) -0.5972, 
+-----------------------------------
+[15:11:26] INFO     Iteration:     670, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     671, Coverage: 0.800000  searchobserver.py:83
+[15:11:27] INFO     Iteration:     672, Coverage: 0.800000  searchobserver.py:83
+[15:11:28] INFO     Iteration:     673, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     674, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.9179, (N) 0.8357
+| TestInsertionProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0307 (N) -0.307, 
+| TestInsertionProbability: (DN) 0.0878 (N) 0.8784, 
+-----------------------------------
+[15:11:29] INFO     Iteration:     675, Coverage: 0.800000  searchobserver.py:83
+[15:11:30] INFO     Iteration:     676, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.800000  searchobserver.py:83
+[15:11:31] INFO     Iteration:     678, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.8872, (N) 0.7744
+| TestInsertionProbability: (DN) 0.0878, (N) -0.8243
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0978 (N) -0.9785, 
+| TestInsertionProbability: (DN) 0.01 (N) 0.1, 
+-----------------------------------
+[15:11:32] INFO     Iteration:     680, Coverage: 0.800000  searchobserver.py:83
+[15:11:33] INFO     Iteration:     681, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     682, Coverage: 0.800000  searchobserver.py:83
+[15:11:34] INFO     Iteration:     683, Coverage: 0.800000  searchobserver.py:83
+[15:11:35] INFO     Iteration:     684, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7893, (N) 0.5787
+| TestInsertionProbability: (DN) 0.0978, (N) -0.8043
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0357 (N) -0.3568, 
+| TestInsertionProbability: (DN) 0.0558 (N) 0.5577, 
+-----------------------------------
+           INFO     Iteration:     685, Coverage: 0.800000  searchobserver.py:83
+[15:11:36] INFO     Iteration:     686, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     687, Coverage: 0.800000  searchobserver.py:83
+[15:11:37] INFO     Iteration:     688, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     689, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.7536, (N) 0.5073
+| TestInsertionProbability: (DN) 0.1536, (N) -0.6928
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) -0.0882 (N) -0.882, 
+| TestInsertionProbability: (DN) -0.0912 (N) -0.9116, 
+-----------------------------------
+[15:11:38] INFO     Iteration:     690, Coverage: 0.800000  searchobserver.py:83
+[15:11:39] INFO     Iteration:     691, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     692, Coverage: 0.800000  searchobserver.py:83
+[15:11:40] INFO     Iteration:     693, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     694, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| StatementInsertionProbability: (DN) 0.6654, (N) 0.3309
+| TestInsertionProbability: (DN) 0.0624, (N) -0.8751
+------------- ACTIONS -------------
+| StatementInsertionProbability: (DN) 0.0384 (N) 0.3843, 
+| TestInsertionProbability: (DN) -0.0658 (N) -0.6577, 
+-----------------------------------
+[15:11:41] INFO     Iteration:     695, Coverage: 0.800000  searchobserver.py:83
+[15:11:42] INFO     Iteration:     696, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     697, Coverage: 0.800000  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 5 test cases to                     generator.py:720
+                    /output/test_mimesis_builtins_da.py                         
+           INFO     Writing statistics                         statistics.py:364
+[15:11:43] INFO     Stop Pynguin Test Generation…               generator.py:110

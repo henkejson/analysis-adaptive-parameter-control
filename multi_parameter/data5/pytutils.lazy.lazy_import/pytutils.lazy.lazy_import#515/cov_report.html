@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pynguin coverage report</title>
+  <style>
+
+pre { line-height: 125%; }
+td.linenos .normal { color: #586e75; background-color: #073642; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #586e75; background-color: #073642; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #073642 }
+.highlight { background: #002b36; color: #839496 }
+.highlight .c { color: #586e75; font-style: italic } /* Comment */
+.highlight .err { color: #839496; background-color: #dc322f } /* Error */
+.highlight .esc { color: #839496 } /* Escape */
+.highlight .g { color: #839496 } /* Generic */
+.highlight .k { color: #859900 } /* Keyword */
+.highlight .l { color: #839496 } /* Literal */
+.highlight .n { color: #839496 } /* Name */
+.highlight .o { color: #586e75 } /* Operator */
+.highlight .x { color: #839496 } /* Other */
+.highlight .p { color: #839496 } /* Punctuation */
+.highlight .ch { color: #586e75; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #586e75; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #d33682 } /* Comment.Preproc */
+.highlight .cpf { color: #586e75 } /* Comment.PreprocFile */
+.highlight .c1 { color: #586e75; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #586e75; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #dc322f } /* Generic.Deleted */
+.highlight .ge { color: #839496; font-style: italic } /* Generic.Emph */
+.highlight .ges { color: #839496; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.highlight .gr { color: #dc322f } /* Generic.Error */
+.highlight .gh { color: #839496; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #859900 } /* Generic.Inserted */
+.highlight .go { color: #839496 } /* Generic.Output */
+.highlight .gp { color: #268bd2; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { color: #839496; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #839496; text-decoration: underline } /* Generic.Subheading */
+.highlight .gt { color: #268bd2 } /* Generic.Traceback */
+.highlight .kc { color: #2aa198 } /* Keyword.Constant */
+.highlight .kd { color: #2aa198 } /* Keyword.Declaration */
+.highlight .kn { color: #cb4b16 } /* Keyword.Namespace */
+.highlight .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight .kr { color: #859900 } /* Keyword.Reserved */
+.highlight .kt { color: #b58900 } /* Keyword.Type */
+.highlight .ld { color: #839496 } /* Literal.Date */
+.highlight .m { color: #2aa198 } /* Literal.Number */
+.highlight .s { color: #2aa198 } /* Literal.String */
+.highlight .na { color: #839496 } /* Name.Attribute */
+.highlight .nb { color: #268bd2 } /* Name.Builtin */
+.highlight .nc { color: #268bd2 } /* Name.Class */
+.highlight .no { color: #268bd2 } /* Name.Constant */
+.highlight .nd { color: #268bd2 } /* Name.Decorator */
+.highlight .ni { color: #268bd2 } /* Name.Entity */
+.highlight .ne { color: #268bd2 } /* Name.Exception */
+.highlight .nf { color: #268bd2 } /* Name.Function */
+.highlight .nl { color: #268bd2 } /* Name.Label */
+.highlight .nn { color: #268bd2 } /* Name.Namespace */
+.highlight .nx { color: #839496 } /* Name.Other */
+.highlight .py { color: #839496 } /* Name.Property */
+.highlight .nt { color: #268bd2 } /* Name.Tag */
+.highlight .nv { color: #268bd2 } /* Name.Variable */
+.highlight .ow { color: #859900 } /* Operator.Word */
+.highlight .pm { color: #839496 } /* Punctuation.Marker */
+.highlight .w { color: #839496 } /* Text.Whitespace */
+.highlight .mb { color: #2aa198 } /* Literal.Number.Bin */
+.highlight .mf { color: #2aa198 } /* Literal.Number.Float */
+.highlight .mh { color: #2aa198 } /* Literal.Number.Hex */
+.highlight .mi { color: #2aa198 } /* Literal.Number.Integer */
+.highlight .mo { color: #2aa198 } /* Literal.Number.Oct */
+.highlight .sa { color: #2aa198 } /* Literal.String.Affix */
+.highlight .sb { color: #2aa198 } /* Literal.String.Backtick */
+.highlight .sc { color: #2aa198 } /* Literal.String.Char */
+.highlight .dl { color: #2aa198 } /* Literal.String.Delimiter */
+.highlight .sd { color: #586e75 } /* Literal.String.Doc */
+.highlight .s2 { color: #2aa198 } /* Literal.String.Double */
+.highlight .se { color: #2aa198 } /* Literal.String.Escape */
+.highlight .sh { color: #2aa198 } /* Literal.String.Heredoc */
+.highlight .si { color: #2aa198 } /* Literal.String.Interpol */
+.highlight .sx { color: #2aa198 } /* Literal.String.Other */
+.highlight .sr { color: #cb4b16 } /* Literal.String.Regex */
+.highlight .s1 { color: #2aa198 } /* Literal.String.Single */
+.highlight .ss { color: #2aa198 } /* Literal.String.Symbol */
+.highlight .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #268bd2 } /* Name.Function.Magic */
+.highlight .vc { color: #268bd2 } /* Name.Variable.Class */
+.highlight .vg { color: #268bd2 } /* Name.Variable.Global */
+.highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
+.highlight .vm { color: #268bd2 } /* Name.Variable.Magic */
+.highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+body{
+    color: #c9d1d9;
+    background: #0d1117;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+td.lines span{
+    display: block;
+    padding-right: 8px;
+    line-height: 125%;
+}
+
+.notCovered{
+    border-right: 5px solid darkred;
+}
+.partiallyCovered{
+    border-right: 5px solid orangered;
+}
+.fullyCovered{
+    border-right: 5px solid darkgreen;
+}
+.notRelevant{
+    border-right: 5px solid transparent;
+}
+
+</style>
+</head>
+<body>
+<h1>Pynguin coverage report for module 'pytutils.lazy.lazy_import'</h1>
+<p>Achieved 46.53% branch coverage:
+11/13 branchless code objects covered.
+36/88 branches covered.</p>
+<table>
+    <tbody>
+        <tr>
+            <td style="width: 40px; text-align: right;" class="lines">
+                <span class="fullyCovered" title="1/1 branchless code objects covered">1</span>
+                  <span class="notRelevant">2</span>
+                  <span class="notRelevant">3</span>
+                  <span class="notRelevant">4</span>
+                  <span class="notRelevant">5</span>
+                  <span class="notRelevant">6</span>
+                  <span class="notRelevant">7</span>
+                  <span class="notRelevant">8</span>
+                  <span class="notRelevant">9</span>
+                  <span class="notRelevant">10</span>
+                  <span class="notRelevant">11</span>
+                  <span class="notRelevant">12</span>
+                  <span class="notRelevant">13</span>
+                  <span class="notRelevant">14</span>
+                  <span class="notRelevant">15</span>
+                  <span class="notRelevant">16</span>
+                  <span class="notRelevant">17</span>
+                  <span class="notRelevant">18</span>
+                  <span class="notRelevant">19</span>
+                  <span class="notRelevant">20</span>
+                  <span class="notRelevant">21</span>
+                  <span class="notRelevant">22</span>
+                  <span class="notRelevant">23</span>
+                  <span class="notRelevant">24</span>
+                  <span class="notRelevant">25</span>
+                  <span class="notRelevant">26</span>
+                  <span class="notRelevant">27</span>
+                  <span class="notRelevant">28</span>
+                  <span class="notRelevant">29</span>
+                  <span class="notRelevant">30</span>
+                  <span class="notRelevant">31</span>
+                  <span class="notRelevant">32</span>
+                  <span class="notRelevant">33</span>
+                  <span class="notRelevant">34</span>
+                  <span class="notRelevant">35</span>
+                  <span class="notRelevant">36</span>
+                  <span class="notRelevant">37</span>
+                  <span class="notRelevant">38</span>
+                  <span class="notRelevant">39</span>
+                  <span class="notRelevant">40</span>
+                  <span class="notRelevant">41</span>
+                  <span class="notRelevant">42</span>
+                  <span class="notRelevant">43</span>
+                  <span class="notRelevant">44</span>
+                  <span class="notRelevant">45</span>
+                  <span class="notRelevant">46</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">47</span>
+                  <span class="notRelevant">48</span>
+                  <span class="notRelevant">49</span>
+                  <span class="notRelevant">50</span>
+                  <span class="notRelevant">51</span>
+                  <span class="notRelevant">52</span>
+                  <span class="notRelevant">53</span>
+                  <span class="notRelevant">54</span>
+                  <span class="fullyCovered" title="2/2 branches covered">55</span>
+                  <span class="notRelevant">56</span>
+                  <span class="notRelevant">57</span>
+                  <span class="notRelevant">58</span>
+                  <span class="notRelevant">59</span>
+                  <span class="notRelevant">60</span>
+                  <span class="notRelevant">61</span>
+                  <span class="notRelevant">62</span>
+                  <span class="notRelevant">63</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">64</span>
+                  <span class="notRelevant">65</span>
+                  <span class="notRelevant">66</span>
+                  <span class="notRelevant">67</span>
+                  <span class="notRelevant">68</span>
+                  <span class="notCovered" title="0/2 branches covered">69</span>
+                  <span class="notRelevant">70</span>
+                  <span class="notRelevant">71</span>
+                  <span class="notRelevant">72</span>
+                  <span class="notRelevant">73</span>
+                  <span class="notRelevant">74</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">75</span>
+                  <span class="notRelevant">76</span>
+                  <span class="notRelevant">77</span>
+                  <span class="notRelevant">78</span>
+                  <span class="notRelevant">79</span>
+                  <span class="notRelevant">80</span>
+                  <span class="notRelevant">81</span>
+                  <span class="notRelevant">82</span>
+                  <span class="notRelevant">83</span>
+                  <span class="notRelevant">84</span>
+                  <span class="notRelevant">85</span>
+                  <span class="notRelevant">86</span>
+                  <span class="notCovered" title="0/2 branches covered">87</span>
+                  <span class="notRelevant">88</span>
+                  <span class="notRelevant">89</span>
+                  <span class="notCovered" title="0/2 branches covered">90</span>
+                  <span class="notRelevant">91</span>
+                  <span class="notRelevant">92</span>
+                  <span class="notRelevant">93</span>
+                  <span class="notRelevant">94</span>
+                  <span class="notRelevant">95</span>
+                  <span class="notRelevant">96</span>
+                  <span class="notRelevant">97</span>
+                  <span class="notCovered" title="0/2 branches covered">98</span>
+                  <span class="notRelevant">99</span>
+                  <span class="notRelevant">100</span>
+                  <span class="notRelevant">101</span>
+                  <span class="notRelevant">102</span>
+                  <span class="notRelevant">103</span>
+                  <span class="notRelevant">104</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">105</span>
+                  <span class="notRelevant">106</span>
+                  <span class="notRelevant">107</span>
+                  <span class="notRelevant">108</span>
+                  <span class="notRelevant">109</span>
+                  <span class="notRelevant">110</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">111</span>
+                  <span class="notRelevant">112</span>
+                  <span class="notRelevant">113</span>
+                  <span class="notRelevant">114</span>
+                  <span class="notRelevant">115</span>
+                  <span class="fullyCovered" title="2/2 branches covered">116</span>
+                  <span class="notRelevant">117</span>
+                  <span class="notRelevant">118</span>
+                  <span class="notRelevant">119</span>
+                  <span class="notRelevant">120</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">121</span>
+                  <span class="notRelevant">122</span>
+                  <span class="notRelevant">123</span>
+                  <span class="notRelevant">124</span>
+                  <span class="notRelevant">125</span>
+                  <span class="notRelevant">126</span>
+                  <span class="notRelevant">127</span>
+                  <span class="notRelevant">128</span>
+                  <span class="notRelevant">129</span>
+                  <span class="notRelevant">130</span>
+                  <span class="notRelevant">131</span>
+                  <span class="notRelevant">132</span>
+                  <span class="notRelevant">133</span>
+                  <span class="notRelevant">134</span>
+                  <span class="notRelevant">135</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">136</span>
+                  <span class="notRelevant">137</span>
+                  <span class="notRelevant">138</span>
+                  <span class="notRelevant">139</span>
+                  <span class="notRelevant">140</span>
+                  <span class="notRelevant">141</span>
+                  <span class="notRelevant">142</span>
+                  <span class="notRelevant">143</span>
+                  <span class="notRelevant">144</span>
+                  <span class="notRelevant">145</span>
+                  <span class="notRelevant">146</span>
+                  <span class="notRelevant">147</span>
+                  <span class="notRelevant">148</span>
+                  <span class="notRelevant">149</span>
+                  <span class="notRelevant">150</span>
+                  <span class="notRelevant">151</span>
+                  <span class="notRelevant">152</span>
+                  <span class="notRelevant">153</span>
+                  <span class="notRelevant">154</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">155</span>
+                  <span class="notRelevant">156</span>
+                  <span class="notRelevant">157</span>
+                  <span class="notRelevant">158</span>
+                  <span class="notRelevant">159</span>
+                  <span class="notCovered" title="0/2 branches covered">160</span>
+                  <span class="notRelevant">161</span>
+                  <span class="notRelevant">162</span>
+                  <span class="notRelevant">163</span>
+                  <span class="notRelevant">164</span>
+                  <span class="notRelevant">165</span>
+                  <span class="notCovered" title="0/2 branches covered">166</span>
+                  <span class="notRelevant">167</span>
+                  <span class="notRelevant">168</span>
+                  <span class="notRelevant">169</span>
+                  <span class="notRelevant">170</span>
+                  <span class="notRelevant">171</span>
+                  <span class="notRelevant">172</span>
+                  <span class="notRelevant">173</span>
+                  <span class="notRelevant">174</span>
+                  <span class="notCovered" title="0/2 branches covered">175</span>
+                  <span class="notRelevant">176</span>
+                  <span class="notRelevant">177</span>
+                  <span class="notRelevant">178</span>
+                  <span class="notRelevant">179</span>
+                  <span class="notRelevant">180</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">181</span>
+                  <span class="notRelevant">182</span>
+                  <span class="notRelevant">183</span>
+                  <span class="notRelevant">184</span>
+                  <span class="notCovered" title="0/1 branchless code objects covered">185</span>
+                  <span class="notRelevant">186</span>
+                  <span class="notRelevant">187</span>
+                  <span class="notRelevant">188</span>
+                  <span class="notCovered" title="0/1 branchless code objects covered">189</span>
+                  <span class="notRelevant">190</span>
+                  <span class="notRelevant">191</span>
+                  <span class="notRelevant">192</span>
+                  <span class="notRelevant">193</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">194</span>
+                  <span class="notRelevant">195</span>
+                  <span class="notRelevant">196</span>
+                  <span class="notRelevant">197</span>
+                  <span class="notRelevant">198</span>
+                  <span class="notRelevant">199</span>
+                  <span class="notRelevant">200</span>
+                  <span class="notRelevant">201</span>
+                  <span class="notRelevant">202</span>
+                  <span class="notRelevant">203</span>
+                  <span class="notRelevant">204</span>
+                  <span class="notRelevant">205</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">206</span>
+                  <span class="notRelevant">207</span>
+                  <span class="notRelevant">208</span>
+                  <span class="notRelevant">209</span>
+                  <span class="notRelevant">210</span>
+                  <span class="notRelevant">211</span>
+                  <span class="notRelevant">212</span>
+                  <span class="notRelevant">213</span>
+                  <span class="notRelevant">214</span>
+                  <span class="notRelevant">215</span>
+                  <span class="notRelevant">216</span>
+                  <span class="notRelevant">217</span>
+                  <span class="notRelevant">218</span>
+                  <span class="notRelevant">219</span>
+                  <span class="notRelevant">220</span>
+                  <span class="notRelevant">221</span>
+                  <span class="notRelevant">222</span>
+                  <span class="notRelevant">223</span>
+                  <span class="notRelevant">224</span>
+                  <span class="notRelevant">225</span>
+                  <span class="notRelevant">226</span>
+                  <span class="notRelevant">227</span>
+                  <span class="notRelevant">228</span>
+                  <span class="notRelevant">229</span>
+                  <span class="notRelevant">230</span>
+                  <span class="notRelevant">231</span>
+                  <span class="notRelevant">232</span>
+                  <span class="notRelevant">233</span>
+                  <span class="notRelevant">234</span>
+                  <span class="notRelevant">235</span>
+                  <span class="notRelevant">236</span>
+                  <span class="notRelevant">237</span>
+                  <span class="notRelevant">238</span>
+                  <span class="notRelevant">239</span>
+                  <span class="notRelevant">240</span>
+                  <span class="notRelevant">241</span>
+                  <span class="notRelevant">242</span>
+                  <span class="notRelevant">243</span>
+                  <span class="notRelevant">244</span>
+                  <span class="notRelevant">245</span>
+                  <span class="notRelevant">246</span>
+                  <span class="notRelevant">247</span>
+                  <span class="notRelevant">248</span>
+                  <span class="notRelevant">249</span>
+                  <span class="notRelevant">250</span>
+                  <span class="notRelevant">251</span>
+                  <span class="notRelevant">252</span>
+                  <span class="notRelevant">253</span>
+                  <span class="notRelevant">254</span>
+                  <span class="fullyCovered" title="4/4 branches covered">255</span>
+                  <span class="notRelevant">256</span>
+                  <span class="notRelevant">257</span>
+                  <span class="notRelevant">258</span>
+                  <span class="notRelevant">259</span>
+                  <span class="notRelevant">260</span>
+                  <span class="notRelevant">261</span>
+                  <span class="notRelevant">262</span>
+                  <span class="notRelevant">263</span>
+                  <span class="notRelevant">264</span>
+                  <span class="notRelevant">265</span>
+                  <span class="notRelevant">266</span>
+                  <span class="notRelevant">267</span>
+                  <span class="notRelevant">268</span>
+                  <span class="notRelevant">269</span>
+                  <span class="notRelevant">270</span>
+                  <span class="notRelevant">271</span>
+                  <span class="notRelevant">272</span>
+                  <span class="fullyCovered" title="2/2 branches covered">273</span>
+                  <span class="notRelevant">274</span>
+                  <span class="notRelevant">275</span>
+                  <span class="notRelevant">276</span>
+                  <span class="notRelevant">277</span>
+                  <span class="notCovered" title="0/2 branches covered">278</span>
+                  <span class="notRelevant">279</span>
+                  <span class="notRelevant">280</span>
+                  <span class="notRelevant">281</span>
+                  <span class="notCovered" title="0/2 branches covered">282</span>
+                  <span class="notRelevant">283</span>
+                  <span class="notRelevant">284</span>
+                  <span class="notRelevant">285</span>
+                  <span class="notRelevant">286</span>
+                  <span class="notRelevant">287</span>
+                  <span class="notRelevant">288</span>
+                  <span class="notRelevant">289</span>
+                  <span class="notRelevant">290</span>
+                  <span class="notRelevant">291</span>
+                  <span class="notRelevant">292</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">293</span>
+                  <span class="notRelevant">294</span>
+                  <span class="notRelevant">295</span>
+                  <span class="notRelevant">296</span>
+                  <span class="notRelevant">297</span>
+                  <span class="notRelevant">298</span>
+                  <span class="notRelevant">299</span>
+                  <span class="notRelevant">300</span>
+                  <span class="notRelevant">301</span>
+                  <span class="notRelevant">302</span>
+                  <span class="notRelevant">303</span>
+                  <span class="notRelevant">304</span>
+                  <span class="notRelevant">305</span>
+                  <span class="fullyCovered" title="2/2 branches covered">306</span>
+                  <span class="notRelevant">307</span>
+                  <span class="notRelevant">308</span>
+                  <span class="notRelevant">309</span>
+                  <span class="notRelevant">310</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">311</span>
+                  <span class="notRelevant">312</span>
+                  <span class="notRelevant">313</span>
+                  <span class="notRelevant">314</span>
+                  <span class="notRelevant">315</span>
+                  <span class="notRelevant">316</span>
+                  <span class="notRelevant">317</span>
+                  <span class="notRelevant">318</span>
+                  <span class="notRelevant">319</span>
+                  <span class="notRelevant">320</span>
+                  <span class="notRelevant">321</span>
+                  <span class="notCovered" title="0/2 branches covered">322</span>
+                  <span class="notRelevant">323</span>
+                  <span class="notRelevant">324</span>
+                  <span class="notRelevant">325</span>
+                  <span class="notRelevant">326</span>
+                  <span class="notRelevant">327</span>
+                  <span class="fullyCovered" title="2/2 branches covered">328</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">329</span>
+                  <span class="notRelevant">330</span>
+                  <span class="partiallyCovered" title="1/2 branches covered">331</span>
+                  <span class="notRelevant">332</span>
+                  <span class="notRelevant">333</span>
+                  <span class="notRelevant">334</span>
+                  <span class="notRelevant">335</span>
+                  <span class="notRelevant">336</span>
+                  <span class="notRelevant">337</span>
+                  <span class="notRelevant">338</span>
+                  <span class="notRelevant">339</span>
+                  <span class="notRelevant">340</span>
+                  <span class="notRelevant">341</span>
+                  <span class="notRelevant">342</span>
+                  <span class="notRelevant">343</span>
+                  <span class="notCovered" title="0/2 branches covered">344</span>
+                  <span class="notRelevant">345</span>
+                  <span class="notRelevant">346</span>
+                  <span class="notRelevant">347</span>
+                  <span class="notCovered" title="0/2 branches covered">348</span>
+                  <span class="notRelevant">349</span>
+                  <span class="notCovered" title="0/2 branches covered">350</span>
+                  <span class="notRelevant">351</span>
+                  <span class="notRelevant">352</span>
+                  <span class="notCovered" title="0/2 branches covered">353</span>
+                  <span class="notRelevant">354</span>
+                  <span class="notRelevant">355</span>
+                  <span class="notRelevant">356</span>
+                  <span class="notRelevant">357</span>
+                  <span class="notRelevant">358</span>
+                  <span class="notCovered" title="0/2 branches covered">359</span>
+                  <span class="notRelevant">360</span>
+                  <span class="notRelevant">361</span>
+                  <span class="notRelevant">362</span>
+                  <span class="notRelevant">363</span>
+                  <span class="notRelevant">364</span>
+                  <span class="notRelevant">365</span>
+                  <span class="notRelevant">366</span>
+                  <span class="notCovered" title="0/2 branches covered">367</span>
+                  <span class="notRelevant">368</span>
+                  <span class="notRelevant">369</span>
+                  <span class="notRelevant">370</span>
+                  <span class="notRelevant">371</span>
+                  <span class="notRelevant">372</span>
+                  <span class="notRelevant">373</span>
+                  <span class="notRelevant">374</span>
+                  <span class="notRelevant">375</span>
+                  <span class="notCovered" title="0/2 branches covered">376</span>
+                  <span class="notRelevant">377</span>
+                  <span class="notCovered" title="0/2 branches covered">378</span>
+                  <span class="notRelevant">379</span>
+                  <span class="notRelevant">380</span>
+                  <span class="notRelevant">381</span>
+                  <span class="notRelevant">382</span>
+                  <span class="notRelevant">383</span>
+                  <span class="notRelevant">384</span>
+                  <span class="notRelevant">385</span>
+                  <span class="notRelevant">386</span>
+                  <span class="notRelevant">387</span>
+                  <span class="notRelevant">388</span>
+                  <span class="notRelevant">389</span>
+                  <span class="notCovered" title="0/2 branches covered">390</span>
+                  <span class="notRelevant">391</span>
+                  <span class="notRelevant">392</span>
+                  <span class="notRelevant">393</span>
+                  <span class="notRelevant">394</span>
+                  <span class="notRelevant">395</span>
+                  <span class="notRelevant">396</span>
+                  <span class="notRelevant">397</span>
+                  <span class="notCovered" title="0/2 branches covered">398</span>
+                  <span class="notRelevant">399</span>
+                  <span class="notCovered" title="0/2 branches covered">400</span>
+                  <span class="notRelevant">401</span>
+                  <span class="notRelevant">402</span>
+                  <span class="notCovered" title="0/2 branches covered">403</span>
+                  <span class="notRelevant">404</span>
+                  <span class="notRelevant">405</span>
+                  <span class="notRelevant">406</span>
+                  <span class="notRelevant">407</span>
+                  <span class="notRelevant">408</span>
+                  <span class="notRelevant">409</span>
+                  <span class="notRelevant">410</span>
+                  <span class="notCovered" title="0/2 branches covered">411</span>
+                  <span class="notRelevant">412</span>
+                  <span class="notRelevant">413</span>
+                  <span class="notRelevant">414</span>
+                  <span class="notRelevant">415</span>
+                  <span class="notRelevant">416</span>
+                  <span class="notRelevant">417</span>
+                  <span class="notRelevant">418</span>
+                  <span class="notRelevant">419</span>
+                  <span class="notRelevant">420</span>
+                  <span class="notRelevant">421</span>
+                  <span class="notRelevant">422</span>
+                  <span class="notRelevant">423</span>
+                  <span class="notRelevant">424</span>
+                  <span class="fullyCovered" title="2/2 branches covered">425</span>
+                  <span class="notRelevant">426</span>
+                  <span class="notRelevant">427</span>
+                  <span class="fullyCovered" title="2/2 branches covered">428</span>
+                  <span class="notRelevant">429</span>
+                  <span class="notRelevant">430</span>
+                  <span class="fullyCovered" title="2/2 branches covered">431</span>
+                  <span class="notRelevant">432</span>
+                  <span class="fullyCovered" title="2/2 branches covered">433</span>
+                  <span class="fullyCovered" title="2/2 branches covered">434</span>
+                  <span class="notRelevant">435</span>
+                  <span class="notRelevant">436</span>
+                  <span class="notRelevant">437</span>
+                  <span class="notRelevant">438</span>
+                  <span class="notRelevant">439</span>
+                  <span class="fullyCovered" title="4/4 branches covered">440</span>
+                  <span class="notRelevant">441</span>
+                  <span class="notRelevant">442</span>
+                  <span class="notRelevant">443</span>
+                  <span class="fullyCovered" title="2/2 branches covered">444</span>
+                  <span class="notRelevant">445</span>
+                  <span class="notRelevant">446</span>
+                  <span class="notRelevant">447</span>
+                  <span class="notRelevant">448</span>
+                  <span class="fullyCovered" title="1/1 branchless code objects covered">449</span>
+                  <span class="notRelevant">450</span>
+                  <span class="notRelevant">451</span>
+                  <span class="notRelevant">452</span>
+                  <span class="notRelevant">453</span>
+                  <span class="notRelevant">454</span>
+                  <span class="notRelevant">455</span>
+                  <span class="notRelevant">456</span>
+                  <span class="notRelevant">457</span>
+                  <span class="notRelevant">458</span>
+                  <span class="notRelevant">459</span>
+                  <span class="notRelevant">460</span>
+                  <span class="notRelevant">461</span>
+                  <span class="notRelevant">462</span>
+                  <span class="notRelevant">463</span>
+                  <span class="notRelevant">464</span>
+                  <span class="notRelevant">465</span>
+                  <span class="notRelevant">466</span>
+                  <span class="notRelevant">467</span>
+                  <span class="notRelevant">468</span>
+                  <span class="notRelevant">469</span>
+                  <span class="notRelevant">470</span>
+                  <span class="notRelevant">471</span>
+                  <span class="notRelevant">472</span>
+                  <span class="notRelevant">473</span>
+                  <span class="notRelevant">474</span>
+                  <span class="notRelevant">475</span>
+                  <span class="notRelevant">476</span>
+                  </td>
+            <td style="width: 100%;"><div class="highlight"><pre><span></span><span class="c1"># Copyright (C) 2006-2010 Canonical Ltd</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software; you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by</span>
+<span class="c1"># the Free Software Foundation; either version 2 of the License, or</span>
+<span class="c1"># (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU General Public License</span>
+<span class="c1"># along with this program; if not, write to the Free Software</span>
+<span class="c1"># Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</span>
+
+<span class="sd">&quot;&quot;&quot;Functionality to create lazy evaluation objects.</span>
+
+<span class="sd">This includes waiting to import a module until it is actually used.</span>
+
+<span class="sd">Most commonly, the &#39;lazy_import&#39; function is used to import other modules</span>
+<span class="sd">in an on-demand fashion. Typically use looks like::</span>
+
+<span class="sd">    from bzrlib.lazy_import import lazy_import</span>
+<span class="sd">    lazy_import(globals(), &#39;&#39;&#39;</span>
+<span class="sd">    from bzrlib import (</span>
+<span class="sd">        errors,</span>
+<span class="sd">        osutils,</span>
+<span class="sd">        branch,</span>
+<span class="sd">        )</span>
+<span class="sd">    import bzrlib.branch</span>
+<span class="sd">    &#39;&#39;&#39;)</span>
+
+<span class="sd">Then &#39;errors, osutils, branch&#39; and &#39;bzrlib&#39; will exist as lazy-loaded</span>
+<span class="sd">objects which will be replaced with a real object on first use.</span>
+
+<span class="sd">In general, it is best to only load modules in this way. This is because</span>
+<span class="sd">it isn&#39;t safe to pass these variables to other functions before they</span>
+<span class="sd">have been replaced. This is especially true for constants, sometimes</span>
+<span class="sd">true for classes or functions (when used as a factory, or you want</span>
+<span class="sd">to inherit from them).</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">absolute_import</span>
+
+
+<span class="k">class</span> <span class="nc">IllegalUseOfScopeReplacer</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+
+    <span class="n">_fmt</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;ScopeReplacer object </span><span class="si">%(name)r</span><span class="s2"> was used incorrectly:&quot;</span>
+            <span class="s2">&quot; </span><span class="si">%(msg)s%(extra)s</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">extra</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">msg</span> <span class="o">=</span> <span class="n">msg</span>
+        <span class="k">if</span> <span class="n">extra</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">extra</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+        <span class="nb">super</span><span class="p">(</span><span class="n">IllegalUseOfScopeReplacer</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">_format</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_preformatted_string&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">s</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="c1"># contains a preformatted message</span>
+            <span class="k">return</span> <span class="n">s</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">fmt</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_format_string</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">fmt</span><span class="p">:</span>
+                <span class="n">d</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">)</span>
+                <span class="n">s</span> <span class="o">=</span> <span class="n">fmt</span> <span class="o">%</span> <span class="n">d</span>
+                <span class="c1"># __str__() should always return a &#39;str&#39; object</span>
+                <span class="c1"># never a &#39;unicode&#39; object.</span>
+                <span class="k">return</span> <span class="n">s</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">pass</span> <span class="c1"># just bind to &#39;e&#39; for formatting below</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">e</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">return</span> <span class="s1">&#39;Unprintable exception </span><span class="si">%s</span><span class="s1">: dict=</span><span class="si">%r</span><span class="s1">, fmt=</span><span class="si">%r</span><span class="s1">, error=</span><span class="si">%r</span><span class="s1">&#39;</span> \
+            <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
+               <span class="bp">self</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span>
+               <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_fmt&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+               <span class="n">e</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__unicode__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_format</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="c1"># Try decoding the str using the default encoding.</span>
+            <span class="n">u</span> <span class="o">=</span> <span class="n">unicode</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">unicode</span><span class="p">):</span>
+            <span class="c1"># Try to make a unicode object from it, because __unicode__ must</span>
+            <span class="c1"># return a unicode object.</span>
+            <span class="n">u</span> <span class="o">=</span> <span class="n">unicode</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_format</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">unicode</span><span class="p">):</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># __str__ must return a str.</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">s</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">(</span><span class="si">%s</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">_get_format_string</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return format string for this exception or None&quot;&quot;&quot;</span>
+        <span class="n">fmt</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_fmt&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">fmt</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="kn">from</span> <span class="nn">bzrlib.i18n</span> <span class="kn">import</span> <span class="n">gettext</span>
+            <span class="k">return</span> <span class="n">gettext</span><span class="p">(</span><span class="n">unicode</span><span class="p">(</span><span class="n">fmt</span><span class="p">))</span> <span class="c1"># _fmt strings should be ascii</span>
+
+    <span class="k">def</span> <span class="fm">__eq__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">other</span><span class="o">.</span><span class="vm">__class__</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">NotImplemented</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__dict__</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="vm">__dict__</span>
+
+
+<span class="k">class</span> <span class="nc">ScopeReplacer</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;A lazy object that will replace itself in the appropriate scope.</span>
+
+<span class="sd">    This object sits, ready to create the real object the first time it is</span>
+<span class="sd">    needed.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;_scope&#39;</span><span class="p">,</span> <span class="s1">&#39;_factory&#39;</span><span class="p">,</span> <span class="s1">&#39;_name&#39;</span><span class="p">,</span> <span class="s1">&#39;_real_obj&#39;</span><span class="p">)</span>
+
+    <span class="c1"># If you to do x = y, setting this to False will disallow access to</span>
+    <span class="c1"># members from the second variable (i.e. x). This should normally</span>
+    <span class="c1"># be enabled for reasons of thread safety and documentation, but</span>
+    <span class="c1"># will be disabled during the selftest command to check for abuse.</span>
+    <span class="n">_should_proxy</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">factory</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a temporary object in the specified scope.</span>
+<span class="sd">        Once used, a real object will be placed in the scope.</span>
+
+<span class="sd">        :param scope: The scope the object should appear in</span>
+<span class="sd">        :param factory: A callable that will create the real object.</span>
+<span class="sd">            It will be passed (self, scope, name)</span>
+<span class="sd">        :param name: The variable name in the given scope.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_scope&#39;</span><span class="p">,</span> <span class="n">scope</span><span class="p">)</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_factory&#39;</span><span class="p">,</span> <span class="n">factory</span><span class="p">)</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_name&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_real_obj&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="n">scope</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span>
+
+    <span class="k">def</span> <span class="nf">_resolve</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Return the real object for which this is a placeholder&quot;&quot;&quot;</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_name&#39;</span><span class="p">)</span>
+        <span class="n">real_obj</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_real_obj&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">real_obj</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="c1"># No obj generated previously, so generate from factory and scope.</span>
+            <span class="n">factory</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_factory&#39;</span><span class="p">)</span>
+            <span class="n">scope</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_scope&#39;</span><span class="p">)</span>
+            <span class="n">obj</span> <span class="o">=</span> <span class="n">factory</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">obj</span> <span class="ow">is</span> <span class="bp">self</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">IllegalUseOfScopeReplacer</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;Object tried&quot;</span>
+                    <span class="s2">&quot; to replace itself, check it&#39;s not using its own scope.&quot;</span><span class="p">)</span>
+
+            <span class="c1"># Check if another thread has jumped in while obj was generated.</span>
+            <span class="n">real_obj</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_real_obj&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">real_obj</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="c1"># Still no prexisting obj, so go ahead and assign to scope and</span>
+                <span class="c1"># return. There is still a small window here where races will</span>
+                <span class="c1"># not be detected, but safest to avoid additional locking.</span>
+                <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_real_obj&#39;</span><span class="p">,</span> <span class="n">obj</span><span class="p">)</span>
+                <span class="n">scope</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">obj</span>
+                <span class="k">return</span> <span class="n">obj</span>
+
+        <span class="c1"># Raise if proxying is disabled as obj has already been generated.</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">ScopeReplacer</span><span class="o">.</span><span class="n">_should_proxy</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">IllegalUseOfScopeReplacer</span><span class="p">(</span>
+                <span class="n">name</span><span class="p">,</span> <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;Object already replaced, did you assign it&quot;</span>
+                          <span class="s2">&quot; to another variable?&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">real_obj</span>
+
+    <span class="k">def</span> <span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_resolve&#39;</span><span class="p">)()</span>
+        <span class="k">return</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_resolve&#39;</span><span class="p">)()</span>
+        <span class="k">return</span> <span class="nb">setattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_resolve&#39;</span><span class="p">)()</span>
+        <span class="k">return</span> <span class="n">obj</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">disallow_proxying</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Disallow lazily imported modules to be used as proxies.</span>
+
+<span class="sd">    Calling this function might cause problems with concurrent imports</span>
+<span class="sd">    in multithreaded environments, but will help detecting wasteful</span>
+<span class="sd">    indirection, so it should be called when executing unit tests.</span>
+
+<span class="sd">    Only lazy imports that happen after this call are affected.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">ScopeReplacer</span><span class="o">.</span><span class="n">_should_proxy</span> <span class="o">=</span> <span class="kc">False</span>
+
+
+<span class="k">class</span> <span class="nc">ImportReplacer</span><span class="p">(</span><span class="n">ScopeReplacer</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;This is designed to replace only a portion of an import list.</span>
+
+<span class="sd">    It will replace itself with a module, and then make children</span>
+<span class="sd">    entries also ImportReplacer objects.</span>
+
+<span class="sd">    At present, this only supports &#39;import foo.bar.baz&#39; syntax.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># &#39;_import_replacer_children&#39; is intentionally a long semi-unique name</span>
+    <span class="c1"># that won&#39;t likely exist elsewhere. This allows us to detect an</span>
+    <span class="c1"># ImportReplacer object by using</span>
+    <span class="c1">#       object.__getattribute__(obj, &#39;_import_replacer_children&#39;)</span>
+    <span class="c1"># We can&#39;t just use &#39;isinstance(obj, ImportReplacer)&#39;, because that</span>
+    <span class="c1"># accesses .__class__, which goes through __getattribute__, and triggers</span>
+    <span class="c1"># the replacement.</span>
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;_import_replacer_children&#39;</span><span class="p">,</span> <span class="s1">&#39;_member&#39;</span><span class="p">,</span> <span class="s1">&#39;_module_path&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">module_path</span><span class="p">,</span> <span class="n">member</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">children</span><span class="o">=</span><span class="p">{}):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Upon request import &#39;module_path&#39; as the name &#39;module_name&#39;.</span>
+<span class="sd">        When imported, prepare children to also be imported.</span>
+
+<span class="sd">        :param scope: The scope that objects should be imported into.</span>
+<span class="sd">            Typically this is globals()</span>
+<span class="sd">        :param name: The variable name. Often this is the same as the</span>
+<span class="sd">            module_path. &#39;bzrlib&#39;</span>
+<span class="sd">        :param module_path: A list for the fully specified module path</span>
+<span class="sd">            [&#39;bzrlib&#39;, &#39;foo&#39;, &#39;bar&#39;]</span>
+<span class="sd">        :param member: The member inside the module to import, often this is</span>
+<span class="sd">            None, indicating the module is being imported.</span>
+<span class="sd">        :param children: Children entries to be imported later.</span>
+<span class="sd">            This should be a map of children specifications.</span>
+<span class="sd">            ::</span>
+<span class="sd">            </span>
+<span class="sd">                {&#39;foo&#39;:([&#39;bzrlib&#39;, &#39;foo&#39;], None,</span>
+<span class="sd">                    {&#39;bar&#39;:([&#39;bzrlib&#39;, &#39;foo&#39;, &#39;bar&#39;], None {})})</span>
+<span class="sd">                }</span>
+
+<span class="sd">        Examples::</span>
+
+<span class="sd">            import foo =&gt; name=&#39;foo&#39; module_path=&#39;foo&#39;,</span>
+<span class="sd">                          member=None, children={}</span>
+<span class="sd">            import foo.bar =&gt; name=&#39;foo&#39; module_path=&#39;foo&#39;, member=None,</span>
+<span class="sd">                              children={&#39;bar&#39;:([&#39;foo&#39;, &#39;bar&#39;], None, {}}</span>
+<span class="sd">            from foo import bar =&gt; name=&#39;bar&#39; module_path=&#39;foo&#39;, member=&#39;bar&#39;</span>
+<span class="sd">                                   children={}</span>
+<span class="sd">            from foo import bar, baz would get translated into 2 import</span>
+<span class="sd">            requests. On for &#39;name=bar&#39; and one for &#39;name=baz&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">member</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="n">children</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Cannot supply both a member and children&#39;</span><span class="p">)</span>
+
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_import_replacer_children&#39;</span><span class="p">,</span> <span class="n">children</span><span class="p">)</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_member&#39;</span><span class="p">,</span> <span class="n">member</span><span class="p">)</span>
+        <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_module_path&#39;</span><span class="p">,</span> <span class="n">module_path</span><span class="p">)</span>
+
+        <span class="c1"># Indirecting through __class__ so that children can</span>
+        <span class="c1"># override _import (especially our instrumented version)</span>
+        <span class="bp">cls</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;__class__&#39;</span><span class="p">)</span>
+        <span class="n">ScopeReplacer</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span>
+                               <span class="n">factory</span><span class="o">=</span><span class="bp">cls</span><span class="o">.</span><span class="n">_import</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_import</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="n">children</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_import_replacer_children&#39;</span><span class="p">)</span>
+        <span class="n">member</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_member&#39;</span><span class="p">)</span>
+        <span class="n">module_path</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_module_path&#39;</span><span class="p">)</span>
+        <span class="n">module_python_path</span> <span class="o">=</span> <span class="s1">&#39;.&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">module_path</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">member</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">module</span> <span class="o">=</span> <span class="nb">__import__</span><span class="p">(</span><span class="n">module_python_path</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="p">[</span><span class="n">member</span><span class="p">],</span> <span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+            <span class="k">return</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">module</span><span class="p">,</span> <span class="n">member</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">module</span> <span class="o">=</span> <span class="nb">__import__</span><span class="p">(</span><span class="n">module_python_path</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="p">[],</span> <span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">module_path</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                <span class="n">module</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">module</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+
+        <span class="c1"># Prepare the children to be imported</span>
+        <span class="k">for</span> <span class="n">child_name</span><span class="p">,</span> <span class="p">(</span><span class="n">child_path</span><span class="p">,</span> <span class="n">child_member</span><span class="p">,</span> <span class="n">grandchildren</span><span class="p">)</span> <span class="ow">in</span> \
+                <span class="n">children</span><span class="o">.</span><span class="n">iteritems</span><span class="p">():</span>
+            <span class="c1"># Using self.__class__, so that children get children classes</span>
+            <span class="c1"># instantiated. (This helps with instrumented tests)</span>
+            <span class="bp">cls</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;__class__&#39;</span><span class="p">)</span>
+            <span class="bp">cls</span><span class="p">(</span><span class="n">module</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">child_name</span><span class="p">,</span>
+                <span class="n">module_path</span><span class="o">=</span><span class="n">child_path</span><span class="p">,</span> <span class="n">member</span><span class="o">=</span><span class="n">child_member</span><span class="p">,</span>
+                <span class="n">children</span><span class="o">=</span><span class="n">grandchildren</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">module</span>
+
+
+<span class="k">class</span> <span class="nc">ImportProcessor</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Convert text that users input into lazy import requests&quot;&quot;&quot;</span>
+
+    <span class="c1"># TODO: jam 20060912 This class is probably not strict enough about</span>
+    <span class="c1">#       what type of text it allows. For example, you can do:</span>
+    <span class="c1">#       import (foo, bar), which is not allowed by python.</span>
+    <span class="c1">#       For now, it should be supporting a superset of python import</span>
+    <span class="c1">#       syntax which is all we really care about.</span>
+
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;imports&#39;</span><span class="p">,</span> <span class="s1">&#39;_lazy_import_class&#39;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lazy_import_class</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">imports</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">lazy_import_class</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_lazy_import_class</span> <span class="o">=</span> <span class="n">ImportReplacer</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_lazy_import_class</span> <span class="o">=</span> <span class="n">lazy_import_class</span>
+
+    <span class="k">def</span> <span class="nf">lazy_import</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Convert the given text into a bunch of lazy import objects.</span>
+
+<span class="sd">        This takes a text string, which should be similar to normal python</span>
+<span class="sd">        import markup.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_build_map</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_convert_imports</span><span class="p">(</span><span class="n">scope</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_convert_imports</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scope</span><span class="p">):</span>
+        <span class="c1"># Now convert the map into a set of imports</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">info</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="o">.</span><span class="n">iteritems</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_lazy_import_class</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">module_path</span><span class="o">=</span><span class="n">info</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                    <span class="n">member</span><span class="o">=</span><span class="n">info</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">children</span><span class="o">=</span><span class="n">info</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="k">def</span> <span class="nf">_build_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Take a string describing imports, and build up the internal map&quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_canonicalize_import_text</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;import &#39;</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_convert_import_str</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;from &#39;</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_convert_from_str</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">errors</span><span class="o">.</span><span class="n">InvalidImportLine</span><span class="p">(</span><span class="n">line</span><span class="p">,</span>
+                    <span class="s2">&quot;doesn&#39;t start with &#39;import &#39; or &#39;from &#39;&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_convert_import_str</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">import_str</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;This converts a import string into an import map.</span>
+
+<span class="sd">        This only understands &#39;import foo, foo.bar, foo.bar.baz as bing&#39;</span>
+
+<span class="sd">        :param import_str: The import string to process</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">import_str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;import &#39;</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;bad import string </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">import_str</span><span class="p">,))</span>
+        <span class="n">import_str</span> <span class="o">=</span> <span class="n">import_str</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;import &#39;</span><span class="p">):]</span>
+
+        <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">import_str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">):</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">as_hunks</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; as &#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">as_hunks</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                <span class="c1"># We have &#39;as&#39; so this is a different style of import</span>
+                <span class="c1"># &#39;import foo.bar.baz as bing&#39; creates a local variable</span>
+                <span class="c1"># named &#39;bing&#39; which points to &#39;foo.bar.baz&#39;</span>
+                <span class="n">name</span> <span class="o">=</span> <span class="n">as_hunks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+                <span class="n">module_path</span> <span class="o">=</span> <span class="n">as_hunks</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">:</span>
+                    <span class="k">raise</span> <span class="n">errors</span><span class="o">.</span><span class="n">ImportNameCollision</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+                <span class="c1"># No children available in &#39;import foo as bar&#39;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">module_path</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="p">{})</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Now we need to handle</span>
+                <span class="n">module_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+                <span class="n">name</span> <span class="o">=</span> <span class="n">module_path</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">:</span>
+                    <span class="c1"># This is a new import that we haven&#39;t seen before</span>
+                    <span class="n">module_def</span> <span class="o">=</span> <span class="p">([</span><span class="n">name</span><span class="p">],</span> <span class="kc">None</span><span class="p">,</span> <span class="p">{})</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">module_def</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">module_def</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+
+                <span class="n">cur_path</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span><span class="p">]</span>
+                <span class="n">cur</span> <span class="o">=</span> <span class="n">module_def</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+                <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">module_path</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                    <span class="n">cur_path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">child</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">cur</span><span class="p">:</span>
+                        <span class="n">cur</span> <span class="o">=</span> <span class="n">cur</span><span class="p">[</span><span class="n">child</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="nb">next</span> <span class="o">=</span> <span class="p">(</span><span class="n">cur_path</span><span class="p">[:],</span> <span class="kc">None</span><span class="p">,</span> <span class="p">{})</span>
+                        <span class="n">cur</span><span class="p">[</span><span class="n">child</span><span class="p">]</span> <span class="o">=</span> <span class="nb">next</span>
+                        <span class="n">cur</span> <span class="o">=</span> <span class="nb">next</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">_convert_from_str</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_str</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;This converts a &#39;from foo import bar&#39; string into an import map.</span>
+
+<span class="sd">        :param from_str: The import string to process</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">from_str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;from &#39;</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;bad from/import </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">from_str</span><span class="p">)</span>
+        <span class="n">from_str</span> <span class="o">=</span> <span class="n">from_str</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;from &#39;</span><span class="p">):]</span>
+
+        <span class="n">from_module</span><span class="p">,</span> <span class="n">import_list</span> <span class="o">=</span> <span class="n">from_str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; import &#39;</span><span class="p">)</span>
+
+        <span class="n">from_module_path</span> <span class="o">=</span> <span class="n">from_module</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">import_list</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">):</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">as_hunks</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; as &#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">as_hunks</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                <span class="c1"># We have &#39;as&#39; so this is a different style of import</span>
+                <span class="c1"># &#39;import foo.bar.baz as bing&#39; creates a local variable</span>
+                <span class="c1"># named &#39;bing&#39; which points to &#39;foo.bar.baz&#39;</span>
+                <span class="n">name</span> <span class="o">=</span> <span class="n">as_hunks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+                <span class="n">module</span> <span class="o">=</span> <span class="n">as_hunks</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">name</span> <span class="o">=</span> <span class="n">module</span> <span class="o">=</span> <span class="n">path</span>
+            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">errors</span><span class="o">.</span><span class="n">ImportNameCollision</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">imports</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">from_module_path</span><span class="p">,</span> <span class="n">module</span><span class="p">,</span> <span class="p">{})</span>
+
+    <span class="k">def</span> <span class="nf">_canonicalize_import_text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Take a list of imports, and split it into regularized form.</span>
+
+<span class="sd">        This is meant to take regular import text, and convert it to</span>
+<span class="sd">        the forms that the rest of the converters prefer.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">continuing</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">loc</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">loc</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="p">[:</span><span class="n">loc</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="n">cur</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;)&#39;</span><span class="p">):</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cur</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">line</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="n">cur</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">cur</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">line</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="s1">&#39;(&#39;</span> <span class="ow">in</span> <span class="n">line</span> <span class="ow">and</span> <span class="s1">&#39;)&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">cur</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;(&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;(&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;)&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">cur</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">errors</span><span class="o">.</span><span class="n">InvalidImportLine</span><span class="p">(</span><span class="n">cur</span><span class="p">,</span> <span class="s1">&#39;Unmatched parenthesis&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">out</span>
+
+
+<span class="k">def</span> <span class="nf">lazy_import</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">lazy_import_class</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Create lazy imports for all of the imports in text.</span>
+
+<span class="sd">    This is typically used as something like::</span>
+
+<span class="sd">        from bzrlib.lazy_import import lazy_import</span>
+<span class="sd">        lazy_import(globals(), &#39;&#39;&#39;</span>
+<span class="sd">        from bzrlib import (</span>
+<span class="sd">            foo,</span>
+<span class="sd">            bar,</span>
+<span class="sd">            baz,</span>
+<span class="sd">            )</span>
+<span class="sd">        import bzrlib.branch</span>
+<span class="sd">        import bzrlib.transport</span>
+<span class="sd">        &#39;&#39;&#39;)</span>
+
+<span class="sd">    Then &#39;foo, bar, baz&#39; and &#39;bzrlib&#39; will exist as lazy-loaded</span>
+<span class="sd">    objects which will be replaced with a real object on first use.</span>
+
+<span class="sd">    In general, it is best to only load modules in this way. This is</span>
+<span class="sd">    because other objects (functions/classes/variables) are frequently</span>
+<span class="sd">    used without accessing a member, which means we cannot tell they</span>
+<span class="sd">    have been used.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># This is just a helper around ImportProcessor.lazy_import</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">ImportProcessor</span><span class="p">(</span><span class="n">lazy_import_class</span><span class="o">=</span><span class="n">lazy_import_class</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">proc</span><span class="o">.</span><span class="n">lazy_import</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+</pre></div>
+</td>
+        </tr>
+    </tbody>
+</table>
+<footer>
+  <p>Created at 2024-04-20 01:12:04.994855</p>
+</footer>
+</body>
+</html>

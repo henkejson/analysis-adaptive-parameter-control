@@ -1,0 +1,2537 @@
+Collecting sanic-routing>=23.12.0
+  Downloading sanic_routing-23.12.0-py3-none-any.whl (25 kB)
+Collecting httptools>=0.0.10
+  Downloading httptools-0.6.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 2.9 MB/s eta 0:00:00
+Collecting uvloop
+  Downloading uvloop-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 25.0 MB/s eta 0:00:00
+Collecting ujson
+  Downloading ujson-5.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.2/53.2 kB 444.6 kB/s eta 0:00:00
+Collecting aiofiles>=0.6.0
+  Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting websockets>=10.0
+  Downloading websockets-12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 2.7 MB/s eta 0:00:00
+Collecting multidict<7.0,>=5.0
+  Downloading multidict-6.0.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.3/124.3 kB 1.0 MB/s eta 0:00:00
+Collecting html5tagger>=1.2.1
+  Downloading html5tagger-1.3.0-py3-none-any.whl (10 kB)
+Collecting tracerite>=1.0.0
+  Downloading tracerite-1.1.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: typing-extensions>=4.4.0 in /usr/local/lib/python3.10/site-packages (from -r /package/package.txt (line 10)) (4.8.0)
+Installing collected packages: sanic-routing, websockets, uvloop, ujson, multidict, httptools, html5tagger, aiofiles, tracerite
+Successfully installed aiofiles-23.2.1 html5tagger-1.3.0 httptools-0.6.1 multidict-6.0.5 sanic-routing-23.12.0 tracerite-1.1.1 ujson-5.9.0 uvloop-0.19.0 websockets-12.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[20:33:53] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+[20:33:54] INFO     Constants found: 2093                       generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+           INFO     Instrumented string function         instrumentation.py:1965
+[20:33:56] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     6                              module.py:1323
+           INFO     Classes:      22                              module.py:1324
+           INFO     Using seed 1713645230863623994              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 80 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.512500  searchobserver.py:77
+[20:33:57] INFO     Iteration:       1, Coverage: 0.687500  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.750000  searchobserver.py:83
+[20:33:58] INFO     Iteration:       4, Coverage: 0.750000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.750000  searchobserver.py:83
+[20:33:59] INFO     Iteration:       6, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.750000  searchobserver.py:83
+[20:34:00] INFO     Iteration:       8, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.750000  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      10, Coverage: 0.750000  searchobserver.py:83
+[20:34:01] INFO     Iteration:      11, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.750000  searchobserver.py:83
+[20:34:02] INFO     Iteration:      13, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.750000  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.3698 (N) 0.7283, 
+| TestDeleteProbability: (DN) -0.0238 (N) -0.2381, 
+-----------------------------------
+[20:34:03] INFO     Iteration:      15, Coverage: 0.750000  searchobserver.py:83
+[20:34:04] INFO     Iteration:      16, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.750000  searchobserver.py:83
+[20:34:05] INFO     Iteration:      18, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 44, (N) -0.2
+| TestDeleteProbability: (DN) 0.3095, (N) -0.3809
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.6159 (N) 0.436, 
+| TestDeleteProbability: (DN) -0.0438 (N) -0.4382, 
+-----------------------------------
+[20:34:06] INFO     Iteration:      20, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.750000  searchobserver.py:83
+[20:34:07] INFO     Iteration:      22, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.750000  searchobserver.py:83
+[20:34:08] INFO     Iteration:      24, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 47, (N) -0.1
+| TestDeleteProbability: (DN) 0.2657, (N) -0.4686
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5673 (N) 0.5945, 
+| TestDeleteProbability: (DN) -0.0064 (N) -0.064, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.750000  searchobserver.py:83
+[20:34:09] INFO     Iteration:      28, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| TestDeleteProbability: (DN) 0.2593, (N) -0.4814
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.9636 (N) 0.1606, 
+| TestDeleteProbability: (DN) 0.0228 (N) 0.2276, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.750000  searchobserver.py:83
+[20:34:10] INFO     Iteration:      31, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.750000  searchobserver.py:83
+[20:34:11] INFO     Iteration:      34, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 52, (N) 0.0667
+| TestDeleteProbability: (DN) 0.2821, (N) -0.4359
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.2959 (N) 0.8826, 
+| TestDeleteProbability: (DN) 0.0127 (N) 0.1274, 
+-----------------------------------
+           INFO     Iteration:      35, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.750000  searchobserver.py:83
+[20:34:12] INFO     Iteration:      38, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 57, (N) 0.2333
+| TestDeleteProbability: (DN) 0.2948, (N) -0.4104
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.422 (N) -0.0703, 
+| TestDeleteProbability: (DN) -0.0983 (N) -0.9825, 
+-----------------------------------
+[20:34:13] INFO     Iteration:      40, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.750000  searchobserver.py:83
+[20:34:14] INFO     Iteration:      43, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 57, (N) 0.2333
+| TestDeleteProbability: (DN) 0.1966, (N) -0.6069
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.0193 (N) -0.3365, 
+| TestDeleteProbability: (DN) -0.0421 (N) -0.4215, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.750000  searchobserver.py:83
+[20:34:15] INFO     Iteration:      46, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      48, Coverage: 0.750000  searchobserver.py:83
+[20:34:16] INFO     Iteration:      49, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 55, (N) 0.1667
+| TestDeleteProbability: (DN) 0.1544, (N) -0.6912
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1953 (N) 0.6992, 
+| TestDeleteProbability: (DN) 0.0018 (N) 0.018, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.750000  searchobserver.py:83
+[20:34:17] INFO     Iteration:      52, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      54, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 59, (N) 0.3
+| TestDeleteProbability: (DN) 0.1562, (N) -0.6876
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0281 (N) -0.1713, 
+| TestDeleteProbability: (DN) -0.0716 (N) -0.7156, 
+-----------------------------------
+[20:34:18] INFO     Iteration:      55, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.750000  searchobserver.py:83
+[20:34:19] INFO     Iteration:      57, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.750000  searchobserver.py:83
+[20:34:20] INFO     Iteration:      59, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 58, (N) 0.2667
+| TestDeleteProbability: (DN) 0.0846, (N) -0.8307
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6932 (N) -0.2822, 
+| TestDeleteProbability: (DN) -0.0729 (N) -0.729, 
+-----------------------------------
+           INFO     Iteration:      60, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.750000  searchobserver.py:83
+[20:34:21] INFO     Iteration:      62, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 56, (N) 0.2
+| TestDeleteProbability: (DN) 0.0117, (N) -0.9765
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.5958 (N) 0.766, 
+| TestDeleteProbability: (DN) 0.0962 (N) 0.9617, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.750000  searchobserver.py:83
+[20:34:22] INFO     Iteration:      66, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      67, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.750000  searchobserver.py:83
+[20:34:23] INFO     Iteration:      69, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 61, (N) 0.3667
+| TestDeleteProbability: (DN) 0.1079, (N) -0.7842
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.9026 (N) 0.8171, 
+| TestDeleteProbability: (DN) 0.0211 (N) 0.2115, 
+-----------------------------------
+           INFO     Iteration:      70, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      72, Coverage: 0.750000  searchobserver.py:83
+[20:34:24] INFO     Iteration:      73, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 66, (N) 0.5333
+| TestDeleteProbability: (DN) 0.1291, (N) -0.7419
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9186 (N) 0.9864, 
+| TestDeleteProbability: (DN) -0.0976 (N) -0.9764, 
+-----------------------------------
+[20:34:25] INFO     Iteration:      75, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      77, Coverage: 0.750000  searchobserver.py:83
+[20:34:26] INFO     Iteration:      78, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      79, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 72, (N) 0.7333
+| TestDeleteProbability: (DN) 0.0314, (N) -0.9371
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.0444 (N) -0.0074, 
+| TestDeleteProbability: (DN) -0.0481 (N) -0.4808, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.750000  searchobserver.py:83
+[20:34:27] INFO     Iteration:      81, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      82, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.750000  searchobserver.py:83
+[20:34:28] INFO     Iteration:      84, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 72, (N) 0.7333
+| TestDeleteProbability: (DN) 0.0, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.3643 (N) 0.8941, 
+| TestDeleteProbability: (DN) 0.0318 (N) 0.3178, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.750000  searchobserver.py:83
+[20:34:29] INFO     Iteration:      86, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.0318, (N) -0.9364
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.9432 (N) 0.6572, 
+| TestDeleteProbability: (DN) 0.0393 (N) 0.3927, 
+-----------------------------------
+[20:34:30] INFO     Iteration:      90, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.750000  searchobserver.py:83
+[20:34:31] INFO     Iteration:      92, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.0711, (N) -0.8579
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.9762 (N) 0.3294, 
+| TestDeleteProbability: (DN) -0.0463 (N) -0.4626, 
+-----------------------------------
+[20:34:32] INFO     Iteration:      95, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.750000  searchobserver.py:83
+[20:34:33] INFO     Iteration:      97, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      98, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      99, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.0248, (N) -0.9504
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.4519 (N) -0.742, 
+| TestDeleteProbability: (DN) 0.0139 (N) 0.1388, 
+-----------------------------------
+[20:34:34] INFO     Iteration:     100, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     101, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     103, Coverage: 0.750000  searchobserver.py:83
+[20:34:35] INFO     Iteration:     104, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.0387, (N) -0.9226
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.05 (N) -0.175, 
+| TestDeleteProbability: (DN) 0.081 (N) 0.8097, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     106, Coverage: 0.750000  searchobserver.py:83
+[20:34:36] INFO     Iteration:     107, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.750000  searchobserver.py:83
+[20:34:37] INFO     Iteration:     109, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.1197, (N) -0.7607
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4718 (N) -0.912, 
+| TestDeleteProbability: (DN) 0.0365 (N) 0.3655, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     111, Coverage: 0.750000  searchobserver.py:83
+[20:34:38] INFO     Iteration:     112, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     113, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 70, (N) 0.6667
+| TestDeleteProbability: (DN) 0.1562, (N) -0.6876
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.7578 (N) -0.9596, 
+| TestDeleteProbability: (DN) 0.0544 (N) 0.5443, 
+-----------------------------------
+[20:34:39] INFO     Iteration:     115, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     116, Coverage: 0.750000  searchobserver.py:83
+[20:34:40] INFO     Iteration:     117, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     118, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.2106, (N) -0.5787
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0171 (N) -0.1695, 
+| TestDeleteProbability: (DN) -0.0406 (N) -0.4064, 
+-----------------------------------
+[20:34:41] INFO     Iteration:     120, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     121, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.750000  searchobserver.py:83
+[20:34:42] INFO     Iteration:     123, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     124, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.17, (N) -0.66
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.5906 (N) -0.4318, 
+| TestDeleteProbability: (DN) 0.0012 (N) 0.0124, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.750000  searchobserver.py:83
+[20:34:43] INFO     Iteration:     126, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.750000  searchobserver.py:83
+[20:34:44] INFO     Iteration:     129, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.1712, (N) -0.6575
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7455 (N) 0.7909, 
+| TestDeleteProbability: (DN) 0.0967 (N) 0.9667, 
+-----------------------------------
+           INFO     Iteration:     130, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.750000  searchobserver.py:83
+[20:34:45] INFO     Iteration:     132, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     133, Coverage: 0.750000  searchobserver.py:83
+[20:34:46] INFO     Iteration:     134, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 65, (N) 0.5
+| TestDeleteProbability: (DN) 0.2679, (N) -0.4642
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9519 (N) 0.992, 
+| TestDeleteProbability: (DN) -0.0392 (N) -0.3922, 
+-----------------------------------
+           INFO     Iteration:     135, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.750000  searchobserver.py:83
+[20:34:47] INFO     Iteration:     137, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     138, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     139, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.2287, (N) -0.5426
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.6266 (N) 0.2711, 
+| TestDeleteProbability: (DN) 0.0751 (N) 0.7506, 
+-----------------------------------
+[20:34:48] INFO     Iteration:     140, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.750000  searchobserver.py:83
+[20:34:49] INFO     Iteration:     142, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     144, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.3037, (N) -0.3925
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.6945 (N) 0.7824, 
+| TestDeleteProbability: (DN) -0.0821 (N) -0.8212, 
+-----------------------------------
+[20:34:50] INFO     Iteration:     145, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     147, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.750000  searchobserver.py:83
+[20:34:51] INFO     Iteration:     149, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.2216, (N) -0.5567
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.7224 (N) 0.4537, 
+| TestDeleteProbability: (DN) 0.0338 (N) 0.3378, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.750000  searchobserver.py:83
+[20:34:52] INFO     Iteration:     151, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     152, Coverage: 0.750000  searchobserver.py:83
+[20:34:53] INFO     Iteration:     153, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     154, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2554, (N) -0.4892
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1286 (N) 0.5214, 
+| TestDeleteProbability: (DN) 0.0651 (N) 0.6512, 
+-----------------------------------
+           INFO     Iteration:     155, Coverage: 0.750000  searchobserver.py:83
+[20:34:54] INFO     Iteration:     156, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     158, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3205, (N) -0.359
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9424 (N) -0.3237, 
+| TestDeleteProbability: (DN) 0.0429 (N) 0.4287, 
+-----------------------------------
+[20:34:55] INFO     Iteration:     160, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     161, Coverage: 0.750000  searchobserver.py:83
+[20:34:56] INFO     Iteration:     162, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     164, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.3634, (N) -0.2732
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9561 (N) 0.4927, 
+| TestDeleteProbability: (DN) -0.0982 (N) -0.9815, 
+-----------------------------------
+[20:34:57] INFO     Iteration:     165, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     167, Coverage: 0.750000  searchobserver.py:83
+[20:34:58] INFO     Iteration:     168, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2652, (N) -0.4695
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0062 (N) -0.1677, 
+| TestDeleteProbability: (DN) 0.0064 (N) 0.0643, 
+-----------------------------------
+[20:34:59] INFO     Iteration:     170, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.750000  searchobserver.py:83
+[20:35:00] INFO     Iteration:     173, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     174, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 79, (N) 0.9667
+| TestDeleteProbability: (DN) 0.2717, (N) -0.4566
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.7005 (N) 0.4501, 
+| TestDeleteProbability: (DN) -0.006 (N) -0.0604, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.750000  searchobserver.py:83
+[20:35:01] INFO     Iteration:     176, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     177, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     178, Coverage: 0.750000  searchobserver.py:83
+[20:35:02] INFO     Iteration:     179, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2656, (N) -0.4687
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.5932 (N) 0.4322, 
+| TestDeleteProbability: (DN) 0.0185 (N) 0.1846, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.750000  searchobserver.py:83
+[20:35:03] INFO     Iteration:     181, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.750000  searchobserver.py:83
+[20:35:04] INFO     Iteration:     184, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2841, (N) -0.4318
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.0997 (N) 0.5166, 
+| TestDeleteProbability: (DN) -0.06 (N) -0.5998, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.750000  searchobserver.py:83
+[20:35:05] INFO     Iteration:     187, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2241, (N) -0.5518
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8267 (N) 0.4711, 
+| TestDeleteProbability: (DN) 0.0703 (N) 0.7035, 
+-----------------------------------
+[20:35:06] INFO     Iteration:     190, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     191, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.750000  searchobserver.py:83
+[20:35:07] INFO     Iteration:     193, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     194, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2945, (N) -0.4111
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3761 (N) 0.0627, 
+| TestDeleteProbability: (DN) 0.028 (N) 0.2795, 
+-----------------------------------
+[20:35:08] INFO     Iteration:     195, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     197, Coverage: 0.750000  searchobserver.py:83
+[20:35:09] INFO     Iteration:     198, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3224, (N) -0.3552
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.7306 (N) 0.4551, 
+| TestDeleteProbability: (DN) 0.0492 (N) 0.4918, 
+-----------------------------------
+           INFO     Iteration:     200, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.750000  searchobserver.py:83
+[20:35:10] INFO     Iteration:     202, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     204, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3716, (N) -0.2568
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.8058 (N) 0.1343, 
+| TestDeleteProbability: (DN) -0.0296 (N) -0.2957, 
+-----------------------------------
+[20:35:11] INFO     Iteration:     205, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     207, Coverage: 0.750000  searchobserver.py:83
+[20:35:12] INFO     Iteration:     208, Coverage: 0.750000  searchobserver.py:83
+[20:35:13] INFO     Iteration:     209, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.342, (N) -0.316
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.9414 (N) 0.1569, 
+| TestDeleteProbability: (DN) -0.0647 (N) -0.6471, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     211, Coverage: 0.750000  searchobserver.py:83
+[20:35:14] INFO     Iteration:     212, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     214, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2773, (N) -0.4454
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9537 (N) -0.4923, 
+| TestDeleteProbability: (DN) -0.0884 (N) -0.8841, 
+-----------------------------------
+[20:35:15] INFO     Iteration:     215, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     216, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     218, Coverage: 0.750000  searchobserver.py:83
+[20:35:16] INFO     Iteration:     219, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.1889, (N) -0.6222
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.0765 (N) 0.1794, 
+| TestDeleteProbability: (DN) 0.0689 (N) 0.6889, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     221, Coverage: 0.750000  searchobserver.py:83
+[20:35:17] INFO     Iteration:     222, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     224, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.2578, (N) -0.4844
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.2491 (N) 0.8749, 
+| TestDeleteProbability: (DN) 0.0516 (N) 0.5164, 
+-----------------------------------
+[20:35:18] INFO     Iteration:     225, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.750000  searchobserver.py:83
+[20:35:19] INFO     Iteration:     227, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     228, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     229, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3094, (N) -0.3811
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4773 (N) -0.5796, 
+| TestDeleteProbability: (DN) -0.0299 (N) -0.2994, 
+-----------------------------------
+[20:35:20] INFO     Iteration:     230, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.750000  searchobserver.py:83
+[20:35:21] INFO     Iteration:     232, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     234, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.2795, (N) -0.441
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.7742 (N) -0.4624, 
+| TestDeleteProbability: (DN) -0.0045 (N) -0.0453, 
+-----------------------------------
+[20:35:22] INFO     Iteration:     235, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     236, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.750000  searchobserver.py:83
+[20:35:23] INFO     Iteration:     238, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     239, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 74, (N) 0.8
+| TestDeleteProbability: (DN) 0.275, (N) -0.4501
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.4084 (N) 0.2347, 
+| TestDeleteProbability: (DN) 0.0518 (N) 0.5183, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.750000  searchobserver.py:83
+[20:35:24] INFO     Iteration:     241, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     243, Coverage: 0.750000  searchobserver.py:83
+[20:35:25] INFO     Iteration:     244, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.3268, (N) -0.3464
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.0685 (N) 0.1781, 
+| TestDeleteProbability: (DN) 0.0584 (N) 0.5844, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     246, Coverage: 0.750000  searchobserver.py:83
+[20:35:26] INFO     Iteration:     247, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     248, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     249, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.3852, (N) -0.2295
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.8685 (N) 0.3114, 
+| TestDeleteProbability: (DN) -0.0563 (N) -0.5628, 
+-----------------------------------
+[20:35:27] INFO     Iteration:     250, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     251, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     252, Coverage: 0.750000  searchobserver.py:83
+[20:35:28] INFO     Iteration:     253, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     254, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.3289, (N) -0.3421
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.157 (N) 0.3595, 
+| TestDeleteProbability: (DN) 0.082 (N) 0.8201, 
+-----------------------------------
+[20:35:29] INFO     Iteration:     255, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     256, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     257, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.750000  searchobserver.py:83
+[20:35:30] INFO     Iteration:     259, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.411, (N) -0.1781
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3466 (N) 0.2244, 
+| TestDeleteProbability: (DN) 0.0777 (N) 0.777, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.750000  searchobserver.py:83
+[20:35:31] INFO     Iteration:     261, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     262, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.750000  searchobserver.py:83
+[20:35:32] INFO     Iteration:     264, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.4887, (N) -0.0227
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.386 (N) 0.231, 
+| TestDeleteProbability: (DN) -0.0098 (N) -0.0977, 
+-----------------------------------
+           INFO     Iteration:     265, Coverage: 0.750000  searchobserver.py:83
+[20:35:33] INFO     Iteration:     266, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     268, Coverage: 0.750000  searchobserver.py:83
+[20:35:34] INFO     Iteration:     269, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.4789, (N) -0.0422
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.48 (N) -0.9133, 
+| TestDeleteProbability: (DN) -0.0892 (N) -0.8915, 
+-----------------------------------
+           INFO     Iteration:     270, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.750000  searchobserver.py:83
+[20:35:35] INFO     Iteration:     272, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     273, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.3897, (N) -0.2205
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9081 (N) -0.6513, 
+| TestDeleteProbability: (DN) -0.0693 (N) -0.6932, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.750000  searchobserver.py:83
+[20:35:36] INFO     Iteration:     276, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     277, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.750000  searchobserver.py:83
+[20:35:37] INFO     Iteration:     279, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.3204, (N) -0.3592
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9524 (N) -0.1587, 
+| TestDeleteProbability: (DN) -0.0714 (N) -0.7142, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     281, Coverage: 0.750000  searchobserver.py:83
+[20:35:38] INFO     Iteration:     282, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     283, Coverage: 0.750000  searchobserver.py:83
+[20:35:39] INFO     Iteration:     284, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 70, (N) 0.6667
+| TestDeleteProbability: (DN) 0.249, (N) -0.502
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1964 (N) 0.5327, 
+| TestDeleteProbability: (DN) -0.0764 (N) -0.7638, 
+-----------------------------------
+           INFO     Iteration:     285, Coverage: 0.750000  searchobserver.py:83
+[20:35:40] INFO     Iteration:     286, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     288, Coverage: 0.750000  searchobserver.py:83
+[20:35:41] INFO     Iteration:     289, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.1726, (N) -0.6548
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.8371 (N) -0.3062, 
+| TestDeleteProbability: (DN) -0.0433 (N) -0.433, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     291, Coverage: 0.750000  searchobserver.py:83
+[20:35:42] INFO     Iteration:     292, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.750000  searchobserver.py:83
+[20:35:43] INFO     Iteration:     294, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.1293, (N) -0.7414
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5719 (N) 0.262, 
+| TestDeleteProbability: (DN) -0.0223 (N) -0.2233, 
+-----------------------------------
+           INFO     Iteration:     295, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     297, Coverage: 0.750000  searchobserver.py:83
+[20:35:44] INFO     Iteration:     298, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     299, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.107, (N) -0.7861
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.4722 (N) 0.2454, 
+| TestDeleteProbability: (DN) 0.095 (N) 0.9501, 
+-----------------------------------
+           INFO     Iteration:     300, Coverage: 0.750000  searchobserver.py:83
+[20:35:45] INFO     Iteration:     301, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.750000  searchobserver.py:83
+[20:35:46] INFO     Iteration:     303, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 74, (N) 0.8
+| TestDeleteProbability: (DN) 0.202, (N) -0.596
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.2777 (N) 0.0463, 
+| TestDeleteProbability: (DN) -0.0397 (N) -0.3971, 
+-----------------------------------
+           INFO     Iteration:     305, Coverage: 0.750000  searchobserver.py:83
+[20:35:47] INFO     Iteration:     306, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.750000  searchobserver.py:83
+[20:35:48] INFO     Iteration:     308, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 74, (N) 0.8
+| TestDeleteProbability: (DN) 0.1623, (N) -0.6755
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.313 (N) 0.7188, 
+| TestDeleteProbability: (DN) 0.0972 (N) 0.9717, 
+-----------------------------------
+           INFO     Iteration:     310, Coverage: 0.750000  searchobserver.py:83
+[20:35:49] INFO     Iteration:     311, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     312, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.750000  searchobserver.py:83
+[20:35:50] INFO     Iteration:     314, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.2594, (N) -0.4811
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.106 (N) -0.851, 
+| TestDeleteProbability: (DN) 0.0143 (N) 0.1434, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     316, Coverage: 0.750000  searchobserver.py:83
+[20:35:51] INFO     Iteration:     317, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.750000  searchobserver.py:83
+[20:35:52] INFO     Iteration:     319, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.2738, (N) -0.4524
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.2792 (N) 0.0465, 
+| TestDeleteProbability: (DN) -0.0133 (N) -0.1334, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     321, Coverage: 0.750000  searchobserver.py:83
+[20:35:53] INFO     Iteration:     322, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.2604, (N) -0.4791
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.3555 (N) 0.5592, 
+| TestDeleteProbability: (DN) 0.0972 (N) 0.9722, 
+-----------------------------------
+[20:35:54] INFO     Iteration:     325, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     326, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     327, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.750000  searchobserver.py:83
+[20:35:55] INFO     Iteration:     329, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.3577, (N) -0.2847
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6692 (N) -0.1115, 
+| TestDeleteProbability: (DN) 0.0819 (N) 0.8191, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.750000  searchobserver.py:83
+[20:35:56] INFO     Iteration:     332, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     333, Coverage: 0.750000  searchobserver.py:83
+[20:35:57] INFO     Iteration:     334, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.4396, (N) -0.1209
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7544 (N) -0.1257, 
+| TestDeleteProbability: (DN) 0.0731 (N) 0.7307, 
+-----------------------------------
+           INFO     Iteration:     335, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.750000  searchobserver.py:83
+[20:35:58] INFO     Iteration:     337, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     338, Coverage: 0.750000  searchobserver.py:83
+[20:35:59] INFO     Iteration:     339, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 74, (N) 0.8
+| TestDeleteProbability: (DN) 0.5126, (N) 0.0253
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.7829 (N) 0.1305, 
+| TestDeleteProbability: (DN) 0.0561 (N) 0.5607, 
+-----------------------------------
+           INFO     Iteration:     340, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     341, Coverage: 0.750000  searchobserver.py:83
+[20:36:00] INFO     Iteration:     342, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     343, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     344, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.5687, (N) 0.1374
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7041 (N) 0.784, 
+| TestDeleteProbability: (DN) 0.0223 (N) 0.2235, 
+-----------------------------------
+[20:36:01] INFO     Iteration:     345, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     347, Coverage: 0.750000  searchobserver.py:83
+[20:36:02] INFO     Iteration:     348, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     349, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.5911, (N) 0.1821
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4455 (N) -0.9076, 
+| TestDeleteProbability: (DN) -0.0722 (N) -0.7222, 
+-----------------------------------
+[20:36:03] INFO     Iteration:     350, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     351, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     352, Coverage: 0.750000  searchobserver.py:83
+[20:36:04] INFO     Iteration:     353, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     354, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.5188, (N) 0.0377
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.1688 (N) -0.3615, 
+| TestDeleteProbability: (DN) 0.062 (N) 0.6204, 
+-----------------------------------
+           INFO     Iteration:     355, Coverage: 0.750000  searchobserver.py:83
+[20:36:05] INFO     Iteration:     356, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     357, Coverage: 0.750000  searchobserver.py:83
+[20:36:06] INFO     Iteration:     358, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.5809, (N) 0.1617
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.0011 (N) 0.5002, 
+| TestDeleteProbability: (DN) -0.0191 (N) -0.1914, 
+-----------------------------------
+           INFO     Iteration:     360, Coverage: 0.750000  searchobserver.py:83
+[20:36:07] INFO     Iteration:     361, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     362, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.750000  searchobserver.py:83
+[20:36:08] INFO     Iteration:     364, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.5617, (N) 0.1235
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.8035 (N) 0.9672, 
+| TestDeleteProbability: (DN) 0.0117 (N) 0.117, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     366, Coverage: 0.750000  searchobserver.py:83
+[20:36:09] INFO     Iteration:     367, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     368, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.5734, (N) 0.1469
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3731 (N) -0.7288, 
+| TestDeleteProbability: (DN) -0.0692 (N) -0.6924, 
+-----------------------------------
+[20:36:10] INFO     Iteration:     370, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     371, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.750000  searchobserver.py:83
+[20:36:11] INFO     Iteration:     373, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     374, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.5042, (N) 0.0084
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.341 (N) 0.5568, 
+| TestDeleteProbability: (DN) 0.0517 (N) 0.5172, 
+-----------------------------------
+           INFO     Iteration:     375, Coverage: 0.750000  searchobserver.py:83
+[20:36:12] INFO     Iteration:     376, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     377, Coverage: 0.750000  searchobserver.py:83
+[20:36:13] INFO     Iteration:     378, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     379, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 79, (N) 0.9667
+| TestDeleteProbability: (DN) 0.5559, (N) 0.1118
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3837 (N) -0.2306, 
+| TestDeleteProbability: (DN) 0.093 (N) 0.9301, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     381, Coverage: 0.750000  searchobserver.py:83
+[20:36:14] INFO     Iteration:     382, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.750000  searchobserver.py:83
+[20:36:15] INFO     Iteration:     384, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.6489, (N) 0.2978
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.0112 (N) -0.8352, 
+| TestDeleteProbability: (DN) 0.0866 (N) 0.8663, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     386, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.750000  searchobserver.py:83
+[20:36:16] INFO     Iteration:     388, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     389, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.7356, (N) 0.4711
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7624 (N) -0.6271, 
+| TestDeleteProbability: (DN) 0.0239 (N) 0.239, 
+-----------------------------------
+[20:36:17] INFO     Iteration:     390, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     392, Coverage: 0.750000  searchobserver.py:83
+[20:36:18] INFO     Iteration:     393, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 69, (N) 0.6333
+| TestDeleteProbability: (DN) 0.7595, (N) 0.5189
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.3295 (N) 0.3882, 
+| TestDeleteProbability: (DN) -0.0955 (N) -0.9549, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.750000  searchobserver.py:83
+[20:36:19] INFO     Iteration:     396, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.750000  searchobserver.py:83
+[20:36:20] INFO     Iteration:     398, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     399, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.664, (N) 0.3279
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.2864 (N) -0.2144, 
+| TestDeleteProbability: (DN) 0.0485 (N) 0.4851, 
+-----------------------------------
+           INFO     Iteration:     400, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.750000  searchobserver.py:83
+[20:36:21] INFO     Iteration:     402, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     403, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 70, (N) 0.6667
+| TestDeleteProbability: (DN) 0.7125, (N) 0.4249
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.571 (N) -0.9285, 
+| TestDeleteProbability: (DN) 0.0764 (N) 0.7642, 
+-----------------------------------
+[20:36:22] INFO     Iteration:     405, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     406, Coverage: 0.750000  searchobserver.py:83
+[20:36:23] INFO     Iteration:     407, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     408, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     409, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.7889, (N) 0.5778
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.9067 (N) -0.8178, 
+| TestDeleteProbability: (DN) 0.0242 (N) 0.2422, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.750000  searchobserver.py:83
+[20:36:24] INFO     Iteration:     411, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     412, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.750000  searchobserver.py:83
+[20:36:25] INFO     Iteration:     414, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 59, (N) 0.3
+| TestDeleteProbability: (DN) 0.8131, (N) 0.6262
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7883 (N) 0.798, 
+| TestDeleteProbability: (DN) 0.0109 (N) 0.1093, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.750000  searchobserver.py:83
+[20:36:26] INFO     Iteration:     417, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     419, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.824, (N) 0.6481
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.5114 (N) 0.0852, 
+| TestDeleteProbability: (DN) 0.0831 (N) 0.831, 
+-----------------------------------
+[20:36:27] INFO     Iteration:     420, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     421, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.750000  searchobserver.py:83
+[20:36:28] INFO     Iteration:     423, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 65, (N) 0.5
+| TestDeleteProbability: (DN) 0.9071, (N) 0.8143
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.5682 (N) -0.428, 
+| TestDeleteProbability: (DN) 0.093 (N) 0.9299, 
+-----------------------------------
+           INFO     Iteration:     425, Coverage: 0.750000  searchobserver.py:83
+[20:36:29] INFO     Iteration:     426, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     427, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.750000  searchobserver.py:83
+[20:36:30] INFO     Iteration:     429, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 62, (N) 0.4
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.198 (N) 0.8663, 
+| TestDeleteProbability: (DN) -0.0764 (N) -0.7636, 
+-----------------------------------
+           INFO     Iteration:     430, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.750000  searchobserver.py:83
+[20:36:31] INFO     Iteration:     432, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     434, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 67, (N) 0.5667
+| TestDeleteProbability: (DN) 0.9236, (N) 0.8473
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.4883 (N) 0.7481, 
+| TestDeleteProbability: (DN) 0.0524 (N) 0.5243, 
+-----------------------------------
+           INFO     Iteration:     435, Coverage: 0.750000  searchobserver.py:83
+[20:36:32] INFO     Iteration:     436, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.750000  searchobserver.py:83
+[20:36:33] INFO     Iteration:     438, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     439, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.9761, (N) 0.9521
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.9662 (N) 0.161, 
+| TestDeleteProbability: (DN) -0.0838 (N) -0.838, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.750000  searchobserver.py:83
+[20:36:34] INFO     Iteration:     441, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     442, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.750000  searchobserver.py:83
+[20:36:35] INFO     Iteration:     444, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 72, (N) 0.7333
+| TestDeleteProbability: (DN) 0.8923, (N) 0.7845
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.0512 (N) -0.8419, 
+| TestDeleteProbability: (DN) -0.047 (N) -0.4699, 
+-----------------------------------
+           INFO     Iteration:     445, Coverage: 0.750000  searchobserver.py:83
+[20:36:36] INFO     Iteration:     446, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     448, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     449, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 67, (N) 0.5667
+| TestDeleteProbability: (DN) 0.8453, (N) 0.6906
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.4581 (N) -0.743, 
+| TestDeleteProbability: (DN) 0.0443 (N) 0.4426, 
+-----------------------------------
+[20:36:37] INFO     Iteration:     450, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     451, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.750000  searchobserver.py:83
+[20:36:38] INFO     Iteration:     453, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.8895, (N) 0.7791
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7003 (N) -0.1167, 
+| TestDeleteProbability: (DN) -0.0075 (N) -0.0751, 
+-----------------------------------
+[20:36:39] INFO     Iteration:     455, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     457, Coverage: 0.750000  searchobserver.py:83
+[20:36:40] INFO     Iteration:     458, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 62, (N) 0.4
+| TestDeleteProbability: (DN) 0.882, (N) 0.7641
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.1026 (N) -0.5171, 
+| TestDeleteProbability: (DN) 0.0227 (N) 0.2272, 
+-----------------------------------
+           INFO     Iteration:     460, Coverage: 0.750000  searchobserver.py:83
+[20:36:41] INFO     Iteration:     461, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     462, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.750000  searchobserver.py:83
+[20:36:42] INFO     Iteration:     464, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 59, (N) 0.3
+| TestDeleteProbability: (DN) 0.9047, (N) 0.8095
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5161 (N) 0.2527, 
+| TestDeleteProbability: (DN) -0.0045 (N) -0.0451, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     466, Coverage: 0.750000  searchobserver.py:83
+[20:36:43] INFO     Iteration:     467, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     468, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     469, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 61, (N) 0.3667
+| TestDeleteProbability: (DN) 0.9002, (N) 0.8005
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3426 (N) -0.2238, 
+| TestDeleteProbability: (DN) 0.0764 (N) 0.7638, 
+-----------------------------------
+[20:36:44] INFO     Iteration:     470, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     471, Coverage: 0.750000  searchobserver.py:83
+[20:36:45] INFO     Iteration:     472, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     474, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.9766, (N) 0.9532
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7667 (N) -0.1278, 
+| TestDeleteProbability: (DN) -0.0943 (N) -0.9426, 
+-----------------------------------
+[20:36:46] INFO     Iteration:     475, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.750000  searchobserver.py:83
+[20:36:47] INFO     Iteration:     477, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     479, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 59, (N) 0.3
+| TestDeleteProbability: (DN) 0.8824, (N) 0.7647
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.5609 (N) -0.9268, 
+| TestDeleteProbability: (DN) -0.0767 (N) -0.7666, 
+-----------------------------------
+[20:36:48] INFO     Iteration:     480, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     481, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.750000  searchobserver.py:83
+[20:36:49] INFO     Iteration:     483, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     484, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 53, (N) 0.1
+| TestDeleteProbability: (DN) 0.8057, (N) 0.6114
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.1635 (N) 0.0273, 
+| TestDeleteProbability: (DN) 0.0497 (N) 0.4967, 
+-----------------------------------
+           INFO     Iteration:     485, Coverage: 0.750000  searchobserver.py:83
+[20:36:50] INFO     Iteration:     486, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     487, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     488, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     489, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 53, (N) 0.1
+| TestDeleteProbability: (DN) 0.8554, (N) 0.7107
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.216 (N) 0.8693, 
+| TestDeleteProbability: (DN) -0.0958 (N) -0.9576, 
+-----------------------------------
+[20:36:51] INFO     Iteration:     490, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     491, Coverage: 0.750000  searchobserver.py:83
+[20:36:52] INFO     Iteration:     492, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     494, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 58, (N) 0.2667
+| TestDeleteProbability: (DN) 0.7596, (N) 0.5192
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.8303 (N) 0.9717, 
+| TestDeleteProbability: (DN) -0.0903 (N) -0.903, 
+-----------------------------------
+[20:36:53] INFO     Iteration:     495, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     496, Coverage: 0.750000  searchobserver.py:83
+[20:36:54] INFO     Iteration:     497, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     498, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     499, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.6693, (N) 0.3386
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9697 (N) -0.3283, 
+| TestDeleteProbability: (DN) -0.0725 (N) -0.7251, 
+-----------------------------------
+[20:36:55] INFO     Iteration:     500, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     501, Coverage: 0.750000  searchobserver.py:83
+[20:36:56] INFO     Iteration:     502, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     503, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     504, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 62, (N) 0.4
+| TestDeleteProbability: (DN) 0.5968, (N) 0.1936
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7154 (N) 0.7859, 
+| TestDeleteProbability: (DN) -0.0215 (N) -0.215, 
+-----------------------------------
+[20:36:57] INFO     Iteration:     505, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     506, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.750000  searchobserver.py:83
+[20:36:58] INFO     Iteration:     508, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 67, (N) 0.5667
+| TestDeleteProbability: (DN) 0.5753, (N) 0.1506
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.4278 (N) -0.0713, 
+| TestDeleteProbability: (DN) -0.0747 (N) -0.7469, 
+-----------------------------------
+           INFO     Iteration:     510, Coverage: 0.750000  searchobserver.py:83
+[20:36:59] INFO     Iteration:     511, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     512, Coverage: 0.750000  searchobserver.py:83
+[20:37:00] INFO     Iteration:     513, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     514, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 67, (N) 0.5667
+| TestDeleteProbability: (DN) 0.5006, (N) 0.0012
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.1973 (N) 0.0329, 
+| TestDeleteProbability: (DN) -0.0779 (N) -0.7787, 
+-----------------------------------
+           INFO     Iteration:     515, Coverage: 0.750000  searchobserver.py:83
+[20:37:01] INFO     Iteration:     516, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     517, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.750000  searchobserver.py:83
+[20:37:02] INFO     Iteration:     519, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 67, (N) 0.5667
+| TestDeleteProbability: (DN) 0.4227, (N) -0.1545
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.068 (N) 0.678, 
+| TestDeleteProbability: (DN) 0.0043 (N) 0.0428, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.750000  searchobserver.py:83
+[20:37:03] INFO     Iteration:     522, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     524, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.427, (N) -0.146
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.0185 (N) -0.8364, 
+| TestDeleteProbability: (DN) 0.0717 (N) 0.7168, 
+-----------------------------------
+[20:37:04] INFO     Iteration:     525, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     526, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.750000  searchobserver.py:83
+[20:37:05] INFO     Iteration:     528, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 66, (N) 0.5333
+| TestDeleteProbability: (DN) 0.4987, (N) -0.0026
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.6166 (N) 0.2694, 
+| TestDeleteProbability: (DN) 0.0901 (N) 0.9007, 
+-----------------------------------
+[20:37:06] INFO     Iteration:     530, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     531, Coverage: 0.750000  searchobserver.py:83
+[20:37:07] INFO     Iteration:     532, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     533, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     534, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 68, (N) 0.6
+| TestDeleteProbability: (DN) 0.5888, (N) 0.1775
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.4153 (N) -0.7359, 
+| TestDeleteProbability: (DN) -0.0436 (N) -0.4358, 
+-----------------------------------
+[20:37:08] INFO     Iteration:     535, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     536, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     537, Coverage: 0.750000  searchobserver.py:83
+[20:37:09] INFO     Iteration:     538, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.5452, (N) 0.0904
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3163 (N) -0.7194, 
+| TestDeleteProbability: (DN) -0.0596 (N) -0.5962, 
+-----------------------------------
+           INFO     Iteration:     540, Coverage: 0.750000  searchobserver.py:83
+[20:37:10] INFO     Iteration:     541, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     542, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.750000  searchobserver.py:83
+[20:37:11] INFO     Iteration:     544, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.4856, (N) -0.0289
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.1659 (N) 0.0276, 
+| TestDeleteProbability: (DN) 0.0451 (N) 0.4508, 
+-----------------------------------
+           INFO     Iteration:     545, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.750000  searchobserver.py:83
+[20:37:12] INFO     Iteration:     547, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     549, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.5306, (N) 0.0613
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8503 (N) 0.475, 
+| TestDeleteProbability: (DN) -0.0253 (N) -0.2525, 
+-----------------------------------
+[20:37:13] INFO     Iteration:     550, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     551, Coverage: 0.750000  searchobserver.py:83
+[20:37:14] INFO     Iteration:     552, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     553, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.5054, (N) 0.0108
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.2065 (N) -0.5344, 
+| TestDeleteProbability: (DN) -0.0948 (N) -0.9483, 
+-----------------------------------
+[20:37:15] INFO     Iteration:     555, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     556, Coverage: 0.750000  searchobserver.py:83
+[20:37:16] INFO     Iteration:     557, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     558, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.4106, (N) -0.1789
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1155 (N) 0.5193, 
+| TestDeleteProbability: (DN) 0.0258 (N) 0.258, 
+-----------------------------------
+[20:37:17] INFO     Iteration:     560, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     561, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     562, Coverage: 0.750000  searchobserver.py:83
+[20:37:18] INFO     Iteration:     563, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     564, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.4364, (N) -0.1273
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7596 (N) -0.1266, 
+| TestDeleteProbability: (DN) 0.0037 (N) 0.0366, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.750000  searchobserver.py:83
+[20:37:19] INFO     Iteration:     566, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     567, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.750000  searchobserver.py:83
+[20:37:20] INFO     Iteration:     569, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 62, (N) 0.4
+| TestDeleteProbability: (DN) 0.44, (N) -0.1199
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.0832 (N) 0.3472, 
+| TestDeleteProbability: (DN) -0.0656 (N) -0.6562, 
+-----------------------------------
+           INFO     Iteration:     570, Coverage: 0.750000  searchobserver.py:83
+[20:37:21] INFO     Iteration:     571, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     573, Coverage: 0.750000  searchobserver.py:83
+[20:37:22] INFO     Iteration:     574, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.3744, (N) -0.2512
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.1474 (N) -0.8579, 
+| TestDeleteProbability: (DN) -0.0027 (N) -0.0269, 
+-----------------------------------
+           INFO     Iteration:     575, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.750000  searchobserver.py:83
+[20:37:23] INFO     Iteration:     577, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     579, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 59, (N) 0.3
+| TestDeleteProbability: (DN) 0.3717, (N) -0.2566
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.6716 (N) 0.7786, 
+| TestDeleteProbability: (DN) -0.0073 (N) -0.0728, 
+-----------------------------------
+[20:37:24] INFO     Iteration:     580, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     582, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.750000  searchobserver.py:83
+[20:37:25] INFO     Iteration:     584, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.3644, (N) -0.2711
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.8015 (N) 0.9669, 
+| TestDeleteProbability: (DN) -0.0289 (N) -0.2891, 
+-----------------------------------
+           INFO     Iteration:     585, Coverage: 0.750000  searchobserver.py:83
+[20:37:26] INFO     Iteration:     586, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     587, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     588, Coverage: 0.750000  searchobserver.py:83
+[20:37:27] INFO     Iteration:     589, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 70, (N) 0.6667
+| TestDeleteProbability: (DN) 0.3355, (N) -0.3289
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2314 (N) 0.2052, 
+| TestDeleteProbability: (DN) -0.0502 (N) -0.5021, 
+-----------------------------------
+           INFO     Iteration:     590, Coverage: 0.750000  searchobserver.py:83
+[20:37:28] INFO     Iteration:     591, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     593, Coverage: 0.750000  searchobserver.py:83
+[20:37:29] INFO     Iteration:     594, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 71, (N) 0.7
+| TestDeleteProbability: (DN) 0.2853, (N) -0.4294
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1212 (N) 0.6869, 
+| TestDeleteProbability: (DN) 0.0253 (N) 0.253, 
+-----------------------------------
+           INFO     Iteration:     595, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.750000  searchobserver.py:83
+[20:37:30] INFO     Iteration:     597, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     598, Coverage: 0.750000  searchobserver.py:83
+[20:37:31] INFO     Iteration:     599, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.3106, (N) -0.3788
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.1251 (N) -0.1875, 
+| TestDeleteProbability: (DN) -0.0642 (N) -0.6416, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     601, Coverage: 0.750000  searchobserver.py:83
+[20:37:32] INFO     Iteration:     602, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     603, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     604, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 74, (N) 0.8
+| TestDeleteProbability: (DN) 0.2465, (N) -0.5071
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.9756 (N) 0.3293, 
+| TestDeleteProbability: (DN) 0.0076 (N) 0.0764, 
+-----------------------------------
+[20:37:33] INFO     Iteration:     605, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     606, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     607, Coverage: 0.750000  searchobserver.py:83
+[20:37:34] INFO     Iteration:     608, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.2541, (N) -0.4918
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0135 (N) -0.1689, 
+| TestDeleteProbability: (DN) 0.0602 (N) 0.6015, 
+-----------------------------------
+[20:37:35] INFO     Iteration:     610, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     611, Coverage: 0.750000  searchobserver.py:83
+[20:37:36] INFO     Iteration:     612, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     613, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     614, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.3142, (N) -0.3715
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.0401 (N) -0.34, 
+| TestDeleteProbability: (DN) 0.0557 (N) 0.5566, 
+-----------------------------------
+[20:37:37] INFO     Iteration:     615, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     616, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     617, Coverage: 0.750000  searchobserver.py:83
+[20:37:38] INFO     Iteration:     618, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 73, (N) 0.7667
+| TestDeleteProbability: (DN) 0.3699, (N) -0.2602
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7583 (N) -0.6264, 
+| TestDeleteProbability: (DN) 0.0159 (N) 0.1592, 
+-----------------------------------
+           INFO     Iteration:     620, Coverage: 0.750000  searchobserver.py:83
+[20:37:39] INFO     Iteration:     621, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     622, Coverage: 0.750000  searchobserver.py:83
+[20:37:40] INFO     Iteration:     623, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     624, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 69, (N) 0.6333
+| TestDeleteProbability: (DN) 0.3858, (N) -0.2283
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.163 (N) -0.0272, 
+| TestDeleteProbability: (DN) -0.0782 (N) -0.7816, 
+-----------------------------------
+           INFO     Iteration:     625, Coverage: 0.750000  searchobserver.py:83
+[20:37:41] INFO     Iteration:     626, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     627, Coverage: 0.750000  searchobserver.py:83
+[20:37:42] INFO     Iteration:     628, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     629, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 69, (N) 0.6333
+| TestDeleteProbability: (DN) 0.3077, (N) -0.3847
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8355 (N) -0.1392, 
+| TestDeleteProbability: (DN) -0.0532 (N) -0.5316, 
+-----------------------------------
+[20:37:43] INFO     Iteration:     630, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     631, Coverage: 0.750000  searchobserver.py:83
+[20:37:44] INFO     Iteration:     632, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     633, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     634, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 68, (N) 0.6
+| TestDeleteProbability: (DN) 0.2545, (N) -0.491
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.0753 (N) -0.6792, 
+| TestDeleteProbability: (DN) -0.025 (N) -0.2496, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.750000  searchobserver.py:83
+[20:37:45] INFO     Iteration:     636, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     637, Coverage: 0.750000  searchobserver.py:83
+[20:37:46] INFO     Iteration:     638, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     639, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.2295, (N) -0.5409
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.5051 (N) -0.4175, 
+| TestDeleteProbability: (DN) -0.0193 (N) -0.1933, 
+-----------------------------------
+           INFO     Iteration:     640, Coverage: 0.750000  searchobserver.py:83
+[20:37:47] INFO     Iteration:     641, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     643, Coverage: 0.750000  searchobserver.py:83
+[20:37:48] INFO     Iteration:     644, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 61, (N) 0.3667
+| TestDeleteProbability: (DN) 0.2102, (N) -0.5796
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3443 (N) 0.2241, 
+| TestDeleteProbability: (DN) -0.0567 (N) -0.5668, 
+-----------------------------------
+           INFO     Iteration:     645, Coverage: 0.750000  searchobserver.py:83
+[20:37:49] INFO     Iteration:     646, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     647, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.750000  searchobserver.py:83
+[20:37:50] INFO     Iteration:     649, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 62, (N) 0.4
+| TestDeleteProbability: (DN) 0.1535, (N) -0.6929
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.8929 (N) 0.1488, 
+| TestDeleteProbability: (DN) 0.092 (N) 0.9196, 
+-----------------------------------
+           INFO     Iteration:     650, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.750000  searchobserver.py:83
+[20:37:51] INFO     Iteration:     652, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.750000  searchobserver.py:83
+[20:37:52] INFO     Iteration:     654, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.2455, (N) -0.509
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.7507 (N) -0.4585, 
+| TestDeleteProbability: (DN) 0.045 (N) 0.4497, 
+-----------------------------------
+           INFO     Iteration:     655, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     657, Coverage: 0.750000  searchobserver.py:83
+[20:37:53] INFO     Iteration:     658, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 60, (N) 0.3333
+| TestDeleteProbability: (DN) 0.2905, (N) -0.4191
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6519 (N) -0.2753, 
+| TestDeleteProbability: (DN) -0.0353 (N) -0.3534, 
+-----------------------------------
+[20:37:54] INFO     Iteration:     660, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     661, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.750000  searchobserver.py:83
+[20:37:55] INFO     Iteration:     663, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     664, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 58, (N) 0.2667
+| TestDeleteProbability: (DN) 0.2551, (N) -0.4898
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.3962 (N) 0.8994, 
+| TestDeleteProbability: (DN) -0.0435 (N) -0.4349, 
+-----------------------------------
+[20:37:56] INFO     Iteration:     665, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     666, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.750000  searchobserver.py:83
+[20:37:57] INFO     Iteration:     668, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     669, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 63, (N) 0.4333
+| TestDeleteProbability: (DN) 0.2116, (N) -0.5767
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.3465 (N) -0.3911, 
+| TestDeleteProbability: (DN) -0.0971 (N) -0.9711, 
+-----------------------------------
+           INFO     Iteration:     670, Coverage: 0.750000  searchobserver.py:83
+[20:37:58] INFO     Iteration:     671, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     672, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.750000  searchobserver.py:83
+[20:37:59] INFO     Iteration:     674, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 61, (N) 0.3667
+| TestDeleteProbability: (DN) 0.1145, (N) -0.771
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8806 (N) 0.4801, 
+| TestDeleteProbability: (DN) 0.0924 (N) 0.9241, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.762500  searchobserver.py:83
+[20:38:00] INFO     Iteration:     676, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     678, Coverage: 0.762500  searchobserver.py:83
+[20:38:01] INFO     Iteration:     679, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012499999999999956 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 64, (N) 0.4667
+| TestDeleteProbability: (DN) 0.2069, (N) -0.5861
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.6027 (N) 0.2671, 
+| TestDeleteProbability: (DN) 0.0409 (N) 0.409, 
+-----------------------------------
+           INFO     Iteration:     680, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.762500  searchobserver.py:83
+[20:38:02] INFO     Iteration:     682, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.762500  searchobserver.py:83
+[20:38:03] INFO     Iteration:     684, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 66, (N) 0.5333
+| TestDeleteProbability: (DN) 0.2478, (N) -0.5043
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.4129 (N) 0.7355, 
+| TestDeleteProbability: (DN) -0.0115 (N) -0.1152, 
+-----------------------------------
+           INFO     Iteration:     685, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     686, Coverage: 0.762500  searchobserver.py:83
+[20:38:04] INFO     Iteration:     687, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     688, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     689, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 70, (N) 0.6667
+| TestDeleteProbability: (DN) 0.2363, (N) -0.5274
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.5696 (N) 0.7616, 
+| TestDeleteProbability: (DN) 0.0694 (N) 0.6941, 
+-----------------------------------
+[20:38:05] INFO     Iteration:     690, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     691, Coverage: 0.762500  searchobserver.py:83
+[20:38:06] INFO     Iteration:     692, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     693, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     694, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.3057, (N) -0.3886
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4909 (N) -0.5818, 
+| TestDeleteProbability: (DN) -0.0696 (N) -0.6965, 
+-----------------------------------
+           INFO     Iteration:     695, Coverage: 0.762500  searchobserver.py:83
+[20:38:07] INFO     Iteration:     696, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     697, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     698, Coverage: 0.762500  searchobserver.py:83
+[20:38:08] INFO     Iteration:     699, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 72, (N) 0.7333
+| TestDeleteProbability: (DN) 0.2361, (N) -0.5278
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1702 (N) 0.695, 
+| TestDeleteProbability: (DN) -0.0734 (N) -0.734, 
+-----------------------------------
+           INFO     Iteration:     700, Coverage: 0.762500  searchobserver.py:83
+[20:38:09] INFO     Iteration:     701, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     702, Coverage: 0.762500  searchobserver.py:83
+[20:38:10] INFO     Iteration:     703, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     704, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.1627, (N) -0.6747
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.3391 (N) -0.0565, 
+| TestDeleteProbability: (DN) 0.0126 (N) 0.126, 
+-----------------------------------
+           INFO     Iteration:     705, Coverage: 0.762500  searchobserver.py:83
+[20:38:11] INFO     Iteration:     706, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     707, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     708, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     709, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.1753, (N) -0.6495
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.3795 (N) 0.7299, 
+| TestDeleteProbability: (DN) 0.0181 (N) 0.1812, 
+-----------------------------------
+[20:38:12] INFO     Iteration:     710, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     711, Coverage: 0.762500  searchobserver.py:83
+[20:38:13] INFO     Iteration:     712, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     713, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     714, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.1934, (N) -0.6132
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3411 (N) 0.0569, 
+| TestDeleteProbability: (DN) 0.0551 (N) 0.5509, 
+-----------------------------------
+[20:38:14] INFO     Iteration:     715, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     716, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     717, Coverage: 0.762500  searchobserver.py:83
+[20:38:15] INFO     Iteration:     718, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     719, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2485, (N) -0.503
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.2795 (N) 0.3799, 
+| TestDeleteProbability: (DN) 0.0308 (N) 0.3076, 
+-----------------------------------
+           INFO     Iteration:     720, Coverage: 0.762500  searchobserver.py:83
+[20:38:16] INFO     Iteration:     721, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     722, Coverage: 0.762500  searchobserver.py:83
+[20:38:17] INFO     Iteration:     723, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     724, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2792, (N) -0.4415
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.5679 (N) 0.7613, 
+| TestDeleteProbability: (DN) 0.0702 (N) 0.7022, 
+-----------------------------------
+           INFO     Iteration:     725, Coverage: 0.762500  searchobserver.py:83
+[20:38:18] INFO     Iteration:     726, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     727, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     728, Coverage: 0.762500  searchobserver.py:83
+[20:38:19] INFO     Iteration:     729, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3495, (N) -0.3011
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.8388 (N) -0.4731, 
+| TestDeleteProbability: (DN) -0.0222 (N) -0.222, 
+-----------------------------------
+           INFO     Iteration:     730, Coverage: 0.762500  searchobserver.py:83
+[20:38:20] INFO     Iteration:     731, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     732, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     733, Coverage: 0.762500  searchobserver.py:83
+[20:38:21] INFO     Iteration:     734, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.3273, (N) -0.3455
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.6404 (N) 0.4401, 
+| TestDeleteProbability: (DN) -0.0882 (N) -0.8818, 
+-----------------------------------
+           INFO     Iteration:     735, Coverage: 0.762500  searchobserver.py:83
+[20:38:22] INFO     Iteration:     736, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     737, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     738, Coverage: 0.762500  searchobserver.py:83
+[20:38:23] INFO     Iteration:     739, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2391, (N) -0.5218
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2928 (N) -0.7155, 
+| TestDeleteProbability: (DN) -0.0254 (N) -0.2537, 
+-----------------------------------
+           INFO     Iteration:     740, Coverage: 0.762500  searchobserver.py:83
+[20:38:24] INFO     Iteration:     741, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     742, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     743, Coverage: 0.762500  searchobserver.py:83
+[20:38:25] INFO     Iteration:     744, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.2137, (N) -0.5726
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7172 (N) 0.7862, 
+| TestDeleteProbability: (DN) 0.0513 (N) 0.5135, 
+-----------------------------------
+           INFO     Iteration:     745, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     746, Coverage: 0.762500  searchobserver.py:83
+[20:38:26] INFO     Iteration:     747, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     748, Coverage: 0.762500  searchobserver.py:83
+[20:38:27] INFO     Iteration:     749, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2651, (N) -0.4699
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.6182 (N) -0.4364, 
+| TestDeleteProbability: (DN) -0.0475 (N) -0.4751, 
+-----------------------------------
+           INFO     Iteration:     750, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     751, Coverage: 0.762500  searchobserver.py:83
+[20:38:28] INFO     Iteration:     752, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     753, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     754, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.2175, (N) -0.5649
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.6143 (N) 0.1024, 
+| TestDeleteProbability: (DN) -0.0944 (N) -0.9435, 
+-----------------------------------
+[20:38:29] INFO     Iteration:     755, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     756, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     757, Coverage: 0.762500  searchobserver.py:83
+[20:38:30] INFO     Iteration:     758, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     759, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.1232, (N) -0.7536
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.5982 (N) -0.433, 
+| TestDeleteProbability: (DN) 0.0444 (N) 0.4436, 
+-----------------------------------
+[20:38:31] INFO     Iteration:     760, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     761, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     762, Coverage: 0.762500  searchobserver.py:83
+[20:38:32] INFO     Iteration:     763, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     764, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 75, (N) 0.8333
+| TestDeleteProbability: (DN) 0.1676, (N) -0.6649
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.7785 (N) 0.6297, 
+| TestDeleteProbability: (DN) 0.0849 (N) 0.8485, 
+-----------------------------------
+           INFO     Iteration:     765, Coverage: 0.762500  searchobserver.py:83
+[20:38:33] INFO     Iteration:     766, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     767, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     768, Coverage: 0.762500  searchobserver.py:83
+[20:38:34] INFO     Iteration:     769, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 79, (N) 0.9667
+| TestDeleteProbability: (DN) 0.2524, (N) -0.4952
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.8774 (N) 0.3129, 
+| TestDeleteProbability: (DN) -0.0497 (N) -0.4972, 
+-----------------------------------
+           INFO     Iteration:     770, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     771, Coverage: 0.762500  searchobserver.py:83
+[20:38:35] INFO     Iteration:     772, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     773, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     774, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.2027, (N) -0.5946
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.8446 (N) -0.4741, 
+| TestDeleteProbability: (DN) 0.0744 (N) 0.7439, 
+-----------------------------------
+[20:38:36] INFO     Iteration:     775, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     776, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     777, Coverage: 0.762500  searchobserver.py:83
+[20:38:37] INFO     Iteration:     778, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     779, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.2771, (N) -0.4458
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8266 (N) -0.1378, 
+| TestDeleteProbability: (DN) -0.0092 (N) -0.0919, 
+-----------------------------------
+[20:38:38] INFO     Iteration:     780, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     781, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     782, Coverage: 0.762500  searchobserver.py:83
+[20:38:39] INFO     Iteration:     783, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     784, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 76, (N) 0.8667
+| TestDeleteProbability: (DN) 0.2679, (N) -0.4642
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.2044 (N) 0.7007, 
+| TestDeleteProbability: (DN) 0.0858 (N) 0.8584, 
+-----------------------------------
+           INFO     Iteration:     785, Coverage: 0.762500  searchobserver.py:83
+[20:38:40] INFO     Iteration:     786, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     787, Coverage: 0.762500  searchobserver.py:83
+[20:38:41] INFO     Iteration:     788, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     789, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3537, (N) -0.2925
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.9536 (N) 0.8256, 
+| TestDeleteProbability: (DN) 0.0074 (N) 0.074, 
+-----------------------------------
+           INFO     Iteration:     790, Coverage: 0.762500  searchobserver.py:83
+[20:38:42] INFO     Iteration:     791, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     792, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     793, Coverage: 0.762500  searchobserver.py:83
+[20:38:43] INFO     Iteration:     794, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.3611, (N) -0.2777
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.716 (N) -0.4527, 
+| TestDeleteProbability: (DN) 0.0732 (N) 0.7321, 
+-----------------------------------
+           INFO     Iteration:     795, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     796, Coverage: 0.762500  searchobserver.py:83
+[20:38:44] INFO     Iteration:     797, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     798, Coverage: 0.762500  searchobserver.py:83
+[20:38:45] INFO     Iteration:     799, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 77, (N) 0.9
+| TestDeleteProbability: (DN) 0.4344, (N) -0.1313
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.591 (N) 0.2652, 
+| TestDeleteProbability: (DN) 0.0131 (N) 0.1312, 
+-----------------------------------
+           INFO     Iteration:     800, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     801, Coverage: 0.762500  searchobserver.py:83
+[20:38:46] INFO     Iteration:     802, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     803, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     804, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 79, (N) 0.9667
+| TestDeleteProbability: (DN) 0.4475, (N) -0.105
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.8107 (N) 0.6351, 
+| TestDeleteProbability: (DN) -0.0447 (N) -0.4465, 
+-----------------------------------
+[20:38:47] INFO     Iteration:     805, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     806, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     807, Coverage: 0.762500  searchobserver.py:83
+[20:38:48] INFO     Iteration:     808, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     809, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.4028, (N) -0.1944
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7635 (N) 0.7939, 
+| TestDeleteProbability: (DN) 0.0303 (N) 0.3028, 
+-----------------------------------
+           INFO     Iteration:     810, Coverage: 0.762500  searchobserver.py:83
+[20:38:49] INFO     Iteration:     811, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     812, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     813, Coverage: 0.762500  searchobserver.py:83
+[20:38:50] INFO     Iteration:     814, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.4331, (N) -0.1338
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1665 (N) 0.1944, 
+| TestDeleteProbability: (DN) 0.0954 (N) 0.9535, 
+-----------------------------------
+           INFO     Iteration:     815, Coverage: 0.762500  searchobserver.py:83
+[20:38:51] INFO     Iteration:     816, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     817, Coverage: 0.762500  searchobserver.py:83
+[20:38:52] INFO     Iteration:     818, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     819, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.5285, (N) 0.0569
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9245 (N) -0.3207, 
+| TestDeleteProbability: (DN) -0.0815 (N) -0.8155, 
+-----------------------------------
+[20:38:53] INFO     Iteration:     820, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     821, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     822, Coverage: 0.762500  searchobserver.py:83
+[20:38:54] INFO     Iteration:     823, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     824, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 78, (N) 0.9333
+| TestDeleteProbability: (DN) 0.4469, (N) -0.1062
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.4151 (N) 0.7359, 
+| TestDeleteProbability: (DN) 0.0304 (N) 0.3039, 
+-----------------------------------
+           INFO     Iteration:     825, Coverage: 0.762500  searchobserver.py:83
+[20:38:55] INFO     Iteration:     826, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     827, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     828, Coverage: 0.762500  searchobserver.py:83
+[20:38:56] INFO     Iteration:     829, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 80, (N) 1.0
+| TestDeleteProbability: (DN) 0.4773, (N) -0.0454
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.6658 (N) 0.4443, 
+| TestDeleteProbability: (DN) 0.0325 (N) 0.3253, 
+-----------------------------------
+           INFO     Iteration:     830, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     831, Coverage: 0.762500  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+[20:38:57] INFO     Instrumented string function         instrumentation.py:1965
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 14 test cases to                    generator.py:720
+                    /output/test_sanic_config.py                                
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110

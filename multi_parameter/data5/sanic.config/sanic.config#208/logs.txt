@@ -1,0 +1,2468 @@
+Collecting sanic-routing>=23.12.0
+  Downloading sanic_routing-23.12.0-py3-none-any.whl (25 kB)
+Collecting httptools>=0.0.10
+  Downloading httptools-0.6.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 4.1 MB/s eta 0:00:00
+Collecting uvloop
+  Downloading uvloop-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 27.7 MB/s eta 0:00:00
+Collecting ujson
+  Downloading ujson-5.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.2/53.2 kB 519.0 kB/s eta 0:00:00
+Collecting aiofiles>=0.6.0
+  Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting websockets>=10.0
+  Downloading websockets-12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 3.5 MB/s eta 0:00:00
+Collecting multidict<7.0,>=5.0
+  Downloading multidict-6.0.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.3/124.3 kB 2.0 MB/s eta 0:00:00
+Collecting html5tagger>=1.2.1
+  Downloading html5tagger-1.3.0-py3-none-any.whl (10 kB)
+Collecting tracerite>=1.0.0
+  Downloading tracerite-1.1.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: typing-extensions>=4.4.0 in /usr/local/lib/python3.10/site-packages (from -r /package/package.txt (line 10)) (4.8.0)
+Installing collected packages: sanic-routing, websockets, uvloop, ujson, multidict, httptools, html5tagger, aiofiles, tracerite
+Successfully installed aiofiles-23.2.1 html5tagger-1.3.0 httptools-0.6.1 multidict-6.0.5 sanic-routing-23.12.0 tracerite-1.1.1 ujson-5.9.0 uvloop-0.19.0 websockets-12.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[02:46:34] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 2093                       generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+           INFO     Instrumented string function         instrumentation.py:1965
+[02:46:37] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     6                              module.py:1323
+           INFO     Classes:      22                              module.py:1324
+           INFO     Using seed 1714099591515200550              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 80 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.562500  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.637500  searchobserver.py:83
+[02:46:38] INFO     Iteration:       2, Coverage: 0.712500  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.725000  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.725000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.725000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.737500  searchobserver.py:83
+[02:46:39] INFO     Iteration:       7, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.737500  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      10, Coverage: 0.737500  searchobserver.py:83
+[02:46:40] INFO     Iteration:      11, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.737500  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      15, Coverage: 0.737500  searchobserver.py:83
+[02:46:41] INFO     Iteration:      16, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.737500  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.3944 (N) 0.3991, 
+| TournamentSize: (DN) -0.515 (N) -0.515, 
+-----------------------------------
+[02:46:42] INFO     Iteration:      20, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.737500  searchobserver.py:83
+[02:46:43] INFO     Iteration:      23, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.737500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7375, (N) 0.475
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6631 (N) -0.9439, 
+| TournamentSize: (DN) 0.8731 (N) 0.8731, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.737500  searchobserver.py:83
+[02:46:44] INFO     Iteration:      27, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.737500  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012499999999999956 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.7784 (N) -0.7964, 
+| TournamentSize: (DN) -0.8462 (N) -0.8462, 
+-----------------------------------
+[02:46:45] INFO     Iteration:      30, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.750000  searchobserver.py:83
+[02:46:46] INFO     Iteration:      33, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1042 (N) -0.0174, 
+| TournamentSize: (DN) -0.3542 (N) -0.3542, 
+-----------------------------------
+[02:46:47] INFO     Iteration:      35, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.750000  searchobserver.py:83
+[02:46:48] INFO     Iteration:      38, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.2446 (N) 0.3741, 
+| TournamentSize: (DN) 0.289 (N) 0.289, 
+-----------------------------------
+           INFO     Iteration:      40, Coverage: 0.750000  searchobserver.py:83
+[02:46:49] INFO     Iteration:      41, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.750000  searchobserver.py:83
+[02:46:50] INFO     Iteration:      44, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.2254 (N) -0.0376, 
+| TournamentSize: (DN) -0.5031 (N) -0.5031, 
+-----------------------------------
+[02:46:51] INFO     Iteration:      45, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.750000  searchobserver.py:83
+[02:46:52] INFO     Iteration:      48, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.1065 (N) -0.5178, 
+| TournamentSize: (DN) 0.3274 (N) 0.3274, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.750000  searchobserver.py:83
+[02:46:53] INFO     Iteration:      51, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.750000  searchobserver.py:83
+[02:46:54] INFO     Iteration:      54, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.6261 (N) 0.1044, 
+| TournamentSize: (DN) 0.6048 (N) 0.6048, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.750000  searchobserver.py:83
+[02:46:55] INFO     Iteration:      57, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8586 (N) 0.4764, 
+| TournamentSize: (DN) 0.0217 (N) 0.0217, 
+-----------------------------------
+[02:46:56] INFO     Iteration:      60, Coverage: 0.750000  searchobserver.py:83
+[02:46:57] INFO     Iteration:      61, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.750000  searchobserver.py:83
+[02:46:58] INFO     Iteration:      64, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6171 (N) -0.9362, 
+| TournamentSize: (DN) 0.1098 (N) 0.1098, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.750000  searchobserver.py:83
+[02:46:59] INFO     Iteration:      67, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.750000  searchobserver.py:83
+[02:47:00] INFO     Iteration:      69, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6957 (N) -0.2826, 
+| TournamentSize: (DN) -0.4207 (N) -0.4207, 
+-----------------------------------
+           INFO     Iteration:      70, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.750000  searchobserver.py:83
+[02:47:01] INFO     Iteration:      72, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.5973 (N) 0.9329, 
+| TournamentSize: (DN) 0.7895 (N) 0.7895, 
+-----------------------------------
+[02:47:02] INFO     Iteration:      75, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      77, Coverage: 0.750000  searchobserver.py:83
+[02:47:03] INFO     Iteration:      78, Coverage: 0.750000  searchobserver.py:83
+[02:47:04] INFO     Iteration:      79, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 32, (N) -0.6
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1155 (N) 0.6859, 
+| TournamentSize: (DN) -0.4852 (N) -0.4852, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      81, Coverage: 0.750000  searchobserver.py:83
+[02:47:05] INFO     Iteration:      82, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      84, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3923 (N) -0.2321, 
+| TournamentSize: (DN) 0.1778 (N) 0.1778, 
+-----------------------------------
+[02:47:06] INFO     Iteration:      85, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      86, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.750000  searchobserver.py:83
+[02:47:07] INFO     Iteration:      88, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 35, (N) -0.5
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.5817 (N) 0.9303, 
+| TournamentSize: (DN) 0.007 (N) 0.007, 
+-----------------------------------
+[02:47:08] INFO     Iteration:      90, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      92, Coverage: 0.750000  searchobserver.py:83
+[02:47:09] INFO     Iteration:      93, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9316 (N) -0.1553, 
+| TournamentSize: (DN) 0.1801 (N) 0.1801, 
+-----------------------------------
+[02:47:10] INFO     Iteration:      95, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 0.750000  searchobserver.py:83
+[02:47:11] INFO     Iteration:      98, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      99, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2817 (N) -0.7136, 
+| TournamentSize: (DN) -0.8201 (N) -0.8201, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.750000  searchobserver.py:83
+[02:47:12] INFO     Iteration:     101, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.762500  searchobserver.py:83
+[02:47:13] INFO     Iteration:     103, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     104, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012499999999999956 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7698 (N) -0.1283, 
+| TournamentSize: (DN) -0.1755 (N) -0.1755, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.762500  searchobserver.py:83
+[02:47:14] INFO     Iteration:     106, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     107, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     109, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 35, (N) -0.5
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.801 (N) 0.1335, 
+| TournamentSize: (DN) 0.0338 (N) 0.0338, 
+-----------------------------------
+[02:47:15] INFO     Iteration:     110, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     111, Coverage: 0.762500  searchobserver.py:83
+[02:47:16] INFO     Iteration:     112, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     113, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.7704 (N) 0.6284, 
+| TournamentSize: (DN) 0.0912 (N) 0.0912, 
+-----------------------------------
+[02:47:17] INFO     Iteration:     115, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     116, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.762500  searchobserver.py:83
+[02:47:18] INFO     Iteration:     118, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.6473 (N) -0.4412, 
+| TournamentSize: (DN) -0.7701 (N) -0.7701, 
+-----------------------------------
+           INFO     Iteration:     120, Coverage: 0.762500  searchobserver.py:83
+[02:47:19] INFO     Iteration:     121, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.762500  searchobserver.py:83
+[02:47:20] INFO     Iteration:     124, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.4296 (N) 0.0716, 
+| TournamentSize: (DN) 0.8043 (N) 0.8043, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     126, Coverage: 0.762500  searchobserver.py:83
+[02:47:21] INFO     Iteration:     127, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.762500  searchobserver.py:83
+[02:47:22] INFO     Iteration:     129, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.123 (N) 0.8538, 
+| TournamentSize: (DN) -0.1131 (N) -0.1131, 
+-----------------------------------
+           INFO     Iteration:     130, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.762500  searchobserver.py:83
+[02:47:23] INFO     Iteration:     132, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     133, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4684 (N) -0.9114, 
+| TournamentSize: (DN) 0.6036 (N) 0.6036, 
+-----------------------------------
+[02:47:24] INFO     Iteration:     135, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     136, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.762500  searchobserver.py:83
+[02:47:25] INFO     Iteration:     138, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     139, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7786 (N) -0.6298, 
+| TournamentSize: (DN) 0.3594 (N) 0.3594, 
+-----------------------------------
+           INFO     Iteration:     140, Coverage: 0.762500  searchobserver.py:83
+[02:47:26] INFO     Iteration:     141, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     142, Coverage: 0.762500  searchobserver.py:83
+[02:47:27] INFO     Iteration:     143, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     144, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.4775 (N) 0.9129, 
+| TournamentSize: (DN) -0.1166 (N) -0.1166, 
+-----------------------------------
+[02:47:28] INFO     Iteration:     145, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     147, Coverage: 0.762500  searchobserver.py:83
+[02:47:29] INFO     Iteration:     148, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     149, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 38, (N) -0.4
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.4149 (N) 0.0691, 
+| TournamentSize: (DN) -0.3856 (N) -0.3856, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     151, Coverage: 0.762500  searchobserver.py:83
+[02:47:30] INFO     Iteration:     152, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     153, Coverage: 0.762500  searchobserver.py:83
+[02:47:31] INFO     Iteration:     154, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 38, (N) -0.4
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9778 (N) -0.3296, 
+| TournamentSize: (DN) -0.1795 (N) -0.1795, 
+-----------------------------------
+           INFO     Iteration:     155, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     156, Coverage: 0.762500  searchobserver.py:83
+[02:47:32] INFO     Iteration:     157, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     158, Coverage: 0.762500  searchobserver.py:83
+[02:47:33] INFO     Iteration:     159, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9458 (N) 0.491, 
+| TournamentSize: (DN) 0.512 (N) 0.512, 
+-----------------------------------
+           INFO     Iteration:     160, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     161, Coverage: 0.762500  searchobserver.py:83
+[02:47:34] INFO     Iteration:     162, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     164, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.7055 (N) 0.2842, 
+| TournamentSize: (DN) -0.2694 (N) -0.2694, 
+-----------------------------------
+[02:47:35] INFO     Iteration:     165, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     167, Coverage: 0.762500  searchobserver.py:83
+[02:47:36] INFO     Iteration:     168, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9031 (N) 0.9838, 
+| TournamentSize: (DN) 0.1303 (N) 0.1303, 
+-----------------------------------
+           INFO     Iteration:     170, Coverage: 0.762500  searchobserver.py:83
+[02:47:37] INFO     Iteration:     171, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     173, Coverage: 0.762500  searchobserver.py:83
+[02:47:38] INFO     Iteration:     174, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 47, (N) -0.1
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.7524 (N) 0.6254, 
+| TournamentSize: (DN) 0.5105 (N) 0.5105, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.762500  searchobserver.py:83
+[02:47:39] INFO     Iteration:     176, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     177, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     178, Coverage: 0.762500  searchobserver.py:83
+[02:47:40] INFO     Iteration:     179, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 51, (N) 0.0333
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6213 (N) -0.1035, 
+| TournamentSize: (DN) 0.9571 (N) 0.9571, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.762500  searchobserver.py:83
+[02:47:41] INFO     Iteration:     181, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.762500  searchobserver.py:83
+[02:47:42] INFO     Iteration:     184, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 50, (N) 0.0
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3607 (N) -0.7268, 
+| TournamentSize: (DN) 0.1117 (N) 0.1117, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.762500  searchobserver.py:83
+[02:47:43] INFO     Iteration:     187, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.762500  searchobserver.py:83
+[02:47:44] INFO     Iteration:     189, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1201 (N) 0.6867, 
+| TournamentSize: (DN) 0.1801 (N) 0.1801, 
+-----------------------------------
+           INFO     Iteration:     190, Coverage: 0.762500  searchobserver.py:83
+[02:47:45] INFO     Iteration:     191, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     193, Coverage: 0.762500  searchobserver.py:83
+[02:47:46] INFO     Iteration:     194, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 50, (N) 0.0
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.4544 (N) 0.4091, 
+| TournamentSize: (DN) 0.4357 (N) 0.4357, 
+-----------------------------------
+           INFO     Iteration:     195, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.762500  searchobserver.py:83
+[02:47:47] INFO     Iteration:     197, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 52, (N) 0.0667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.9924 (N) -0.8321, 
+| TournamentSize: (DN) 0.0477 (N) 0.0477, 
+-----------------------------------
+[02:47:48] INFO     Iteration:     200, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     202, Coverage: 0.762500  searchobserver.py:83
+[02:47:49] INFO     Iteration:     203, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     204, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 47, (N) -0.1
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.1839 (N) -0.1973, 
+| TournamentSize: (DN) 0.8702 (N) 0.8702, 
+-----------------------------------
+           INFO     Iteration:     205, Coverage: 0.762500  searchobserver.py:83
+[02:47:50] INFO     Iteration:     206, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     207, Coverage: 0.762500  searchobserver.py:83
+[02:47:51] INFO     Iteration:     208, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     209, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.3535 (N) -0.8922, 
+| TournamentSize: (DN) 0.3253 (N) 0.3253, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.762500  searchobserver.py:83
+[02:47:52] INFO     Iteration:     211, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.762500  searchobserver.py:83
+[02:47:53] INFO     Iteration:     214, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4403 (N) 0.5734, 
+| TournamentSize: (DN) -0.9044 (N) -0.9044, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     216, Coverage: 0.762500  searchobserver.py:83
+[02:47:54] INFO     Iteration:     217, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     218, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     219, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 44, (N) -0.2
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1975 (N) -0.0329, 
+| TournamentSize: (DN) 0.8553 (N) 0.8553, 
+-----------------------------------
+[02:47:55] INFO     Iteration:     220, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     221, Coverage: 0.762500  searchobserver.py:83
+[02:47:56] INFO     Iteration:     222, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.762500  searchobserver.py:83
+[02:47:57] INFO     Iteration:     224, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 44, (N) -0.2
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8417 (N) -0.1403, 
+| TournamentSize: (DN) -0.3122 (N) -0.3122, 
+-----------------------------------
+           INFO     Iteration:     225, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     227, Coverage: 0.762500  searchobserver.py:83
+[02:47:58] INFO     Iteration:     228, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     229, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8664 (N) -0.1444, 
+| TournamentSize: (DN) -0.1583 (N) -0.1583, 
+-----------------------------------
+[02:47:59] INFO     Iteration:     230, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     232, Coverage: 0.762500  searchobserver.py:83
+[02:48:00] INFO     Iteration:     233, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     234, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6758 (N) -0.1126, 
+| TournamentSize: (DN) 0.0291 (N) 0.0291, 
+-----------------------------------
+           INFO     Iteration:     235, Coverage: 0.762500  searchobserver.py:83
+[02:48:01] INFO     Iteration:     236, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.762500  searchobserver.py:83
+[02:48:02] INFO     Iteration:     238, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     239, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.8556 (N) 0.1426, 
+| TournamentSize: (DN) 0.0313 (N) 0.0313, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.762500  searchobserver.py:83
+[02:48:03] INFO     Iteration:     241, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     243, Coverage: 0.762500  searchobserver.py:83
+[02:48:04] INFO     Iteration:     244, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4653 (N) 0.5776, 
+| TournamentSize: (DN) -0.6059 (N) -0.6059, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.762500  searchobserver.py:83
+[02:48:05] INFO     Iteration:     246, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     247, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     248, Coverage: 0.762500  searchobserver.py:83
+[02:48:06] INFO     Iteration:     249, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.0714 (N) -0.0119, 
+| TournamentSize: (DN) 0.9605 (N) 0.9605, 
+-----------------------------------
+           INFO     Iteration:     250, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     251, Coverage: 0.762500  searchobserver.py:83
+[02:48:07] INFO     Iteration:     252, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     253, Coverage: 0.762500  searchobserver.py:83
+[02:48:08] INFO     Iteration:     254, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 45, (N) -0.1667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.5173 (N) -0.7529, 
+| TournamentSize: (DN) 0.6774 (N) 0.6774, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     256, Coverage: 0.762500  searchobserver.py:83
+[02:48:09] INFO     Iteration:     257, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     259, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.5423 (N) -0.5904, 
+| TournamentSize: (DN) 0.6771 (N) 0.6771, 
+-----------------------------------
+[02:48:10] INFO     Iteration:     260, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     261, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     262, Coverage: 0.762500  searchobserver.py:83
+[02:48:11] INFO     Iteration:     263, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     264, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.5859 (N) -0.7643, 
+| TournamentSize: (DN) 0.4447 (N) 0.4447, 
+-----------------------------------
+[02:48:12] INFO     Iteration:     265, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     266, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     267, Coverage: 0.762500  searchobserver.py:83
+[02:48:13] INFO     Iteration:     268, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5892 (N) -0.0982, 
+| TournamentSize: (DN) -0.6787 (N) -0.6787, 
+-----------------------------------
+[02:48:14] INFO     Iteration:     270, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     272, Coverage: 0.762500  searchobserver.py:83
+[02:48:15] INFO     Iteration:     273, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.6591 (N) 0.1099, 
+| TournamentSize: (DN) 0.3314 (N) 0.3314, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.762500  searchobserver.py:83
+[02:48:16] INFO     Iteration:     276, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     277, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     278, Coverage: 0.762500  searchobserver.py:83
+[02:48:17] INFO     Iteration:     279, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.0626 (N) -0.8438, 
+| TournamentSize: (DN) 0.9638 (N) 0.9638, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.762500  searchobserver.py:83
+[02:48:18] INFO     Iteration:     281, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     282, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     283, Coverage: 0.762500  searchobserver.py:83
+[02:48:19] INFO     Iteration:     284, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8168 (N) 0.4695, 
+| TournamentSize: (DN) -0.951 (N) -0.951, 
+-----------------------------------
+           INFO     Iteration:     285, Coverage: 0.762500  searchobserver.py:83
+[02:48:20] INFO     Iteration:     286, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     288, Coverage: 0.762500  searchobserver.py:83
+[02:48:21] INFO     Iteration:     289, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.118 (N) 0.353, 
+| TournamentSize: (DN) -0.2062 (N) -0.2062, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.762500  searchobserver.py:83
+[02:48:22] INFO     Iteration:     291, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     292, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.762500  searchobserver.py:83
+[02:48:23] INFO     Iteration:     294, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.1791 (N) -0.3632, 
+| TournamentSize: (DN) 0.8406 (N) 0.8406, 
+-----------------------------------
+           INFO     Iteration:     295, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.762500  searchobserver.py:83
+[02:48:24] INFO     Iteration:     297, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     298, Coverage: 0.762500  searchobserver.py:83
+[02:48:25] INFO     Iteration:     299, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3271 (N) -0.2212, 
+| TournamentSize: (DN) -0.42 (N) -0.42, 
+-----------------------------------
+           INFO     Iteration:     300, Coverage: 0.762500  searchobserver.py:83
+[02:48:26] INFO     Iteration:     301, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     303, Coverage: 0.762500  searchobserver.py:83
+[02:48:27] INFO     Iteration:     304, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.4604 (N) 0.4101, 
+| TournamentSize: (DN) -0.2219 (N) -0.2219, 
+-----------------------------------
+           INFO     Iteration:     305, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     306, Coverage: 0.762500  searchobserver.py:83
+[02:48:28] INFO     Iteration:     307, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     308, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.0425 (N) -0.6738, 
+| TournamentSize: (DN) -0.3133 (N) -0.3133, 
+-----------------------------------
+[02:48:29] INFO     Iteration:     310, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     311, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     312, Coverage: 0.762500  searchobserver.py:83
+[02:48:30] INFO     Iteration:     313, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     314, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7716 (N) 0.7953, 
+| TournamentSize: (DN) 0.2287 (N) 0.2287, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.762500  searchobserver.py:83
+[02:48:31] INFO     Iteration:     316, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     317, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.762500  searchobserver.py:83
+[02:48:32] INFO     Iteration:     319, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9755 (N) -0.6626, 
+| TournamentSize: (DN) 0.8516 (N) 0.8516, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.762500  searchobserver.py:83
+[02:48:33] INFO     Iteration:     321, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     322, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.762500  searchobserver.py:83
+[02:48:34] INFO     Iteration:     324, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3945 (N) -0.2324, 
+| TournamentSize: (DN) 0.4173 (N) 0.4173, 
+-----------------------------------
+           INFO     Iteration:     325, Coverage: 0.762500  searchobserver.py:83
+[02:48:35] INFO     Iteration:     326, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     327, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.762500  searchobserver.py:83
+[02:48:36] INFO     Iteration:     329, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.134 (N) -0.0223, 
+| TournamentSize: (DN) 0.8349 (N) 0.8349, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.762500  searchobserver.py:83
+[02:48:37] INFO     Iteration:     332, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     333, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.6207 (N) 0.2701, 
+| TournamentSize: (DN) 0.2321 (N) 0.2321, 
+-----------------------------------
+[02:48:38] INFO     Iteration:     335, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.762500  searchobserver.py:83
+[02:48:39] INFO     Iteration:     337, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     338, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.0043 (N) 0.834, 
+| TournamentSize: (DN) -0.5202 (N) -0.5202, 
+-----------------------------------
+[02:48:40] INFO     Iteration:     340, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     341, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.762500  searchobserver.py:83
+[02:48:41] INFO     Iteration:     343, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     344, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.3018 (N) 0.3836, 
+| TournamentSize: (DN) 0.2232 (N) 0.2232, 
+-----------------------------------
+           INFO     Iteration:     345, Coverage: 0.762500  searchobserver.py:83
+[02:48:42] INFO     Iteration:     346, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     347, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     348, Coverage: 0.762500  searchobserver.py:83
+[02:48:43] INFO     Iteration:     349, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 35, (N) -0.5
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1953 (N) -0.0325, 
+| TournamentSize: (DN) 0.4213 (N) 0.4213, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.762500  searchobserver.py:83
+[02:48:44] INFO     Iteration:     351, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     352, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.762500  searchobserver.py:83
+[02:48:45] INFO     Iteration:     354, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 35, (N) -0.5
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.6578 (N) 0.943, 
+| TournamentSize: (DN) 0.8239 (N) 0.8239, 
+-----------------------------------
+           INFO     Iteration:     355, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.762500  searchobserver.py:83
+[02:48:46] INFO     Iteration:     357, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4695 (N) 0.5782, 
+| TournamentSize: (DN) 0.782 (N) 0.782, 
+-----------------------------------
+[02:48:47] INFO     Iteration:     360, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     361, Coverage: 0.762500  searchobserver.py:83
+[02:48:48] INFO     Iteration:     362, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     364, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 44, (N) -0.2
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3246 (N) -0.2208, 
+| TournamentSize: (DN) -0.1182 (N) -0.1182, 
+-----------------------------------
+[02:48:49] INFO     Iteration:     365, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     366, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     367, Coverage: 0.762500  searchobserver.py:83
+[02:48:50] INFO     Iteration:     368, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.1346 (N) 0.8558, 
+| TournamentSize: (DN) -0.02 (N) -0.02, 
+-----------------------------------
+[02:48:51] INFO     Iteration:     370, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     371, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.762500  searchobserver.py:83
+[02:48:52] INFO     Iteration:     373, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     374, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 48, (N) -0.0667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.9203 (N) -0.82, 
+| TournamentSize: (DN) 0.8131 (N) 0.8131, 
+-----------------------------------
+           INFO     Iteration:     375, Coverage: 0.762500  searchobserver.py:83
+[02:48:53] INFO     Iteration:     376, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     377, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     378, Coverage: 0.762500  searchobserver.py:83
+[02:48:54] INFO     Iteration:     379, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.2488 (N) -0.2081, 
+| TournamentSize: (DN) -0.3638 (N) -0.3638, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     381, Coverage: 0.762500  searchobserver.py:83
+[02:48:55] INFO     Iteration:     382, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.762500  searchobserver.py:83
+[02:48:56] INFO     Iteration:     384, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.4233 (N) -0.0706, 
+| TournamentSize: (DN) -0.926 (N) -0.926, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.762500  searchobserver.py:83
+[02:48:57] INFO     Iteration:     386, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     389, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.4381 (N) 0.9063, 
+| TournamentSize: (DN) -0.1657 (N) -0.1657, 
+-----------------------------------
+[02:48:58] INFO     Iteration:     390, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.762500  searchobserver.py:83
+[02:48:59] INFO     Iteration:     392, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     393, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 47, (N) -0.1
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.49 (N) -0.5817, 
+| TournamentSize: (DN) -0.9332 (N) -0.9332, 
+-----------------------------------
+[02:49:00] INFO     Iteration:     395, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     396, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.762500  searchobserver.py:83
+[02:49:01] INFO     Iteration:     398, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     399, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 44, (N) -0.2
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5742 (N) -0.2624, 
+| TournamentSize: (DN) 0.2211 (N) 0.2211, 
+-----------------------------------
+[02:49:02] INFO     Iteration:     400, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     402, Coverage: 0.762500  searchobserver.py:83
+[02:49:03] INFO     Iteration:     403, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.6604 (N) -0.7767, 
+| TournamentSize: (DN) 0.4825 (N) 0.4825, 
+-----------------------------------
+           INFO     Iteration:     405, Coverage: 0.762500  searchobserver.py:83
+[02:49:04] INFO     Iteration:     406, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     408, Coverage: 0.762500  searchobserver.py:83
+[02:49:05] INFO     Iteration:     409, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 37, (N) -0.4333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5884 (N) -0.2647, 
+| TournamentSize: (DN) 0.6288 (N) 0.6288, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     411, Coverage: 0.762500  searchobserver.py:83
+[02:49:06] INFO     Iteration:     412, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     414, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 35, (N) -0.5
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.6867 (N) 0.7811, 
+| TournamentSize: (DN) 0.2819 (N) 0.2819, 
+-----------------------------------
+[02:49:07] INFO     Iteration:     415, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.762500  searchobserver.py:83
+[02:49:08] INFO     Iteration:     417, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     419, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3142 (N) 0.219, 
+| TournamentSize: (DN) -0.0394 (N) -0.0394, 
+-----------------------------------
+[02:49:09] INFO     Iteration:     420, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     421, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.762500  searchobserver.py:83
+[02:49:10] INFO     Iteration:     423, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 41, (N) -0.3
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.0639 (N) -0.5107, 
+| TournamentSize: (DN) -0.2067 (N) -0.2067, 
+-----------------------------------
+           INFO     Iteration:     425, Coverage: 0.762500  searchobserver.py:83
+[02:49:11] INFO     Iteration:     426, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     427, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.762500  searchobserver.py:83
+[02:49:12] INFO     Iteration:     429, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 38, (N) -0.4
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3268 (N) 0.0545, 
+| TournamentSize: (DN) 0.7111 (N) 0.7111, 
+-----------------------------------
+           INFO     Iteration:     430, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.762500  searchobserver.py:83
+[02:49:13] INFO     Iteration:     432, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.762500  searchobserver.py:83
+[02:49:14] INFO     Iteration:     434, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 38, (N) -0.4
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.4451 (N) -0.0742, 
+| TournamentSize: (DN) -0.161 (N) -0.161, 
+-----------------------------------
+           INFO     Iteration:     435, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     436, Coverage: 0.762500  searchobserver.py:83
+[02:49:15] INFO     Iteration:     437, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     438, Coverage: 0.762500  searchobserver.py:83
+[02:49:16] INFO     Iteration:     439, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 38, (N) -0.4
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1438 (N) 0.1906, 
+| TournamentSize: (DN) 0.2644 (N) 0.2644, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     441, Coverage: 0.762500  searchobserver.py:83
+[02:49:17] INFO     Iteration:     442, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     444, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.266 (N) -0.8777, 
+| TournamentSize: (DN) 0.6637 (N) 0.6637, 
+-----------------------------------
+[02:49:18] INFO     Iteration:     445, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     446, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.762500  searchobserver.py:83
+[02:49:19] INFO     Iteration:     448, Coverage: 0.762500  searchobserver.py:83
+[02:49:20] INFO     Iteration:     449, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8899 (N) -0.1483, 
+| TournamentSize: (DN) -0.897 (N) -0.897, 
+-----------------------------------
+           INFO     Iteration:     450, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     451, Coverage: 0.762500  searchobserver.py:83
+[02:49:21] INFO     Iteration:     452, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     453, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9948 (N) -0.3325, 
+| TournamentSize: (DN) 0.0788 (N) 0.0788, 
+-----------------------------------
+[02:49:22] INFO     Iteration:     455, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     457, Coverage: 0.762500  searchobserver.py:83
+[02:49:23] INFO     Iteration:     458, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.0693 (N) -0.5115, 
+| TournamentSize: (DN) -0.6638 (N) -0.6638, 
+-----------------------------------
+           INFO     Iteration:     460, Coverage: 0.762500  searchobserver.py:83
+[02:49:24] INFO     Iteration:     461, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     462, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.762500  searchobserver.py:83
+[02:49:25] INFO     Iteration:     464, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.0541 (N) -0.509, 
+| TournamentSize: (DN) 0.8972 (N) 0.8972, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.762500  searchobserver.py:83
+[02:49:26] INFO     Iteration:     466, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     467, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     468, Coverage: 0.762500  searchobserver.py:83
+[02:49:27] INFO     Iteration:     469, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.4326 (N) 0.0721, 
+| TournamentSize: (DN) 0.9377 (N) 0.9377, 
+-----------------------------------
+           INFO     Iteration:     470, Coverage: 0.762500  searchobserver.py:83
+[02:49:28] INFO     Iteration:     471, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     472, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.762500  searchobserver.py:83
+[02:49:29] INFO     Iteration:     474, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7408 (N) 0.7901, 
+| TournamentSize: (DN) -0.7857 (N) -0.7857, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.762500  searchobserver.py:83
+[02:49:30] INFO     Iteration:     477, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     479, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9221 (N) -0.6537, 
+| TournamentSize: (DN) -0.5214 (N) -0.5214, 
+-----------------------------------
+[02:49:31] INFO     Iteration:     480, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     481, Coverage: 0.762500  searchobserver.py:83
+[02:49:32] INFO     Iteration:     482, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     483, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     484, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.3314 (N) 0.7219, 
+| TournamentSize: (DN) 0.2963 (N) 0.2963, 
+-----------------------------------
+[02:49:33] INFO     Iteration:     485, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     487, Coverage: 0.762500  searchobserver.py:83
+[02:49:34] INFO     Iteration:     488, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     489, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.3748 (N) 0.0625, 
+| TournamentSize: (DN) 0.7541 (N) 0.7541, 
+-----------------------------------
+           INFO     Iteration:     490, Coverage: 0.762500  searchobserver.py:83
+[02:49:35] INFO     Iteration:     491, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.762500  searchobserver.py:83
+[02:49:36] INFO     Iteration:     493, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     494, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.7547 (N) -0.9591, 
+| TournamentSize: (DN) 0.2317 (N) 0.2317, 
+-----------------------------------
+           INFO     Iteration:     495, Coverage: 0.762500  searchobserver.py:83
+[02:49:37] INFO     Iteration:     496, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.762500  searchobserver.py:83
+[02:49:38] INFO     Iteration:     498, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     499, Coverage: 0.762500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7625, (N) 0.525
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3569 (N) 0.2262, 
+| TournamentSize: (DN) -0.1118 (N) -0.1118, 
+-----------------------------------
+           INFO     Iteration:     500, Coverage: 0.762500  searchobserver.py:83
+[02:49:39] INFO     Iteration:     501, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     502, Coverage: 0.762500  searchobserver.py:83
+           INFO     Iteration:     503, Coverage: 0.775000  searchobserver.py:83
+[02:49:40] INFO     Iteration:     504, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012500000000000067 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.4924 (N) -0.0821, 
+| TournamentSize: (DN) -0.6479 (N) -0.6479, 
+-----------------------------------
+           INFO     Iteration:     505, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     506, Coverage: 0.775000  searchobserver.py:83
+[02:49:41] INFO     Iteration:     507, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     508, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.0526 (N) 0.0088, 
+| TournamentSize: (DN) 0.6845 (N) 0.6845, 
+-----------------------------------
+[02:49:42] INFO     Iteration:     510, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.775000  searchobserver.py:83
+[02:49:43] INFO     Iteration:     512, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.775000  searchobserver.py:83
+[02:49:44] INFO     Iteration:     514, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.6934 (N) -0.4489, 
+| TournamentSize: (DN) -0.3389 (N) -0.3389, 
+-----------------------------------
+           INFO     Iteration:     515, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.775000  searchobserver.py:83
+[02:49:45] INFO     Iteration:     517, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     519, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7964 (N) -0.6327, 
+| TournamentSize: (DN) 0.9503 (N) 0.9503, 
+-----------------------------------
+[02:49:46] INFO     Iteration:     520, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.775000  searchobserver.py:83
+[02:49:47] INFO     Iteration:     522, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     524, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.0516 (N) 0.0086, 
+| TournamentSize: (DN) -0.2413 (N) -0.2413, 
+-----------------------------------
+[02:49:48] INFO     Iteration:     525, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     526, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.775000  searchobserver.py:83
+[02:49:49] INFO     Iteration:     528, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.6496 (N) -0.7749, 
+| TournamentSize: (DN) -0.4887 (N) -0.4887, 
+-----------------------------------
+[02:49:50] INFO     Iteration:     530, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     531, Coverage: 0.775000  searchobserver.py:83
+[02:49:51] INFO     Iteration:     532, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     533, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     534, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5616 (N) 0.5936, 
+| TournamentSize: (DN) 0.6878 (N) 0.6878, 
+-----------------------------------
+[02:49:52] INFO     Iteration:     535, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     536, Coverage: 0.775000  searchobserver.py:83
+[02:49:53] INFO     Iteration:     537, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     538, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5526 (N) -0.2588, 
+| TournamentSize: (DN) 0.2299 (N) 0.2299, 
+-----------------------------------
+[02:49:54] INFO     Iteration:     540, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.775000  searchobserver.py:83
+[02:49:55] INFO     Iteration:     542, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     544, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5664 (N) 0.2611, 
+| TournamentSize: (DN) 0.6696 (N) 0.6696, 
+-----------------------------------
+[02:49:56] INFO     Iteration:     545, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.775000  searchobserver.py:83
+[02:49:57] INFO     Iteration:     547, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.775000  searchobserver.py:83
+[02:49:58] INFO     Iteration:     549, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.8215 (N) -0.8036, 
+| TournamentSize: (DN) 0.5287 (N) 0.5287, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     551, Coverage: 0.775000  searchobserver.py:83
+[02:49:59] INFO     Iteration:     552, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     553, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6379 (N) -0.9396, 
+| TournamentSize: (DN) -0.2476 (N) -0.2476, 
+-----------------------------------
+[02:50:00] INFO     Iteration:     555, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     556, Coverage: 0.775000  searchobserver.py:83
+[02:50:01] INFO     Iteration:     557, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     558, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2528 (N) -0.7088, 
+| TournamentSize: (DN) -0.8216 (N) -0.8216, 
+-----------------------------------
+[02:50:02] INFO     Iteration:     560, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     561, Coverage: 0.775000  searchobserver.py:83
+[02:50:03] INFO     Iteration:     562, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     563, Coverage: 0.775000  searchobserver.py:83
+[02:50:04] INFO     Iteration:     564, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1737 (N) 0.529, 
+| TournamentSize: (DN) -0.4634 (N) -0.4634, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     566, Coverage: 0.775000  searchobserver.py:83
+[02:50:05] INFO     Iteration:     567, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     569, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 23, (N) -0.9
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4214 (N) 0.5702, 
+| TournamentSize: (DN) 0.8256 (N) 0.8256, 
+-----------------------------------
+[02:50:06] INFO     Iteration:     570, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     571, Coverage: 0.775000  searchobserver.py:83
+[02:50:07] INFO     Iteration:     572, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     573, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     574, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 10, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.3079 (N) 0.5513, 
+| TournamentSize: (DN) -0.8186 (N) -0.8186, 
+-----------------------------------
+[02:50:08] INFO     Iteration:     575, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     577, Coverage: 0.775000  searchobserver.py:83
+[02:50:09] INFO     Iteration:     578, Coverage: 0.775000  searchobserver.py:83
+[02:50:10] INFO     Iteration:     579, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.7999 (N) -0.3, 
+| TournamentSize: (DN) 0.4871 (N) 0.4871, 
+-----------------------------------
+           INFO     Iteration:     580, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.775000  searchobserver.py:83
+[02:50:11] INFO     Iteration:     582, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     584, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| TournamentSize: (DN) 9, (N) 0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.8445 (N) -0.9741, 
+| TournamentSize: (DN) -0.8086 (N) -0.8086, 
+-----------------------------------
+[02:50:12] INFO     Iteration:     585, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     587, Coverage: 0.775000  searchobserver.py:83
+[02:50:13] INFO     Iteration:     588, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     589, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 21, (N) -0.9667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7272 (N) 0.7879, 
+| TournamentSize: (DN) -0.668 (N) -0.668, 
+-----------------------------------
+[02:50:14] INFO     Iteration:     590, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     591, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.775000  searchobserver.py:83
+[02:50:15] INFO     Iteration:     593, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     594, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4406 (N) 0.5734, 
+| TournamentSize: (DN) -0.6301 (N) -0.6301, 
+-----------------------------------
+[02:50:16] INFO     Iteration:     595, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.775000  searchobserver.py:83
+[02:50:17] INFO     Iteration:     597, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     598, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     599, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.9733 (N) 0.1622, 
+| TournamentSize: (DN) -0.2273 (N) -0.2273, 
+-----------------------------------
+[02:50:18] INFO     Iteration:     600, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     601, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     602, Coverage: 0.775000  searchobserver.py:83
+[02:50:19] INFO     Iteration:     603, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     604, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9196 (N) -0.4866, 
+| TournamentSize: (DN) 0.1064 (N) 0.1064, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.775000  searchobserver.py:83
+[02:50:20] INFO     Iteration:     606, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     607, Coverage: 0.775000  searchobserver.py:83
+[02:50:21] INFO     Iteration:     608, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5708 (N) 0.5951, 
+| TournamentSize: (DN) -0.1458 (N) -0.1458, 
+-----------------------------------
+           INFO     Iteration:     610, Coverage: 0.775000  searchobserver.py:83
+[02:50:22] INFO     Iteration:     611, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.775000  searchobserver.py:83
+[02:50:23] INFO     Iteration:     613, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     614, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.2167 (N) 0.0361, 
+| TournamentSize: (DN) -0.8123 (N) -0.8123, 
+-----------------------------------
+           INFO     Iteration:     615, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     616, Coverage: 0.775000  searchobserver.py:83
+[02:50:24] INFO     Iteration:     617, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     618, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.1934 (N) 0.8656, 
+| TournamentSize: (DN) -0.38 (N) -0.38, 
+-----------------------------------
+[02:50:25] INFO     Iteration:     620, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     621, Coverage: 0.775000  searchobserver.py:83
+[02:50:26] INFO     Iteration:     622, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     623, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     624, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4841 (N) -0.5807, 
+| TournamentSize: (DN) -0.8145 (N) -0.8145, 
+-----------------------------------
+[02:50:27] INFO     Iteration:     625, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     626, Coverage: 0.775000  searchobserver.py:83
+[02:50:28] INFO     Iteration:     627, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     628, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     629, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.6282 (N) -0.7714, 
+| TournamentSize: (DN) -0.9187 (N) -0.9187, 
+-----------------------------------
+[02:50:29] INFO     Iteration:     630, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     631, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     632, Coverage: 0.775000  searchobserver.py:83
+[02:50:30] INFO     Iteration:     633, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     634, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.6903 (N) 0.4484, 
+| TournamentSize: (DN) -0.3505 (N) -0.3505, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.775000  searchobserver.py:83
+[02:50:31] INFO     Iteration:     636, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     637, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     638, Coverage: 0.775000  searchobserver.py:83
+[02:50:32] INFO     Iteration:     639, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9771 (N) -0.4962, 
+| TournamentSize: (DN) 0.3739 (N) 0.3739, 
+-----------------------------------
+           INFO     Iteration:     640, Coverage: 0.775000  searchobserver.py:83
+[02:50:33] INFO     Iteration:     641, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     643, Coverage: 0.775000  searchobserver.py:83
+[02:50:34] INFO     Iteration:     644, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.033 (N) -0.8388, 
+| TournamentSize: (DN) -0.6569 (N) -0.6569, 
+-----------------------------------
+           INFO     Iteration:     645, Coverage: 0.775000  searchobserver.py:83
+[02:50:35] INFO     Iteration:     646, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     647, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.775000  searchobserver.py:83
+[02:50:36] INFO     Iteration:     649, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 23, (N) -0.9
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2686 (N) -0.7114, 
+| TournamentSize: (DN) 0.1552 (N) 0.1552, 
+-----------------------------------
+           INFO     Iteration:     650, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.775000  searchobserver.py:83
+[02:50:37] INFO     Iteration:     652, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     654, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.5824 (N) 0.9304, 
+| TournamentSize: (DN) 0.3689 (N) 0.3689, 
+-----------------------------------
+[02:50:38] INFO     Iteration:     655, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     657, Coverage: 0.775000  searchobserver.py:83
+[02:50:39] INFO     Iteration:     658, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.4536 (N) 0.9089, 
+| TournamentSize: (DN) -0.0729 (N) -0.0729, 
+-----------------------------------
+           INFO     Iteration:     660, Coverage: 0.775000  searchobserver.py:83
+[02:50:40] INFO     Iteration:     661, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.775000  searchobserver.py:83
+[02:50:41] INFO     Iteration:     663, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     664, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.5961 (N) -0.766, 
+| TournamentSize: (DN) -0.1203 (N) -0.1203, 
+-----------------------------------
+           INFO     Iteration:     665, Coverage: 0.775000  searchobserver.py:83
+[02:50:42] INFO     Iteration:     666, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     668, Coverage: 0.775000  searchobserver.py:83
+[02:50:43] INFO     Iteration:     669, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.3971 (N) -0.0662, 
+| TournamentSize: (DN) 0.2005 (N) 0.2005, 
+-----------------------------------
+           INFO     Iteration:     670, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     671, Coverage: 0.775000  searchobserver.py:83
+[02:50:44] INFO     Iteration:     672, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.775000  searchobserver.py:83
+[02:50:45] INFO     Iteration:     674, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9584 (N) -0.6597, 
+| TournamentSize: (DN) -0.0412 (N) -0.0412, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     676, Coverage: 0.775000  searchobserver.py:83
+[02:50:46] INFO     Iteration:     677, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     678, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 2, (N) -1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.6907 (N) 0.9484, 
+| TournamentSize: (DN) 0.5173 (N) 0.5173, 
+-----------------------------------
+[02:50:47] INFO     Iteration:     680, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.775000  searchobserver.py:83
+[02:50:48] INFO     Iteration:     682, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     684, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.1303 (N) -0.5217, 
+| TournamentSize: (DN) -0.3008 (N) -0.3008, 
+-----------------------------------
+[02:50:49] INFO     Iteration:     685, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     686, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     687, Coverage: 0.775000  searchobserver.py:83
+[02:50:50] INFO     Iteration:     688, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     689, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 3, (N) -0.75
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.449 (N) -0.2415, 
+| TournamentSize: (DN) 0.8393 (N) 0.8393, 
+-----------------------------------
+           INFO     Iteration:     690, Coverage: 0.775000  searchobserver.py:83
+[02:50:51] INFO     Iteration:     691, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     692, Coverage: 0.775000  searchobserver.py:83
+[02:50:52] INFO     Iteration:     693, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     694, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5836 (N) -0.0973, 
+| TournamentSize: (DN) 0.3688 (N) 0.3688, 
+-----------------------------------
+           INFO     Iteration:     695, Coverage: 0.775000  searchobserver.py:83
+[02:50:53] INFO     Iteration:     696, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     697, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     698, Coverage: 0.775000  searchobserver.py:83
+[02:50:54] INFO     Iteration:     699, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 23, (N) -0.9
+| TournamentSize: (DN) 4, (N) -0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3131 (N) -0.2188, 
+| TournamentSize: (DN) 0.9067 (N) 0.9067, 
+-----------------------------------
+           INFO     Iteration:     700, Coverage: 0.775000  searchobserver.py:83
+[02:50:55] INFO     Iteration:     701, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     702, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     703, Coverage: 0.775000  searchobserver.py:83
+[02:50:56] INFO     Iteration:     704, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 5, (N) -0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.308 (N) 0.8847, 
+| TournamentSize: (DN) 0.7444 (N) 0.7444, 
+-----------------------------------
+           INFO     Iteration:     705, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     706, Coverage: 0.775000  searchobserver.py:83
+[02:50:57] INFO     Iteration:     707, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     708, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     709, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.2965 (N) -0.8828, 
+| TournamentSize: (DN) -0.127 (N) -0.127, 
+-----------------------------------
+[02:50:58] INFO     Iteration:     710, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     711, Coverage: 0.775000  searchobserver.py:83
+[02:50:59] INFO     Iteration:     712, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     713, Coverage: 0.775000  searchobserver.py:83
+[02:51:00] INFO     Iteration:     714, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.2773 (N) 0.3796, 
+| TournamentSize: (DN) -0.076 (N) -0.076, 
+-----------------------------------
+           INFO     Iteration:     715, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     716, Coverage: 0.775000  searchobserver.py:83
+[02:51:01] INFO     Iteration:     717, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     718, Coverage: 0.775000  searchobserver.py:83
+[02:51:02] INFO     Iteration:     719, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.7376 (N) 0.7896, 
+| TournamentSize: (DN) 0.5982 (N) 0.5982, 
+-----------------------------------
+           INFO     Iteration:     720, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     721, Coverage: 0.775000  searchobserver.py:83
+[02:51:03] INFO     Iteration:     722, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     723, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     724, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8309 (N) -0.1385, 
+| TournamentSize: (DN) 0.6677 (N) 0.6677, 
+-----------------------------------
+[02:51:04] INFO     Iteration:     725, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     726, Coverage: 0.775000  searchobserver.py:83
+[02:51:05] INFO     Iteration:     727, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     728, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     729, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2376 (N) -0.7063, 
+| TournamentSize: (DN) -0.8426 (N) -0.8426, 
+-----------------------------------
+[02:51:06] INFO     Iteration:     730, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     731, Coverage: 0.775000  searchobserver.py:83
+[02:51:07] INFO     Iteration:     732, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     733, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     734, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.35 (N) -0.0583, 
+| TournamentSize: (DN) 0.5385 (N) 0.5385, 
+-----------------------------------
+[02:51:08] INFO     Iteration:     735, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     736, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     737, Coverage: 0.775000  searchobserver.py:83
+[02:51:09] INFO     Iteration:     738, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     739, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.5554 (N) 0.0926, 
+| TournamentSize: (DN) -0.5353 (N) -0.5353, 
+-----------------------------------
+[02:51:10] INFO     Iteration:     740, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     741, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     742, Coverage: 0.775000  searchobserver.py:83
+[02:51:11] INFO     Iteration:     743, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     744, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2755 (N) 0.2126, 
+| TournamentSize: (DN) 0.0758 (N) 0.0758, 
+-----------------------------------
+           INFO     Iteration:     745, Coverage: 0.775000  searchobserver.py:83
+[02:51:12] INFO     Iteration:     746, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     747, Coverage: 0.775000  searchobserver.py:83
+[02:51:13] INFO     Iteration:     748, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     749, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5137 (N) -0.0856, 
+| TournamentSize: (DN) -0.3777 (N) -0.3777, 
+-----------------------------------
+[02:51:14] INFO     Iteration:     750, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     751, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     752, Coverage: 0.775000  searchobserver.py:83
+[02:51:15] INFO     Iteration:     753, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     754, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4098 (N) -0.5683, 
+| TournamentSize: (DN) 0.6071 (N) 0.6071, 
+-----------------------------------
+           INFO     Iteration:     755, Coverage: 0.775000  searchobserver.py:83
+[02:51:16] INFO     Iteration:     756, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     757, Coverage: 0.775000  searchobserver.py:83
+[02:51:17] INFO     Iteration:     758, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     759, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.2619 (N) 0.5437, 
+| TournamentSize: (DN) -0.6027 (N) -0.6027, 
+-----------------------------------
+           INFO     Iteration:     760, Coverage: 0.775000  searchobserver.py:83
+[02:51:18] INFO     Iteration:     761, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     762, Coverage: 0.775000  searchobserver.py:83
+[02:51:19] INFO     Iteration:     763, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     764, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.4801 (N) 0.7467, 
+| TournamentSize: (DN) -0.5011 (N) -0.5011, 
+-----------------------------------
+[02:51:20] INFO     Iteration:     765, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     766, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     767, Coverage: 0.775000  searchobserver.py:83
+[02:51:21] INFO     Iteration:     768, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     769, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.1826 (N) 0.3638, 
+| TournamentSize: (DN) -0.0291 (N) -0.0291, 
+-----------------------------------
+           INFO     Iteration:     770, Coverage: 0.775000  searchobserver.py:83
+[02:51:22] INFO     Iteration:     771, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     772, Coverage: 0.775000  searchobserver.py:83
+[02:51:23] INFO     Iteration:     773, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     774, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.416 (N) 0.9027, 
+| TournamentSize: (DN) 0.7533 (N) 0.7533, 
+-----------------------------------
+           INFO     Iteration:     775, Coverage: 0.775000  searchobserver.py:83
+[02:51:24] INFO     Iteration:     776, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     777, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     778, Coverage: 0.775000  searchobserver.py:83
+[02:51:25] INFO     Iteration:     779, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.8372 (N) 0.6395, 
+| TournamentSize: (DN) -0.6414 (N) -0.6414, 
+-----------------------------------
+           INFO     Iteration:     780, Coverage: 0.775000  searchobserver.py:83
+[02:51:26] INFO     Iteration:     781, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     782, Coverage: 0.775000  searchobserver.py:83
+[02:51:27] INFO     Iteration:     783, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     784, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 40, (N) -0.3333
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8199 (N) 0.47, 
+| TournamentSize: (DN) 0.0022 (N) 0.0022, 
+-----------------------------------
+           INFO     Iteration:     785, Coverage: 0.775000  searchobserver.py:83
+[02:51:28] INFO     Iteration:     786, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     787, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     788, Coverage: 0.775000  searchobserver.py:83
+[02:51:29] INFO     Iteration:     789, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| TournamentSize: (DN) 6, (N) 0.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.2761 (N) 0.8794, 
+| TournamentSize: (DN) 0.5188 (N) 0.5188, 
+-----------------------------------
+           INFO     Iteration:     790, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     791, Coverage: 0.775000  searchobserver.py:83
+[02:51:30] INFO     Iteration:     792, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     793, Coverage: 0.775000  searchobserver.py:83
+[02:51:31] INFO     Iteration:     794, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 48, (N) -0.0667
+| TournamentSize: (DN) 7, (N) 0.25
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.0819 (N) 0.847, 
+| TournamentSize: (DN) 0.5231 (N) 0.5231, 
+-----------------------------------
+           INFO     Iteration:     795, Coverage: 0.775000  searchobserver.py:83
+[02:51:32] INFO     Iteration:     796, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     797, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     798, Coverage: 0.775000  searchobserver.py:83
+[02:51:33] INFO     Iteration:     799, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 53, (N) 0.1
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1399 (N) 0.69, 
+| TournamentSize: (DN) 0.4378 (N) 0.4378, 
+-----------------------------------
+           INFO     Iteration:     800, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     801, Coverage: 0.775000  searchobserver.py:83
+[02:51:34] INFO     Iteration:     802, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     803, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     804, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 57, (N) 0.2333
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.0474 (N) -0.8412, 
+| TournamentSize: (DN) -0.4811 (N) -0.4811, 
+-----------------------------------
+[02:51:35] INFO     Iteration:     805, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     806, Coverage: 0.775000  searchobserver.py:83
+[02:51:36] INFO     Iteration:     807, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     808, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     809, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 52, (N) 0.0667
+| TournamentSize: (DN) 8, (N) 0.5
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.7899 (N) -0.7983, 
+| TournamentSize: (DN) -0.5386 (N) -0.5386, 
+-----------------------------------
+[02:51:37] INFO     Iteration:     810, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     811, Coverage: 0.775000  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+[02:51:38] INFO     Instrumented string function         instrumentation.py:1965
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 17 test cases to                    generator.py:720
+                    /output/test_sanic_config.py                                
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110
