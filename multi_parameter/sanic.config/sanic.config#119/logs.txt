@@ -1,0 +1,2122 @@
+Collecting sanic-routing>=23.12.0
+  Downloading sanic_routing-23.12.0-py3-none-any.whl (25 kB)
+Collecting httptools>=0.0.10
+  Downloading httptools-0.6.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 2.5 MB/s eta 0:00:00
+Collecting uvloop
+  Downloading uvloop-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 26.5 MB/s eta 0:00:00
+Collecting ujson
+  Downloading ujson-5.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.2/53.2 kB 1.9 MB/s eta 0:00:00
+Collecting aiofiles>=0.6.0
+  Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting websockets>=10.0
+  Downloading websockets-12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 4.1 MB/s eta 0:00:00
+Collecting multidict<7.0,>=5.0
+  Downloading multidict-6.0.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.3/124.3 kB 3.8 MB/s eta 0:00:00
+Collecting html5tagger>=1.2.1
+  Downloading html5tagger-1.3.0-py3-none-any.whl (10 kB)
+Collecting tracerite>=1.0.0
+  Downloading tracerite-1.1.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: typing-extensions>=4.4.0 in /usr/local/lib/python3.10/site-packages (from -r /package/package.txt (line 10)) (4.8.0)
+Installing collected packages: sanic-routing, websockets, uvloop, ujson, multidict, httptools, html5tagger, aiofiles, tracerite
+Successfully installed aiofiles-23.2.1 html5tagger-1.3.0 httptools-0.6.1 multidict-6.0.5 sanic-routing-23.12.0 tracerite-1.1.1 ujson-5.9.0 uvloop-0.19.0 websockets-12.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[03:57:08] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+[03:57:09] INFO     Constants found: 2093                       generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+           INFO     Instrumented string function         instrumentation.py:1965
+[03:57:11] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       1                              module.py:1322
+           INFO     Functions:     6                              module.py:1323
+           INFO     Classes:      22                              module.py:1324
+           INFO     Using seed 1713931025915049089              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 80 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+[03:57:12] INFO     Initial Population, Coverage: 0.525000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.525000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.675000  searchobserver.py:83
+[03:57:13] INFO     Iteration:       4, Coverage: 0.687500  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.750000  searchobserver.py:83
+[03:57:14] INFO     Iteration:       7, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.750000  searchobserver.py:83
+[03:57:15] INFO     Iteration:       9, Coverage: 0.750000  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      10, Coverage: 0.750000  searchobserver.py:83
+[03:57:16] INFO     Iteration:      11, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.750000  searchobserver.py:83
+[03:57:17] INFO     Iteration:      13, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.750000  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      15, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.750000  searchobserver.py:83
+[03:57:18] INFO     Iteration:      17, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.750000  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3151 (N) -0.7192, 
+| CrossoverRate: (DN) 0.0315 (N) 0.3154, 
+-----------------------------------
+[03:57:20] INFO     Iteration:      20, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.750000  searchobserver.py:83
+[03:57:21] INFO     Iteration:      23, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| CrossoverRate: (DN) 0.7815, (N) 0.5631
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.2848 (N) 0.5475, 
+| CrossoverRate: (DN) 0.0075 (N) 0.0749, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.750000  searchobserver.py:83
+[03:57:22] INFO     Iteration:      26, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.750000  searchobserver.py:83
+[03:57:23] INFO     Iteration:      28, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.789, (N) 0.5781
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.5572 (N) -0.9262, 
+| CrossoverRate: (DN) -0.0909 (N) -0.9092, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.750000  searchobserver.py:83
+[03:57:24] INFO     Iteration:      31, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.750000  searchobserver.py:83
+[03:57:25] INFO     Iteration:      34, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| CrossoverRate: (DN) 0.6981, (N) 0.3962
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.3896 (N) 0.8983, 
+| CrossoverRate: (DN) -0.0678 (N) -0.6779, 
+-----------------------------------
+           INFO     Iteration:      35, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.750000  searchobserver.py:83
+[03:57:26] INFO     Iteration:      37, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 38, (N) -0.4
+| CrossoverRate: (DN) 0.6303, (N) 0.2606
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.7016 (N) 0.9503, 
+| CrossoverRate: (DN) -0.0046 (N) -0.0461, 
+-----------------------------------
+[03:57:27] INFO     Iteration:      40, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.750000  searchobserver.py:83
+[03:57:28] INFO     Iteration:      43, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 44, (N) -0.2
+| CrossoverRate: (DN) 0.6257, (N) 0.2514
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.7575 (N) -0.7929, 
+| CrossoverRate: (DN) 0.0006 (N) 0.0065, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.750000  searchobserver.py:83
+[03:57:29] INFO     Iteration:      46, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.750000  searchobserver.py:83
+[03:57:30] INFO     Iteration:      48, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.6264, (N) 0.2527
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5257 (N) 0.2543, 
+| CrossoverRate: (DN) 0.0471 (N) 0.4711, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.750000  searchobserver.py:83
+[03:57:31] INFO     Iteration:      51, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.750000  searchobserver.py:83
+[03:57:32] INFO     Iteration:      54, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 41, (N) -0.3
+| CrossoverRate: (DN) 0.6735, (N) 0.3469
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.8389 (N) -0.4732, 
+| CrossoverRate: (DN) -0.0119 (N) -0.1192, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.750000  searchobserver.py:83
+[03:57:33] INFO     Iteration:      57, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 38, (N) -0.4
+| CrossoverRate: (DN) 0.6616, (N) 0.3231
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.3383 (N) -0.5564, 
+| CrossoverRate: (DN) -0.009 (N) -0.09, 
+-----------------------------------
+[03:57:34] INFO     Iteration:      60, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.750000  searchobserver.py:83
+[03:57:35] INFO     Iteration:      63, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 35, (N) -0.5
+| CrossoverRate: (DN) 0.6526, (N) 0.3051
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5146 (N) -0.2524, 
+| CrossoverRate: (DN) -0.0187 (N) -0.1874, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.750000  searchobserver.py:83
+[03:57:36] INFO     Iteration:      66, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      67, Coverage: 0.750000  searchobserver.py:83
+[03:57:37] INFO     Iteration:      68, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      69, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| CrossoverRate: (DN) 0.6338, (N) 0.2676
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.2229 (N) -0.7038, 
+| CrossoverRate: (DN) -0.0343 (N) -0.3426, 
+-----------------------------------
+[03:57:38] INFO     Iteration:      70, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      72, Coverage: 0.750000  searchobserver.py:83
+[03:57:39] INFO     Iteration:      73, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.5996, (N) 0.1991
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.1864 (N) -0.1977, 
+| CrossoverRate: (DN) -0.0303 (N) -0.3025, 
+-----------------------------------
+           INFO     Iteration:      75, Coverage: 0.750000  searchobserver.py:83
+[03:57:40] INFO     Iteration:      76, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      77, Coverage: 0.750000  searchobserver.py:83
+[03:57:41] INFO     Iteration:      78, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      79, Coverage: 0.750000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.75, (N) 0.5
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.5693, (N) 0.1386
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0622 (N) -0.177, 
+| CrossoverRate: (DN) -0.0396 (N) -0.3956, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.750000  searchobserver.py:83
+[03:57:42] INFO     Iteration:      81, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      82, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.775000  searchobserver.py:83
+[03:57:43] INFO     Iteration:      84, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.025000000000000022 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| CrossoverRate: (DN) 0.5297, (N) 0.0595
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9025 (N) 0.4837, 
+| CrossoverRate: (DN) -0.011 (N) -0.1098, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      86, Coverage: 0.775000  searchobserver.py:83
+[03:57:44] INFO     Iteration:      87, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.775000  searchobserver.py:83
+[03:57:45] INFO     Iteration:      89, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.5188, (N) 0.0375
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.7387 (N) -0.1231, 
+| CrossoverRate: (DN) 0.0124 (N) 0.1244, 
+-----------------------------------
+           INFO     Iteration:      90, Coverage: 0.775000  searchobserver.py:83
+[03:57:46] INFO     Iteration:      91, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      92, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.775000  searchobserver.py:83
+[03:57:47] INFO     Iteration:      94, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.5312, (N) 0.0624
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1389 (N) -0.0231, 
+| CrossoverRate: (DN) -0.0323 (N) -0.3226, 
+-----------------------------------
+           INFO     Iteration:      95, Coverage: 0.775000  searchobserver.py:83
+[03:57:48] INFO     Iteration:      96, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:      98, Coverage: 0.775000  searchobserver.py:83
+[03:57:49] INFO     Iteration:      99, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.499, (N) -0.0021
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6416 (N) -0.2736, 
+| CrossoverRate: (DN) 0.053 (N) 0.5302, 
+-----------------------------------
+           INFO     Iteration:     100, Coverage: 0.775000  searchobserver.py:83
+[03:57:50] INFO     Iteration:     101, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     103, Coverage: 0.775000  searchobserver.py:83
+[03:57:51] INFO     Iteration:     104, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| CrossoverRate: (DN) 0.552, (N) 0.104
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6608 (N) -0.9435, 
+| CrossoverRate: (DN) 0.0245 (N) 0.2454, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.775000  searchobserver.py:83
+[03:57:52] INFO     Iteration:     106, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     107, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     108, Coverage: 0.775000  searchobserver.py:83
+[03:57:53] INFO     Iteration:     109, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 21, (N) -0.9667
+| CrossoverRate: (DN) 0.5765, (N) 0.153
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2745 (N) 0.2124, 
+| CrossoverRate: (DN) -0.0539 (N) -0.5395, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.775000  searchobserver.py:83
+[03:57:54] INFO     Iteration:     111, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     112, Coverage: 0.775000  searchobserver.py:83
+[03:57:55] INFO     Iteration:     113, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.5226, (N) 0.0451
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3269 (N) -0.7211, 
+| CrossoverRate: (DN) -0.0011 (N) -0.0108, 
+-----------------------------------
+           INFO     Iteration:     115, Coverage: 0.775000  searchobserver.py:83
+[03:57:56] INFO     Iteration:     116, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     118, Coverage: 0.775000  searchobserver.py:83
+[03:57:57] INFO     Iteration:     119, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.5215, (N) 0.043
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.1103 (N) 0.8517, 
+| CrossoverRate: (DN) -0.0458 (N) -0.4579, 
+-----------------------------------
+           INFO     Iteration:     120, Coverage: 0.775000  searchobserver.py:83
+[03:57:58] INFO     Iteration:     121, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.775000  searchobserver.py:83
+[03:57:59] INFO     Iteration:     124, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.4757, (N) -0.0486
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1567 (N) -0.0261, 
+| CrossoverRate: (DN) 0.0579 (N) 0.5786, 
+-----------------------------------
+           INFO     Iteration:     125, Coverage: 0.775000  searchobserver.py:83
+[03:58:00] INFO     Iteration:     126, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.775000  searchobserver.py:83
+[03:58:01] INFO     Iteration:     129, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.5336, (N) 0.0671
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1976 (N) 0.6996, 
+| CrossoverRate: (DN) -0.0947 (N) -0.9475, 
+-----------------------------------
+           INFO     Iteration:     130, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.775000  searchobserver.py:83
+[03:58:02] INFO     Iteration:     132, Coverage: 0.775000  searchobserver.py:83
+[03:58:03] INFO     Iteration:     133, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.4388, (N) -0.1224
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8778 (N) -0.1463, 
+| CrossoverRate: (DN) 0.0964 (N) 0.9635, 
+-----------------------------------
+           INFO     Iteration:     135, Coverage: 0.775000  searchobserver.py:83
+[03:58:04] INFO     Iteration:     136, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     138, Coverage: 0.775000  searchobserver.py:83
+[03:58:05] INFO     Iteration:     139, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.5352, (N) 0.0703
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2971 (N) 0.2162, 
+| CrossoverRate: (DN) -0.0607 (N) -0.607, 
+-----------------------------------
+           INFO     Iteration:     140, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.775000  searchobserver.py:83
+[03:58:06] INFO     Iteration:     142, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     143, Coverage: 0.775000  searchobserver.py:83
+[03:58:07] INFO     Iteration:     144, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.4745, (N) -0.0511
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.6808 (N) -0.7801, 
+| CrossoverRate: (DN) -0.0602 (N) -0.6023, 
+-----------------------------------
+           INFO     Iteration:     145, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.775000  searchobserver.py:83
+[03:58:08] INFO     Iteration:     147, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     149, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.4142, (N) -0.1716
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.9731 (N) -0.6622, 
+| CrossoverRate: (DN) -0.0569 (N) -0.5695, 
+-----------------------------------
+[03:58:09] INFO     Iteration:     150, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     151, Coverage: 0.775000  searchobserver.py:83
+[03:58:10] INFO     Iteration:     152, Coverage: 0.775000  searchobserver.py:83
+[03:58:11] INFO     Iteration:     153, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     154, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.3573, (N) -0.2855
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.7173 (N) -0.2862, 
+| CrossoverRate: (DN) 0.0529 (N) 0.5287, 
+-----------------------------------
+           INFO     Iteration:     155, Coverage: 0.775000  searchobserver.py:83
+[03:58:12] INFO     Iteration:     156, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     158, Coverage: 0.775000  searchobserver.py:83
+[03:58:13] INFO     Iteration:     159, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.4101, (N) -0.1797
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.3413 (N) 0.3902, 
+| CrossoverRate: (DN) -0.0319 (N) -0.3191, 
+-----------------------------------
+           INFO     Iteration:     160, Coverage: 0.775000  searchobserver.py:83
+[03:58:14] INFO     Iteration:     161, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.775000  searchobserver.py:83
+[03:58:15] INFO     Iteration:     164, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.3782, (N) -0.2435
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.3461 (N) 0.7244, 
+| CrossoverRate: (DN) -0.0114 (N) -0.1142, 
+-----------------------------------
+           INFO     Iteration:     165, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.775000  searchobserver.py:83
+[03:58:16] INFO     Iteration:     167, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     168, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.3668, (N) -0.2664
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.4021 (N) 0.7337, 
+| CrossoverRate: (DN) 0.0846 (N) 0.8463, 
+-----------------------------------
+[03:58:17] INFO     Iteration:     170, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.775000  searchobserver.py:83
+[03:58:18] INFO     Iteration:     172, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     173, Coverage: 0.775000  searchobserver.py:83
+[03:58:19] INFO     Iteration:     174, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.4514, (N) -0.0971
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.2678 (N) -0.0446, 
+| CrossoverRate: (DN) 0.0405 (N) 0.4051, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.775000  searchobserver.py:83
+[03:58:20] INFO     Iteration:     176, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     177, Coverage: 0.775000  searchobserver.py:83
+[03:58:21] INFO     Iteration:     178, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     179, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.492, (N) -0.0161
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.9261 (N) 0.321, 
+| CrossoverRate: (DN) 0.0288 (N) 0.2882, 
+-----------------------------------
+           INFO     Iteration:     180, Coverage: 0.775000  searchobserver.py:83
+[03:58:22] INFO     Iteration:     181, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.775000  searchobserver.py:83
+[03:58:23] INFO     Iteration:     183, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     184, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 32, (N) -0.6
+| CrossoverRate: (DN) 0.5208, (N) 0.0416
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.9307 (N) -0.9884, 
+| CrossoverRate: (DN) -0.0305 (N) -0.3047, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.775000  searchobserver.py:83
+[03:58:24] INFO     Iteration:     186, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     187, Coverage: 0.775000  searchobserver.py:83
+[03:58:25] INFO     Iteration:     188, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.4903, (N) -0.0194
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.0786 (N) -0.6798, 
+| CrossoverRate: (DN) -0.0637 (N) -0.6367, 
+-----------------------------------
+           INFO     Iteration:     190, Coverage: 0.775000  searchobserver.py:83
+[03:58:26] INFO     Iteration:     191, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.775000  searchobserver.py:83
+[03:58:27] INFO     Iteration:     193, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     194, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.4266, (N) -0.1467
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.0915 (N) 0.3486, 
+| CrossoverRate: (DN) -0.019 (N) -0.1896, 
+-----------------------------------
+[03:58:28] INFO     Iteration:     195, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.775000  searchobserver.py:83
+[03:58:29] INFO     Iteration:     197, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.4077, (N) -0.1846
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.9193 (N) 0.1532, 
+| CrossoverRate: (DN) -0.0028 (N) -0.0281, 
+-----------------------------------
+[03:58:30] INFO     Iteration:     200, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     201, Coverage: 0.775000  searchobserver.py:83
+[03:58:31] INFO     Iteration:     202, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     204, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.4049, (N) -0.1903
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.3849 (N) -0.8975, 
+| CrossoverRate: (DN) -0.0359 (N) -0.359, 
+-----------------------------------
+[03:58:32] INFO     Iteration:     205, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.775000  searchobserver.py:83
+[03:58:33] INFO     Iteration:     207, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     208, Coverage: 0.775000  searchobserver.py:83
+[03:58:34] INFO     Iteration:     209, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.369, (N) -0.2621
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3035 (N) -0.7173, 
+| CrossoverRate: (DN) 0.0994 (N) 0.9943, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.775000  searchobserver.py:83
+[03:58:35] INFO     Iteration:     211, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     213, Coverage: 0.775000  searchobserver.py:83
+[03:58:36] INFO     Iteration:     214, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.4684, (N) -0.0632
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.694 (N) -0.2823, 
+| CrossoverRate: (DN) 0.0182 (N) 0.1825, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.775000  searchobserver.py:83
+[03:58:37] INFO     Iteration:     216, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     217, Coverage: 0.775000  searchobserver.py:83
+           INFO     Iteration:     218, Coverage: 0.775000  searchobserver.py:83
+[03:58:38] INFO     Iteration:     219, Coverage: 0.775000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.775, (N) 0.55
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.4866, (N) -0.0267
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.1873 (N) -0.6979, 
+| CrossoverRate: (DN) 0.041 (N) 0.4102, 
+-----------------------------------
+           INFO     Iteration:     220, Coverage: 0.775000  searchobserver.py:83
+[03:58:39] INFO     Iteration:     221, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     222, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.787500  searchobserver.py:83
+[03:58:40] INFO     Iteration:     224, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012499999999999956 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.5277, (N) 0.0553
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9909 (N) -0.3318, 
+| CrossoverRate: (DN) 0.0577 (N) 0.5768, 
+-----------------------------------
+           INFO     Iteration:     225, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.787500  searchobserver.py:83
+[03:58:41] INFO     Iteration:     227, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     228, Coverage: 0.787500  searchobserver.py:83
+[03:58:42] INFO     Iteration:     229, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.5853, (N) 0.1707
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0695 (N) -0.1783, 
+| CrossoverRate: (DN) -0.0325 (N) -0.3245, 
+-----------------------------------
+           INFO     Iteration:     230, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     231, Coverage: 0.787500  searchobserver.py:83
+[03:58:43] INFO     Iteration:     232, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     234, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.5529, (N) 0.1058
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4848 (N) -0.5808, 
+| CrossoverRate: (DN) -0.0814 (N) -0.8137, 
+-----------------------------------
+[03:58:44] INFO     Iteration:     235, Coverage: 0.787500  searchobserver.py:83
+[03:58:45] INFO     Iteration:     236, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     237, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     238, Coverage: 0.787500  searchobserver.py:83
+[03:58:46] INFO     Iteration:     239, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.4715, (N) -0.0569
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.911 (N) 0.8185, 
+| CrossoverRate: (DN) -0.0258 (N) -0.2585, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.787500  searchobserver.py:83
+[03:58:47] INFO     Iteration:     241, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     243, Coverage: 0.787500  searchobserver.py:83
+[03:58:48] INFO     Iteration:     244, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.4457, (N) -0.1086
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.9707 (N) 0.8285, 
+| CrossoverRate: (DN) 0.0766 (N) 0.7657, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     246, Coverage: 0.787500  searchobserver.py:83
+[03:58:49] INFO     Iteration:     247, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     248, Coverage: 0.787500  searchobserver.py:83
+[03:58:50] INFO     Iteration:     249, Coverage: 0.787500  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7875, (N) 0.575
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.5223, (N) 0.0445
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.7066 (N) -0.2844, 
+| CrossoverRate: (DN) 0.0807 (N) 0.8066, 
+-----------------------------------
+           INFO     Iteration:     250, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     251, Coverage: 0.787500  searchobserver.py:83
+[03:58:51] INFO     Iteration:     252, Coverage: 0.787500  searchobserver.py:83
+           INFO     Iteration:     253, Coverage: 0.800000  searchobserver.py:83
+[03:58:52] INFO     Iteration:     254, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.012500000000000067 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.6029, (N) 0.2058
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3093 (N) -0.7182, 
+| CrossoverRate: (DN) 0.0592 (N) 0.5924, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.800000  searchobserver.py:83
+[03:58:53] INFO     Iteration:     256, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     257, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.800000  searchobserver.py:83
+[03:58:54] INFO     Iteration:     259, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.6621, (N) 0.3243
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.5903 (N) -0.265, 
+| CrossoverRate: (DN) 0.0746 (N) 0.7456, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.800000  searchobserver.py:83
+[03:58:55] INFO     Iteration:     261, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     262, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.800000  searchobserver.py:83
+[03:58:56] INFO     Iteration:     264, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.7367, (N) 0.4734
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.2904 (N) 0.7151, 
+| CrossoverRate: (DN) -0.0429 (N) -0.4291, 
+-----------------------------------
+           INFO     Iteration:     265, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     266, Coverage: 0.800000  searchobserver.py:83
+[03:58:57] INFO     Iteration:     267, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     268, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.6938, (N) 0.3876
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.1723 (N) 0.1954, 
+| CrossoverRate: (DN) 0.0896 (N) 0.8962, 
+-----------------------------------
+[03:58:58] INFO     Iteration:     270, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     272, Coverage: 0.800000  searchobserver.py:83
+[03:58:59] INFO     Iteration:     273, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| CrossoverRate: (DN) 0.7834, (N) 0.5668
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.3431 (N) -0.8905, 
+| CrossoverRate: (DN) 0.0504 (N) 0.5043, 
+-----------------------------------
+           INFO     Iteration:     275, Coverage: 0.800000  searchobserver.py:83
+[03:59:00] INFO     Iteration:     276, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     277, Coverage: 0.800000  searchobserver.py:83
+[03:59:01] INFO     Iteration:     278, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     279, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.8338, (N) 0.6677
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9473 (N) -0.4912, 
+| CrossoverRate: (DN) 0.0292 (N) 0.2924, 
+-----------------------------------
+[03:59:02] INFO     Iteration:     280, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     281, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     282, Coverage: 0.800000  searchobserver.py:83
+[03:59:03] INFO     Iteration:     283, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     284, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.8631, (N) 0.7262
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.4351 (N) 0.0725, 
+| CrossoverRate: (DN) 0.0002 (N) 0.0022, 
+-----------------------------------
+[03:59:04] INFO     Iteration:     285, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     286, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.800000  searchobserver.py:83
+[03:59:05] INFO     Iteration:     288, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     289, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.8633, (N) 0.7266
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.906 (N) 0.4843, 
+| CrossoverRate: (DN) 0.0535 (N) 0.5355, 
+-----------------------------------
+[03:59:06] INFO     Iteration:     290, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     291, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     292, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.800000  searchobserver.py:83
+[03:59:07] INFO     Iteration:     294, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.9169, (N) 0.8337
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.4889 (N) -0.9148, 
+| CrossoverRate: (DN) 0.062 (N) 0.62, 
+-----------------------------------
+           INFO     Iteration:     295, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.800000  searchobserver.py:83
+[03:59:08] INFO     Iteration:     297, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     298, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     299, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.9789, (N) 0.9577
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.552 (N) -0.4253, 
+| CrossoverRate: (DN) -0.0922 (N) -0.9219, 
+-----------------------------------
+[03:59:09] INFO     Iteration:     300, Coverage: 0.800000  searchobserver.py:83
+[03:59:10] INFO     Iteration:     301, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     302, Coverage: 0.800000  searchobserver.py:83
+[03:59:11] INFO     Iteration:     303, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.8867, (N) 0.7733
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.6465 (N) -0.2744, 
+| CrossoverRate: (DN) -0.0973 (N) -0.9732, 
+-----------------------------------
+           INFO     Iteration:     305, Coverage: 0.800000  searchobserver.py:83
+[03:59:12] INFO     Iteration:     306, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.800000  searchobserver.py:83
+[03:59:13] INFO     Iteration:     308, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.7893, (N) 0.5787
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.3585 (N) 0.5597, 
+| CrossoverRate: (DN) 0.0678 (N) 0.6784, 
+-----------------------------------
+           INFO     Iteration:     310, Coverage: 0.800000  searchobserver.py:83
+[03:59:14] INFO     Iteration:     311, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     312, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.800000  searchobserver.py:83
+[03:59:15] INFO     Iteration:     314, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.8572, (N) 0.7144
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.0332 (N) 0.0055, 
+| CrossoverRate: (DN) 0.0481 (N) 0.4808, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.800000  searchobserver.py:83
+[03:59:16] INFO     Iteration:     316, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     317, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.800000  searchobserver.py:83
+[03:59:17] INFO     Iteration:     319, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.9053, (N) 0.8105
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.3869 (N) -0.0645, 
+| CrossoverRate: (DN) -0.0767 (N) -0.767, 
+-----------------------------------
+[03:59:18] INFO     Iteration:     320, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     321, Coverage: 0.800000  searchobserver.py:83
+[03:59:19] INFO     Iteration:     322, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.8286, (N) 0.6571
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.0417 (N) 0.3403, 
+| CrossoverRate: (DN) -0.0508 (N) -0.5076, 
+-----------------------------------
+[03:59:20] INFO     Iteration:     325, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     326, Coverage: 0.800000  searchobserver.py:83
+[03:59:21] INFO     Iteration:     327, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     328, Coverage: 0.800000  searchobserver.py:83
+[03:59:22] INFO     Iteration:     329, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.7778, (N) 0.5556
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.9759 (N) 0.8293, 
+| CrossoverRate: (DN) -0.0055 (N) -0.0546, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.800000  searchobserver.py:83
+[03:59:23] INFO     Iteration:     332, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     333, Coverage: 0.800000  searchobserver.py:83
+[03:59:24] INFO     Iteration:     334, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.7723, (N) 0.5447
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.1933 (N) 0.3655, 
+| CrossoverRate: (DN) -0.0599 (N) -0.5986, 
+-----------------------------------
+           INFO     Iteration:     335, Coverage: 0.800000  searchobserver.py:83
+[03:59:25] INFO     Iteration:     336, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     337, Coverage: 0.800000  searchobserver.py:83
+[03:59:26] INFO     Iteration:     338, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 32, (N) -0.6
+| CrossoverRate: (DN) 0.7125, (N) 0.425
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.734 (N) -0.289, 
+| CrossoverRate: (DN) 0.0477 (N) 0.4772, 
+-----------------------------------
+[03:59:27] INFO     Iteration:     340, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     341, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.800000  searchobserver.py:83
+[03:59:28] INFO     Iteration:     343, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     344, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.7602, (N) 0.5204
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1024 (N) 0.5171, 
+| CrossoverRate: (DN) 0.0265 (N) 0.2653, 
+-----------------------------------
+[03:59:29] INFO     Iteration:     345, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     347, Coverage: 0.800000  searchobserver.py:83
+[03:59:30] INFO     Iteration:     348, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     349, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| CrossoverRate: (DN) 0.7867, (N) 0.5735
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.4864 (N) -0.0811, 
+| CrossoverRate: (DN) -0.0505 (N) -0.5046, 
+-----------------------------------
+[03:59:31] INFO     Iteration:     350, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     351, Coverage: 0.800000  searchobserver.py:83
+[03:59:32] INFO     Iteration:     352, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.800000  searchobserver.py:83
+[03:59:33] INFO     Iteration:     354, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| CrossoverRate: (DN) 0.7363, (N) 0.4726
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.4045 (N) 0.5674, 
+| CrossoverRate: (DN) -0.066 (N) -0.6603, 
+-----------------------------------
+           INFO     Iteration:     355, Coverage: 0.800000  searchobserver.py:83
+[03:59:34] INFO     Iteration:     356, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     357, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.800000  searchobserver.py:83
+[03:59:35] INFO     Iteration:     359, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| CrossoverRate: (DN) 0.6703, (N) 0.3405
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1877 (N) 0.5313, 
+| CrossoverRate: (DN) -0.0498 (N) -0.4976, 
+-----------------------------------
+           INFO     Iteration:     360, Coverage: 0.800000  searchobserver.py:83
+[03:59:36] INFO     Iteration:     361, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     362, Coverage: 0.800000  searchobserver.py:83
+[03:59:37] INFO     Iteration:     363, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     364, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.6205, (N) 0.241
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.489 (N) 0.7482, 
+| CrossoverRate: (DN) -0.0316 (N) -0.3155, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.800000  searchobserver.py:83
+[03:59:38] INFO     Iteration:     366, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     367, Coverage: 0.800000  searchobserver.py:83
+[03:59:39] INFO     Iteration:     368, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| CrossoverRate: (DN) 0.5889, (N) 0.1779
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9196 (N) 0.4866, 
+| CrossoverRate: (DN) -0.0267 (N) -0.2671, 
+-----------------------------------
+[03:59:40] INFO     Iteration:     370, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     371, Coverage: 0.800000  searchobserver.py:83
+[03:59:41] INFO     Iteration:     372, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     373, Coverage: 0.800000  searchobserver.py:83
+[03:59:42] INFO     Iteration:     374, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 46, (N) -0.1333
+| CrossoverRate: (DN) 0.5622, (N) 0.1245
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.7241 (N) -0.454, 
+| CrossoverRate: (DN) -0.0596 (N) -0.5963, 
+-----------------------------------
+           INFO     Iteration:     375, Coverage: 0.800000  searchobserver.py:83
+[03:59:43] INFO     Iteration:     376, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     377, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     378, Coverage: 0.800000  searchobserver.py:83
+[03:59:44] INFO     Iteration:     379, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 43, (N) -0.2333
+| CrossoverRate: (DN) 0.5026, (N) 0.0052
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.7574 (N) -0.6262, 
+| CrossoverRate: (DN) 0.0812 (N) 0.8123, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.800000  searchobserver.py:83
+[03:59:45] INFO     Iteration:     381, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     382, Coverage: 0.800000  searchobserver.py:83
+[03:59:46] INFO     Iteration:     383, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     384, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.5838, (N) 0.1677
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.3943 (N) 0.5657, 
+| CrossoverRate: (DN) 0.0269 (N) 0.2686, 
+-----------------------------------
+           INFO     Iteration:     385, Coverage: 0.800000  searchobserver.py:83
+[03:59:47] INFO     Iteration:     386, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.800000  searchobserver.py:83
+[03:59:48] INFO     Iteration:     389, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 42, (N) -0.2667
+| CrossoverRate: (DN) 0.6107, (N) 0.2214
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.54 (N) -0.09, 
+| CrossoverRate: (DN) -0.0757 (N) -0.7569, 
+-----------------------------------
+[03:59:49] INFO     Iteration:     390, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.800000  searchobserver.py:83
+[03:59:50] INFO     Iteration:     392, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     393, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 41, (N) -0.3
+| CrossoverRate: (DN) 0.535, (N) 0.07
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.9631 (N) -0.3272, 
+| CrossoverRate: (DN) 0.0805 (N) 0.8052, 
+-----------------------------------
+[03:59:51] INFO     Iteration:     395, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     396, Coverage: 0.800000  searchobserver.py:83
+[03:59:52] INFO     Iteration:     397, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     398, Coverage: 0.800000  searchobserver.py:83
+[03:59:53] INFO     Iteration:     399, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.6155, (N) 0.231
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.425 (N) -0.7375, 
+| CrossoverRate: (DN) 0.0102 (N) 0.1023, 
+-----------------------------------
+           INFO     Iteration:     400, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.800000  searchobserver.py:83
+[03:59:54] INFO     Iteration:     402, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     403, Coverage: 0.800000  searchobserver.py:83
+[03:59:55] INFO     Iteration:     404, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| CrossoverRate: (DN) 0.6258, (N) 0.2515
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3146 (N) -0.2191, 
+| CrossoverRate: (DN) -0.0206 (N) -0.2056, 
+-----------------------------------
+           INFO     Iteration:     405, Coverage: 0.800000  searchobserver.py:83
+[03:59:56] INFO     Iteration:     406, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.800000  searchobserver.py:83
+[03:59:57] INFO     Iteration:     408, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     409, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| CrossoverRate: (DN) 0.6052, (N) 0.2104
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.8152 (N) 0.3025, 
+| CrossoverRate: (DN) 0.0862 (N) 0.8618, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.800000  searchobserver.py:83
+[03:59:58] INFO     Iteration:     411, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     412, Coverage: 0.800000  searchobserver.py:83
+[03:59:59] INFO     Iteration:     413, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     414, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| CrossoverRate: (DN) 0.6914, (N) 0.3827
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.8797 (N) -0.98, 
+| CrossoverRate: (DN) 0.0029 (N) 0.0294, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.800000  searchobserver.py:83
+[04:00:00] INFO     Iteration:     416, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     417, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.800000  searchobserver.py:83
+[04:00:01] INFO     Iteration:     419, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.6943, (N) 0.3886
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.7512 (N) -0.2919, 
+| CrossoverRate: (DN) -0.0887 (N) -0.8869, 
+-----------------------------------
+           INFO     Iteration:     420, Coverage: 0.800000  searchobserver.py:83
+[04:00:02] INFO     Iteration:     421, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.800000  searchobserver.py:83
+[04:00:03] INFO     Iteration:     423, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.6056, (N) 0.2112
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.9114 (N) -0.9852, 
+| CrossoverRate: (DN) 0.041 (N) 0.4105, 
+-----------------------------------
+[04:00:04] INFO     Iteration:     425, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     426, Coverage: 0.800000  searchobserver.py:83
+[04:00:05] INFO     Iteration:     427, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     429, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.6467, (N) 0.2933
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.5514 (N) -0.5919, 
+| CrossoverRate: (DN) 0.0176 (N) 0.1764, 
+-----------------------------------
+[04:00:06] INFO     Iteration:     430, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.800000  searchobserver.py:83
+[04:00:07] INFO     Iteration:     432, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.800000  searchobserver.py:83
+[04:00:08] INFO     Iteration:     434, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.6643, (N) 0.3286
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.7722 (N) 0.962, 
+| CrossoverRate: (DN) -0.0304 (N) -0.3041, 
+-----------------------------------
+           INFO     Iteration:     435, Coverage: 0.800000  searchobserver.py:83
+[04:00:09] INFO     Iteration:     436, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.800000  searchobserver.py:83
+[04:00:10] INFO     Iteration:     438, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     439, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.6339, (N) 0.2678
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.4344 (N) -0.5724, 
+| CrossoverRate: (DN) 0.0465 (N) 0.4645, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.800000  searchobserver.py:83
+[04:00:11] INFO     Iteration:     441, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     442, Coverage: 0.800000  searchobserver.py:83
+[04:00:12] INFO     Iteration:     443, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     444, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.6803, (N) 0.3607
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.1843 (N) -0.364, 
+| CrossoverRate: (DN) 0.0521 (N) 0.5211, 
+-----------------------------------
+[04:00:13] INFO     Iteration:     445, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     446, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     447, Coverage: 0.800000  searchobserver.py:83
+[04:00:14] INFO     Iteration:     448, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     449, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 21, (N) -0.9667
+| CrossoverRate: (DN) 0.7325, (N) 0.4649
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.578 (N) 0.4297, 
+| CrossoverRate: (DN) 0.0362 (N) 0.3617, 
+-----------------------------------
+[04:00:15] INFO     Iteration:     450, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     451, Coverage: 0.800000  searchobserver.py:83
+[04:00:16] INFO     Iteration:     452, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     453, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.7686, (N) 0.5372
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.2364 (N) -0.3727, 
+| CrossoverRate: (DN) 0.0655 (N) 0.6554, 
+-----------------------------------
+[04:00:17] INFO     Iteration:     455, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.800000  searchobserver.py:83
+[04:00:18] INFO     Iteration:     457, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     458, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.8342, (N) 0.6683
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5987 (N) 0.5998, 
+| CrossoverRate: (DN) 0.0378 (N) 0.3778, 
+-----------------------------------
+[04:00:19] INFO     Iteration:     460, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     461, Coverage: 0.800000  searchobserver.py:83
+[04:00:20] INFO     Iteration:     462, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.800000  searchobserver.py:83
+[04:00:21] INFO     Iteration:     464, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.872, (N) 0.7439
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9021 (N) 0.4837, 
+| CrossoverRate: (DN) -0.0133 (N) -0.1329, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     466, Coverage: 0.800000  searchobserver.py:83
+[04:00:22] INFO     Iteration:     467, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     468, Coverage: 0.800000  searchobserver.py:83
+[04:00:23] INFO     Iteration:     469, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.8587, (N) 0.7173
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6583 (N) -0.943, 
+| CrossoverRate: (DN) -0.0353 (N) -0.3534, 
+-----------------------------------
+           INFO     Iteration:     470, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     471, Coverage: 0.800000  searchobserver.py:83
+[04:00:24] INFO     Iteration:     472, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.800000  searchobserver.py:83
+[04:00:25] INFO     Iteration:     474, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.8233, (N) 0.6466
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.3266 (N) -0.3878, 
+| CrossoverRate: (DN) 0.0255 (N) 0.2547, 
+-----------------------------------
+           INFO     Iteration:     475, Coverage: 0.800000  searchobserver.py:83
+[04:00:26] INFO     Iteration:     476, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     477, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.800000  searchobserver.py:83
+[04:00:27] INFO     Iteration:     479, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 21, (N) -0.9667
+| CrossoverRate: (DN) 0.8488, (N) 0.6976
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.9069 (N) -0.1511, 
+| CrossoverRate: (DN) -0.0402 (N) -0.4018, 
+-----------------------------------
+[04:00:28] INFO     Iteration:     480, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     481, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.800000  searchobserver.py:83
+[04:00:29] INFO     Iteration:     483, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     484, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.8086, (N) 0.6172
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.5972 (N) 0.2662, 
+| CrossoverRate: (DN) 0.0278 (N) 0.278, 
+-----------------------------------
+[04:00:30] INFO     Iteration:     485, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.800000  searchobserver.py:83
+[04:00:31] INFO     Iteration:     487, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     488, Coverage: 0.800000  searchobserver.py:83
+[04:00:32] INFO     Iteration:     489, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 22, (N) -0.9333
+| CrossoverRate: (DN) 0.8364, (N) 0.6728
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.8304 (N) -0.3051, 
+| CrossoverRate: (DN) 0.0946 (N) 0.9463, 
+-----------------------------------
+           INFO     Iteration:     490, Coverage: 0.800000  searchobserver.py:83
+[04:00:33] INFO     Iteration:     491, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.800000  searchobserver.py:83
+[04:00:34] INFO     Iteration:     494, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.931, (N) 0.8621
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.6209 (N) 0.9368, 
+| CrossoverRate: (DN) 0.0455 (N) 0.455, 
+-----------------------------------
+           INFO     Iteration:     495, Coverage: 0.800000  searchobserver.py:83
+[04:00:35] INFO     Iteration:     496, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.800000  searchobserver.py:83
+[04:00:36] INFO     Iteration:     498, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     499, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.9765, (N) 0.9531
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.183 (N) 0.0305, 
+| CrossoverRate: (DN) -0.0522 (N) -0.5223, 
+-----------------------------------
+           INFO     Iteration:     500, Coverage: 0.800000  searchobserver.py:83
+[04:00:37] INFO     Iteration:     501, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     502, Coverage: 0.800000  searchobserver.py:83
+[04:00:38] INFO     Iteration:     503, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     504, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.9243, (N) 0.8486
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.5684 (N) 0.5947, 
+| CrossoverRate: (DN) 0.0695 (N) 0.6949, 
+-----------------------------------
+           INFO     Iteration:     505, Coverage: 0.800000  searchobserver.py:83
+[04:00:39] INFO     Iteration:     506, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.800000  searchobserver.py:83
+[04:00:40] INFO     Iteration:     508, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     509, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.9938, (N) 0.9876
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.8441 (N) -0.1407, 
+| CrossoverRate: (DN) 0.0864 (N) 0.864, 
+-----------------------------------
+[04:00:41] INFO     Iteration:     510, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.800000  searchobserver.py:83
+[04:00:42] INFO     Iteration:     512, Coverage: 0.800000  searchobserver.py:83
+[04:00:43] INFO     Iteration:     513, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     514, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.3691 (N) -0.2282, 
+| CrossoverRate: (DN) -0.0521 (N) -0.5212, 
+-----------------------------------
+[04:00:44] INFO     Iteration:     515, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.800000  searchobserver.py:83
+[04:00:45] INFO     Iteration:     517, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.800000  searchobserver.py:83
+[04:00:46] INFO     Iteration:     519, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.9479, (N) 0.8958
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.6408 (N) 0.9401, 
+| CrossoverRate: (DN) -0.079 (N) -0.7902, 
+-----------------------------------
+           INFO     Iteration:     520, Coverage: 0.800000  searchobserver.py:83
+[04:00:47] INFO     Iteration:     521, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     522, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.800000  searchobserver.py:83
+[04:00:48] INFO     Iteration:     524, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 34, (N) -0.5333
+| CrossoverRate: (DN) 0.8689, (N) 0.7377
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.338 (N) -0.8897, 
+| CrossoverRate: (DN) 0.0367 (N) 0.3668, 
+-----------------------------------
+           INFO     Iteration:     525, Coverage: 0.800000  searchobserver.py:83
+[04:00:49] INFO     Iteration:     526, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.800000  searchobserver.py:83
+[04:00:50] INFO     Iteration:     528, Coverage: 0.800000  searchobserver.py:83
+[04:00:51] INFO     Iteration:     529, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.9055, (N) 0.8111
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.0621 (N) -0.0103, 
+| CrossoverRate: (DN) -0.02 (N) -0.1997, 
+-----------------------------------
+           INFO     Iteration:     530, Coverage: 0.800000  searchobserver.py:83
+[04:00:52] INFO     Iteration:     531, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     532, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     533, Coverage: 0.800000  searchobserver.py:83
+[04:00:53] INFO     Iteration:     534, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.8856, (N) 0.7711
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.2131 (N) -0.5355, 
+| CrossoverRate: (DN) 0.0825 (N) 0.8252, 
+-----------------------------------
+           INFO     Iteration:     535, Coverage: 0.800000  searchobserver.py:83
+[04:00:54] INFO     Iteration:     536, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     537, Coverage: 0.800000  searchobserver.py:83
+[04:00:55] INFO     Iteration:     538, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.9681, (N) 0.9362
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.7666 (N) -0.7944, 
+| CrossoverRate: (DN) -0.0536 (N) -0.5356, 
+-----------------------------------
+[04:00:56] INFO     Iteration:     540, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.800000  searchobserver.py:83
+[04:00:57] INFO     Iteration:     542, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     543, Coverage: 0.800000  searchobserver.py:83
+[04:00:58] INFO     Iteration:     544, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 21, (N) -0.9667
+| CrossoverRate: (DN) 0.9145, (N) 0.8291
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.8841 (N) -0.9807, 
+| CrossoverRate: (DN) 0.0589 (N) 0.5889, 
+-----------------------------------
+[04:00:59] INFO     Iteration:     545, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.800000  searchobserver.py:83
+[04:01:00] INFO     Iteration:     547, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.800000  searchobserver.py:83
+[04:01:01] INFO     Iteration:     549, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.9734, (N) 0.9468
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -1.0551 (N) -0.1758, 
+| CrossoverRate: (DN) -0.0172 (N) -0.1724, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.800000  searchobserver.py:83
+[04:01:02] INFO     Iteration:     551, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     552, Coverage: 0.800000  searchobserver.py:83
+[04:01:03] INFO     Iteration:     553, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.9562, (N) 0.9124
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.8443 (N) 0.4741, 
+| CrossoverRate: (DN) -0.0092 (N) -0.0918, 
+-----------------------------------
+[04:01:04] INFO     Iteration:     555, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     556, Coverage: 0.800000  searchobserver.py:83
+[04:01:05] INFO     Iteration:     557, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     558, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.947, (N) 0.894
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.1592 (N) 0.5265, 
+| CrossoverRate: (DN) -0.0021 (N) -0.0211, 
+-----------------------------------
+[04:01:06] INFO     Iteration:     560, Coverage: 0.800000  searchobserver.py:83
+[04:01:07] INFO     Iteration:     561, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     562, Coverage: 0.800000  searchobserver.py:83
+[04:01:08] INFO     Iteration:     563, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     564, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.9449, (N) 0.8898
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.5591 (N) -0.4265, 
+| CrossoverRate: (DN) 0.091 (N) 0.9104, 
+-----------------------------------
+[04:01:09] INFO     Iteration:     565, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     566, Coverage: 0.800000  searchobserver.py:83
+[04:01:10] INFO     Iteration:     567, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.800000  searchobserver.py:83
+[04:01:11] INFO     Iteration:     569, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.3264 (N) 0.2211, 
+| CrossoverRate: (DN) -0.0611 (N) -0.6106, 
+-----------------------------------
+           INFO     Iteration:     570, Coverage: 0.800000  searchobserver.py:83
+[04:01:12] INFO     Iteration:     571, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.800000  searchobserver.py:83
+[04:01:13] INFO     Iteration:     573, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     574, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.9389, (N) 0.8779
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.1317 (N) -0.022, 
+| CrossoverRate: (DN) 0.0008 (N) 0.008, 
+-----------------------------------
+[04:01:14] INFO     Iteration:     575, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.800000  searchobserver.py:83
+[04:01:15] INFO     Iteration:     577, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.800000  searchobserver.py:83
+[04:01:16] INFO     Iteration:     579, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.9397, (N) 0.8795
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 0.5676 (N) 0.0946, 
+| CrossoverRate: (DN) -0.0891 (N) -0.8912, 
+-----------------------------------
+           INFO     Iteration:     580, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.800000  searchobserver.py:83
+[04:01:17] INFO     Iteration:     582, Coverage: 0.800000  searchobserver.py:83
+[04:01:18] INFO     Iteration:     583, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     584, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.8506, (N) 0.7012
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.5701 (N) -0.095, 
+| CrossoverRate: (DN) 0.0403 (N) 0.4033, 
+-----------------------------------
+[04:01:19] INFO     Iteration:     585, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.800000  searchobserver.py:83
+[04:01:20] INFO     Iteration:     587, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     588, Coverage: 0.800000  searchobserver.py:83
+[04:01:21] INFO     Iteration:     589, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.8909, (N) 0.7819
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.265 (N) -0.8775, 
+| CrossoverRate: (DN) 0.087 (N) 0.8697, 
+-----------------------------------
+           INFO     Iteration:     590, Coverage: 0.800000  searchobserver.py:83
+[04:01:22] INFO     Iteration:     591, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.800000  searchobserver.py:83
+[04:01:23] INFO     Iteration:     593, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     594, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.9779, (N) 0.9558
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.3593 (N) -0.3932, 
+| CrossoverRate: (DN) -0.0668 (N) -0.6676, 
+-----------------------------------
+[04:01:24] INFO     Iteration:     595, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.800000  searchobserver.py:83
+[04:01:25] INFO     Iteration:     597, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     598, Coverage: 0.800000  searchobserver.py:83
+[04:01:26] INFO     Iteration:     599, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 20, (N) -1.0
+| CrossoverRate: (DN) 0.9112, (N) 0.8223
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.3377 (N) 0.8896, 
+| CrossoverRate: (DN) -0.0954 (N) -0.9542, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.800000  searchobserver.py:83
+[04:01:27] INFO     Iteration:     601, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     602, Coverage: 0.800000  searchobserver.py:83
+[04:01:28] INFO     Iteration:     603, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     604, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 25, (N) -0.8333
+| CrossoverRate: (DN) 0.8157, (N) 0.6315
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6985 (N) -0.1164, 
+| CrossoverRate: (DN) -0.0047 (N) -0.0468, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.800000  searchobserver.py:83
+[04:01:29] INFO     Iteration:     606, Coverage: 0.800000  searchobserver.py:83
+[04:01:30] INFO     Iteration:     607, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     608, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 24, (N) -0.8667
+| CrossoverRate: (DN) 0.8111, (N) 0.6221
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.4096 (N) 0.9016, 
+| CrossoverRate: (DN) 0.0038 (N) 0.0384, 
+-----------------------------------
+[04:01:31] INFO     Iteration:     610, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     611, Coverage: 0.800000  searchobserver.py:83
+[04:01:32] INFO     Iteration:     612, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     613, Coverage: 0.800000  searchobserver.py:83
+[04:01:33] INFO     Iteration:     614, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 29, (N) -0.7
+| CrossoverRate: (DN) 0.8149, (N) 0.6298
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 5.9068 (N) 0.9845, 
+| CrossoverRate: (DN) 0.079 (N) 0.7897, 
+-----------------------------------
+           INFO     Iteration:     615, Coverage: 0.800000  searchobserver.py:83
+[04:01:34] INFO     Iteration:     616, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     617, Coverage: 0.800000  searchobserver.py:83
+[04:01:35] INFO     Iteration:     618, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| CrossoverRate: (DN) 0.8939, (N) 0.7877
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.1559 (N) 0.6926, 
+| CrossoverRate: (DN) 0.0835 (N) 0.8348, 
+-----------------------------------
+[04:01:36] INFO     Iteration:     620, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     621, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     622, Coverage: 0.800000  searchobserver.py:83
+[04:01:37] INFO     Iteration:     623, Coverage: 0.800000  searchobserver.py:83
+[04:01:38] INFO     Iteration:     624, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.9773, (N) 0.9547
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -4.3911 (N) -0.7318, 
+| CrossoverRate: (DN) -0.0852 (N) -0.8524, 
+-----------------------------------
+           INFO     Iteration:     625, Coverage: 0.800000  searchobserver.py:83
+[04:01:39] INFO     Iteration:     626, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     627, Coverage: 0.800000  searchobserver.py:83
+[04:01:40] INFO     Iteration:     628, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     629, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 35, (N) -0.5
+| CrossoverRate: (DN) 0.8921, (N) 0.7842
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 1.2114 (N) 0.2019, 
+| CrossoverRate: (DN) -0.0722 (N) -0.7218, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.800000  searchobserver.py:83
+[04:01:41] INFO     Iteration:     631, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     632, Coverage: 0.800000  searchobserver.py:83
+[04:01:42] INFO     Iteration:     633, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     634, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| CrossoverRate: (DN) 0.8199, (N) 0.6399
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 2.9147 (N) 0.4858, 
+| CrossoverRate: (DN) -0.0598 (N) -0.5984, 
+-----------------------------------
+[04:01:43] INFO     Iteration:     635, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     636, Coverage: 0.800000  searchobserver.py:83
+[04:01:44] INFO     Iteration:     637, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     638, Coverage: 0.800000  searchobserver.py:83
+[04:01:45] INFO     Iteration:     639, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 39, (N) -0.3667
+| CrossoverRate: (DN) 0.7601, (N) 0.5202
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.6002 (N) -0.9334, 
+| CrossoverRate: (DN) 0.0788 (N) 0.7882, 
+-----------------------------------
+           INFO     Iteration:     640, Coverage: 0.800000  searchobserver.py:83
+[04:01:46] INFO     Iteration:     641, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.800000  searchobserver.py:83
+[04:01:47] INFO     Iteration:     643, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     644, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 33, (N) -0.5667
+| CrossoverRate: (DN) 0.8389, (N) 0.6778
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.9813 (N) -0.4969, 
+| CrossoverRate: (DN) 0.0042 (N) 0.0415, 
+-----------------------------------
+[04:01:48] INFO     Iteration:     645, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     646, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     647, Coverage: 0.800000  searchobserver.py:83
+[04:01:49] INFO     Iteration:     648, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     649, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.8431, (N) 0.6861
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -2.11 (N) -0.3517, 
+| CrossoverRate: (DN) -0.0558 (N) -0.5585, 
+-----------------------------------
+[04:01:50] INFO     Iteration:     650, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.800000  searchobserver.py:83
+[04:01:51] INFO     Iteration:     652, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.800000  searchobserver.py:83
+[04:01:52] INFO     Iteration:     654, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 28, (N) -0.7333
+| CrossoverRate: (DN) 0.7872, (N) 0.5744
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -0.6423 (N) -0.107, 
+| CrossoverRate: (DN) 0.023 (N) 0.2303, 
+-----------------------------------
+           INFO     Iteration:     655, Coverage: 0.800000  searchobserver.py:83
+[04:01:53] INFO     Iteration:     656, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     657, Coverage: 0.800000  searchobserver.py:83
+[04:01:54] INFO     Iteration:     658, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 27, (N) -0.7667
+| CrossoverRate: (DN) 0.8102, (N) 0.6205
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.8914 (N) 0.6486, 
+| CrossoverRate: (DN) -0.0679 (N) -0.679, 
+-----------------------------------
+[04:01:55] INFO     Iteration:     660, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     661, Coverage: 0.800000  searchobserver.py:83
+[04:01:56] INFO     Iteration:     662, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     663, Coverage: 0.800000  searchobserver.py:83
+[04:01:57] INFO     Iteration:     664, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 31, (N) -0.6333
+| CrossoverRate: (DN) 0.7423, (N) 0.4847
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 4.5947 (N) 0.7658, 
+| CrossoverRate: (DN) -0.0036 (N) -0.0358, 
+-----------------------------------
+           INFO     Iteration:     665, Coverage: 0.800000  searchobserver.py:83
+[04:01:58] INFO     Iteration:     666, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.800000  searchobserver.py:83
+[04:01:59] INFO     Iteration:     668, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     669, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 36, (N) -0.4667
+| CrossoverRate: (DN) 0.7388, (N) 0.4775
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -5.839 (N) -0.9732, 
+| CrossoverRate: (DN) -0.0227 (N) -0.2267, 
+-----------------------------------
+[04:02:00] INFO     Iteration:     670, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     671, Coverage: 0.800000  searchobserver.py:83
+[04:02:01] INFO     Iteration:     672, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.800000  searchobserver.py:83
+[04:02:02] INFO     Iteration:     674, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.7161, (N) 0.4322
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.8332 (N) -0.6389, 
+| CrossoverRate: (DN) 0.0318 (N) 0.3184, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.800000  searchobserver.py:83
+[04:02:03] INFO     Iteration:     676, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.800000  searchobserver.py:83
+[04:02:04] INFO     Iteration:     678, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.7479, (N) 0.4959
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.03 (N) -0.505, 
+| CrossoverRate: (DN) -0.0171 (N) -0.1708, 
+-----------------------------------
+[04:02:05] INFO     Iteration:     680, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.800000  searchobserver.py:83
+[04:02:06] INFO     Iteration:     682, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     684, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 23, (N) -0.9
+| CrossoverRate: (DN) 0.7309, (N) 0.4617
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.169 (N) 0.5282, 
+| CrossoverRate: (DN) 0.0448 (N) 0.448, 
+-----------------------------------
+[04:02:07] INFO     Iteration:     685, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     686, Coverage: 0.800000  searchobserver.py:83
+[04:02:08] INFO     Iteration:     687, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     688, Coverage: 0.800000  searchobserver.py:83
+[04:02:09] INFO     Iteration:     689, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 26, (N) -0.8
+| CrossoverRate: (DN) 0.7756, (N) 0.5513
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) 3.9165 (N) 0.6527, 
+| CrossoverRate: (DN) 0.0874 (N) 0.8745, 
+-----------------------------------
+           INFO     Iteration:     690, Coverage: 0.800000  searchobserver.py:83
+[04:02:10] INFO     Iteration:     691, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     692, Coverage: 0.800000  searchobserver.py:83
+[04:02:11] INFO     Iteration:     693, Coverage: 0.800000  searchobserver.py:83
+           INFO     Iteration:     694, Coverage: 0.800000  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8, (N) 0.6
+| ChromosomeLength: (DN) 30, (N) -0.6667
+| CrossoverRate: (DN) 0.8631, (N) 0.7262
+------------- ACTIONS -------------
+| ChromosomeLength: (DN) -3.6551 (N) -0.6092, 
+| CrossoverRate: (DN) -0.0374 (N) -0.3737, 
+-----------------------------------
+[04:02:12] INFO     Iteration:     695, Coverage: 0.800000  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Instrumented string function         instrumentation.py:1965
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 16 test cases to                    generator.py:720
+                    /output/test_sanic_config.py                                
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110
