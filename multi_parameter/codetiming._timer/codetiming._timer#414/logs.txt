@@ -1,0 +1,2785 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+[02:49:13] INFO     Start Pynguin Test Generation…              generator.py:107
+           INFO     Collecting static constants from module     generator.py:208
+                    under test                                                  
+           INFO     Constants found: 17                         generator.py:213
+           INFO     Setting up runtime collection of constants  generator.py:220
+[02:49:15] INFO     Analyzed project to create test cluster       module.py:1321
+           INFO     Modules:       3                              module.py:1322
+           INFO     Functions:     2                              module.py:1323
+           INFO     Classes:      26                              module.py:1324
+           INFO     Using seed 1714445348623856359              generator.py:194
+           INFO     Using strategy:            generationalgorithmfactory.py:304
+                    Algorithm.DYNAMOSA_RL                                       
+           INFO     Instantiated 27 fitness    generationalgorithmfactory.py:397
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:348
+           INFO     Using selection function:  generationalgorithmfactory.py:323
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:336
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:357
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:518
+           INFO     Initial Population, Coverage: 0.629630  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.629630  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.629630  searchobserver.py:83
+[02:49:16] INFO     Iteration:       3, Coverage: 0.629630  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.666667  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:       5, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.740741  searchobserver.py:83
+[02:49:17] INFO     Iteration:       7, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.740741  searchobserver.py:83
+New coverage achieved...
+           INFO     Iteration:      10, Coverage: 0.740741  searchobserver.py:83
+[02:49:18] INFO     Iteration:      11, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.740741  searchobserver.py:83
+Coverage has plateaued, but plateau threshold not achieved... waiting... 
+           INFO     Iteration:      15, Coverage: 0.740741  searchobserver.py:83
+[02:49:19] INFO     Iteration:      16, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.740741  searchobserver.py:83
+Coverage plateau threshold (10) achieved... activating RL.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+------------- ACTIONS -------------
+| Population: (DN) -0.1842 (N) -0.023, 
+| TestDeleteProbability: (DN) 0.0722 (N) 0.7224, 
+-----------------------------------
+[02:49:21] INFO     Iteration:      20, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.740741  searchobserver.py:83
+[02:49:22] INFO     Iteration:      24, Coverage: 0.740741  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7407, (N) 0.4815
+| Population: (DN) 50, (N) -0.3333
+| TestDeleteProbability: (DN) 0.4056, (N) -0.1889
+------------- ACTIONS -------------
+| Population: (DN) -6.802 (N) -0.8503, 
+| TestDeleteProbability: (DN) -0.0047 (N) -0.0471, 
+-----------------------------------
+           INFO     Iteration:      25, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.740741  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.777778  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.777778  searchobserver.py:83
+[02:49:23] INFO     Iteration:      29, Coverage: 0.777778  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.03703703703703709 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.7778, (N) 0.5556
+| Population: (DN) 43, (N) -0.52
+| TestDeleteProbability: (DN) 0.4009, (N) -0.1983
+------------- ACTIONS -------------
+| Population: (DN) 1.1416 (N) 0.1427, 
+| TestDeleteProbability: (DN) 0.0956 (N) 0.9555, 
+-----------------------------------
+           INFO     Iteration:      30, Coverage: 0.777778  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.777778  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.814815  searchobserver.py:83
+[02:49:24] INFO     Iteration:      33, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.03703703703703698 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.4964, (N) -0.0072
+------------- ACTIONS -------------
+| Population: (DN) -5.9429 (N) -0.7429, 
+| TestDeleteProbability: (DN) 0.0413 (N) 0.413, 
+-----------------------------------
+           INFO     Iteration:      35, Coverage: 0.814815  searchobserver.py:83
+[02:49:25] INFO     Iteration:      36, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 38, (N) -0.6533
+| TestDeleteProbability: (DN) 0.5377, (N) 0.0754
+------------- ACTIONS -------------
+| Population: (DN) -5.5493 (N) -0.6937, 
+| TestDeleteProbability: (DN) -0.0555 (N) -0.5553, 
+-----------------------------------
+           INFO     Iteration:      40, Coverage: 0.814815  searchobserver.py:83
+[02:49:26] INFO     Iteration:      41, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 32, (N) -0.8133
+| TestDeleteProbability: (DN) 0.4822, (N) -0.0356
+------------- ACTIONS -------------
+| Population: (DN) -6.9855 (N) -0.8732, 
+| TestDeleteProbability: (DN) 0.0982 (N) 0.9819, 
+-----------------------------------
+           INFO     Iteration:      45, Coverage: 0.814815  searchobserver.py:83
+[02:49:27] INFO     Iteration:      46, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      48, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.5804, (N) 0.1608
+------------- ACTIONS -------------
+| Population: (DN) -7.7568 (N) -0.9696, 
+| TestDeleteProbability: (DN) 0.0689 (N) 0.6886, 
+-----------------------------------
+           INFO     Iteration:      50, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.814815  searchobserver.py:83
+[02:49:28] INFO     Iteration:      53, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      54, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.6493, (N) 0.2985
+------------- ACTIONS -------------
+| Population: (DN) 1.6644 (N) 0.2081, 
+| TestDeleteProbability: (DN) -0.0251 (N) -0.2507, 
+-----------------------------------
+           INFO     Iteration:      55, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      57, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.814815  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8148, (N) 0.6296
+| Population: (DN) 27, (N) -0.9467
+| TestDeleteProbability: (DN) 0.6242, (N) 0.2484
+------------- ACTIONS -------------
+| Population: (DN) 2.2355 (N) 0.2794, 
+| TestDeleteProbability: (DN) -0.0926 (N) -0.9255, 
+-----------------------------------
+[02:49:29] INFO     Iteration:      60, Coverage: 0.814815  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.851852  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.07407407407407407 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 29, (N) -0.8933
+| TestDeleteProbability: (DN) 0.5316, (N) 0.0633
+------------- ACTIONS -------------
+| Population: (DN) 5.3003 (N) 0.6625, 
+| TestDeleteProbability: (DN) 0.03 (N) 0.2999, 
+-----------------------------------
+           INFO     Iteration:      65, Coverage: 0.888889  searchobserver.py:83
+[02:49:30] INFO     Iteration:      66, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      67, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      69, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 34, (N) -0.76
+| TestDeleteProbability: (DN) 0.5616, (N) 0.1232
+------------- ACTIONS -------------
+| Population: (DN) 5.3174 (N) 0.6647, 
+| TestDeleteProbability: (DN) 0.0303 (N) 0.3029, 
+-----------------------------------
+           INFO     Iteration:      70, Coverage: 0.888889  searchobserver.py:83
+[02:49:31] INFO     Iteration:      71, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      72, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      74, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.5919, (N) 0.1838
+------------- ACTIONS -------------
+| Population: (DN) -3.3989 (N) -0.4249, 
+| TestDeleteProbability: (DN) 0.0084 (N) 0.084, 
+-----------------------------------
+           INFO     Iteration:      75, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.888889  searchobserver.py:83
+[02:49:32] INFO     Iteration:      77, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      79, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.6003, (N) 0.2006
+------------- ACTIONS -------------
+| Population: (DN) 3.2378 (N) 0.4047, 
+| TestDeleteProbability: (DN) 0.0232 (N) 0.232, 
+-----------------------------------
+           INFO     Iteration:      80, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      81, Coverage: 0.888889  searchobserver.py:83
+[02:49:33] INFO     Iteration:      82, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      84, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.6235, (N) 0.247
+------------- ACTIONS -------------
+| Population: (DN) -2.7803 (N) -0.3475, 
+| TestDeleteProbability: (DN) 0.057 (N) 0.5701, 
+-----------------------------------
+           INFO     Iteration:      85, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      86, Coverage: 0.888889  searchobserver.py:83
+[02:49:34] INFO     Iteration:      87, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      89, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.6805, (N) 0.361
+------------- ACTIONS -------------
+| Population: (DN) 7.7859 (N) 0.9732, 
+| TestDeleteProbability: (DN) -0.095 (N) -0.9499, 
+-----------------------------------
+           INFO     Iteration:      90, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.888889  searchobserver.py:83
+[02:49:35] INFO     Iteration:      92, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      93, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.5855, (N) 0.1711
+------------- ACTIONS -------------
+| Population: (DN) 4.2394 (N) 0.5299, 
+| TestDeleteProbability: (DN) -0.0025 (N) -0.0254, 
+-----------------------------------
+           INFO     Iteration:      95, Coverage: 0.888889  searchobserver.py:83
+[02:49:36] INFO     Iteration:      96, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      98, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:      99, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 48, (N) -0.3867
+| TestDeleteProbability: (DN) 0.583, (N) 0.166
+------------- ACTIONS -------------
+| Population: (DN) 5.8965 (N) 0.7371, 
+| TestDeleteProbability: (DN) 0.0456 (N) 0.4564, 
+-----------------------------------
+[02:49:37] INFO     Iteration:     100, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     101, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     102, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     103, Coverage: 0.888889  searchobserver.py:83
+[02:49:38] INFO     Iteration:     104, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 54, (N) -0.2267
+| TestDeleteProbability: (DN) 0.6286, (N) 0.2573
+------------- ACTIONS -------------
+| Population: (DN) -3.975 (N) -0.4969, 
+| TestDeleteProbability: (DN) 0.0567 (N) 0.567, 
+-----------------------------------
+           INFO     Iteration:     105, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     106, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     107, Coverage: 0.888889  searchobserver.py:83
+[02:49:39] INFO     Iteration:     108, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     109, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 50, (N) -0.3333
+| TestDeleteProbability: (DN) 0.6853, (N) 0.3707
+------------- ACTIONS -------------
+| Population: (DN) -6.7473 (N) -0.8434, 
+| TestDeleteProbability: (DN) -0.0318 (N) -0.3184, 
+-----------------------------------
+           INFO     Iteration:     110, Coverage: 0.888889  searchobserver.py:83
+[02:49:40] INFO     Iteration:     111, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     112, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     113, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     114, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 43, (N) -0.52
+| TestDeleteProbability: (DN) 0.6535, (N) 0.307
+------------- ACTIONS -------------
+| Population: (DN) 0.1674 (N) 0.0209, 
+| TestDeleteProbability: (DN) -0.021 (N) -0.2095, 
+-----------------------------------
+           INFO     Iteration:     115, Coverage: 0.888889  searchobserver.py:83
+[02:49:41] INFO     Iteration:     116, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     117, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     118, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     119, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 43, (N) -0.52
+| TestDeleteProbability: (DN) 0.6325, (N) 0.2651
+------------- ACTIONS -------------
+| Population: (DN) -2.3905 (N) -0.2988, 
+| TestDeleteProbability: (DN) 0.0832 (N) 0.8321, 
+-----------------------------------
+           INFO     Iteration:     120, Coverage: 0.888889  searchobserver.py:83
+[02:49:42] INFO     Iteration:     121, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     122, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     123, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     124, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 41, (N) -0.5733
+| TestDeleteProbability: (DN) 0.7157, (N) 0.4315
+------------- ACTIONS -------------
+| Population: (DN) -0.8259 (N) -0.1032, 
+| TestDeleteProbability: (DN) -0.0598 (N) -0.5984, 
+-----------------------------------
+[02:49:43] INFO     Iteration:     125, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     126, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     127, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     128, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     129, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 40, (N) -0.6
+| TestDeleteProbability: (DN) 0.6559, (N) 0.3118
+------------- ACTIONS -------------
+| Population: (DN) -4.2982 (N) -0.5373, 
+| TestDeleteProbability: (DN) 0.0039 (N) 0.0389, 
+-----------------------------------
+[02:49:44] INFO     Iteration:     130, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     131, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     132, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     133, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     134, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.6598, (N) 0.3196
+------------- ACTIONS -------------
+| Population: (DN) 7.5191 (N) 0.9399, 
+| TestDeleteProbability: (DN) 0.074 (N) 0.7401, 
+-----------------------------------
+           INFO     Iteration:     135, Coverage: 0.888889  searchobserver.py:83
+[02:49:45] INFO     Iteration:     136, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     137, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     138, Coverage: 0.888889  searchobserver.py:83
+[02:49:46] INFO     Iteration:     139, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.7338, (N) 0.4676
+------------- ACTIONS -------------
+| Population: (DN) 5.4947 (N) 0.6868, 
+| TestDeleteProbability: (DN) 0.0241 (N) 0.2407, 
+-----------------------------------
+           INFO     Iteration:     140, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     141, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     142, Coverage: 0.888889  searchobserver.py:83
+[02:49:47] INFO     Iteration:     143, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     144, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 49, (N) -0.36
+| TestDeleteProbability: (DN) 0.7579, (N) 0.5158
+------------- ACTIONS -------------
+| Population: (DN) -2.8628 (N) -0.3578, 
+| TestDeleteProbability: (DN) -0.052 (N) -0.52, 
+-----------------------------------
+           INFO     Iteration:     145, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     146, Coverage: 0.888889  searchobserver.py:83
+[02:49:48] INFO     Iteration:     147, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     148, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     149, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 46, (N) -0.44
+| TestDeleteProbability: (DN) 0.7059, (N) 0.4118
+------------- ACTIONS -------------
+| Population: (DN) -6.4823 (N) -0.8103, 
+| TestDeleteProbability: (DN) 0.0079 (N) 0.0785, 
+-----------------------------------
+           INFO     Iteration:     150, Coverage: 0.888889  searchobserver.py:83
+[02:49:49] INFO     Iteration:     151, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     152, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     153, Coverage: 0.888889  searchobserver.py:83
+[02:49:50] INFO     Iteration:     154, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 40, (N) -0.6
+| TestDeleteProbability: (DN) 0.7137, (N) 0.4275
+------------- ACTIONS -------------
+| Population: (DN) -1.1875 (N) -0.1484, 
+| TestDeleteProbability: (DN) 0.0596 (N) 0.5957, 
+-----------------------------------
+           INFO     Iteration:     155, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     156, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     157, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     158, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     159, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.7733, (N) 0.5466
+------------- ACTIONS -------------
+| Population: (DN) 2.7136 (N) 0.3392, 
+| TestDeleteProbability: (DN) -0.0892 (N) -0.8919, 
+-----------------------------------
+[02:49:51] INFO     Iteration:     160, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     161, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     162, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     163, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     164, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 42, (N) -0.5467
+| TestDeleteProbability: (DN) 0.6841, (N) 0.3682
+------------- ACTIONS -------------
+| Population: (DN) 4.793 (N) 0.5991, 
+| TestDeleteProbability: (DN) -0.0709 (N) -0.7093, 
+-----------------------------------
+[02:49:52] INFO     Iteration:     165, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     166, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     167, Coverage: 0.888889  searchobserver.py:83
+[02:49:53] INFO     Iteration:     168, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     169, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.6132, (N) 0.2264
+------------- ACTIONS -------------
+| Population: (DN) 5.2199 (N) 0.6525, 
+| TestDeleteProbability: (DN) 0.0821 (N) 0.8214, 
+-----------------------------------
+           INFO     Iteration:     170, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     171, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     172, Coverage: 0.888889  searchobserver.py:83
+[02:49:54] INFO     Iteration:     173, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     174, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 52, (N) -0.28
+| TestDeleteProbability: (DN) 0.6953, (N) 0.3907
+------------- ACTIONS -------------
+| Population: (DN) 2.6815 (N) 0.3352, 
+| TestDeleteProbability: (DN) 0.0629 (N) 0.6293, 
+-----------------------------------
+           INFO     Iteration:     175, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     176, Coverage: 0.888889  searchobserver.py:83
+[02:49:55] INFO     Iteration:     177, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     178, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     179, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 55, (N) -0.2
+| TestDeleteProbability: (DN) 0.7583, (N) 0.5165
+------------- ACTIONS -------------
+| Population: (DN) 3.3656 (N) 0.4207, 
+| TestDeleteProbability: (DN) -0.0941 (N) -0.9406, 
+-----------------------------------
+[02:49:56] INFO     Iteration:     180, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     181, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     182, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     183, Coverage: 0.888889  searchobserver.py:83
+[02:49:57] INFO     Iteration:     184, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.6642, (N) 0.3284
+------------- ACTIONS -------------
+| Population: (DN) 0.5066 (N) 0.0633, 
+| TestDeleteProbability: (DN) -0.0498 (N) -0.4979, 
+-----------------------------------
+           INFO     Iteration:     185, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     186, Coverage: 0.888889  searchobserver.py:83
+[02:49:58] INFO     Iteration:     187, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     188, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     189, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 59, (N) -0.0933
+| TestDeleteProbability: (DN) 0.6144, (N) 0.2288
+------------- ACTIONS -------------
+| Population: (DN) 1.7196 (N) 0.2149, 
+| TestDeleteProbability: (DN) 0.0012 (N) 0.0124, 
+-----------------------------------
+           INFO     Iteration:     190, Coverage: 0.888889  searchobserver.py:83
+[02:49:59] INFO     Iteration:     191, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     192, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     193, Coverage: 0.888889  searchobserver.py:83
+[02:50:00] INFO     Iteration:     194, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 0.6157, (N) 0.2313
+------------- ACTIONS -------------
+| Population: (DN) -2.5198 (N) -0.315, 
+| TestDeleteProbability: (DN) 0.0231 (N) 0.2306, 
+-----------------------------------
+           INFO     Iteration:     195, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     196, Coverage: 0.888889  searchobserver.py:83
+[02:50:01] INFO     Iteration:     197, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     198, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     199, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.6387, (N) 0.2775
+------------- ACTIONS -------------
+| Population: (DN) -3.3196 (N) -0.4149, 
+| TestDeleteProbability: (DN) 0.0147 (N) 0.1472, 
+-----------------------------------
+           INFO     Iteration:     200, Coverage: 0.888889  searchobserver.py:83
+[02:50:02] INFO     Iteration:     201, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     202, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     203, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     204, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 55, (N) -0.2
+| TestDeleteProbability: (DN) 0.6534, (N) 0.3069
+------------- ACTIONS -------------
+| Population: (DN) 0.1016 (N) 0.0127, 
+| TestDeleteProbability: (DN) -0.0537 (N) -0.5366, 
+-----------------------------------
+[02:50:03] INFO     Iteration:     205, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     206, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     207, Coverage: 0.888889  searchobserver.py:83
+[02:50:04] INFO     Iteration:     208, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     209, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 55, (N) -0.2
+| TestDeleteProbability: (DN) 0.5998, (N) 0.1996
+------------- ACTIONS -------------
+| Population: (DN) -7.7079 (N) -0.9635, 
+| TestDeleteProbability: (DN) 0.0362 (N) 0.3619, 
+-----------------------------------
+           INFO     Iteration:     210, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     211, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     212, Coverage: 0.888889  searchobserver.py:83
+[02:50:05] INFO     Iteration:     213, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     214, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.636, (N) 0.2719
+------------- ACTIONS -------------
+| Population: (DN) 5.7675 (N) 0.7209, 
+| TestDeleteProbability: (DN) 0.0485 (N) 0.4855, 
+-----------------------------------
+           INFO     Iteration:     215, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     216, Coverage: 0.888889  searchobserver.py:83
+[02:50:06] INFO     Iteration:     217, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     218, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     219, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 53, (N) -0.2533
+| TestDeleteProbability: (DN) 0.6845, (N) 0.369
+------------- ACTIONS -------------
+| Population: (DN) 3.3735 (N) 0.4217, 
+| TestDeleteProbability: (DN) 0.0697 (N) 0.6967, 
+-----------------------------------
+[02:50:07] INFO     Iteration:     220, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     221, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     222, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     223, Coverage: 0.888889  searchobserver.py:83
+[02:50:08] INFO     Iteration:     224, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 56, (N) -0.1733
+| TestDeleteProbability: (DN) 0.7542, (N) 0.5084
+------------- ACTIONS -------------
+| Population: (DN) 0.2616 (N) 0.0327, 
+| TestDeleteProbability: (DN) 0.0028 (N) 0.028, 
+-----------------------------------
+           INFO     Iteration:     225, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     226, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     227, Coverage: 0.888889  searchobserver.py:83
+[02:50:09] INFO     Iteration:     228, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     229, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 56, (N) -0.1733
+| TestDeleteProbability: (DN) 0.757, (N) 0.514
+------------- ACTIONS -------------
+| Population: (DN) 4.5304 (N) 0.5663, 
+| TestDeleteProbability: (DN) 0.0974 (N) 0.974, 
+-----------------------------------
+           INFO     Iteration:     230, Coverage: 0.888889  searchobserver.py:83
+[02:50:10] INFO     Iteration:     231, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     232, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     233, Coverage: 0.888889  searchobserver.py:83
+[02:50:11] INFO     Iteration:     234, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 0.8544, (N) 0.7088
+------------- ACTIONS -------------
+| Population: (DN) -7.434 (N) -0.9292, 
+| TestDeleteProbability: (DN) 0.0976 (N) 0.9761, 
+-----------------------------------
+           INFO     Iteration:     235, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     236, Coverage: 0.888889  searchobserver.py:83
+[02:50:12] INFO     Iteration:     237, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     238, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     239, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 54, (N) -0.2267
+| TestDeleteProbability: (DN) 0.952, (N) 0.904
+------------- ACTIONS -------------
+| Population: (DN) 6.6236 (N) 0.8279, 
+| TestDeleteProbability: (DN) 0.0864 (N) 0.8643, 
+-----------------------------------
+           INFO     Iteration:     240, Coverage: 0.888889  searchobserver.py:83
+[02:50:13] INFO     Iteration:     241, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     242, Coverage: 0.888889  searchobserver.py:83
+[02:50:14] INFO     Iteration:     243, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     244, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| Population: (DN) -2.5367 (N) -0.3171, 
+| TestDeleteProbability: (DN) -0.0632 (N) -0.6324, 
+-----------------------------------
+           INFO     Iteration:     245, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     246, Coverage: 0.888889  searchobserver.py:83
+[02:50:15] INFO     Iteration:     247, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     248, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     249, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.9368, (N) 0.8735
+------------- ACTIONS -------------
+| Population: (DN) -0.7833 (N) -0.0979, 
+| TestDeleteProbability: (DN) -0.0321 (N) -0.3215, 
+-----------------------------------
+[02:50:16] INFO     Iteration:     250, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     251, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     252, Coverage: 0.888889  searchobserver.py:83
+[02:50:17] INFO     Iteration:     253, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     254, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 57, (N) -0.1467
+| TestDeleteProbability: (DN) 0.9046, (N) 0.8092
+------------- ACTIONS -------------
+| Population: (DN) 3.8128 (N) 0.4766, 
+| TestDeleteProbability: (DN) 0.0169 (N) 0.1687, 
+-----------------------------------
+           INFO     Iteration:     255, Coverage: 0.888889  searchobserver.py:83
+[02:50:18] INFO     Iteration:     256, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     257, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     258, Coverage: 0.888889  searchobserver.py:83
+[02:50:19] INFO     Iteration:     259, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 0.9215, (N) 0.843
+------------- ACTIONS -------------
+| Population: (DN) 3.9636 (N) 0.4954, 
+| TestDeleteProbability: (DN) 0.0501 (N) 0.5013, 
+-----------------------------------
+           INFO     Iteration:     260, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     261, Coverage: 0.888889  searchobserver.py:83
+[02:50:20] INFO     Iteration:     262, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     263, Coverage: 0.888889  searchobserver.py:83
+[02:50:21] INFO     Iteration:     264, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 65, (N) 0.0667
+| TestDeleteProbability: (DN) 0.9716, (N) 0.9432
+------------- ACTIONS -------------
+| Population: (DN) -2.7641 (N) -0.3455, 
+| TestDeleteProbability: (DN) 0.0532 (N) 0.5318, 
+-----------------------------------
+           INFO     Iteration:     265, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     266, Coverage: 0.888889  searchobserver.py:83
+[02:50:22] INFO     Iteration:     267, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     268, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     269, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 62, (N) -0.0133
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| Population: (DN) 2.2038 (N) 0.2755, 
+| TestDeleteProbability: (DN) -0.0726 (N) -0.7256, 
+-----------------------------------
+[02:50:23] INFO     Iteration:     270, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     271, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     272, Coverage: 0.888889  searchobserver.py:83
+[02:50:24] INFO     Iteration:     273, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     274, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 64, (N) 0.04
+| TestDeleteProbability: (DN) 0.9274, (N) 0.8549
+------------- ACTIONS -------------
+| Population: (DN) -0.2009 (N) -0.0251, 
+| TestDeleteProbability: (DN) 0.0261 (N) 0.2606, 
+-----------------------------------
+[02:50:25] INFO     Iteration:     275, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     276, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     277, Coverage: 0.888889  searchobserver.py:83
+[02:50:26] INFO     Iteration:     278, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     279, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 64, (N) 0.04
+| TestDeleteProbability: (DN) 0.9535, (N) 0.907
+------------- ACTIONS -------------
+| Population: (DN) 0.1917 (N) 0.024, 
+| TestDeleteProbability: (DN) 0.0889 (N) 0.8892, 
+-----------------------------------
+           INFO     Iteration:     280, Coverage: 0.888889  searchobserver.py:83
+[02:50:27] INFO     Iteration:     281, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     282, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     283, Coverage: 0.888889  searchobserver.py:83
+[02:50:28] INFO     Iteration:     284, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 64, (N) 0.04
+| TestDeleteProbability: (DN) 1.0, (N) 1.0
+------------- ACTIONS -------------
+| Population: (DN) -0.2163 (N) -0.027, 
+| TestDeleteProbability: (DN) -0.0797 (N) -0.7969, 
+-----------------------------------
+           INFO     Iteration:     285, Coverage: 0.888889  searchobserver.py:83
+[02:50:29] INFO     Iteration:     286, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     287, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     288, Coverage: 0.888889  searchobserver.py:83
+[02:50:30] INFO     Iteration:     289, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 64, (N) 0.04
+| TestDeleteProbability: (DN) 0.9203, (N) 0.8406
+------------- ACTIONS -------------
+| Population: (DN) -3.9621 (N) -0.4953, 
+| TestDeleteProbability: (DN) -0.0935 (N) -0.9348, 
+-----------------------------------
+           INFO     Iteration:     290, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     291, Coverage: 0.888889  searchobserver.py:83
+[02:50:31] INFO     Iteration:     292, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     293, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     294, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 60, (N) -0.0667
+| TestDeleteProbability: (DN) 0.8268, (N) 0.6537
+------------- ACTIONS -------------
+| Population: (DN) -6.6486 (N) -0.8311, 
+| TestDeleteProbability: (DN) 0.0128 (N) 0.1279, 
+-----------------------------------
+[02:50:32] INFO     Iteration:     295, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     296, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     297, Coverage: 0.888889  searchobserver.py:83
+[02:50:33] INFO     Iteration:     298, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     299, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 53, (N) -0.2533
+| TestDeleteProbability: (DN) 0.8396, (N) 0.6792
+------------- ACTIONS -------------
+| Population: (DN) 6.726 (N) 0.8408, 
+| TestDeleteProbability: (DN) 0.0647 (N) 0.6468, 
+-----------------------------------
+           INFO     Iteration:     300, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     301, Coverage: 0.888889  searchobserver.py:83
+[02:50:34] INFO     Iteration:     302, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     303, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     304, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 60, (N) -0.0667
+| TestDeleteProbability: (DN) 0.9043, (N) 0.8086
+------------- ACTIONS -------------
+| Population: (DN) -0.3027 (N) -0.0378, 
+| TestDeleteProbability: (DN) 0.0794 (N) 0.7938, 
+-----------------------------------
+[02:50:35] INFO     Iteration:     305, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     306, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     307, Coverage: 0.888889  searchobserver.py:83
+[02:50:36] INFO     Iteration:     308, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     309, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 60, (N) -0.0667
+| TestDeleteProbability: (DN) 0.9837, (N) 0.9674
+------------- ACTIONS -------------
+| Population: (DN) -2.2796 (N) -0.2849, 
+| TestDeleteProbability: (DN) -0.0429 (N) -0.4286, 
+-----------------------------------
+           INFO     Iteration:     310, Coverage: 0.888889  searchobserver.py:83
+[02:50:37] INFO     Iteration:     311, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     312, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     313, Coverage: 0.888889  searchobserver.py:83
+[02:50:38] INFO     Iteration:     314, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.9408, (N) 0.8816
+------------- ACTIONS -------------
+| Population: (DN) 3.5864 (N) 0.4483, 
+| TestDeleteProbability: (DN) 0.0196 (N) 0.1958, 
+-----------------------------------
+           INFO     Iteration:     315, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     316, Coverage: 0.888889  searchobserver.py:83
+[02:50:39] INFO     Iteration:     317, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     318, Coverage: 0.888889  searchobserver.py:83
+[02:50:40] INFO     Iteration:     319, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 62, (N) -0.0133
+| TestDeleteProbability: (DN) 0.9604, (N) 0.9208
+------------- ACTIONS -------------
+| Population: (DN) 1.407 (N) 0.1759, 
+| TestDeleteProbability: (DN) -0.0972 (N) -0.9725, 
+-----------------------------------
+           INFO     Iteration:     320, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     321, Coverage: 0.888889  searchobserver.py:83
+[02:50:41] INFO     Iteration:     322, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     323, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     324, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 63, (N) 0.0133
+| TestDeleteProbability: (DN) 0.8632, (N) 0.7263
+------------- ACTIONS -------------
+| Population: (DN) 3.0575 (N) 0.3822, 
+| TestDeleteProbability: (DN) -0.0206 (N) -0.2061, 
+-----------------------------------
+           INFO     Iteration:     325, Coverage: 0.888889  searchobserver.py:83
+[02:50:42] INFO     Iteration:     326, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     327, Coverage: 0.888889  searchobserver.py:83
+[02:50:43] INFO     Iteration:     328, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     329, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 66, (N) 0.0933
+| TestDeleteProbability: (DN) 0.8425, (N) 0.6851
+------------- ACTIONS -------------
+| Population: (DN) -1.4639 (N) -0.183, 
+| TestDeleteProbability: (DN) -0.0329 (N) -0.3291, 
+-----------------------------------
+           INFO     Iteration:     330, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     331, Coverage: 0.888889  searchobserver.py:83
+[02:50:44] INFO     Iteration:     332, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     333, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     334, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 65, (N) 0.0667
+| TestDeleteProbability: (DN) 0.8096, (N) 0.6193
+------------- ACTIONS -------------
+| Population: (DN) 5.7673 (N) 0.7209, 
+| TestDeleteProbability: (DN) -0.0992 (N) -0.9924, 
+-----------------------------------
+[02:50:45] INFO     Iteration:     335, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     336, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     337, Coverage: 0.888889  searchobserver.py:83
+[02:50:46] INFO     Iteration:     338, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     339, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 71, (N) 0.2267
+| TestDeleteProbability: (DN) 0.7104, (N) 0.4208
+------------- ACTIONS -------------
+| Population: (DN) -7.9316 (N) -0.9915, 
+| TestDeleteProbability: (DN) -0.0493 (N) -0.4932, 
+-----------------------------------
+           INFO     Iteration:     340, Coverage: 0.888889  searchobserver.py:83
+[02:50:47] INFO     Iteration:     341, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     342, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     343, Coverage: 0.888889  searchobserver.py:83
+[02:50:48] INFO     Iteration:     344, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 63, (N) 0.0133
+| TestDeleteProbability: (DN) 0.6611, (N) 0.3222
+------------- ACTIONS -------------
+| Population: (DN) -4.6641 (N) -0.583, 
+| TestDeleteProbability: (DN) 0.0208 (N) 0.208, 
+-----------------------------------
+           INFO     Iteration:     345, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     346, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     347, Coverage: 0.888889  searchobserver.py:83
+[02:50:49] INFO     Iteration:     348, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     349, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.6819, (N) 0.3638
+------------- ACTIONS -------------
+| Population: (DN) 3.2978 (N) 0.4122, 
+| TestDeleteProbability: (DN) -0.081 (N) -0.8097, 
+-----------------------------------
+           INFO     Iteration:     350, Coverage: 0.888889  searchobserver.py:83
+[02:50:50] INFO     Iteration:     351, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     352, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     353, Coverage: 0.888889  searchobserver.py:83
+[02:50:51] INFO     Iteration:     354, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 0.6009, (N) 0.2018
+------------- ACTIONS -------------
+| Population: (DN) -3.8072 (N) -0.4759, 
+| TestDeleteProbability: (DN) -0.098 (N) -0.9796, 
+-----------------------------------
+           INFO     Iteration:     355, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     356, Coverage: 0.888889  searchobserver.py:83
+[02:50:52] INFO     Iteration:     357, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     358, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     359, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 57, (N) -0.1467
+| TestDeleteProbability: (DN) 0.5029, (N) 0.0059
+------------- ACTIONS -------------
+| Population: (DN) -4.6037 (N) -0.5755, 
+| TestDeleteProbability: (DN) -0.0683 (N) -0.6831, 
+-----------------------------------
+           INFO     Iteration:     360, Coverage: 0.888889  searchobserver.py:83
+[02:50:53] INFO     Iteration:     361, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     362, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     363, Coverage: 0.888889  searchobserver.py:83
+[02:50:54] INFO     Iteration:     364, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 52, (N) -0.28
+| TestDeleteProbability: (DN) 0.4346, (N) -0.1307
+------------- ACTIONS -------------
+| Population: (DN) 4.7038 (N) 0.588, 
+| TestDeleteProbability: (DN) -0.0149 (N) -0.1486, 
+-----------------------------------
+           INFO     Iteration:     365, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     366, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     367, Coverage: 0.888889  searchobserver.py:83
+[02:50:55] INFO     Iteration:     368, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     369, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 57, (N) -0.1467
+| TestDeleteProbability: (DN) 0.4198, (N) -0.1605
+------------- ACTIONS -------------
+| Population: (DN) 1.3477 (N) 0.1685, 
+| TestDeleteProbability: (DN) -0.0673 (N) -0.6733, 
+-----------------------------------
+           INFO     Iteration:     370, Coverage: 0.888889  searchobserver.py:83
+[02:50:56] INFO     Iteration:     371, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     372, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     373, Coverage: 0.888889  searchobserver.py:83
+[02:50:57] INFO     Iteration:     374, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 58, (N) -0.12
+| TestDeleteProbability: (DN) 0.3524, (N) -0.2951
+------------- ACTIONS -------------
+| Population: (DN) -3.0901 (N) -0.3863, 
+| TestDeleteProbability: (DN) 0.0752 (N) 0.752, 
+-----------------------------------
+           INFO     Iteration:     375, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     376, Coverage: 0.888889  searchobserver.py:83
+[02:50:58] INFO     Iteration:     377, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     378, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     379, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 55, (N) -0.2
+| TestDeleteProbability: (DN) 0.4276, (N) -0.1447
+------------- ACTIONS -------------
+| Population: (DN) -4.217 (N) -0.5271, 
+| TestDeleteProbability: (DN) -0.0301 (N) -0.3008, 
+-----------------------------------
+           INFO     Iteration:     380, Coverage: 0.888889  searchobserver.py:83
+[02:50:59] INFO     Iteration:     381, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     382, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     383, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     384, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 51, (N) -0.3067
+| TestDeleteProbability: (DN) 0.3976, (N) -0.2049
+------------- ACTIONS -------------
+| Population: (DN) 4.5241 (N) 0.5655, 
+| TestDeleteProbability: (DN) -0.0198 (N) -0.1985, 
+-----------------------------------
+[02:51:00] INFO     Iteration:     385, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     386, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     387, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     388, Coverage: 0.888889  searchobserver.py:83
+[02:51:01] INFO     Iteration:     389, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 56, (N) -0.1733
+| TestDeleteProbability: (DN) 0.3777, (N) -0.2446
+------------- ACTIONS -------------
+| Population: (DN) 5.0768 (N) 0.6346, 
+| TestDeleteProbability: (DN) -0.0352 (N) -0.352, 
+-----------------------------------
+           INFO     Iteration:     390, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     391, Coverage: 0.888889  searchobserver.py:83
+[02:51:02] INFO     Iteration:     392, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     393, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     394, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 61, (N) -0.04
+| TestDeleteProbability: (DN) 0.3425, (N) -0.315
+------------- ACTIONS -------------
+| Population: (DN) -6.889 (N) -0.8611, 
+| TestDeleteProbability: (DN) 0.0761 (N) 0.7608, 
+-----------------------------------
+           INFO     Iteration:     395, Coverage: 0.888889  searchobserver.py:83
+[02:51:03] INFO     Iteration:     396, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     397, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     398, Coverage: 0.888889  searchobserver.py:83
+[02:51:04] INFO     Iteration:     399, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 54, (N) -0.2267
+| TestDeleteProbability: (DN) 0.4186, (N) -0.1628
+------------- ACTIONS -------------
+| Population: (DN) -6.9738 (N) -0.8717, 
+| TestDeleteProbability: (DN) -0.0005 (N) -0.0049, 
+-----------------------------------
+           INFO     Iteration:     400, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     401, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     402, Coverage: 0.888889  searchobserver.py:83
+[02:51:05] INFO     Iteration:     403, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     404, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.4181, (N) -0.1638
+------------- ACTIONS -------------
+| Population: (DN) 0.2495 (N) 0.0312, 
+| TestDeleteProbability: (DN) 0.0856 (N) 0.8561, 
+-----------------------------------
+           INFO     Iteration:     405, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     406, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     407, Coverage: 0.888889  searchobserver.py:83
+[02:51:06] INFO     Iteration:     408, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     409, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.5037, (N) 0.0074
+------------- ACTIONS -------------
+| Population: (DN) -2.1906 (N) -0.2738, 
+| TestDeleteProbability: (DN) 0.0067 (N) 0.0669, 
+-----------------------------------
+           INFO     Iteration:     410, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     411, Coverage: 0.888889  searchobserver.py:83
+[02:51:07] INFO     Iteration:     412, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     413, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     414, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 45, (N) -0.4667
+| TestDeleteProbability: (DN) 0.5104, (N) 0.0208
+------------- ACTIONS -------------
+| Population: (DN) 2.4435 (N) 0.3054, 
+| TestDeleteProbability: (DN) -0.0838 (N) -0.8379, 
+-----------------------------------
+           INFO     Iteration:     415, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     416, Coverage: 0.888889  searchobserver.py:83
+[02:51:08] INFO     Iteration:     417, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     418, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     419, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.4266, (N) -0.1468
+------------- ACTIONS -------------
+| Population: (DN) 5.0502 (N) 0.6313, 
+| TestDeleteProbability: (DN) 0.0366 (N) 0.366, 
+-----------------------------------
+           INFO     Iteration:     420, Coverage: 0.888889  searchobserver.py:83
+[02:51:09] INFO     Iteration:     421, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     422, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     423, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     424, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 52, (N) -0.28
+| TestDeleteProbability: (DN) 0.4632, (N) -0.0736
+------------- ACTIONS -------------
+| Population: (DN) -1.2137 (N) -0.1517, 
+| TestDeleteProbability: (DN) 0.0652 (N) 0.6518, 
+-----------------------------------
+[02:51:10] INFO     Iteration:     425, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     426, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     427, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     428, Coverage: 0.888889  searchobserver.py:83
+[02:51:11] INFO     Iteration:     429, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 51, (N) -0.3067
+| TestDeleteProbability: (DN) 0.5284, (N) 0.0568
+------------- ACTIONS -------------
+| Population: (DN) -4.0086 (N) -0.5011, 
+| TestDeleteProbability: (DN) 0.0365 (N) 0.3649, 
+-----------------------------------
+           INFO     Iteration:     430, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     431, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     432, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     433, Coverage: 0.888889  searchobserver.py:83
+[02:51:12] INFO     Iteration:     434, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.5649, (N) 0.1297
+------------- ACTIONS -------------
+| Population: (DN) -1.1562 (N) -0.1445, 
+| TestDeleteProbability: (DN) -0.0374 (N) -0.3741, 
+-----------------------------------
+           INFO     Iteration:     435, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     436, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     437, Coverage: 0.888889  searchobserver.py:83
+[02:51:13] INFO     Iteration:     438, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     439, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 46, (N) -0.44
+| TestDeleteProbability: (DN) 0.5275, (N) 0.0549
+------------- ACTIONS -------------
+| Population: (DN) 1.1845 (N) 0.1481, 
+| TestDeleteProbability: (DN) -0.0732 (N) -0.7315, 
+-----------------------------------
+           INFO     Iteration:     440, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     441, Coverage: 0.888889  searchobserver.py:83
+[02:51:14] INFO     Iteration:     442, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     443, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     444, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.4543, (N) -0.0914
+------------- ACTIONS -------------
+| Population: (DN) 1.5912 (N) 0.1989, 
+| TestDeleteProbability: (DN) 0.0908 (N) 0.9085, 
+-----------------------------------
+           INFO     Iteration:     445, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     446, Coverage: 0.888889  searchobserver.py:83
+[02:51:15] INFO     Iteration:     447, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     448, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     449, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 49, (N) -0.36
+| TestDeleteProbability: (DN) 0.5452, (N) 0.0903
+------------- ACTIONS -------------
+| Population: (DN) 5.1447 (N) 0.6431, 
+| TestDeleteProbability: (DN) 0.0122 (N) 0.1216, 
+-----------------------------------
+[02:51:16] INFO     Iteration:     450, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     451, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     452, Coverage: 0.888889  searchobserver.py:83
+[02:51:17] INFO     Iteration:     453, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     454, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 54, (N) -0.2267
+| TestDeleteProbability: (DN) 0.5573, (N) 0.1146
+------------- ACTIONS -------------
+| Population: (DN) -6.7701 (N) -0.8463, 
+| TestDeleteProbability: (DN) -0.056 (N) -0.5596, 
+-----------------------------------
+           INFO     Iteration:     455, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     456, Coverage: 0.888889  searchobserver.py:83
+[02:51:18] INFO     Iteration:     457, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     458, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     459, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.5014, (N) 0.0027
+------------- ACTIONS -------------
+| Population: (DN) -7.5489 (N) -0.9436, 
+| TestDeleteProbability: (DN) 0.0158 (N) 0.1576, 
+-----------------------------------
+           INFO     Iteration:     460, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     461, Coverage: 0.888889  searchobserver.py:83
+[02:51:19] INFO     Iteration:     462, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     463, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     464, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.5171, (N) 0.0342
+------------- ACTIONS -------------
+| Population: (DN) 6.2084 (N) 0.776, 
+| TestDeleteProbability: (DN) 0.0865 (N) 0.865, 
+-----------------------------------
+           INFO     Iteration:     465, Coverage: 0.888889  searchobserver.py:83
+[02:51:20] INFO     Iteration:     466, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     467, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     468, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     469, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 45, (N) -0.4667
+| TestDeleteProbability: (DN) 0.6036, (N) 0.2072
+------------- ACTIONS -------------
+| Population: (DN) 6.3681 (N) 0.796, 
+| TestDeleteProbability: (DN) 0.0033 (N) 0.0331, 
+-----------------------------------
+           INFO     Iteration:     470, Coverage: 0.888889  searchobserver.py:83
+[02:51:21] INFO     Iteration:     471, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     472, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     473, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     474, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 51, (N) -0.3067
+| TestDeleteProbability: (DN) 0.6069, (N) 0.2138
+------------- ACTIONS -------------
+| Population: (DN) -3.5212 (N) -0.4401, 
+| TestDeleteProbability: (DN) 0.0416 (N) 0.4156, 
+-----------------------------------
+[02:51:22] INFO     Iteration:     475, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     476, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     477, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     478, Coverage: 0.888889  searchobserver.py:83
+[02:51:23] INFO     Iteration:     479, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.6485, (N) 0.297
+------------- ACTIONS -------------
+| Population: (DN) -7.5505 (N) -0.9438, 
+| TestDeleteProbability: (DN) -0.0326 (N) -0.3256, 
+-----------------------------------
+           INFO     Iteration:     480, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     481, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     482, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     483, Coverage: 0.888889  searchobserver.py:83
+[02:51:24] INFO     Iteration:     484, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.6159, (N) 0.2318
+------------- ACTIONS -------------
+| Population: (DN) -6.686 (N) -0.8358, 
+| TestDeleteProbability: (DN) 0.0392 (N) 0.3915, 
+-----------------------------------
+           INFO     Iteration:     485, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     486, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     487, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     488, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     489, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 32, (N) -0.8133
+| TestDeleteProbability: (DN) 0.6551, (N) 0.3101
+------------- ACTIONS -------------
+| Population: (DN) 6.3578 (N) 0.7947, 
+| TestDeleteProbability: (DN) -0.0344 (N) -0.3436, 
+-----------------------------------
+[02:51:25] INFO     Iteration:     490, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     491, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     492, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     493, Coverage: 0.888889  searchobserver.py:83
+[02:51:26] INFO     Iteration:     494, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 38, (N) -0.6533
+| TestDeleteProbability: (DN) 0.6207, (N) 0.2414
+------------- ACTIONS -------------
+| Population: (DN) 5.5956 (N) 0.6994, 
+| TestDeleteProbability: (DN) -0.0975 (N) -0.9746, 
+-----------------------------------
+           INFO     Iteration:     495, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     496, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     497, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     498, Coverage: 0.888889  searchobserver.py:83
+[02:51:27] INFO     Iteration:     499, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.5232, (N) 0.0465
+------------- ACTIONS -------------
+| Population: (DN) -6.6726 (N) -0.8341, 
+| TestDeleteProbability: (DN) -0.015 (N) -0.1502, 
+-----------------------------------
+           INFO     Iteration:     500, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     501, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     502, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     503, Coverage: 0.888889  searchobserver.py:83
+[02:51:28] INFO     Iteration:     504, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 37, (N) -0.68
+| TestDeleteProbability: (DN) 0.5082, (N) 0.0165
+------------- ACTIONS -------------
+| Population: (DN) -1.2674 (N) -0.1584, 
+| TestDeleteProbability: (DN) 0.0057 (N) 0.0571, 
+-----------------------------------
+           INFO     Iteration:     505, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     506, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     507, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     508, Coverage: 0.888889  searchobserver.py:83
+[02:51:29] INFO     Iteration:     509, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.5139, (N) 0.0279
+------------- ACTIONS -------------
+| Population: (DN) 0.3842 (N) 0.048, 
+| TestDeleteProbability: (DN) -0.0772 (N) -0.7723, 
+-----------------------------------
+           INFO     Iteration:     510, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     511, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     512, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     513, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     514, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.4367, (N) -0.1266
+------------- ACTIONS -------------
+| Population: (DN) 7.1006 (N) 0.8876, 
+| TestDeleteProbability: (DN) -0.0405 (N) -0.4052, 
+-----------------------------------
+[02:51:30] INFO     Iteration:     515, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     516, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     517, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     518, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     519, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 43, (N) -0.52
+| TestDeleteProbability: (DN) 0.3962, (N) -0.2076
+------------- ACTIONS -------------
+| Population: (DN) -1.3477 (N) -0.1685, 
+| TestDeleteProbability: (DN) 0.0974 (N) 0.9742, 
+-----------------------------------
+[02:51:31] INFO     Iteration:     520, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     521, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     522, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     523, Coverage: 0.888889  searchobserver.py:83
+[02:51:32] INFO     Iteration:     524, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 42, (N) -0.5467
+| TestDeleteProbability: (DN) 0.4936, (N) -0.0128
+------------- ACTIONS -------------
+| Population: (DN) 2.0429 (N) 0.2554, 
+| TestDeleteProbability: (DN) 0.0003 (N) 0.003, 
+-----------------------------------
+           INFO     Iteration:     525, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     526, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     527, Coverage: 0.888889  searchobserver.py:83
+[02:51:33] INFO     Iteration:     528, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     529, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.4939, (N) -0.0122
+------------- ACTIONS -------------
+| Population: (DN) -7.6998 (N) -0.9625, 
+| TestDeleteProbability: (DN) 0.0285 (N) 0.2849, 
+-----------------------------------
+           INFO     Iteration:     530, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     531, Coverage: 0.888889  searchobserver.py:83
+[02:51:34] INFO     Iteration:     532, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     533, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     534, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.5224, (N) 0.0448
+------------- ACTIONS -------------
+| Population: (DN) -6.8796 (N) -0.8599, 
+| TestDeleteProbability: (DN) -0.066 (N) -0.6602, 
+-----------------------------------
+           INFO     Iteration:     535, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     536, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     537, Coverage: 0.888889  searchobserver.py:83
+[02:51:35] INFO     Iteration:     538, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     539, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 29, (N) -0.8933
+| TestDeleteProbability: (DN) 0.4564, (N) -0.0873
+------------- ACTIONS -------------
+| Population: (DN) 4.3137 (N) 0.5392, 
+| TestDeleteProbability: (DN) -0.0428 (N) -0.4285, 
+-----------------------------------
+           INFO     Iteration:     540, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     541, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     542, Coverage: 0.888889  searchobserver.py:83
+[02:51:36] INFO     Iteration:     543, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     544, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 33, (N) -0.7867
+| TestDeleteProbability: (DN) 0.4135, (N) -0.1729
+------------- ACTIONS -------------
+| Population: (DN) -7.8535 (N) -0.9817, 
+| TestDeleteProbability: (DN) -0.0715 (N) -0.715, 
+-----------------------------------
+           INFO     Iteration:     545, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     546, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     547, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     548, Coverage: 0.888889  searchobserver.py:83
+[02:51:37] INFO     Iteration:     549, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.342, (N) -0.3159
+------------- ACTIONS -------------
+| Population: (DN) 6.739 (N) 0.8424, 
+| TestDeleteProbability: (DN) -0.0408 (N) -0.4075, 
+-----------------------------------
+           INFO     Iteration:     550, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     551, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     552, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     553, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     554, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 32, (N) -0.8133
+| TestDeleteProbability: (DN) 0.3013, (N) -0.3974
+------------- ACTIONS -------------
+| Population: (DN) -7.1601 (N) -0.895, 
+| TestDeleteProbability: (DN) -0.0071 (N) -0.0709, 
+-----------------------------------
+[02:51:38] INFO     Iteration:     555, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     556, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     557, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     558, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     559, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.2942, (N) -0.4116
+------------- ACTIONS -------------
+| Population: (DN) 2.5198 (N) 0.315, 
+| TestDeleteProbability: (DN) 0.0354 (N) 0.3537, 
+-----------------------------------
+[02:51:39] INFO     Iteration:     560, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     561, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     562, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     563, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     564, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 28, (N) -0.92
+| TestDeleteProbability: (DN) 0.3296, (N) -0.3409
+------------- ACTIONS -------------
+| Population: (DN) -7.8341 (N) -0.9793, 
+| TestDeleteProbability: (DN) 0.0762 (N) 0.7618, 
+-----------------------------------
+           INFO     Iteration:     565, Coverage: 0.888889  searchobserver.py:83
+[02:51:40] INFO     Iteration:     566, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     567, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     568, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     569, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.4057, (N) -0.1885
+------------- ACTIONS -------------
+| Population: (DN) -3.8405 (N) -0.4801, 
+| TestDeleteProbability: (DN) 0.0704 (N) 0.7039, 
+-----------------------------------
+           INFO     Iteration:     570, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     571, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     572, Coverage: 0.888889  searchobserver.py:83
+[02:51:41] INFO     Iteration:     573, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     574, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.4761, (N) -0.0478
+------------- ACTIONS -------------
+| Population: (DN) -5.3829 (N) -0.6729, 
+| TestDeleteProbability: (DN) -0.0268 (N) -0.2682, 
+-----------------------------------
+           INFO     Iteration:     575, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     576, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     577, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     578, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     579, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.4493, (N) -0.1014
+------------- ACTIONS -------------
+| Population: (DN) -2.0361 (N) -0.2545, 
+| TestDeleteProbability: (DN) 0.0169 (N) 0.1687, 
+-----------------------------------
+[02:51:42] INFO     Iteration:     580, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     581, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     582, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     583, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     584, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.4662, (N) -0.0676
+------------- ACTIONS -------------
+| Population: (DN) 6.9091 (N) 0.8636, 
+| TestDeleteProbability: (DN) -0.0061 (N) -0.0608, 
+-----------------------------------
+[02:51:43] INFO     Iteration:     585, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     586, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     587, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     588, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     589, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 32, (N) -0.8133
+| TestDeleteProbability: (DN) 0.4601, (N) -0.0798
+------------- ACTIONS -------------
+| Population: (DN) 4.343 (N) 0.5429, 
+| TestDeleteProbability: (DN) -0.0174 (N) -0.1737, 
+-----------------------------------
+[02:51:44] INFO     Iteration:     590, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     591, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     592, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     593, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     594, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.4427, (N) -0.1146
+------------- ACTIONS -------------
+| Population: (DN) 4.1138 (N) 0.5142, 
+| TestDeleteProbability: (DN) 0.0564 (N) 0.5636, 
+-----------------------------------
+[02:51:45] INFO     Iteration:     595, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     596, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     597, Coverage: 0.888889  searchobserver.py:83
+[02:51:46] INFO     Iteration:     598, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     599, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 40, (N) -0.6
+| TestDeleteProbability: (DN) 0.4991, (N) -0.0018
+------------- ACTIONS -------------
+| Population: (DN) -4.0585 (N) -0.5073, 
+| TestDeleteProbability: (DN) 0.0886 (N) 0.8865, 
+-----------------------------------
+           INFO     Iteration:     600, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     601, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     602, Coverage: 0.888889  searchobserver.py:83
+[02:51:47] INFO     Iteration:     603, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     604, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.5877, (N) 0.1755
+------------- ACTIONS -------------
+| Population: (DN) 3.2312 (N) 0.4039, 
+| TestDeleteProbability: (DN) 0.0835 (N) 0.8348, 
+-----------------------------------
+           INFO     Iteration:     605, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     606, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     607, Coverage: 0.888889  searchobserver.py:83
+[02:51:48] INFO     Iteration:     608, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     609, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 39, (N) -0.6267
+| TestDeleteProbability: (DN) 0.6712, (N) 0.3424
+------------- ACTIONS -------------
+| Population: (DN) 7.9377 (N) 0.9922, 
+| TestDeleteProbability: (DN) -0.0832 (N) -0.8324, 
+-----------------------------------
+[02:51:49] INFO     Iteration:     610, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     611, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     612, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     613, Coverage: 0.888889  searchobserver.py:83
+[02:51:50] INFO     Iteration:     614, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 47, (N) -0.4133
+| TestDeleteProbability: (DN) 0.588, (N) 0.1759
+------------- ACTIONS -------------
+| Population: (DN) -3.8124 (N) -0.4766, 
+| TestDeleteProbability: (DN) 0.0222 (N) 0.2225, 
+-----------------------------------
+           INFO     Iteration:     615, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     616, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     617, Coverage: 0.888889  searchobserver.py:83
+[02:51:51] INFO     Iteration:     618, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     619, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 43, (N) -0.52
+| TestDeleteProbability: (DN) 0.6102, (N) 0.2204
+------------- ACTIONS -------------
+| Population: (DN) -6.695 (N) -0.8369, 
+| TestDeleteProbability: (DN) -0.089 (N) -0.89, 
+-----------------------------------
+           INFO     Iteration:     620, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     621, Coverage: 0.888889  searchobserver.py:83
+[02:51:52] INFO     Iteration:     622, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     623, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     624, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.5212, (N) 0.0424
+------------- ACTIONS -------------
+| Population: (DN) -6.7234 (N) -0.8404, 
+| TestDeleteProbability: (DN) -0.0458 (N) -0.4577, 
+-----------------------------------
+           INFO     Iteration:     625, Coverage: 0.888889  searchobserver.py:83
+[02:51:53] INFO     Iteration:     626, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     627, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     628, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     629, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 29, (N) -0.8933
+| TestDeleteProbability: (DN) 0.4754, (N) -0.0491
+------------- ACTIONS -------------
+| Population: (DN) 3.7518 (N) 0.469, 
+| TestDeleteProbability: (DN) 0.0861 (N) 0.8613, 
+-----------------------------------
+           INFO     Iteration:     630, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     631, Coverage: 0.888889  searchobserver.py:83
+[02:51:54] INFO     Iteration:     632, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     633, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     634, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 33, (N) -0.7867
+| TestDeleteProbability: (DN) 0.5616, (N) 0.1232
+------------- ACTIONS -------------
+| Population: (DN) -1.6087 (N) -0.2011, 
+| TestDeleteProbability: (DN) 0.0737 (N) 0.737, 
+-----------------------------------
+           INFO     Iteration:     635, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     636, Coverage: 0.888889  searchobserver.py:83
+[02:51:55] INFO     Iteration:     637, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     638, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     639, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 31, (N) -0.84
+| TestDeleteProbability: (DN) 0.6353, (N) 0.2706
+------------- ACTIONS -------------
+| Population: (DN) 4.8668 (N) 0.6084, 
+| TestDeleteProbability: (DN) -0.0112 (N) -0.1119, 
+-----------------------------------
+           INFO     Iteration:     640, Coverage: 0.888889  searchobserver.py:83
+[02:51:56] INFO     Iteration:     641, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     642, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     643, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     644, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 36, (N) -0.7067
+| TestDeleteProbability: (DN) 0.6241, (N) 0.2482
+------------- ACTIONS -------------
+| Population: (DN) -6.305 (N) -0.7881, 
+| TestDeleteProbability: (DN) 0.0477 (N) 0.4765, 
+-----------------------------------
+           INFO     Iteration:     645, Coverage: 0.888889  searchobserver.py:83
+[02:51:57] INFO     Iteration:     646, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     647, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     648, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     649, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 30, (N) -0.8667
+| TestDeleteProbability: (DN) 0.6717, (N) 0.3435
+------------- ACTIONS -------------
+| Population: (DN) -2.5997 (N) -0.325, 
+| TestDeleteProbability: (DN) -0.038 (N) -0.3797, 
+-----------------------------------
+           INFO     Iteration:     650, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     651, Coverage: 0.888889  searchobserver.py:83
+[02:51:58] INFO     Iteration:     652, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     653, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     654, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 27, (N) -0.9467
+| TestDeleteProbability: (DN) 0.6338, (N) 0.2675
+------------- ACTIONS -------------
+| Population: (DN) -1.6048 (N) -0.2006, 
+| TestDeleteProbability: (DN) -0.0203 (N) -0.2032, 
+-----------------------------------
+           INFO     Iteration:     655, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     656, Coverage: 0.888889  searchobserver.py:83
+[02:51:59] INFO     Iteration:     657, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     658, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     659, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.6134, (N) 0.2269
+------------- ACTIONS -------------
+| Population: (DN) -6.8719 (N) -0.859, 
+| TestDeleteProbability: (DN) -0.0649 (N) -0.6487, 
+-----------------------------------
+           INFO     Iteration:     660, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     661, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     662, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     663, Coverage: 0.888889  searchobserver.py:83
+[02:52:00] INFO     Iteration:     664, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.5486, (N) 0.0972
+------------- ACTIONS -------------
+| Population: (DN) 7.2573 (N) 0.9072, 
+| TestDeleteProbability: (DN) -0.0733 (N) -0.7333, 
+-----------------------------------
+           INFO     Iteration:     665, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     666, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     667, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     668, Coverage: 0.888889  searchobserver.py:83
+[02:52:01] INFO     Iteration:     669, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 32, (N) -0.8133
+| TestDeleteProbability: (DN) 0.4752, (N) -0.0495
+------------- ACTIONS -------------
+| Population: (DN) -7.3576 (N) -0.9197, 
+| TestDeleteProbability: (DN) 0.0425 (N) 0.425, 
+-----------------------------------
+           INFO     Iteration:     670, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     671, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     672, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     673, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     674, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 25, (N) -1.0
+| TestDeleteProbability: (DN) 0.5177, (N) 0.0355
+------------- ACTIONS -------------
+| Population: (DN) 3.1615 (N) 0.3952, 
+| TestDeleteProbability: (DN) 0.0146 (N) 0.1465, 
+-----------------------------------
+           INFO     Iteration:     675, Coverage: 0.888889  searchobserver.py:83
+[02:52:02] INFO     Iteration:     676, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     677, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     678, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     679, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 28, (N) -0.92
+| TestDeleteProbability: (DN) 0.5324, (N) 0.0648
+------------- ACTIONS -------------
+| Population: (DN) 6.0236 (N) 0.7529, 
+| TestDeleteProbability: (DN) 0.0635 (N) 0.6349, 
+-----------------------------------
+[02:52:03] INFO     Iteration:     680, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     681, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     682, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     683, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     684, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 34, (N) -0.76
+| TestDeleteProbability: (DN) 0.5959, (N) 0.1918
+------------- ACTIONS -------------
+| Population: (DN) 7.6276 (N) 0.9535, 
+| TestDeleteProbability: (DN) -0.0233 (N) -0.2329, 
+-----------------------------------
+[02:52:04] INFO     Iteration:     685, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     686, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     687, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     688, Coverage: 0.888889  searchobserver.py:83
+[02:52:05] INFO     Iteration:     689, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 42, (N) -0.5467
+| TestDeleteProbability: (DN) 0.5726, (N) 0.1452
+------------- ACTIONS -------------
+| Population: (DN) 2.9001 (N) 0.3625, 
+| TestDeleteProbability: (DN) 0.0485 (N) 0.485, 
+-----------------------------------
+           INFO     Iteration:     690, Coverage: 0.888889  searchobserver.py:83
+[02:52:06] INFO     Iteration:     691, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     692, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     693, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     694, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 45, (N) -0.4667
+| TestDeleteProbability: (DN) 0.6211, (N) 0.2422
+------------- ACTIONS -------------
+| Population: (DN) -1.3885 (N) -0.1736, 
+| TestDeleteProbability: (DN) 0.0816 (N) 0.816, 
+-----------------------------------
+[02:52:07] INFO     Iteration:     695, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     696, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     697, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     698, Coverage: 0.888889  searchobserver.py:83
+[02:52:08] INFO     Iteration:     699, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.7027, (N) 0.4054
+------------- ACTIONS -------------
+| Population: (DN) -3.0083 (N) -0.376, 
+| TestDeleteProbability: (DN) 0.0553 (N) 0.5531, 
+-----------------------------------
+           INFO     Iteration:     700, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     701, Coverage: 0.888889  searchobserver.py:83
+[02:52:09] INFO     Iteration:     702, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     703, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     704, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 41, (N) -0.5733
+| TestDeleteProbability: (DN) 0.758, (N) 0.516
+------------- ACTIONS -------------
+| Population: (DN) -2.937 (N) -0.3671, 
+| TestDeleteProbability: (DN) 0.0047 (N) 0.0469, 
+-----------------------------------
+[02:52:10] INFO     Iteration:     705, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     706, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     707, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     708, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     709, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 38, (N) -0.6533
+| TestDeleteProbability: (DN) 0.7627, (N) 0.5254
+------------- ACTIONS -------------
+| Population: (DN) 5.6552 (N) 0.7069, 
+| TestDeleteProbability: (DN) 0.0797 (N) 0.797, 
+-----------------------------------
+[02:52:11] INFO     Iteration:     710, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     711, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     712, Coverage: 0.888889  searchobserver.py:83
+[02:52:12] INFO     Iteration:     713, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     714, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 44, (N) -0.4933
+| TestDeleteProbability: (DN) 0.8424, (N) 0.6848
+------------- ACTIONS -------------
+| Population: (DN) 3.8126 (N) 0.4766, 
+| TestDeleteProbability: (DN) -0.0086 (N) -0.0859, 
+-----------------------------------
+           INFO     Iteration:     715, Coverage: 0.888889  searchobserver.py:83
+[02:52:13] INFO     Iteration:     716, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     717, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     718, Coverage: 0.888889  searchobserver.py:83
+[02:52:14] INFO     Iteration:     719, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 48, (N) -0.3867
+| TestDeleteProbability: (DN) 0.8338, (N) 0.6676
+------------- ACTIONS -------------
+| Population: (DN) 5.2627 (N) 0.6578, 
+| TestDeleteProbability: (DN) -0.0034 (N) -0.0344, 
+-----------------------------------
+           INFO     Iteration:     720, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     721, Coverage: 0.888889  searchobserver.py:83
+[02:52:15] INFO     Iteration:     722, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     723, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     724, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 53, (N) -0.2533
+| TestDeleteProbability: (DN) 0.8304, (N) 0.6608
+------------- ACTIONS -------------
+| Population: (DN) 6.9424 (N) 0.8678, 
+| TestDeleteProbability: (DN) -0.0304 (N) -0.3045, 
+-----------------------------------
+[02:52:16] INFO     Iteration:     725, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     726, Coverage: 0.888889  searchobserver.py:83
+[02:52:17] INFO     Iteration:     727, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     728, Coverage: 0.888889  searchobserver.py:83
+[02:52:18] INFO     Iteration:     729, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 60, (N) -0.0667
+| TestDeleteProbability: (DN) 0.7999, (N) 0.5999
+------------- ACTIONS -------------
+| Population: (DN) 4.3344 (N) 0.5418, 
+| TestDeleteProbability: (DN) 0.0232 (N) 0.2317, 
+-----------------------------------
+           INFO     Iteration:     730, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     731, Coverage: 0.888889  searchobserver.py:83
+[02:52:19] INFO     Iteration:     732, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     733, Coverage: 0.888889  searchobserver.py:83
+[02:52:20] INFO     Iteration:     734, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 64, (N) 0.04
+| TestDeleteProbability: (DN) 0.8231, (N) 0.6462
+------------- ACTIONS -------------
+| Population: (DN) 6.6893 (N) 0.8362, 
+| TestDeleteProbability: (DN) -0.0714 (N) -0.7137, 
+-----------------------------------
+           INFO     Iteration:     735, Coverage: 0.888889  searchobserver.py:83
+[02:52:21] INFO     Iteration:     736, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     737, Coverage: 0.888889  searchobserver.py:83
+[02:52:22] INFO     Iteration:     738, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     739, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 71, (N) 0.2267
+| TestDeleteProbability: (DN) 0.7517, (N) 0.5035
+------------- ACTIONS -------------
+| Population: (DN) 2.3916 (N) 0.299, 
+| TestDeleteProbability: (DN) -0.0867 (N) -0.8671, 
+-----------------------------------
+[02:52:23] INFO     Iteration:     740, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     741, Coverage: 0.888889  searchobserver.py:83
+[02:52:24] INFO     Iteration:     742, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     743, Coverage: 0.888889  searchobserver.py:83
+[02:52:25] INFO     Iteration:     744, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 73, (N) 0.28
+| TestDeleteProbability: (DN) 0.665, (N) 0.3301
+------------- ACTIONS -------------
+| Population: (DN) 7.6358 (N) 0.9545, 
+| TestDeleteProbability: (DN) 0.0278 (N) 0.2777, 
+-----------------------------------
+           INFO     Iteration:     745, Coverage: 0.888889  searchobserver.py:83
+[02:52:26] INFO     Iteration:     746, Coverage: 0.888889  searchobserver.py:83
+[02:52:27] INFO     Iteration:     747, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     748, Coverage: 0.888889  searchobserver.py:83
+[02:52:28] INFO     Iteration:     749, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 81, (N) 0.4933
+| TestDeleteProbability: (DN) 0.6928, (N) 0.3856
+------------- ACTIONS -------------
+| Population: (DN) -7.5541 (N) -0.9443, 
+| TestDeleteProbability: (DN) 0.0249 (N) 0.2491, 
+-----------------------------------
+           INFO     Iteration:     750, Coverage: 0.888889  searchobserver.py:83
+[02:52:29] INFO     Iteration:     751, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     752, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     753, Coverage: 0.888889  searchobserver.py:83
+[02:52:30] INFO     Iteration:     754, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 73, (N) 0.28
+| TestDeleteProbability: (DN) 0.7177, (N) 0.4354
+------------- ACTIONS -------------
+| Population: (DN) 1.2863 (N) 0.1608, 
+| TestDeleteProbability: (DN) 0.0767 (N) 0.7666, 
+-----------------------------------
+[02:52:31] INFO     Iteration:     755, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     756, Coverage: 0.888889  searchobserver.py:83
+[02:52:32] INFO     Iteration:     757, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     758, Coverage: 0.888889  searchobserver.py:83
+[02:52:33] INFO     Iteration:     759, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 74, (N) 0.3067
+| TestDeleteProbability: (DN) 0.7944, (N) 0.5887
+------------- ACTIONS -------------
+| Population: (DN) -6.1657 (N) -0.7707, 
+| TestDeleteProbability: (DN) 0.0875 (N) 0.8751, 
+-----------------------------------
+           INFO     Iteration:     760, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     761, Coverage: 0.888889  searchobserver.py:83
+[02:52:34] INFO     Iteration:     762, Coverage: 0.888889  searchobserver.py:83
+[02:52:35] INFO     Iteration:     763, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     764, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 68, (N) 0.1467
+| TestDeleteProbability: (DN) 0.8819, (N) 0.7638
+------------- ACTIONS -------------
+| Population: (DN) -7.728 (N) -0.966, 
+| TestDeleteProbability: (DN) -0.0913 (N) -0.9132, 
+-----------------------------------
+[02:52:36] INFO     Iteration:     765, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     766, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     767, Coverage: 0.888889  searchobserver.py:83
+[02:52:37] INFO     Iteration:     768, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     769, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 60, (N) -0.0667
+| TestDeleteProbability: (DN) 0.7906, (N) 0.5811
+------------- ACTIONS -------------
+| Population: (DN) 7.1116 (N) 0.889, 
+| TestDeleteProbability: (DN) -0.0059 (N) -0.0591, 
+-----------------------------------
+           INFO     Iteration:     770, Coverage: 0.888889  searchobserver.py:83
+[02:52:38] INFO     Iteration:     771, Coverage: 0.888889  searchobserver.py:83
+[02:52:39] INFO     Iteration:     772, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     773, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     774, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 67, (N) 0.12
+| TestDeleteProbability: (DN) 0.7846, (N) 0.5693
+------------- ACTIONS -------------
+| Population: (DN) 4.4752 (N) 0.5594, 
+| TestDeleteProbability: (DN) -0.0634 (N) -0.6338, 
+-----------------------------------
+[02:52:40] INFO     Iteration:     775, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     776, Coverage: 0.888889  searchobserver.py:83
+[02:52:41] INFO     Iteration:     777, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     778, Coverage: 0.888889  searchobserver.py:83
+[02:52:42] INFO     Iteration:     779, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 71, (N) 0.2267
+| TestDeleteProbability: (DN) 0.7213, (N) 0.4425
+------------- ACTIONS -------------
+| Population: (DN) 7.9086 (N) 0.9886, 
+| TestDeleteProbability: (DN) -0.0011 (N) -0.0114, 
+-----------------------------------
+           INFO     Iteration:     780, Coverage: 0.888889  searchobserver.py:83
+[02:52:43] INFO     Iteration:     781, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     782, Coverage: 0.888889  searchobserver.py:83
+[02:52:44] INFO     Iteration:     783, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     784, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 79, (N) 0.44
+| TestDeleteProbability: (DN) 0.7201, (N) 0.4403
+------------- ACTIONS -------------
+| Population: (DN) 4.739 (N) 0.5924, 
+| TestDeleteProbability: (DN) 0.0953 (N) 0.9529, 
+-----------------------------------
+[02:52:45] INFO     Iteration:     785, Coverage: 0.888889  searchobserver.py:83
+[02:52:46] INFO     Iteration:     786, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     787, Coverage: 0.888889  searchobserver.py:83
+[02:52:47] INFO     Iteration:     788, Coverage: 0.888889  searchobserver.py:83
+[02:52:48] INFO     Iteration:     789, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 84, (N) 0.5733
+| TestDeleteProbability: (DN) 0.8154, (N) 0.6308
+------------- ACTIONS -------------
+| Population: (DN) 5.2751 (N) 0.6594, 
+| TestDeleteProbability: (DN) -0.0385 (N) -0.3855, 
+-----------------------------------
+           INFO     Iteration:     790, Coverage: 0.888889  searchobserver.py:83
+[02:52:49] INFO     Iteration:     791, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     792, Coverage: 0.888889  searchobserver.py:83
+[02:52:50] INFO     Iteration:     793, Coverage: 0.888889  searchobserver.py:83
+[02:52:51] INFO     Iteration:     794, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.7769, (N) 0.5537
+------------- ACTIONS -------------
+| Population: (DN) 7.2408 (N) 0.9051, 
+| TestDeleteProbability: (DN) -0.0882 (N) -0.8819, 
+-----------------------------------
+           INFO     Iteration:     795, Coverage: 0.888889  searchobserver.py:83
+[02:52:52] INFO     Iteration:     796, Coverage: 0.888889  searchobserver.py:83
+[02:52:53] INFO     Iteration:     797, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     798, Coverage: 0.888889  searchobserver.py:83
+[02:52:54] INFO     Iteration:     799, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 96, (N) 0.8933
+| TestDeleteProbability: (DN) 0.6887, (N) 0.3774
+------------- ACTIONS -------------
+| Population: (DN) -4.4397 (N) -0.555, 
+| TestDeleteProbability: (DN) -0.0422 (N) -0.422, 
+-----------------------------------
+           INFO     Iteration:     800, Coverage: 0.888889  searchobserver.py:83
+[02:52:55] INFO     Iteration:     801, Coverage: 0.888889  searchobserver.py:83
+[02:52:56] INFO     Iteration:     802, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     803, Coverage: 0.888889  searchobserver.py:83
+[02:52:57] INFO     Iteration:     804, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 92, (N) 0.7867
+| TestDeleteProbability: (DN) 0.6465, (N) 0.2929
+------------- ACTIONS -------------
+| Population: (DN) -7.7606 (N) -0.9701, 
+| TestDeleteProbability: (DN) -0.076 (N) -0.7602, 
+-----------------------------------
+[02:52:58] INFO     Iteration:     805, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     806, Coverage: 0.888889  searchobserver.py:83
+[02:52:59] INFO     Iteration:     807, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     808, Coverage: 0.888889  searchobserver.py:83
+[02:53:00] INFO     Iteration:     809, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 84, (N) 0.5733
+| TestDeleteProbability: (DN) 0.5705, (N) 0.1409
+------------- ACTIONS -------------
+| Population: (DN) 4.1659 (N) 0.5207, 
+| TestDeleteProbability: (DN) 0.0976 (N) 0.9763, 
+-----------------------------------
+[02:53:01] INFO     Iteration:     810, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     811, Coverage: 0.888889  searchobserver.py:83
+[02:53:02] INFO     Iteration:     812, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     813, Coverage: 0.888889  searchobserver.py:83
+[02:53:03] INFO     Iteration:     814, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 88, (N) 0.68
+| TestDeleteProbability: (DN) 0.6681, (N) 0.3362
+------------- ACTIONS -------------
+| Population: (DN) 1.3661 (N) 0.1708, 
+| TestDeleteProbability: (DN) -0.0053 (N) -0.0529, 
+-----------------------------------
+[02:53:04] INFO     Iteration:     815, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     816, Coverage: 0.888889  searchobserver.py:83
+[02:53:05] INFO     Iteration:     817, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     818, Coverage: 0.888889  searchobserver.py:83
+[02:53:06] INFO     Iteration:     819, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.6628, (N) 0.3256
+------------- ACTIONS -------------
+| Population: (DN) 4.449 (N) 0.5561, 
+| TestDeleteProbability: (DN) -0.0922 (N) -0.9221, 
+-----------------------------------
+           INFO     Iteration:     820, Coverage: 0.888889  searchobserver.py:83
+[02:53:07] INFO     Iteration:     821, Coverage: 0.888889  searchobserver.py:83
+[02:53:08] INFO     Iteration:     822, Coverage: 0.888889  searchobserver.py:83
+[02:53:09] INFO     Iteration:     823, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     824, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 93, (N) 0.8133
+| TestDeleteProbability: (DN) 0.5706, (N) 0.1412
+------------- ACTIONS -------------
+| Population: (DN) 6.8558 (N) 0.857, 
+| TestDeleteProbability: (DN) 0.0388 (N) 0.3878, 
+-----------------------------------
+[02:53:10] INFO     Iteration:     825, Coverage: 0.888889  searchobserver.py:83
+[02:53:11] INFO     Iteration:     826, Coverage: 0.888889  searchobserver.py:83
+[02:53:12] INFO     Iteration:     827, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     828, Coverage: 0.888889  searchobserver.py:83
+[02:53:13] INFO     Iteration:     829, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 100, (N) 1.0
+| TestDeleteProbability: (DN) 0.6094, (N) 0.2187
+------------- ACTIONS -------------
+| Population: (DN) 7.2855 (N) 0.9107, 
+| TestDeleteProbability: (DN) -0.06 (N) -0.6, 
+-----------------------------------
+[02:53:14] INFO     Iteration:     830, Coverage: 0.888889  searchobserver.py:83
+[02:53:15] INFO     Iteration:     831, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     832, Coverage: 0.888889  searchobserver.py:83
+[02:53:16] INFO     Iteration:     833, Coverage: 0.888889  searchobserver.py:83
+[02:53:17] INFO     Iteration:     834, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 100, (N) 1.0
+| TestDeleteProbability: (DN) 0.5494, (N) 0.0988
+------------- ACTIONS -------------
+| Population: (DN) -2.9279 (N) -0.366, 
+| TestDeleteProbability: (DN) 0.0395 (N) 0.3954, 
+-----------------------------------
+           INFO     Iteration:     835, Coverage: 0.888889  searchobserver.py:83
+[02:53:18] INFO     Iteration:     836, Coverage: 0.888889  searchobserver.py:83
+[02:53:19] INFO     Iteration:     837, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     838, Coverage: 0.888889  searchobserver.py:83
+[02:53:20] INFO     Iteration:     839, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 97, (N) 0.92
+| TestDeleteProbability: (DN) 0.5889, (N) 0.1778
+------------- ACTIONS -------------
+| Population: (DN) -6.9612 (N) -0.8701, 
+| TestDeleteProbability: (DN) -0.0436 (N) -0.4355, 
+-----------------------------------
+[02:53:21] INFO     Iteration:     840, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     841, Coverage: 0.888889  searchobserver.py:83
+[02:53:22] INFO     Iteration:     842, Coverage: 0.888889  searchobserver.py:83
+[02:53:23] INFO     Iteration:     843, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     844, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 90, (N) 0.7333
+| TestDeleteProbability: (DN) 0.5454, (N) 0.0907
+------------- ACTIONS -------------
+| Population: (DN) 1.4481 (N) 0.181, 
+| TestDeleteProbability: (DN) -0.0237 (N) -0.2366, 
+-----------------------------------
+[02:53:24] INFO     Iteration:     845, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     846, Coverage: 0.888889  searchobserver.py:83
+[02:53:25] INFO     Iteration:     847, Coverage: 0.888889  searchobserver.py:83
+[02:53:26] INFO     Iteration:     848, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     849, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 91, (N) 0.76
+| TestDeleteProbability: (DN) 0.5217, (N) 0.0434
+------------- ACTIONS -------------
+| Population: (DN) -6.156 (N) -0.7695, 
+| TestDeleteProbability: (DN) -0.0643 (N) -0.6434, 
+-----------------------------------
+[02:53:27] INFO     Iteration:     850, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     851, Coverage: 0.888889  searchobserver.py:83
+[02:53:28] INFO     Iteration:     852, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     853, Coverage: 0.888889  searchobserver.py:83
+[02:53:29] INFO     Iteration:     854, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 85, (N) 0.6
+| TestDeleteProbability: (DN) 0.4574, (N) -0.0853
+------------- ACTIONS -------------
+| Population: (DN) 3.8266 (N) 0.4783, 
+| TestDeleteProbability: (DN) 0.0699 (N) 0.6988, 
+-----------------------------------
+[02:53:30] INFO     Iteration:     855, Coverage: 0.888889  searchobserver.py:83
+[02:53:31] INFO     Iteration:     856, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     857, Coverage: 0.888889  searchobserver.py:83
+[02:53:32] INFO     Iteration:     858, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     859, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.5272, (N) 0.0545
+------------- ACTIONS -------------
+| Population: (DN) 5.6167 (N) 0.7021, 
+| TestDeleteProbability: (DN) -0.0084 (N) -0.0842, 
+-----------------------------------
+[02:53:33] INFO     Iteration:     860, Coverage: 0.888889  searchobserver.py:83
+[02:53:34] INFO     Iteration:     861, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     862, Coverage: 0.888889  searchobserver.py:83
+[02:53:35] INFO     Iteration:     863, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     864, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 95, (N) 0.8667
+| TestDeleteProbability: (DN) 0.5188, (N) 0.0377
+------------- ACTIONS -------------
+| Population: (DN) 0.4338 (N) 0.0542, 
+| TestDeleteProbability: (DN) 0.0496 (N) 0.4961, 
+-----------------------------------
+[02:53:36] INFO     Iteration:     865, Coverage: 0.888889  searchobserver.py:83
+[02:53:37] INFO     Iteration:     866, Coverage: 0.888889  searchobserver.py:83
+[02:53:38] INFO     Iteration:     867, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     868, Coverage: 0.888889  searchobserver.py:83
+[02:53:39] INFO     Iteration:     869, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 95, (N) 0.8667
+| TestDeleteProbability: (DN) 0.5684, (N) 0.1369
+------------- ACTIONS -------------
+| Population: (DN) -6.1088 (N) -0.7636, 
+| TestDeleteProbability: (DN) -0.0252 (N) -0.2525, 
+-----------------------------------
+[02:53:40] INFO     Iteration:     870, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     871, Coverage: 0.888889  searchobserver.py:83
+[02:53:41] INFO     Iteration:     872, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     873, Coverage: 0.888889  searchobserver.py:83
+[02:53:42] INFO     Iteration:     874, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.5432, (N) 0.0864
+------------- ACTIONS -------------
+| Population: (DN) 0.0757 (N) 0.0095, 
+| TestDeleteProbability: (DN) 0.0354 (N) 0.354, 
+-----------------------------------
+[02:53:43] INFO     Iteration:     875, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     876, Coverage: 0.888889  searchobserver.py:83
+[02:53:44] INFO     Iteration:     877, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     878, Coverage: 0.888889  searchobserver.py:83
+[02:53:45] INFO     Iteration:     879, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.5786, (N) 0.1572
+------------- ACTIONS -------------
+| Population: (DN) -2.6128 (N) -0.3266, 
+| TestDeleteProbability: (DN) 0.0754 (N) 0.7536, 
+-----------------------------------
+[02:53:46] INFO     Iteration:     880, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     881, Coverage: 0.888889  searchobserver.py:83
+[02:53:47] INFO     Iteration:     882, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     883, Coverage: 0.888889  searchobserver.py:83
+[02:53:48] INFO     Iteration:     884, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 86, (N) 0.6267
+| TestDeleteProbability: (DN) 0.6539, (N) 0.3079
+------------- ACTIONS -------------
+| Population: (DN) -4.6447 (N) -0.5806, 
+| TestDeleteProbability: (DN) 0.0201 (N) 0.2009, 
+-----------------------------------
+[02:53:49] INFO     Iteration:     885, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     886, Coverage: 0.888889  searchobserver.py:83
+[02:53:50] INFO     Iteration:     887, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     888, Coverage: 0.888889  searchobserver.py:83
+[02:53:51] INFO     Iteration:     889, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 81, (N) 0.4933
+| TestDeleteProbability: (DN) 0.674, (N) 0.3481
+------------- ACTIONS -------------
+| Population: (DN) 7.1376 (N) 0.8922, 
+| TestDeleteProbability: (DN) 0.0895 (N) 0.8947, 
+-----------------------------------
+           INFO     Iteration:     890, Coverage: 0.888889  searchobserver.py:83
+[02:53:52] INFO     Iteration:     891, Coverage: 0.888889  searchobserver.py:83
+[02:53:53] INFO     Iteration:     892, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     893, Coverage: 0.888889  searchobserver.py:83
+[02:53:54] INFO     Iteration:     894, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 88, (N) 0.68
+| TestDeleteProbability: (DN) 0.7635, (N) 0.527
+------------- ACTIONS -------------
+| Population: (DN) -0.8723 (N) -0.109, 
+| TestDeleteProbability: (DN) 0.0561 (N) 0.561, 
+-----------------------------------
+[02:53:55] INFO     Iteration:     895, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     896, Coverage: 0.888889  searchobserver.py:83
+[02:53:56] INFO     Iteration:     897, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     898, Coverage: 0.888889  searchobserver.py:83
+[02:53:57] INFO     Iteration:     899, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 87, (N) 0.6533
+| TestDeleteProbability: (DN) 0.8196, (N) 0.6392
+------------- ACTIONS -------------
+| Population: (DN) 1.6797 (N) 0.21, 
+| TestDeleteProbability: (DN) 0.0315 (N) 0.3148, 
+-----------------------------------
+           INFO     Iteration:     900, Coverage: 0.888889  searchobserver.py:83
+[02:53:58] INFO     Iteration:     901, Coverage: 0.888889  searchobserver.py:83
+[02:53:59] INFO     Iteration:     902, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     903, Coverage: 0.888889  searchobserver.py:83
+[02:54:00] INFO     Iteration:     904, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 89, (N) 0.7067
+| TestDeleteProbability: (DN) 0.8511, (N) 0.7022
+------------- ACTIONS -------------
+| Population: (DN) -1.3615 (N) -0.1702, 
+| TestDeleteProbability: (DN) -0.0488 (N) -0.4876, 
+-----------------------------------
+[02:54:01] INFO     Iteration:     905, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     906, Coverage: 0.888889  searchobserver.py:83
+[02:54:02] INFO     Iteration:     907, Coverage: 0.888889  searchobserver.py:83
+[02:54:03] INFO     Iteration:     908, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     909, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 88, (N) 0.68
+| TestDeleteProbability: (DN) 0.8023, (N) 0.6046
+------------- ACTIONS -------------
+| Population: (DN) 4.716 (N) 0.5895, 
+| TestDeleteProbability: (DN) 0.0224 (N) 0.2242, 
+-----------------------------------
+[02:54:04] INFO     Iteration:     910, Coverage: 0.888889  searchobserver.py:83
+[02:54:05] INFO     Iteration:     911, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     912, Coverage: 0.888889  searchobserver.py:83
+[02:54:06] INFO     Iteration:     913, Coverage: 0.888889  searchobserver.py:83
+[02:54:07] INFO     Iteration:     914, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 93, (N) 0.8133
+| TestDeleteProbability: (DN) 0.8247, (N) 0.6495
+------------- ACTIONS -------------
+| Population: (DN) 0.7976 (N) 0.0997, 
+| TestDeleteProbability: (DN) -0.0047 (N) -0.0468, 
+-----------------------------------
+           INFO     Iteration:     915, Coverage: 0.888889  searchobserver.py:83
+[02:54:08] INFO     Iteration:     916, Coverage: 0.888889  searchobserver.py:83
+[02:54:09] INFO     Iteration:     917, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     918, Coverage: 0.888889  searchobserver.py:83
+[02:54:10] INFO     Iteration:     919, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 94, (N) 0.84
+| TestDeleteProbability: (DN) 0.8201, (N) 0.6401
+------------- ACTIONS -------------
+| Population: (DN) -3.0763 (N) -0.3845, 
+| TestDeleteProbability: (DN) -0.0741 (N) -0.7414, 
+-----------------------------------
+[02:54:11] INFO     Iteration:     920, Coverage: 0.888889  searchobserver.py:83
+[02:54:12] INFO     Iteration:     921, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     922, Coverage: 0.888889  searchobserver.py:83
+[02:54:13] INFO     Iteration:     923, Coverage: 0.888889  searchobserver.py:83
+           INFO     Iteration:     924, Coverage: 0.888889  searchobserver.py:83
+-------------- REWARD -------------
+| Reward: 0.0 (best coverage diff)
+----------- OBSERVATIONS ----------
+| Best Coverage: (DN) 0.8889, (N) 0.7778
+| Population: (DN) 91, (N) 0.76
+| TestDeleteProbability: (DN) 0.7459, (N) 0.4918
+------------- ACTIONS -------------
+| Population: (DN) -4.2983 (N) -0.5373, 
+| TestDeleteProbability: (DN) -0.0655 (N) -0.6549, 
+-----------------------------------
+[02:54:14] INFO     Iteration:     925, Coverage: 0.888889  searchobserver.py:83
+[02:54:15] INFO     Iteration:     926, Coverage: 0.888889  searchobserver.py:83
+Stop training signal received...
+           INFO     Stopping condition reached                  generator.py:523
+           INFO     Used search time: 300/300                   generator.py:525
+           INFO     Stop generating test cases                  generator.py:526
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:439
+           INFO     Written 12 test cases to                    generator.py:720
+                    /output/test_codetiming__timer.py                           
+           INFO     Writing statistics                         statistics.py:364
+           INFO     Stop Pynguin Test Generation…               generator.py:110
