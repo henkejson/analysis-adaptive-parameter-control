@@ -42,7 +42,7 @@ if __name__ == '__main__':
         Y_obs = pm.Beta('Y_obs', alpha=p*theta, beta=(1-p)*theta, observed=design_matrix.lhs['Coverage'])
         
         # Sample from the model
-        trace = pm.sample(7000, chains=4, return_inferencedata=True, progressbar=True, target_accept=0.95)
+        trace = pm.sample(5000, chains=4, return_inferencedata=True, progressbar=True, target_accept=0.95)
         log_lik = pm.compute_log_likelihood(trace)
 
 
