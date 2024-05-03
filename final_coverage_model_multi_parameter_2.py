@@ -20,7 +20,6 @@ if __name__ == '__main__':
         # Standard Deviations for modules, marameters and nteractions
         sigma_a = pm.Exponential('sigma_a', 2.0)
         sigma_b = pm.Exponential('sigma_b', 5.0)
-        sigma_g = pm.Exponential('sigma_g', 5.0)
         
         # Non-centered parameterizations for module, parameter and interaction effect.
         a_offset = pm.Normal('a_offset', mu=0, sigma=1, shape=24)
