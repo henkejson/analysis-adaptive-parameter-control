@@ -50,7 +50,6 @@ parameter_names_short = {
 def extract_column_name(column):
         # Find all occurrences of text following 'T.'
         parts = re.findall(r'T\.([^\]]+)', column)
-        # Join the parts with ' x ' if there are multiple parts
         return ' x '.join(parts)
 
 
@@ -58,7 +57,15 @@ def extract_column_names(columns):
     series = pd.Series([extract_column_name(col) for col in columns])
     return series
 
+def replace_names(series, replacement_dict):
+    series.replace({rf'\b{k}\b': v for k, v in replacement_dict.items()}, regex=True, inplace=True)
 
+
+def get_replacement_list(columns):
+    extracted_columns = extract_column_names(columns)
+    replace_names(extracted_columns, module_names_short)
+    replace_names(extracted_columns, parameter_names_short)
+    return extracted_columns
 
 def update_table(table, variable_name, replacement):
     pattern = re.compile(rf"{variable_name}\[(\d+)\]")
@@ -72,12 +79,12 @@ def update_table(table, variable_name, replacement):
                 return f"{variable_name}[{replacement.loc[int(index_num)]}]"
         return index  # Return the original index if no match or no replacement
 
-
     # Update the DataFrame index
     table.index = [get_replacement_name(idx) for idx in table.index]
 
 
-def replace_names(series, replacement_dict):
-    series.replace({rf'\b{k}\b': v for k, v in replacement_dict.items()}, regex=True, inplace=True)
+
+
+
      
 
