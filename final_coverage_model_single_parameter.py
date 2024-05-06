@@ -2,27 +2,11 @@ import formulaic
 import pymc as pm
 import pandas as pd
 import arviz as az
+from Notebooks.utils.design_matrix_creator import get_design_matricies
 
 if __name__ == '__main__':
     data = pd.read_csv("single_parameter/combined_data/statistics.csv")
-
-    # Dummy variables for Module and Parameters
-    model_formula = 'Coverage ~ 0 + C(TargetModule) + C(TuningParameters, contr.treatment("NONE"))'
-    design_matrix = formulaic.model_matrix(model_formula, data=data)
-
-    module_matrix = design_matrix.rhs.iloc[:, :24]
-    parameter_matrix = design_matrix.rhs.iloc[:, 24:]
-
-    # Dummy variables for interaction terms
-    model_formula = 'Coverage ~ 0 + C(TargetModule) : C(TuningParameters)'
-    design_matrix = formulaic.model_matrix(model_formula, data=data)
-
-    # Filter out columns that contain 'T.NONE' in their name
-    columns_to_drop = [col for col in design_matrix.rhs.columns if 'T.NONE' in col]
-
-    # Drop the identified columns
-    design_matrix.rhs.drop(columns=columns_to_drop, axis=1, inplace=True)
-    interaction_matrix = design_matrix.rhs.iloc[:,:]
+    observation_matrix, module_matrix, parameter_matrix, interaction_matrix = get_design_matricies(data, 'Coverage')
 
     with pm.Model():
         # Global Intercept and standard deviation for Modules
@@ -53,8 +37,8 @@ if __name__ == '__main__':
         p = pm.Deterministic('p', pm.math.sigmoid(logit_a + logit_b + logit_g))
         
         # Beta distribution likelihood 
-        theta = pm.Uniform('theta', 10, 200) # Disperion parameter
-        Y_obs = pm.Beta('Y_obs', alpha=p*theta, beta=(1-p)*theta, observed=design_matrix.lhs['Coverage'])
+        theta = pm.Gamma('theta', alpha=6, beta= 0.1) # Disperion parameter
+        Y_obs = pm.Beta('Y_obs', alpha=p*theta, beta=(1-p)*theta, observed=observation_matrix['Coverage'])
         
         # Sample from the model
         trace = pm.sample(5000, chains=4, return_inferencedata=True, progressbar=True, target_accept=0.95)
