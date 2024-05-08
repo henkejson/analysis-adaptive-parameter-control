@@ -51,7 +51,7 @@ if __name__ == '__main__':
         Y_obs = pm.Normal('Y_obs', mu=mu, sigma=sigma, observed=observation_matrix['IntegralValue'])
         
         # Sample from the model
-        trace = pm.sample(5000, chains=4,return_inferencedata=True, progressbar=True, target_accept=0.95)
+        trace = pm.sample(5000, chains=4, return_inferencedata=True, progressbar=True, target_accept=0.95)
         log_lik = pm.compute_log_likelihood(trace)
 
     print("Model building complete. Saving results...")
