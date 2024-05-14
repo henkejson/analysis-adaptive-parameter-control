@@ -20,7 +20,7 @@ class HistogramPlot:
             kwargs['bins'] = self.bins
         if self.bin_range is not None:
             kwargs['binrange'] = self.bin_range
-        sns.histplot(self.data, ax=ax, linewidth=0.1, **kwargs)  # Use the provided or current Axes
+        sns.histplot(self.data, ax=ax, linewidth=0, **kwargs)  # Use the provided or current Axes
         ax.set_title(self.title)
         ax.set_xlabel(self.xlabel)
         ax.set_ylabel('Density')
