@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 class HistogramPlot:
     def __init__(self, data, title, xlabel, color, bin_range=None, bins=None):
@@ -19,7 +20,7 @@ class HistogramPlot:
             kwargs['bins'] = self.bins
         if self.bin_range is not None:
             kwargs['binrange'] = self.bin_range
-        sns.histplot(self.data, ax=ax, **kwargs)  # Use the provided or current Axes
+        sns.histplot(self.data, ax=ax, linewidth=0.1, **kwargs)  # Use the provided or current Axes
         ax.set_title(self.title)
         ax.set_xlabel(self.xlabel)
         ax.set_ylabel('Density')
@@ -27,7 +28,7 @@ class HistogramPlot:
         
 
 
-def plot_histograms(plots: list[HistogramPlot], nrows=5, ncols=2, figsize=(10, 20)):
+def plot_histograms(plots: list[HistogramPlot], nrows=5, ncols=2, figsize=(10, 20), save_img=False, prefix_name="",output_folder='priors/'):
     """
     Plot a list of histograms based on the provided HistogramPlot objects.
     
@@ -37,9 +38,23 @@ def plot_histograms(plots: list[HistogramPlot], nrows=5, ncols=2, figsize=(10, 2
     ncols (int): Number of columns in the figure grid.
     figsize (tuple): Figure dimension.
     """
-    fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)  # Create a figure and a grid of subplots
-    axes = axes.flatten()  # Flatten the array of axes if it's multidimensional
-    for plot, ax in zip(plots, axes):
-        plot.plot(ax)  # Pass the specific Axes object to the plot method
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
+    fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)
+    axes = axes.flatten()
+    
+    for i, (plot, ax) in enumerate(zip(plots, axes)):
+        plot.plot(ax)
+
+        # Optionally save each plot as a separate PDF
+        if save_img:
+            fig_ind, ax_ind = plt.subplots()
+            plot.plot(ax_ind)
+            ax_ind.set_title("")
+            fig_ind.tight_layout()
+            fig_ind.savefig(f"{output_folder}/{prefix_name}_{plot.xlabel}.pdf")
+            plt.close(fig_ind)  # Close the individual figure to free up memory
+
     plt.tight_layout()
     plt.show()
