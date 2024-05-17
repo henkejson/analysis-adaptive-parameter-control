@@ -21,23 +21,29 @@ if __name__ == '__main__':
         # Global Intercept for Modules
         a_bar = pm.Normal('a_bar', mu=150, sigma=30)
         
-        # Standard deviations for Module and Parameter effects
+        # Standard deviations for Module, Parameter and Interaction effects
         sigma_a = pm.Exponential('sigma_a', 0.03)
         sigma_b = pm.Exponential('sigma_b', 0.1)
+        sigma_g = pm.Exponential('sigma_g', 0.1)
         
-        # Non-centered parameterizations for Module and Parameter effect
+        # Non-centered parameterizations for module, parameter and interaction effect.
         a_offset = pm.Normal('a_offset', mu=0, sigma=1, shape=24)
         a_m = pm.Deterministic('a_m', a_bar + sigma_a * a_offset)
 
         b_offset = pm.Normal('b_offset', mu=0, sigma=1, shape=66)
         b_p = pm.Deterministic('b_p', sigma_b * b_offset)
+
+        g_offset = pm.Normal('g_offset', mu=0, sigma=1, shape=1584)
+        g_mp = pm.Deterministic('g_mp', sigma_g * g_offset)
+
         
         # Activate the correct module, parameter and interaction for each run
         identity_a = pm.math.dot(module_matrix, a_m)
         identity_b = pm.math.dot(parameter_matrix, b_p)
+        identity_g = pm.math.dot(interaction_matrix, g_mp)
 
         # Link function (identity), same input as output
-        mu = pm.Deterministic('mu', identity_a + identity_b)
+        mu = pm.Deterministic('mu', identity_a + identity_b + identity_g)
         
         # Normal distribution likelihood with parameter mu and sigma
         sigma = pm.Exponential('sigma', 0.1) # standard deviation
