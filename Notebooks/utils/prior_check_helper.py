@@ -23,7 +23,7 @@ class HistogramPlot:
         sns.histplot(self.data, ax=ax, linewidth=0, **kwargs)  # Use the provided or current Axes
         ax.set_title(self.title)
         ax.set_xlabel(self.xlabel)
-        ax.set_ylabel('Density')
+        ax.set_ylabel('Frequency')
 
         
 
@@ -49,7 +49,7 @@ def plot_histograms(plots: list[HistogramPlot], nrows=5, ncols=2, figsize=(10, 2
 
         # Optionally save each plot as a separate PDF
         if save_img:
-            fig_ind, ax_ind = plt.subplots()
+            fig_ind, ax_ind = plt.subplots(figsize=(6,4))
             plot.plot(ax_ind)
             ax_ind.set_title("")
             fig_ind.tight_layout()
