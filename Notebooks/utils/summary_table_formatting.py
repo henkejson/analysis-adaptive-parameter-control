@@ -15,7 +15,7 @@ module_names_short = {
 'py_backwards.transformers.dict_unpacking': 'dict_unpacking',
 'py_backwards.transformers.return_from_generator' : 'return_from_generator',
 'py_backwards.transformers.yield_from': 'yield_from',
-'py_backwards.utils.helpers': 'helpers',
+'py_backwards.utils.helpers': 'py_helpers',
 'pymonet.immutable_list': 'immutable_list',
 'pymonet.maybe': 'maybe', 
 'pymonet.validation': 'validation',
@@ -23,7 +23,7 @@ module_names_short = {
 'pytutils.lazy.lazy_import': 'lazy_import',
 'pytutils.python': 'python',
 'sanic.config': 'config',
-'sanic.helpers': 'helpers',
+'sanic.helpers': 's_helpers',
 'sanic.mixins.signals': 'signals',
 'thonny.plugins.pgzero_frontend': 'pgzero_frontend',
 'typesystem.tokenize.positional_validation': 'positional_validation'
