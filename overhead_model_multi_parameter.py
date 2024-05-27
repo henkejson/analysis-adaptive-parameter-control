@@ -18,6 +18,7 @@ if __name__ == '__main__':
         # Standard deviations for Module and Parameter effects
         sigma_a = pm.Exponential('sigma_a', 4.0)
         sigma_b = pm.Exponential('sigma_b', 4.0)
+        sigma_g = pm.Exponential('sigma_g', 4.0)
         
         # Module and Parameter effects with non-centered parameterizations (helps with divergences)
         a_offset = pm.Normal('a_offset', mu=0, sigma=1, shape=24)
@@ -26,10 +27,14 @@ if __name__ == '__main__':
         b_offset = pm.Normal('b_offset', mu=0, sigma=1, shape=66)
         b_p = pm.Deterministic('b_p', sigma_b * b_offset)
 
+        g_offset = pm.Normal('g_offset', mu=0, sigma=1, shape=1584)
+        g_mp = pm.Deterministic('g_mp', sigma_g * g_offset)
+
         
         # Activate the correct module, parameter and interaction for each run
         log_a = pm.math.dot(module_matrix, a_m)
         log_b = pm.math.dot(parameter_matrix, b_p)
+        log_g = pm.math.dot(interaction_matrix, g_mp)
 
         # Link function (exp), from ln to exp
         mu = pm.Deterministic('mu', pm.math.exp(log_a + log_b))
@@ -39,7 +44,7 @@ if __name__ == '__main__':
         Y_obs = pm.NegativeBinomial('Y_obs', n=theta, p=(theta)/(mu + theta), observed=observation_matrix['AlgorithmIterations'])
         
         # Sample from the model
-        trace = pm.sample(5000, chains=4, return_inferencedata=True, progressbar=True, target_accept=0.95)
+        trace = pm.sample(5000, chains=4,return_inferencedata=True, progressbar=True, target_accept=0.95)
         log_lik = pm.compute_log_likelihood(trace)
 
 
