@@ -28,8 +28,8 @@ class HistogramPlot:
             ax.legend()
 
         ax.set_title(self.title)
-        ax.set_xlabel(self.xlabel)
-        ax.set_ylabel('Frequency')
+        ax.set_xlabel(self.xlabel, fontsize=10)
+        ax.set_ylabel('Frequency', fontsize=10)
 
 
 
